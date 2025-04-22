@@ -1,14 +1,23 @@
 ﻿Build1=Default,b4a.example
-File1=Layout.bal
-FileGroup1=Default Group
+File1=avengers.jpeg
+File2=Drama.bal
+File3=Layout.bal
+File4=panelView.bal
+FileGroup1=New Group
+FileGroup2=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
 Group=Default Group
 Library1=core
 Library2=xui
 ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="34"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
-Module1=Starter
-NumberOfFiles=1
+Module1=Action
+Module2=Drama
+Module3=SciFi
+Module4=Starter
+NumberOfFiles=4
 NumberOfLibraries=2
-NumberOfModules=1
+NumberOfModules=4
 Version=13.1
 @EndOfDesignText@
 #Region  Project Attributes 
@@ -33,11 +42,18 @@ End Sub
 
 Sub Globals
 	'These global variables will be redeclared each time the activity is created.
+	Private Button1 As Button
+	Private Button2 As Button
+	Private Button3 As Button
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
-	Activity.LoadLayout("Layout")
+	Activity.LoadLayout("layout")
+
+	
+
 End Sub
+
 
 Sub Activity_Resume
 
@@ -48,5 +64,13 @@ Sub Activity_Pause (UserClosed As Boolean)
 End Sub
 
 Sub Button1_Click
-	xui.MsgboxAsync("Hello world!", "B4X")
+	StartActivity(Drama)
+End Sub
+
+Private Sub Button2_Click
+	StartActivity(Action)
+End Sub
+
+Sub Button3_Click
+	StartActivity(SciFi)
 End Sub

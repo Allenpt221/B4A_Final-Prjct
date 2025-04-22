@@ -52,7 +52,10 @@ public boolean isSingleton() {
 	}
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
 public static b4a.example.main _main = null;
+public static b4a.example.drama _drama = null;
+public static b4a.example.action _action = null;
+public static b4a.example.scifi _scifi = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Main",Debug.moduleToString(b4a.example.main.class),"Service",starter.mostCurrent._service};
+		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Service",starter.mostCurrent._service};
 }
 }

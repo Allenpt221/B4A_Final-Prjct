@@ -39,5 +39,29 @@
 			android:name=".starter$starter_BR"
 			android:exported="true">
 		</receiver>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".drama"
+			android:label="B4A Example"
+			android:screenOrientation="unspecified"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".action"
+			android:label="B4A Example"
+			android:screenOrientation="unspecified"
+			android:exported="true">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".scifi"
+			android:label="B4A Example"
+			android:screenOrientation="unspecified"
+			android:exported="true">
+		</activity>
 	</application>
 </manifest>

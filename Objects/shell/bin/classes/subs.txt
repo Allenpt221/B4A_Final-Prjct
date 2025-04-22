@@ -2,23 +2,31 @@ b4a.example
 0
 0
 0
-main,activity_create,1,0,25,27
+main,activity_create,1,0,28,33
+,button1,,button2,,button3
+,button1,,button2,,button3
+
+main,activity_pause,0,0,40,42
 
 
 
-main,activity_pause,0,0,33,35
+main,activity_resume,0,0,36,38
 
 
 
-main,activity_resume,0,0,29,31
+main,button1_click,0,0,44,46
 
 
 
-main,button1_click,0,0,37,39
-,xui
+main,button2_click,0,0,48,50
 
 
-main,globals,0,1,21,23
+
+main,button3_click,0,0,52,54
+
+
+
+main,globals,0,1,21,26
 
 
 
@@ -47,6 +55,58 @@ starter,service_start,0,0,18,20
 
 
 starter,service_taskremoved,0,0,22,24
+
+
+
+drama,activity_create,1,0,21,36
+,imageview1,,label1,,label2
+,imageview1,,label1,,label2
+
+drama,globals,0,1,12,19
+
+
+
+drama,process_globals,0,1,6,10
+
+
+
+action,activity_create,0,0,18,22
+
+
+
+action,activity_pause,0,0,28,30
+
+
+
+action,activity_resume,0,0,24,26
+
+
+
+action,globals,0,1,12,16
+
+
+
+action,process_globals,0,1,6,10
+
+
+
+scifi,activity_create,0,0,18,22
+
+
+
+scifi,activity_pause,0,0,28,30
+
+
+
+scifi,activity_resume,0,0,24,26
+
+
+
+scifi,globals,0,1,12,16
+
+
+
+scifi,process_globals,0,1,6,10
 
 
 

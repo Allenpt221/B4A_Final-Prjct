@@ -351,6 +351,9 @@ public static void initializeProcessGlobals() {
 public static boolean isAnyActivityVisible() {
     boolean vis = false;
 vis = vis | (main.mostCurrent != null);
+vis = vis | (drama.mostCurrent != null);
+vis = vis | (action.mostCurrent != null);
+vis = vis | (scifi.mostCurrent != null);
 return vis;}
 
 private static BA killProgramHelper(BA ba) {
@@ -375,10 +378,52 @@ public static void killProgram() {
 				__a.finish();}
 
 BA.applicationContext.stopService(new android.content.Intent(BA.applicationContext, starter.class));
+ {
+            Activity __a = null;
+            if (drama.previousOne != null) {
+				__a = drama.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(drama.mostCurrent == null ? null : drama.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (action.previousOne != null) {
+				__a = action.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(action.mostCurrent == null ? null : action.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
+ {
+            Activity __a = null;
+            if (scifi.previousOne != null) {
+				__a = scifi.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(scifi.mostCurrent == null ? null : scifi.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
 }
 public anywheresoftware.b4a.keywords.Common __c = null;
 public static anywheresoftware.b4a.objects.B4XViewWrapper.XUI _xui = null;
+public anywheresoftware.b4a.objects.ButtonWrapper _button1 = null;
+public anywheresoftware.b4a.objects.ButtonWrapper _button2 = null;
+public anywheresoftware.b4a.objects.ButtonWrapper _button3 = null;
 public b4a.example.starter _starter = null;
+public b4a.example.drama _drama = null;
+public b4a.example.action _action = null;
+public b4a.example.scifi _scifi = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="main";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
@@ -386,10 +431,10 @@ if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 RDebugUtils.currentLine=131072;
  //BA.debugLineNum = 131072;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
 RDebugUtils.currentLine=131073;
- //BA.debugLineNum = 131073;BA.debugLine="Activity.LoadLayout(\"Layout\")";
-mostCurrent._activity.LoadLayout("Layout",mostCurrent.activityBA);
-RDebugUtils.currentLine=131074;
- //BA.debugLineNum = 131074;BA.debugLine="End Sub";
+ //BA.debugLineNum = 131073;BA.debugLine="Activity.LoadLayout(\"layout\")";
+mostCurrent._activity.LoadLayout("layout",mostCurrent.activityBA);
+RDebugUtils.currentLine=131077;
+ //BA.debugLineNum = 131077;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
@@ -417,10 +462,36 @@ if (Debug.shouldDelegate(mostCurrent.activityBA, "button1_click", false))
 RDebugUtils.currentLine=327680;
  //BA.debugLineNum = 327680;BA.debugLine="Sub Button1_Click";
 RDebugUtils.currentLine=327681;
- //BA.debugLineNum = 327681;BA.debugLine="xui.MsgboxAsync(\"Hello world!\", \"B4X\")";
-_xui.MsgboxAsync(processBA,BA.ObjectToCharSequence("Hello world!"),BA.ObjectToCharSequence("B4X"));
+ //BA.debugLineNum = 327681;BA.debugLine="StartActivity(Drama)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._drama.getObject()));
 RDebugUtils.currentLine=327682;
  //BA.debugLineNum = 327682;BA.debugLine="End Sub";
+return "";
+}
+public static String  _button2_click() throws Exception{
+RDebugUtils.currentModule="main";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "button2_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "button2_click", null));}
+RDebugUtils.currentLine=393216;
+ //BA.debugLineNum = 393216;BA.debugLine="Private Sub Button2_Click";
+RDebugUtils.currentLine=393217;
+ //BA.debugLineNum = 393217;BA.debugLine="StartActivity(Action)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._action.getObject()));
+RDebugUtils.currentLine=393218;
+ //BA.debugLineNum = 393218;BA.debugLine="End Sub";
+return "";
+}
+public static String  _button3_click() throws Exception{
+RDebugUtils.currentModule="main";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "button3_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "button3_click", null));}
+RDebugUtils.currentLine=458752;
+ //BA.debugLineNum = 458752;BA.debugLine="Sub Button3_Click";
+RDebugUtils.currentLine=458753;
+ //BA.debugLineNum = 458753;BA.debugLine="StartActivity(SciFi)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._scifi.getObject()));
+RDebugUtils.currentLine=458754;
+ //BA.debugLineNum = 458754;BA.debugLine="End Sub";
 return "";
 }
 }
