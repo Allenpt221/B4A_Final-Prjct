@@ -58,7 +58,7 @@ starter,service_taskremoved,0,0,22,24
 
 
 
-drama,activity_create,1,0,49,102
+drama,activity_create,1,1,49,102
 ,scrollview1,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
 ,scrollview1,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
 

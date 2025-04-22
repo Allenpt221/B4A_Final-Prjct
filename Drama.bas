@@ -101,7 +101,7 @@ Sub Activity_Create(FirstTime As Boolean)
 	Star10.Text = "☆☆☆☆☆"
 
 	' Add it to ScrollView
-	ScrollView1.Panel.AddView(p, 0, 0, 120%x, 180%y)
+	ScrollView1.Panel.AddView(p, 0, 0, 200%x, 170%y)
 
 	' Adjust scroll height
 	ScrollView1.Panel.Height = p.Height

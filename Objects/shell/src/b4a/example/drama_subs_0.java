@@ -101,9 +101,9 @@ drama.mostCurrent._drama10.runMethod(true,"setText",BA.ObjectToCharSequence("Spi
  BA.debugLineNum = 95;BA.debugLine="Star10.Text = \"☆☆☆☆☆\"";
 Debug.ShouldStop(1073741824);
 drama.mostCurrent._star10.runMethod(true,"setText",BA.ObjectToCharSequence("☆☆☆☆☆"));
- BA.debugLineNum = 98;BA.debugLine="ScrollView1.Panel.AddView(p, 0, 0, 120%x, 180%y)";
+ BA.debugLineNum = 98;BA.debugLine="ScrollView1.Panel.AddView(p, 0, 0, 200%x, 170%y)";
 Debug.ShouldStop(2);
-drama.mostCurrent._scrollview1.runMethod(false,"getPanel").runVoidMethod ("AddView",(Object)((_p.getObject())),(Object)(BA.numberCast(int.class, 0)),(Object)(BA.numberCast(int.class, 0)),(Object)(drama.mostCurrent.__c.runMethod(true,"PerXToCurrent",(Object)(BA.numberCast(float.class, 120)),drama.mostCurrent.activityBA)),(Object)(drama.mostCurrent.__c.runMethod(true,"PerYToCurrent",(Object)(BA.numberCast(float.class, 180)),drama.mostCurrent.activityBA)));
+drama.mostCurrent._scrollview1.runMethod(false,"getPanel").runVoidMethod ("AddView",(Object)((_p.getObject())),(Object)(BA.numberCast(int.class, 0)),(Object)(BA.numberCast(int.class, 0)),(Object)(drama.mostCurrent.__c.runMethod(true,"PerXToCurrent",(Object)(BA.numberCast(float.class, 200)),drama.mostCurrent.activityBA)),(Object)(drama.mostCurrent.__c.runMethod(true,"PerYToCurrent",(Object)(BA.numberCast(float.class, 170)),drama.mostCurrent.activityBA)));
  BA.debugLineNum = 101;BA.debugLine="ScrollView1.Panel.Height = p.Height";
 Debug.ShouldStop(16);
 drama.mostCurrent._scrollview1.runMethod(false,"getPanel").runMethod(true,"setHeight",_p.runMethod(true,"getHeight"));
