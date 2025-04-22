@@ -55,7 +55,8 @@ public static b4a.example.main _main = null;
 public static b4a.example.drama _drama = null;
 public static b4a.example.action _action = null;
 public static b4a.example.scifi _scifi = null;
+public static b4a.example.panelview _panelview = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Service",starter.mostCurrent._service};
+		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Service",starter.mostCurrent._service};
 }
 }

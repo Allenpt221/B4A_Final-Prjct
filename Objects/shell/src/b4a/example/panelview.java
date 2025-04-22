@@ -11,13 +11,13 @@ import anywheresoftware.b4a.pc.Debug;
 import anywheresoftware.b4a.pc.B4XTypes.B4XClass;
 import anywheresoftware.b4a.pc.B4XTypes.DeviceClass;
 
-public class scifi implements IRemote{
-	public static scifi mostCurrent;
+public class panelview implements IRemote{
+	public static panelview mostCurrent;
 	public static RemoteObject processBA;
     public static boolean processGlobalsRun;
     public static RemoteObject myClass;
     public static RemoteObject remoteMe;
-	public scifi() {
+	public panelview() {
 		mostCurrent = this;
 	}
     public RemoteObject getRemoteMe() {
@@ -30,7 +30,7 @@ public class scifi implements IRemote{
 
 	}
     static {
-        anywheresoftware.b4a.pc.RapidSub.moduleToObject.put(new B4XClass("scifi"), "b4a.example.scifi");
+        anywheresoftware.b4a.pc.RapidSub.moduleToObject.put(new B4XClass("panelview"), "b4a.example.panelview");
 	}
 
 public boolean isSingleton() {
@@ -50,7 +50,7 @@ public boolean isSingleton() {
 		_activity = (RemoteObject) args[3];
         anywheresoftware.b4a.keywords.Common.Density = (Float)args[4];
         remoteMe = (RemoteObject) args[5];
-		pcBA = new PCBA(this, scifi.class);
+		pcBA = new PCBA(this, panelview.class);
         main_subs_0.initializeProcessGlobals();
 		return pcBA;
 	}
@@ -59,8 +59,8 @@ public static b4a.example.main _main = null;
 public static b4a.example.starter _starter = null;
 public static b4a.example.drama _drama = null;
 public static b4a.example.action _action = null;
-public static b4a.example.panelview _panelview = null;
+public static b4a.example.scifi _scifi = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Activity",scifi.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"panelView",Debug.moduleToString(b4a.example.panelview.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
+		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Activity",panelview.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
 }
 }

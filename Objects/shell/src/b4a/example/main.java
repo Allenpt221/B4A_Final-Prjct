@@ -63,7 +63,8 @@ public static b4a.example.starter _starter = null;
 public static b4a.example.drama _drama = null;
 public static b4a.example.action _action = null;
 public static b4a.example.scifi _scifi = null;
+public static b4a.example.panelview _panelview = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Activity",main.mostCurrent._activity,"Button1",main.mostCurrent._button1,"Button2",main.mostCurrent._button2,"Button3",main.mostCurrent._button3,"Drama",Debug.moduleToString(b4a.example.drama.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Starter",Debug.moduleToString(b4a.example.starter.class),"xui",main._xui};
+		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Activity",main.mostCurrent._activity,"Button1",main.mostCurrent._button1,"Button2",main.mostCurrent._button2,"Button3",main.mostCurrent._button3,"Drama",Debug.moduleToString(b4a.example.drama.class),"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Starter",Debug.moduleToString(b4a.example.starter.class),"xui",main._xui};
 }
 }

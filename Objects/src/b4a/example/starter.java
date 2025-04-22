@@ -141,6 +141,7 @@ public b4a.example.main _main = null;
 public b4a.example.drama _drama = null;
 public b4a.example.action _action = null;
 public b4a.example.scifi _scifi = null;
+public b4a.example.panelview _panelview = null;
 public static boolean  _application_error(anywheresoftware.b4a.objects.B4AException _error,String _stacktrace) throws Exception{
 RDebugUtils.currentModule="starter";
 if (Debug.shouldDelegate(processBA, "application_error", false))

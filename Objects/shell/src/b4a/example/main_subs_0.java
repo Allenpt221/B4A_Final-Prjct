@@ -138,11 +138,13 @@ starter_subs_0._process_globals();
 drama_subs_0._process_globals();
 action_subs_0._process_globals();
 scifi_subs_0._process_globals();
+panelview_subs_0._process_globals();
 main.myClass = BA.getDeviceClass ("b4a.example.main");
 starter.myClass = BA.getDeviceClass ("b4a.example.starter");
 drama.myClass = BA.getDeviceClass ("b4a.example.drama");
 action.myClass = BA.getDeviceClass ("b4a.example.action");
 scifi.myClass = BA.getDeviceClass ("b4a.example.scifi");
+panelview.myClass = BA.getDeviceClass ("b4a.example.panelview");
 		
         } catch (Exception e) {
 			throw new RuntimeException(e);

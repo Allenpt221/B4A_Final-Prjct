@@ -59,7 +59,8 @@ public static b4a.example.main _main = null;
 public static b4a.example.starter _starter = null;
 public static b4a.example.drama _drama = null;
 public static b4a.example.scifi _scifi = null;
+public static b4a.example.panelview _panelview = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Activity",action.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
+		return new Object[] {"Activity",action.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
 }
 }

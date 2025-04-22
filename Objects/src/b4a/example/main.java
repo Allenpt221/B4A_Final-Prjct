@@ -354,6 +354,7 @@ vis = vis | (main.mostCurrent != null);
 vis = vis | (drama.mostCurrent != null);
 vis = vis | (action.mostCurrent != null);
 vis = vis | (scifi.mostCurrent != null);
+vis = vis | (panelview.mostCurrent != null);
 return vis;}
 
 private static BA killProgramHelper(BA ba) {
@@ -414,6 +415,18 @@ BA.applicationContext.stopService(new android.content.Intent(BA.applicationConte
             if (__a != null)
 				__a.finish();}
 
+ {
+            Activity __a = null;
+            if (panelview.previousOne != null) {
+				__a = panelview.previousOne.get();
+			}
+            else {
+                BA ba = killProgramHelper(panelview.mostCurrent == null ? null : panelview.mostCurrent.processBA);
+                if (ba != null) __a = ba.activity;
+            }
+            if (__a != null)
+				__a.finish();}
+
 }
 public anywheresoftware.b4a.keywords.Common __c = null;
 public static anywheresoftware.b4a.objects.B4XViewWrapper.XUI _xui = null;
@@ -424,6 +437,7 @@ public b4a.example.starter _starter = null;
 public b4a.example.drama _drama = null;
 public b4a.example.action _action = null;
 public b4a.example.scifi _scifi = null;
+public b4a.example.panelview _panelview = null;
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="main";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
