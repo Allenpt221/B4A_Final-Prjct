@@ -5,8 +5,8 @@ Type=Activity
 Version=13.1
 @EndOfDesignText@
 #Region  Activity Attributes 
-    #FullScreen: False
-    #IncludeTitle: True
+    #FullScreen: True
+    #IncludeTitle: False
 #End Region
 
 Sub Process_Globals
@@ -16,7 +16,8 @@ End Sub
 
 Sub Globals
 	Private ScrollView1 As ScrollView
-
+	
+	'drama title label generate
 	Private Drama1 As Label
 	Private Drama10 As Label
 	Private Drama2 As Label
@@ -27,7 +28,9 @@ Sub Globals
 	Private Drama7 As Label
 	Private Drama8 As Label
 	Private Drama9 As Label
-
+	
+	
+	'image generate
 	Private DramaImage1 As ImageView
 	Private DramaImage10 As ImageView
 	Private DramaImage2 As ImageView
@@ -38,7 +41,8 @@ Sub Globals
 	Private DramaImage7 As ImageView
 	Private DramaImage8 As ImageView
 	Private DramaImage9 As ImageView
-
+	
+	'label rate text generate
 	Private Star1 As Label
 	Private Star2 As Label
 	Private Star10 As Label
@@ -53,12 +57,16 @@ Sub Globals
 	Private SearchBtn As Button
 	Private SearchEngine As EditText
 
+	'panel generate 
 	Dim p As Panel
 	Private Panel2 As Panel
 	Private Panel6 As Panel
 	Private Panel7 As Panel
 	Private Panel8 As Panel
 	Private Panel9 As Panel
+	
+	
+	'label generate
 	Private DramaPage As Label
 	Private HomePage As Label
 	Private SciFiPage As Label
@@ -67,7 +75,7 @@ End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
 	Activity.LoadLayout("Drama") ' Layout contains ScrollView1
-
+	
 	p.Initialize("")
 	p.LoadLayout("panelview")
 
@@ -123,7 +131,7 @@ Private Sub SearchBtn_Click
 		Panel6.Visible = False
 		Panel7.Visible = False
 
-		p.Height = 70%y
+		p.Height = 80%y
 		p.Width = 100%x
 		ScrollView1.Panel.Height = p.Height
 	Else

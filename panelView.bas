@@ -5,8 +5,8 @@ Type=Activity
 Version=13.1
 @EndOfDesignText@
 #Region  Activity Attributes 
-	#FullScreen: False
-	#IncludeTitle: True
+	#FullScreen: True
+	#IncludeTitle: False
 #End Region
 
 Sub Process_Globals

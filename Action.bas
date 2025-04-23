@@ -5,8 +5,8 @@ Type=Activity
 Version=13.1
 @EndOfDesignText@
 #Region  Activity Attributes 
-	#FullScreen: False
-	#IncludeTitle: True
+	#FullScreen: True
+	#IncludeTitle: False
 #End Region
 
 Sub Process_Globals
@@ -19,11 +19,15 @@ Sub Globals
 	'These global variables will be redeclared each time the activity is created.
 	'These variables can only be accessed from this module.
 
+	Private HomePage As Label
+	Private DramaPage As Label
+	Private ActionPage As Label
+	Private SciFiPage As Label
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
 	'Do not forget to load the layout file created with the visual designer. For example:
-	'Activity.LoadLayout("Layout1")
+	Activity.LoadLayout("action")
 
 End Sub
 
@@ -33,4 +37,21 @@ End Sub
 
 Sub Activity_Pause (UserClosed As Boolean)
 
+End Sub
+
+
+Private Sub SciFiPage_Click
+	StartActivity(SciFi)
+End Sub
+
+Private Sub ActionPage_Click
+	
+End Sub
+
+Private Sub DramaPage_Click
+	StartActivity(Drama)
+End Sub
+
+Private Sub HomePage_Click
+	StartActivity(Main)
 End Sub

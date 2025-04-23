@@ -24,8 +24,8 @@ public class action extends Activity implements B4AActivity{
 	BA activityBA;
     ActivityWrapper _activity;
     java.util.ArrayList<B4AMenuItem> menuItems;
-	public static final boolean fullScreen = false;
-	public static final boolean includeTitle = true;
+	public static final boolean fullScreen = true;
+	public static final boolean includeTitle = false;
     public static WeakReference<Activity> previousOne;
     public static boolean dontPause;
 
@@ -345,17 +345,34 @@ public static void initializeProcessGlobals() {
             }
 }
 public anywheresoftware.b4a.keywords.Common __c = null;
+public anywheresoftware.b4a.objects.LabelWrapper _homepage = null;
+public anywheresoftware.b4a.objects.LabelWrapper _dramapage = null;
+public anywheresoftware.b4a.objects.LabelWrapper _actionpage = null;
+public anywheresoftware.b4a.objects.LabelWrapper _scifipage = null;
 public b4a.example.main _main = null;
 public b4a.example.starter _starter = null;
 public b4a.example.drama _drama = null;
 public b4a.example.scifi _scifi = null;
 public b4a.example.panelview _panelview = null;
+public static String  _actionpage_click() throws Exception{
+RDebugUtils.currentModule="action";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "actionpage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "actionpage_click", null));}
+RDebugUtils.currentLine=3014656;
+ //BA.debugLineNum = 3014656;BA.debugLine="Private Sub ActionPage_Click";
+RDebugUtils.currentLine=3014658;
+ //BA.debugLineNum = 3014658;BA.debugLine="End Sub";
+return "";
+}
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="action";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
 RDebugUtils.currentLine=1376256;
  //BA.debugLineNum = 1376256;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=1376258;
+ //BA.debugLineNum = 1376258;BA.debugLine="Activity.LoadLayout(\"action\")";
+mostCurrent._activity.LoadLayout("action",mostCurrent.activityBA);
 RDebugUtils.currentLine=1376260;
  //BA.debugLineNum = 1376260;BA.debugLine="End Sub";
 return "";
@@ -376,6 +393,45 @@ RDebugUtils.currentLine=1441792;
  //BA.debugLineNum = 1441792;BA.debugLine="Sub Activity_Resume";
 RDebugUtils.currentLine=1441794;
  //BA.debugLineNum = 1441794;BA.debugLine="End Sub";
+return "";
+}
+public static String  _dramapage_click() throws Exception{
+RDebugUtils.currentModule="action";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "dramapage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "dramapage_click", null));}
+RDebugUtils.currentLine=2949120;
+ //BA.debugLineNum = 2949120;BA.debugLine="Private Sub DramaPage_Click";
+RDebugUtils.currentLine=2949121;
+ //BA.debugLineNum = 2949121;BA.debugLine="StartActivity(Drama)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._drama.getObject()));
+RDebugUtils.currentLine=2949122;
+ //BA.debugLineNum = 2949122;BA.debugLine="End Sub";
+return "";
+}
+public static String  _homepage_click() throws Exception{
+RDebugUtils.currentModule="action";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "homepage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "homepage_click", null));}
+RDebugUtils.currentLine=2883584;
+ //BA.debugLineNum = 2883584;BA.debugLine="Private Sub HomePage_Click";
+RDebugUtils.currentLine=2883585;
+ //BA.debugLineNum = 2883585;BA.debugLine="StartActivity(Main)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._main.getObject()));
+RDebugUtils.currentLine=2883586;
+ //BA.debugLineNum = 2883586;BA.debugLine="End Sub";
+return "";
+}
+public static String  _scifipage_click() throws Exception{
+RDebugUtils.currentModule="action";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "scifipage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "scifipage_click", null));}
+RDebugUtils.currentLine=3080192;
+ //BA.debugLineNum = 3080192;BA.debugLine="Private Sub SciFiPage_Click";
+RDebugUtils.currentLine=3080193;
+ //BA.debugLineNum = 3080193;BA.debugLine="StartActivity(SciFi)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._scifi.getObject()));
+RDebugUtils.currentLine=3080194;
+ //BA.debugLineNum = 3080194;BA.debugLine="End Sub";
 return "";
 }
 }

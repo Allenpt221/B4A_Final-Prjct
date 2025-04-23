@@ -1,12 +1,16 @@
 ﻿Build1=Default,b4a.example
-File1=avengers.jpeg
-File2=Drama.bal
-File3=Layout.bal
-File4=panelView.bal
-FileGroup1=New Group
-FileGroup2=Default Group
+File1=action.bal
+File2=avengers.jpeg
+File3=Drama.bal
+File4=Layout.bal
+File5=panelView.bal
+File6=scifi.bal
+FileGroup1=Default Group
+FileGroup2=New Group
 FileGroup3=Default Group
 FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
 Group=Default Group
 Library1=core
 Library2=xui
@@ -16,7 +20,7 @@ Module2=Drama
 Module3=panelView
 Module4=SciFi
 Module5=Starter
-NumberOfFiles=4
+NumberOfFiles=6
 NumberOfLibraries=2
 NumberOfModules=5
 Version=13.1
@@ -31,8 +35,8 @@ Version=13.1
 #End Region
 
 #Region  Activity Attributes 
-	#FullScreen: False
-	#IncludeTitle: True
+	#FullScreen: True
+	#IncludeTitle: False
 #End Region
 
 Sub Process_Globals
@@ -50,7 +54,8 @@ End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
 	Activity.LoadLayout("layout")
-
+	
+	
 	
 
 End Sub

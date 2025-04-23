@@ -55,12 +55,16 @@ public boolean isSingleton() {
 		return pcBA;
 	}
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
+public static RemoteObject _actionpage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
+public static RemoteObject _dramapage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
+public static RemoteObject _homepage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
+public static RemoteObject _scifipage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
 public static b4a.example.main _main = null;
 public static b4a.example.starter _starter = null;
 public static b4a.example.drama _drama = null;
 public static b4a.example.action _action = null;
 public static b4a.example.panelview _panelview = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Activity",scifi.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"Main",Debug.moduleToString(b4a.example.main.class),"panelView",Debug.moduleToString(b4a.example.panelview.class),"Starter",Debug.moduleToString(b4a.example.starter.class)};
+		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"ActionPage",scifi.mostCurrent._actionpage,"Activity",scifi.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"DramaPage",scifi.mostCurrent._dramapage,"HomePage",scifi.mostCurrent._homepage,"Main",Debug.moduleToString(b4a.example.main.class),"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFiPage",scifi.mostCurrent._scifipage,"Starter",Debug.moduleToString(b4a.example.starter.class)};
 }
 }

@@ -24,8 +24,8 @@ public class drama extends Activity implements B4AActivity{
 	BA activityBA;
     ActivityWrapper _activity;
     java.util.ArrayList<B4AMenuItem> menuItems;
-	public static final boolean fullScreen = false;
-	public static final boolean includeTitle = true;
+	public static final boolean fullScreen = true;
+	public static final boolean includeTitle = false;
     public static WeakReference<Activity> previousOne;
     public static boolean dontPause;
 
@@ -572,8 +572,8 @@ RDebugUtils.currentLine=1114125;
  //BA.debugLineNum = 1114125;BA.debugLine="Panel7.Visible = False";
 mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=1114127;
- //BA.debugLineNum = 1114127;BA.debugLine="p.Height = 70%y";
-mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
+ //BA.debugLineNum = 1114127;BA.debugLine="p.Height = 80%y";
+mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (80),mostCurrent.activityBA));
 RDebugUtils.currentLine=1114128;
  //BA.debugLineNum = 1114128;BA.debugLine="p.Width = 100%x";
 mostCurrent._p.setWidth(anywheresoftware.b4a.keywords.Common.PerXToCurrent((float) (100),mostCurrent.activityBA));
