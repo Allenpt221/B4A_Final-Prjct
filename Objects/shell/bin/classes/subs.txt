@@ -58,11 +58,23 @@ starter,service_taskremoved,0,0,22,24
 
 
 
-drama,activity_create,1,0,58,99
-,scrollview1,,searchbtn,,searchengine,,p,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,panel2,,panel6,,panel7,,panel8,,panel9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
-,scrollview1,,searchbtn,,searchengine,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,panel2,,panel6,,panel7,,panel8,,panel9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
+drama,actionpage_click,0,0,177,179
 
-drama,globals,0,1,11,56
+
+
+drama,activity_create,1,0,62,103
+,actionpage,,dramapage,,homepage,,panel2,,scifipage,,scrollview1,,searchbtn,,searchengine,,p,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,panel6,,panel7,,panel8,,panel9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
+,actionpage,,dramapage,,homepage,,panel2,,scifipage,,scrollview1,,searchbtn,,searchengine,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,panel6,,panel7,,panel8,,panel9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
+
+drama,dramapage_click,0,0,173,175
+
+
+
+drama,globals,0,1,11,60
+
+
+
+drama,homepage_click,0,0,169,171
 
 
 
@@ -70,11 +82,15 @@ drama,process_globals,0,1,6,9
 
 
 
-drama,searchbtn_click,0,0,101,122
+drama,scifipage_click,0,0,165,167
+
+
+
+drama,searchbtn_click,0,0,105,126
 ,searchengine,,drama1,,star1,,drama2,,star2,,drama3,,star3,,panel6,,panel7,,p,,scrollview1
 
 
-drama,searchengine_textchanged,0,0,124,158
+drama,searchengine_textchanged,0,0,128,162
 ,panel6,,panel7,,p,,scrollview1,,drama1,,star1,,drama2,,star2,,drama3,,star3,,drama4,,star4,,drama5,,star5,,drama6,,star6,,drama7,,star7,,drama8,,star8,,drama9,,star9,,drama10,,star10
 
 

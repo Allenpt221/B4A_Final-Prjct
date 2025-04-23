@@ -384,11 +384,28 @@ public anywheresoftware.b4a.objects.PanelWrapper _panel6 = null;
 public anywheresoftware.b4a.objects.PanelWrapper _panel7 = null;
 public anywheresoftware.b4a.objects.PanelWrapper _panel8 = null;
 public anywheresoftware.b4a.objects.PanelWrapper _panel9 = null;
+public anywheresoftware.b4a.objects.LabelWrapper _dramapage = null;
+public anywheresoftware.b4a.objects.LabelWrapper _homepage = null;
+public anywheresoftware.b4a.objects.LabelWrapper _scifipage = null;
+public anywheresoftware.b4a.objects.LabelWrapper _actionpage = null;
 public b4a.example.main _main = null;
 public b4a.example.starter _starter = null;
 public b4a.example.action _action = null;
 public b4a.example.scifi _scifi = null;
 public b4a.example.panelview _panelview = null;
+public static String  _actionpage_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "actionpage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "actionpage_click", null));}
+RDebugUtils.currentLine=2424832;
+ //BA.debugLineNum = 2424832;BA.debugLine="Private Sub ActionPage_Click";
+RDebugUtils.currentLine=2424833;
+ //BA.debugLineNum = 2424833;BA.debugLine="StartActivity(Action)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._action.getObject()));
+RDebugUtils.currentLine=2424834;
+ //BA.debugLineNum = 2424834;BA.debugLine="End Sub";
+return "";
+}
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="drama";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
@@ -477,63 +494,99 @@ RDebugUtils.currentLine=1048617;
  //BA.debugLineNum = 1048617;BA.debugLine="End Sub";
 return "";
 }
+public static String  _dramapage_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "dramapage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "dramapage_click", null));}
+RDebugUtils.currentLine=2359296;
+ //BA.debugLineNum = 2359296;BA.debugLine="Private Sub DramaPage_Click";
+RDebugUtils.currentLine=2359298;
+ //BA.debugLineNum = 2359298;BA.debugLine="End Sub";
+return "";
+}
+public static String  _homepage_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "homepage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "homepage_click", null));}
+RDebugUtils.currentLine=2293760;
+ //BA.debugLineNum = 2293760;BA.debugLine="Private Sub HomePage_Click";
+RDebugUtils.currentLine=2293761;
+ //BA.debugLineNum = 2293761;BA.debugLine="StartActivity(Main)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._main.getObject()));
+RDebugUtils.currentLine=2293762;
+ //BA.debugLineNum = 2293762;BA.debugLine="End Sub";
+return "";
+}
+public static String  _scifipage_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "scifipage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "scifipage_click", null));}
+RDebugUtils.currentLine=2228224;
+ //BA.debugLineNum = 2228224;BA.debugLine="Private Sub SciFiPage_Click";
+RDebugUtils.currentLine=2228225;
+ //BA.debugLineNum = 2228225;BA.debugLine="StartActivity(SciFi)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._scifi.getObject()));
+RDebugUtils.currentLine=2228226;
+ //BA.debugLineNum = 2228226;BA.debugLine="End Sub";
+return "";
+}
 public static String  _searchbtn_click() throws Exception{
 RDebugUtils.currentModule="drama";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "searchbtn_click", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "searchbtn_click", null));}
 String _query = "";
 String _userinput = "";
-RDebugUtils.currentLine=2293760;
- //BA.debugLineNum = 2293760;BA.debugLine="Private Sub SearchBtn_Click";
-RDebugUtils.currentLine=2293761;
- //BA.debugLineNum = 2293761;BA.debugLine="Dim query As String = SearchEngine.Text.ToLowerCa";
+RDebugUtils.currentLine=1114112;
+ //BA.debugLineNum = 1114112;BA.debugLine="Private Sub SearchBtn_Click";
+RDebugUtils.currentLine=1114113;
+ //BA.debugLineNum = 1114113;BA.debugLine="Dim query As String = SearchEngine.Text.ToLowerCa";
 _query = mostCurrent._searchengine.getText().toLowerCase().trim();
-RDebugUtils.currentLine=2293762;
- //BA.debugLineNum = 2293762;BA.debugLine="Dim userInput As String = SearchEngine.Text";
+RDebugUtils.currentLine=1114114;
+ //BA.debugLineNum = 1114114;BA.debugLine="Dim userInput As String = SearchEngine.Text";
 _userinput = mostCurrent._searchengine.getText();
-RDebugUtils.currentLine=2293764;
- //BA.debugLineNum = 2293764;BA.debugLine="If query.Contains(\"avengers dooms day\") Or query.";
+RDebugUtils.currentLine=1114116;
+ //BA.debugLineNum = 1114116;BA.debugLine="If query.Contains(\"avengers dooms day\") Or query.";
 if (_query.contains("avengers dooms day") || _query.contains("avengers")) { 
-RDebugUtils.currentLine=2293765;
- //BA.debugLineNum = 2293765;BA.debugLine="Drama1.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1114117;
+ //BA.debugLineNum = 1114117;BA.debugLine="Drama1.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2293766;
- //BA.debugLineNum = 2293766;BA.debugLine="Star1.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1114118;
+ //BA.debugLineNum = 1114118;BA.debugLine="Star1.Text = \"☆☆☆\"";
 mostCurrent._star1.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2293767;
- //BA.debugLineNum = 2293767;BA.debugLine="Drama2.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1114119;
+ //BA.debugLineNum = 1114119;BA.debugLine="Drama2.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2293768;
- //BA.debugLineNum = 2293768;BA.debugLine="Star2.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1114120;
+ //BA.debugLineNum = 1114120;BA.debugLine="Star2.Text = \"☆☆☆\"";
 mostCurrent._star2.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2293769;
- //BA.debugLineNum = 2293769;BA.debugLine="Drama3.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1114121;
+ //BA.debugLineNum = 1114121;BA.debugLine="Drama3.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama3.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2293770;
- //BA.debugLineNum = 2293770;BA.debugLine="Star3.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1114122;
+ //BA.debugLineNum = 1114122;BA.debugLine="Star3.Text = \"☆☆☆\"";
 mostCurrent._star3.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2293772;
- //BA.debugLineNum = 2293772;BA.debugLine="Panel6.Visible = False";
+RDebugUtils.currentLine=1114124;
+ //BA.debugLineNum = 1114124;BA.debugLine="Panel6.Visible = False";
 mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=2293773;
- //BA.debugLineNum = 2293773;BA.debugLine="Panel7.Visible = False";
+RDebugUtils.currentLine=1114125;
+ //BA.debugLineNum = 1114125;BA.debugLine="Panel7.Visible = False";
 mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=2293775;
- //BA.debugLineNum = 2293775;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114127;
+ //BA.debugLineNum = 1114127;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
-RDebugUtils.currentLine=2293776;
- //BA.debugLineNum = 2293776;BA.debugLine="p.Width = 100%x";
+RDebugUtils.currentLine=1114128;
+ //BA.debugLineNum = 1114128;BA.debugLine="p.Width = 100%x";
 mostCurrent._p.setWidth(anywheresoftware.b4a.keywords.Common.PerXToCurrent((float) (100),mostCurrent.activityBA));
-RDebugUtils.currentLine=2293777;
- //BA.debugLineNum = 2293777;BA.debugLine="ScrollView1.Panel.Height = p.Height";
+RDebugUtils.currentLine=1114129;
+ //BA.debugLineNum = 1114129;BA.debugLine="ScrollView1.Panel.Height = p.Height";
 mostCurrent._scrollview1.getPanel().setHeight(mostCurrent._p.getHeight());
  }else {
-RDebugUtils.currentLine=2293779;
- //BA.debugLineNum = 2293779;BA.debugLine="MsgboxAsync(userInput, \"Not Found!\")";
+RDebugUtils.currentLine=1114131;
+ //BA.debugLineNum = 1114131;BA.debugLine="MsgboxAsync(userInput, \"Not Found!\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence(_userinput),BA.ObjectToCharSequence("Not Found!"),processBA);
  };
-RDebugUtils.currentLine=2293781;
- //BA.debugLineNum = 2293781;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1114133;
+ //BA.debugLineNum = 1114133;BA.debugLine="End Sub";
 return "";
 }
 public static String  _searchengine_textchanged(String _old,String _new) throws Exception{
@@ -541,92 +594,92 @@ RDebugUtils.currentModule="drama";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "searchengine_textchanged", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "searchengine_textchanged", new Object[] {_old,_new}));}
 String _query = "";
-RDebugUtils.currentLine=2621440;
- //BA.debugLineNum = 2621440;BA.debugLine="Sub SearchEngine_TextChanged (Old As String, New A";
-RDebugUtils.currentLine=2621441;
- //BA.debugLineNum = 2621441;BA.debugLine="Dim query As String = New.ToLowerCase.Trim";
+RDebugUtils.currentLine=1179648;
+ //BA.debugLineNum = 1179648;BA.debugLine="Sub SearchEngine_TextChanged (Old As String, New A";
+RDebugUtils.currentLine=1179649;
+ //BA.debugLineNum = 1179649;BA.debugLine="Dim query As String = New.ToLowerCase.Trim";
 _query = _new.toLowerCase().trim();
-RDebugUtils.currentLine=2621443;
- //BA.debugLineNum = 2621443;BA.debugLine="If query = \"\" Then";
+RDebugUtils.currentLine=1179651;
+ //BA.debugLineNum = 1179651;BA.debugLine="If query = \"\" Then";
 if ((_query).equals("")) { 
-RDebugUtils.currentLine=2621445;
- //BA.debugLineNum = 2621445;BA.debugLine="Panel6.Visible = True";
+RDebugUtils.currentLine=1179653;
+ //BA.debugLineNum = 1179653;BA.debugLine="Panel6.Visible = True";
 mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=2621446;
- //BA.debugLineNum = 2621446;BA.debugLine="Panel7.Visible = True";
+RDebugUtils.currentLine=1179654;
+ //BA.debugLineNum = 1179654;BA.debugLine="Panel7.Visible = True";
 mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=2621448;
- //BA.debugLineNum = 2621448;BA.debugLine="p.Height = 170%y";
+RDebugUtils.currentLine=1179656;
+ //BA.debugLineNum = 1179656;BA.debugLine="p.Height = 170%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (170),mostCurrent.activityBA));
-RDebugUtils.currentLine=2621449;
- //BA.debugLineNum = 2621449;BA.debugLine="p.Width = 200%x";
+RDebugUtils.currentLine=1179657;
+ //BA.debugLineNum = 1179657;BA.debugLine="p.Width = 200%x";
 mostCurrent._p.setWidth(anywheresoftware.b4a.keywords.Common.PerXToCurrent((float) (200),mostCurrent.activityBA));
-RDebugUtils.currentLine=2621450;
- //BA.debugLineNum = 2621450;BA.debugLine="ScrollView1.Panel.Height = p.Height";
+RDebugUtils.currentLine=1179658;
+ //BA.debugLineNum = 1179658;BA.debugLine="ScrollView1.Panel.Height = p.Height";
 mostCurrent._scrollview1.getPanel().setHeight(mostCurrent._p.getHeight());
-RDebugUtils.currentLine=2621453;
- //BA.debugLineNum = 2621453;BA.debugLine="Drama1.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1179661;
+ //BA.debugLineNum = 1179661;BA.debugLine="Drama1.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2621454;
- //BA.debugLineNum = 2621454;BA.debugLine="Star1.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1179662;
+ //BA.debugLineNum = 1179662;BA.debugLine="Star1.Text = \"☆☆☆\"";
 mostCurrent._star1.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2621455;
- //BA.debugLineNum = 2621455;BA.debugLine="Drama2.Text = \"Spiderman\"";
+RDebugUtils.currentLine=1179663;
+ //BA.debugLineNum = 1179663;BA.debugLine="Drama2.Text = \"Spiderman\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Spiderman"));
-RDebugUtils.currentLine=2621456;
- //BA.debugLineNum = 2621456;BA.debugLine="Star2.Text = \"☆☆☆☆☆\"";
+RDebugUtils.currentLine=1179664;
+ //BA.debugLineNum = 1179664;BA.debugLine="Star2.Text = \"☆☆☆☆☆\"";
 mostCurrent._star2.setText(BA.ObjectToCharSequence("☆☆☆☆☆"));
-RDebugUtils.currentLine=2621457;
- //BA.debugLineNum = 2621457;BA.debugLine="Drama3.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1179665;
+ //BA.debugLineNum = 1179665;BA.debugLine="Drama3.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama3.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2621458;
- //BA.debugLineNum = 2621458;BA.debugLine="Star3.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1179666;
+ //BA.debugLineNum = 1179666;BA.debugLine="Star3.Text = \"☆☆☆\"";
 mostCurrent._star3.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2621459;
- //BA.debugLineNum = 2621459;BA.debugLine="Drama4.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1179667;
+ //BA.debugLineNum = 1179667;BA.debugLine="Drama4.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama4.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2621460;
- //BA.debugLineNum = 2621460;BA.debugLine="Star4.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1179668;
+ //BA.debugLineNum = 1179668;BA.debugLine="Star4.Text = \"☆☆☆\"";
 mostCurrent._star4.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2621461;
- //BA.debugLineNum = 2621461;BA.debugLine="Drama5.Text = \"Spiderman\"";
+RDebugUtils.currentLine=1179669;
+ //BA.debugLineNum = 1179669;BA.debugLine="Drama5.Text = \"Spiderman\"";
 mostCurrent._drama5.setText(BA.ObjectToCharSequence("Spiderman"));
-RDebugUtils.currentLine=2621462;
- //BA.debugLineNum = 2621462;BA.debugLine="Star5.Text = \"☆☆☆☆☆\"";
+RDebugUtils.currentLine=1179670;
+ //BA.debugLineNum = 1179670;BA.debugLine="Star5.Text = \"☆☆☆☆☆\"";
 mostCurrent._star5.setText(BA.ObjectToCharSequence("☆☆☆☆☆"));
-RDebugUtils.currentLine=2621463;
- //BA.debugLineNum = 2621463;BA.debugLine="Drama6.Text = \"Spiderman\"";
+RDebugUtils.currentLine=1179671;
+ //BA.debugLineNum = 1179671;BA.debugLine="Drama6.Text = \"Spiderman\"";
 mostCurrent._drama6.setText(BA.ObjectToCharSequence("Spiderman"));
-RDebugUtils.currentLine=2621464;
- //BA.debugLineNum = 2621464;BA.debugLine="Star6.Text = \"☆☆☆☆☆\"";
+RDebugUtils.currentLine=1179672;
+ //BA.debugLineNum = 1179672;BA.debugLine="Star6.Text = \"☆☆☆☆☆\"";
 mostCurrent._star6.setText(BA.ObjectToCharSequence("☆☆☆☆☆"));
-RDebugUtils.currentLine=2621465;
- //BA.debugLineNum = 2621465;BA.debugLine="Drama7.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1179673;
+ //BA.debugLineNum = 1179673;BA.debugLine="Drama7.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama7.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2621466;
- //BA.debugLineNum = 2621466;BA.debugLine="Star7.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1179674;
+ //BA.debugLineNum = 1179674;BA.debugLine="Star7.Text = \"☆☆☆\"";
 mostCurrent._star7.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2621467;
- //BA.debugLineNum = 2621467;BA.debugLine="Drama8.Text = \"Spiderman\"";
+RDebugUtils.currentLine=1179675;
+ //BA.debugLineNum = 1179675;BA.debugLine="Drama8.Text = \"Spiderman\"";
 mostCurrent._drama8.setText(BA.ObjectToCharSequence("Spiderman"));
-RDebugUtils.currentLine=2621468;
- //BA.debugLineNum = 2621468;BA.debugLine="Star8.Text = \"☆☆☆☆☆\"";
+RDebugUtils.currentLine=1179676;
+ //BA.debugLineNum = 1179676;BA.debugLine="Star8.Text = \"☆☆☆☆☆\"";
 mostCurrent._star8.setText(BA.ObjectToCharSequence("☆☆☆☆☆"));
-RDebugUtils.currentLine=2621469;
- //BA.debugLineNum = 2621469;BA.debugLine="Drama9.Text = \"Avengers Dooms Day\"";
+RDebugUtils.currentLine=1179677;
+ //BA.debugLineNum = 1179677;BA.debugLine="Drama9.Text = \"Avengers Dooms Day\"";
 mostCurrent._drama9.setText(BA.ObjectToCharSequence("Avengers Dooms Day"));
-RDebugUtils.currentLine=2621470;
- //BA.debugLineNum = 2621470;BA.debugLine="Star9.Text = \"☆☆☆\"";
+RDebugUtils.currentLine=1179678;
+ //BA.debugLineNum = 1179678;BA.debugLine="Star9.Text = \"☆☆☆\"";
 mostCurrent._star9.setText(BA.ObjectToCharSequence("☆☆☆"));
-RDebugUtils.currentLine=2621471;
- //BA.debugLineNum = 2621471;BA.debugLine="Drama10.Text = \"Spiderman\"";
+RDebugUtils.currentLine=1179679;
+ //BA.debugLineNum = 1179679;BA.debugLine="Drama10.Text = \"Spiderman\"";
 mostCurrent._drama10.setText(BA.ObjectToCharSequence("Spiderman"));
-RDebugUtils.currentLine=2621472;
- //BA.debugLineNum = 2621472;BA.debugLine="Star10.Text = \"☆☆☆☆☆\"";
+RDebugUtils.currentLine=1179680;
+ //BA.debugLineNum = 1179680;BA.debugLine="Star10.Text = \"☆☆☆☆☆\"";
 mostCurrent._star10.setText(BA.ObjectToCharSequence("☆☆☆☆☆"));
  };
-RDebugUtils.currentLine=2621474;
- //BA.debugLineNum = 2621474;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1179682;
+ //BA.debugLineNum = 1179682;BA.debugLine="End Sub";
 return "";
 }
 }

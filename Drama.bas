@@ -59,6 +59,10 @@ Sub Globals
 	Private Panel7 As Panel
 	Private Panel8 As Panel
 	Private Panel9 As Panel
+	Private DramaPage As Label
+	Private HomePage As Label
+	Private SciFiPage As Label
+	Private ActionPage As Label
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -161,4 +165,21 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Drama10.Text = "Spiderman"
 		Star10.Text = "☆☆☆☆☆"
 	End If
+End Sub
+
+
+Private Sub SciFiPage_Click
+	StartActivity(SciFi)
+End Sub
+
+Private Sub HomePage_Click
+	StartActivity(Main)
+End Sub
+
+Private Sub DramaPage_Click
+	
+End Sub
+
+Private Sub ActionPage_Click
+	StartActivity(Action)
 End Sub
