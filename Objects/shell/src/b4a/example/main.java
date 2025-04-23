@@ -56,15 +56,15 @@ public boolean isSingleton() {
 	}
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
 public static RemoteObject _xui = RemoteObject.declareNull("anywheresoftware.b4a.objects.B4XViewWrapper.XUI");
-public static RemoteObject _button1 = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
-public static RemoteObject _button2 = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
-public static RemoteObject _button3 = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
+public static RemoteObject _scific = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
+public static RemoteObject _actions = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
+public static RemoteObject _dramas = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
 public static b4a.example.starter _starter = null;
 public static b4a.example.drama _drama = null;
 public static b4a.example.action _action = null;
 public static b4a.example.scifi _scifi = null;
 public static b4a.example.panelview _panelview = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Activity",main.mostCurrent._activity,"Button1",main.mostCurrent._button1,"Button2",main.mostCurrent._button2,"Button3",main.mostCurrent._button3,"Drama",Debug.moduleToString(b4a.example.drama.class),"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"Starter",Debug.moduleToString(b4a.example.starter.class),"xui",main._xui};
+		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Actions",main.mostCurrent._actions,"Activity",main.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"Dramas",main.mostCurrent._dramas,"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"SciFic",main.mostCurrent._scific,"Starter",Debug.moduleToString(b4a.example.starter.class),"xui",main._xui};
 }
 }

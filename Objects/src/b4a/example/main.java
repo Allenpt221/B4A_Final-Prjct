@@ -430,14 +430,27 @@ BA.applicationContext.stopService(new android.content.Intent(BA.applicationConte
 }
 public anywheresoftware.b4a.keywords.Common __c = null;
 public static anywheresoftware.b4a.objects.B4XViewWrapper.XUI _xui = null;
-public anywheresoftware.b4a.objects.ButtonWrapper _button1 = null;
-public anywheresoftware.b4a.objects.ButtonWrapper _button2 = null;
-public anywheresoftware.b4a.objects.ButtonWrapper _button3 = null;
+public anywheresoftware.b4a.objects.ButtonWrapper _scific = null;
+public anywheresoftware.b4a.objects.ButtonWrapper _actions = null;
+public anywheresoftware.b4a.objects.ButtonWrapper _dramas = null;
 public b4a.example.starter _starter = null;
 public b4a.example.drama _drama = null;
 public b4a.example.action _action = null;
 public b4a.example.scifi _scifi = null;
 public b4a.example.panelview _panelview = null;
+public static String  _actions_click() throws Exception{
+RDebugUtils.currentModule="main";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "actions_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "actions_click", null));}
+RDebugUtils.currentLine=458752;
+ //BA.debugLineNum = 458752;BA.debugLine="Private Sub Actions_Click";
+RDebugUtils.currentLine=458753;
+ //BA.debugLineNum = 458753;BA.debugLine="StartActivity(Action)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._action.getObject()));
+RDebugUtils.currentLine=458754;
+ //BA.debugLineNum = 458754;BA.debugLine="End Sub";
+return "";
+}
 public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="main";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
@@ -469,43 +482,30 @@ RDebugUtils.currentLine=196610;
  //BA.debugLineNum = 196610;BA.debugLine="End Sub";
 return "";
 }
-public static String  _button1_click() throws Exception{
+public static String  _dramas_click() throws Exception{
 RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "button1_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "button1_click", null));}
-RDebugUtils.currentLine=327680;
- //BA.debugLineNum = 327680;BA.debugLine="Sub Button1_Click";
-RDebugUtils.currentLine=327681;
- //BA.debugLineNum = 327681;BA.debugLine="StartActivity(Drama)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._drama.getObject()));
-RDebugUtils.currentLine=327682;
- //BA.debugLineNum = 327682;BA.debugLine="End Sub";
-return "";
-}
-public static String  _button2_click() throws Exception{
-RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "button2_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "button2_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "dramas_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "dramas_click", null));}
 RDebugUtils.currentLine=393216;
- //BA.debugLineNum = 393216;BA.debugLine="Private Sub Button2_Click";
+ //BA.debugLineNum = 393216;BA.debugLine="Private Sub Dramas_Click";
 RDebugUtils.currentLine=393217;
- //BA.debugLineNum = 393217;BA.debugLine="StartActivity(Action)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._action.getObject()));
+ //BA.debugLineNum = 393217;BA.debugLine="StartActivity(Drama)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._drama.getObject()));
 RDebugUtils.currentLine=393218;
  //BA.debugLineNum = 393218;BA.debugLine="End Sub";
 return "";
 }
-public static String  _button3_click() throws Exception{
+public static String  _scific_click() throws Exception{
 RDebugUtils.currentModule="main";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "button3_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "button3_click", null));}
-RDebugUtils.currentLine=458752;
- //BA.debugLineNum = 458752;BA.debugLine="Sub Button3_Click";
-RDebugUtils.currentLine=458753;
- //BA.debugLineNum = 458753;BA.debugLine="StartActivity(SciFi)";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "scific_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "scific_click", null));}
+RDebugUtils.currentLine=327680;
+ //BA.debugLineNum = 327680;BA.debugLine="Private Sub SciFic_Click";
+RDebugUtils.currentLine=327681;
+ //BA.debugLineNum = 327681;BA.debugLine="StartActivity(SciFi)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._scifi.getObject()));
-RDebugUtils.currentLine=458754;
- //BA.debugLineNum = 458754;BA.debugLine="End Sub";
+RDebugUtils.currentLine=327682;
+ //BA.debugLineNum = 327682;BA.debugLine="End Sub";
 return "";
 }
 }

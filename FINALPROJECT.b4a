@@ -47,9 +47,10 @@ End Sub
 
 Sub Globals
 	'These global variables will be redeclared each time the activity is created.
-	Private Button1 As Button
-	Private Button2 As Button
-	Private Button3 As Button
+
+	Private SciFic As Button
+	Private Actions As Button
+	Private Dramas As Button
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -69,14 +70,14 @@ Sub Activity_Pause (UserClosed As Boolean)
 
 End Sub
 
-Sub Button1_Click
+Private Sub SciFic_Click
+	StartActivity(SciFi)
+End Sub
+
+Private Sub Dramas_Click
 	StartActivity(Drama)
 End Sub
 
-Private Sub Button2_Click
+Private Sub Actions_Click
 	StartActivity(Action)
-End Sub
-
-Sub Button3_Click
-	StartActivity(SciFi)
 End Sub
