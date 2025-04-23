@@ -193,29 +193,74 @@ Private Sub SearchBtn_Click
 		Starter2.Text = "Starring: Clint Eastwood, Meryl Streep"
 		Year2.Text = "(1995)"
 		OverView2.Text = "A brief, passionate romance between a lonely housewife and a traveling photographer leads to a life-changing emotional journey. Set against the backdrop of 1960s Iowa, it’s a heartbreaking story about missed chances and enduring love."
+		
+		Drama3.Text = "Doubt"
+		Starter3.Text = "Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"
+		Year3.Text = "(2008)"
+		OverView3.Text = "A nun confronts a priest suspected of misconduct in a Catholic school, raising questions about faith and certainty."
 
-		Panel4.Visible = False
 		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
 		p.Height = 85%y
 		p.Width = 100%x
 		ScrollView1.Panel.Height = p.Height
 		
-		Else If query.Contains("casey") Or query.Contains("Casey affleck") Then
-		Drama1.Text = "Gone Baby Gone"
-		Starter1.Text = "Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"
-		Year1.Text = "(2007)"
-		OverView1.Text = "In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."
+		Else If query.Contains("casey") Or query.Contains("casey affleck") Then
+			Drama1.Text = "Gone Baby Gone"
+			Starter1.Text = "Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"
+			Year1.Text = "(2007)"
+			OverView1.Text = "In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."
+			
+			Drama2.Text = "Manchester by the Sea"
+			Starter2.Text = "Starring: Casey Affleck, Michelle Williams, Lucas Hedges"
+			Year2.Text = "(2016)"
+			OverView2.Text = "After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."
+			
+			Panel4.Visible = False
+			Panel5.Visible = False
+			Panel6.Visible = False
+			Panel7.Visible = False
+			p.Height = 70%y
+			p.Width = 100%x
+			ScrollView1.Panel.Height = p.Height
+		Else If query.Contains("joaquin") Or query.Contains("joaquin phoenix")  Or query.Contains("amy adams") Or query.Contains("amy") Then
+			Drama1.Text = "The Master"
+			Starter1.Text = "Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"
+			Year1.Text = "(2012)"
+			OverView1.Text = "A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."
+			
+			Drama2.Text = "Her"
+			Starter2.Text = "Starring: Joaquin Phoenix, Rooney Mara, Amy Adams"
+			Year2.Text = "(2013)"
+			OverView2.Text = "In a near-future Los Angeles, a lonely man finds solace in a hyper-intelligent AI voice. As their bond deepens into love, he’s forced to question what it means to be human and whether artificial connection is real connection."
+			
+			Panel4.Visible = False
+			Panel5.Visible = False
+			Panel6.Visible = False
+			Panel7.Visible = False
+			p.Height = 70%y
+			p.Width = 100%x
+			ScrollView1.Panel.Height = p.Height
+		Else If query.Contains("cate blanchett") Or query.Contains("cate") Then
+			Drama1.Text = "Carol"
+			Starter1.Text = "Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"
+			Year1.Text = "(2015)"
+			OverView1.Text = "A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."
+				
+			Drama2.Text = "Blue Jasmine"
+			Starter2.Text = "Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"
+			Year2.Text = "(2013)"
+			OverView2.Text = "After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."
+				
+			Panel4.Visible = False
+			Panel5.Visible = False
+			Panel6.Visible = False
+			Panel7.Visible = False
+			p.Height = 70%y
+			p.Width = 100%x
+			ScrollView1.Panel.Height = p.Height
 		
-		Drama2.Text = "Manchester by the Sea"
-		Starter2.Text = "Starring: Casey Affleck, Michelle Williams, Lucas Hedges"
-		Year2.Text = "(2016)"
-		OverView2.Text = "After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."
-		
-		Panel4.Visible = False
-		Panel5.Visible = False
-		p.Height = 85%y
-		p.Width = 100%x
-		ScrollView1.Panel.Height = p.Height
 	Else
 		MsgboxAsync(userInput, "Not Found!")
 	End If
@@ -233,6 +278,8 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		
 		Panel4.Visible = True
 		Panel5.Visible = True
+		Panel6.Visible = True
+		Panel7.Visible = True
 		
 		Drama1.Text = "Kramer vs. Kramer"
 		Starter1.Text = "Starring: Dustin Hoffman, Meryl Streep, Justin Henry"
