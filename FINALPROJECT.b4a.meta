@@ -16,6 +16,6 @@ ModuleClosedNodes2=
 ModuleClosedNodes3=
 ModuleClosedNodes4=
 ModuleClosedNodes5=1
-NavigationStack=Visual Designer,layout.bal,-100,6,Drama,Process_Globals,10,0,Main,Button1_Click,44,1,panelView,Activity_Create,25,1,panelView,Globals,15,0,Visual Designer,Drama.bal,-100,6,Visual Designer,panelView.bal,-100,6,Drama,Activity_Create,102,6,Drama,Globals,53,6,Drama,Button1_Click,125,6
+NavigationStack=Drama,Process_Globals,10,0,Main,Button1_Click,44,1,panelView,Activity_Create,25,1,panelView,Globals,15,0,Visual Designer,panelView.bal,-100,6,Visual Designer,Drama.bal,-100,6,Drama,Activity_Create,60,6,Drama,Globals,47,6,Drama,SearchBtn_Click,102,0,Drama,SearchEngine_TextChanged,123,0
 SelectedBuild=0
 VisibleModules=5,2,1,4,3
