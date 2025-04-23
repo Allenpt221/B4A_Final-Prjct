@@ -58,11 +58,15 @@ starter,service_taskremoved,0,0,22,24
 
 
 
-drama,activity_create,1,1,49,102
-,scrollview1,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
-,scrollview1,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
+drama,activity_create,1,0,59,113
+,button1,,edittext1,,scrollview1,,p,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,panel2,,panel6,,panel7,,panel8,,panel9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
+,button1,,edittext1,,scrollview1,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,panel2,,panel6,,panel7,,panel8,,panel9,,star1,,star10,,star2,,star3,,star4,,star5,,star6,,star7,,star8,,star9
 
-drama,globals,0,1,12,47
+drama,button1_click,0,0,115,138
+,edittext1,,drama1,,star1,,drama2,,star2,,drama3,,star3,,panel6,,panel7,,p,,scrollview1
+
+
+drama,globals,0,1,12,57
 
 
 

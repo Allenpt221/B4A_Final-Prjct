@@ -50,19 +50,28 @@ Sub Globals
 	Private Star7 As Label
 	Private Star8 As Label
 	Private Star9 As Label
+	Private Button1 As Button
+	Private EditText1 As EditText
+	
+	Dim p As Panel
+	'panels generate
+	Private Panel2 As Panel
+	Private Panel6 As Panel
+	Private Panel7 As Panel
+	Private Panel8 As Panel
+	Private Panel9 As Panel
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
 	Activity.LoadLayout("Drama") ' This layout contains ScrollView1
 
-	Dim p As Panel
+	
 	p.Initialize("")
-
-	' Load the layout used in the other module/activity
-	p.LoadLayout("panelview") ' Just reuse the layout from panelView activity
+	p.LoadLayout("panelview")
 	
 	DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "avengers.jpeg")
-
+	
+	
 	
 	Drama1.Text = "Avengers Dooms Day"
 	Star1.Text = "☆☆☆"
@@ -105,8 +114,31 @@ Sub Activity_Create(FirstTime As Boolean)
 
 	' Adjust scroll height
 	ScrollView1.Panel.Height = p.Height
+	
+	
 End Sub
 
+Private Sub Button1_Click
+	
+	Dim userInput As String
+	userInput = EditText1.Text
+	If EditText1.Text = "Avengers Dooms Day" Or EditText1.Text = "Avengers" Then
+		Drama1.Text = "Avengers Dooms Day"
+		Star1.Text = "☆☆☆"
+		Drama2.Text = "Avengers Dooms Day"
+		Star2.Text = "☆☆☆"
+		Drama3.Text = "Avengers Dooms Day"
+		Star3.Text = "☆☆☆"
+		Panel6.Visible = False
+		Panel7.Visible = False
+		p.Height = 70%y
+		p.Width = 100%x
+	
+		ScrollView1.Panel.Height = p.Height
+	Else
+		MsgboxAsync(userInput, "Not Found!")
+	End If
+	
+	
 
-
-
+End Sub
