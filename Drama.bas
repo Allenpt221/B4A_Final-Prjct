@@ -108,6 +108,7 @@ Sub Globals
 	
 	'not found label generate
 	Private NotFound As Label
+	Private NotFoundImg As ImageView
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -115,6 +116,8 @@ Sub Activity_Create(FirstTime As Boolean)
 	
 	p.Initialize("")
 	p.LoadLayout("panelview")
+	
+	NotFoundImg.Visible = False
 	
 	
 
@@ -515,8 +518,8 @@ Private Sub SearchBtn_Click
 		p.Height = 70%y
 	Else
 		HideAllPanels
-		
-		NotFound.Text = "Not Found!"
+		NotFoundImg.Visible = True
+		NotFoundImg.Bitmap = LoadBitmap(File.DirAssets, "404.png")
 
 	End If
 
@@ -559,6 +562,7 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Panel9.Visible = True
 		Panel10.Visible = True
 		Panel11.Visible = True
+		NotFoundImg.Visible = False
 		
 		Drama1.Text = "Kramer vs. Kramer"
 		Starter1.Text = "Starring: Dustin Hoffman, Meryl Streep, Justin Henry"
