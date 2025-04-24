@@ -56,15 +56,16 @@ public boolean isSingleton() {
 	}
 public static RemoteObject __c = RemoteObject.declareNull("anywheresoftware.b4a.keywords.Common");
 public static RemoteObject _xui = RemoteObject.declareNull("anywheresoftware.b4a.objects.B4XViewWrapper.XUI");
-public static RemoteObject _scific = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
-public static RemoteObject _actions = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
-public static RemoteObject _dramas = RemoteObject.declareNull("anywheresoftware.b4a.objects.ButtonWrapper");
+public static RemoteObject _actionpage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
+public static RemoteObject _dramapage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
+public static RemoteObject _homepage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
+public static RemoteObject _scifipage = RemoteObject.declareNull("anywheresoftware.b4a.objects.LabelWrapper");
 public static b4a.example.starter _starter = null;
 public static b4a.example.drama _drama = null;
 public static b4a.example.action _action = null;
 public static b4a.example.scifi _scifi = null;
 public static b4a.example.panelview _panelview = null;
   public Object[] GetGlobals() {
-		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"Actions",main.mostCurrent._actions,"Activity",main.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"Dramas",main.mostCurrent._dramas,"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"SciFic",main.mostCurrent._scific,"Starter",Debug.moduleToString(b4a.example.starter.class),"xui",main._xui};
+		return new Object[] {"Action",Debug.moduleToString(b4a.example.action.class),"ActionPage",main.mostCurrent._actionpage,"Activity",main.mostCurrent._activity,"Drama",Debug.moduleToString(b4a.example.drama.class),"DramaPage",main.mostCurrent._dramapage,"HomePage",main.mostCurrent._homepage,"panelView",Debug.moduleToString(b4a.example.panelview.class),"SciFi",Debug.moduleToString(b4a.example.scifi.class),"SciFiPage",main.mostCurrent._scifipage,"Starter",Debug.moduleToString(b4a.example.starter.class),"xui",main._xui};
 }
 }

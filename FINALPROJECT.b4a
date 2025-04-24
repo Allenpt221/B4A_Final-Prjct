@@ -50,9 +50,11 @@ End Sub
 Sub Globals
 	'These global variables will be redeclared each time the activity is created.
 
-	Private SciFic As Button
-	Private Actions As Button
-	Private Dramas As Button
+	
+	Private ActionPage As Label
+	Private DramaPage As Label
+	Private HomePage As Label
+	Private SciFiPage As Label
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -72,14 +74,20 @@ Sub Activity_Pause (UserClosed As Boolean)
 
 End Sub
 
-Private Sub SciFic_Click
+
+
+Private Sub SciFiPage_Click
 	StartActivity(SciFi)
+	Activity.Finish
 End Sub
 
-Private Sub Dramas_Click
+
+Private Sub DramaPage_Click
 	StartActivity(Drama)
+	Activity.Finish
 End Sub
 
-Private Sub Actions_Click
+Private Sub ActionPage_Click
 	StartActivity(Action)
+	Activity.Finish
 End Sub
