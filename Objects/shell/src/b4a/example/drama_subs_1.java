@@ -3,7 +3,7 @@ package b4a.example;
 import anywheresoftware.b4a.BA;
 import anywheresoftware.b4a.pc.*;
 
-public class drama_subs_0 {
+public class drama_subs_1 {
 
 
 public static RemoteObject  _actionpage_click() throws Exception{
