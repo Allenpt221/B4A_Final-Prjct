@@ -98,7 +98,7 @@ drama,searchengine_textchanged,0,1,638,735
 ,notfound,,p,,scrollview1,,panel2,,panel3,,panel4,,panel5,,panel6,,panel7,,panel8,,panel9,,panel10,,panel11,,notfoundimg,,drama1,,starter1,,year1,,overview1,,dramaimage1,,drama2,,starter2,,year2,,overview2,,dramaimage2,,drama3,,starter3,,year3,,overview3,,dramaimage3,,drama4,,starter4,,year4,,overview4,,dramaimage4,,drama5,,starter5,,year5,,overview5,,dramaimage5,,drama6,,starter6,,year6,,overview6,,dramaimage6,,drama7,,starter7,,year7,,overview7,,dramaimage7,,drama8,,starter8,,year8,,overview8,,dramaimage8,,drama9,,starter9,,year9,,overview9,,dramaimage9,,drama10,,starter10,,year10,,overview10,,dramaimage10
 
 
-action,actionpage_click,0,0,668,670
+action,actionpage_click,0,0,766,768
 
 
 
@@ -106,7 +106,7 @@ action,activity_create,1,1,109,194
 ,actionpage,,dramapage,,homepage,,notfound,,panel1,,panel3,,scifipage,,scrollview1,,searchbtn,,searchengine,,p,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,notfoundimg,,overview1,,overview10,,overview2,,overview3,,overview4,,overview5,,overview6,,overview7,,overview8,,overview9,,panel10,,panel11,,panel2,,panel4,,panel5,,panel6,,panel7,,panel8,,panel9,,starter1,,starter10,,starter2,,starter3,,starter4,,starter5,,starter6,,starter7,,starter8,,starter9,,year1,,year10,,year2,,year3,,year4,,year5,,year6,,year7,,year8,,year9
 ,actionpage,,dramapage,,homepage,,notfound,,panel1,,panel3,,scifipage,,scrollview1,,searchbtn,,searchengine,,drama1,,drama10,,drama2,,drama3,,drama4,,drama5,,drama6,,drama7,,drama8,,drama9,,dramaimage1,,dramaimage10,,dramaimage2,,dramaimage3,,dramaimage4,,dramaimage5,,dramaimage6,,dramaimage7,,dramaimage8,,dramaimage9,,notfoundimg,,overview1,,overview10,,overview2,,overview3,,overview4,,overview5,,overview6,,overview7,,overview8,,overview9,,panel10,,panel11,,panel2,,panel4,,panel5,,panel6,,panel7,,panel8,,panel9,,starter1,,starter10,,starter2,,starter3,,starter4,,starter5,,starter6,,starter7,,starter8,,starter9,,year1,,year10,,year2,,year3,,year4,,year5,,year6,,year7,,year8,,year9
 
-action,dramapage_click,0,0,672,674
+action,dramapage_click,0,0,770,772
 
 
 
@@ -114,11 +114,11 @@ action,globals,0,1,12,107
 
 
 
-action,hideallpanels,0,0,550,561
+action,hideallpanels,0,0,648,659
 ,panel2,,panel3,,panel4,,panel5,,panel6,,panel7,,panel8,,panel9,,panel10,,panel11
 
 
-action,homepage_click,0,0,676,678
+action,homepage_click,0,0,774,776
 
 
 
@@ -126,15 +126,15 @@ action,process_globals,0,1,6,10
 
 
 
-action,scifipage_click,0,0,664,666
+action,scifipage_click,0,0,762,764
 
 
 
-action,searchbtn_click,0,1,198,548
+action,searchbtn_click,0,1,198,646
 ,searchengine,,drama1,,starter1,,year1,,overview1,,dramaimage1,,panel3,,panel4,,panel5,,panel6,,panel7,,p,,drama7,,starter7,,year7,,overview7,,dramaimage7,,drama10,,starter10,,year10,,overview10,,dramaimage10,,drama2,,starter2,,year2,,overview2,,dramaimage2,,drama3,,starter3,,year3,,overview3,,dramaimage3,,drama4,,starter4,,year4,,overview4,,dramaimage4,,notfoundimg,,scrollview1,,panel2,,panel8,,panel9,,panel10,,panel11
 
 ,hideallpanels
-action,searchengine_textchanged,0,1,564,661
+action,searchengine_textchanged,0,1,662,759
 ,notfound,,p,,scrollview1,,panel2,,panel3,,panel4,,panel5,,panel6,,panel7,,panel8,,panel9,,panel10,,panel11,,notfoundimg,,drama1,,starter1,,year1,,overview1,,dramaimage1,,drama2,,starter2,,year2,,overview2,,dramaimage2,,drama3,,starter3,,year3,,overview3,,dramaimage3,,drama4,,starter4,,year4,,overview4,,dramaimage4,,drama5,,starter5,,year5,,overview5,,dramaimage5,,drama6,,starter6,,year6,,overview6,,dramaimage6,,drama7,,starter7,,year7,,overview7,,dramaimage7,,drama8,,starter8,,year8,,overview8,,dramaimage8,,drama9,,starter9,,year9,,overview9,,dramaimage9,,drama10,,starter10,,year10,,overview10,,dramaimage10
 
 

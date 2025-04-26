@@ -512,12 +512,12 @@ Private Sub SearchBtn_Click
 		
 		p.Height = 70%y
 	Else if query.Contains("shu qi") Or query.Contains("shu") Or query.Contains("qi") Or query.Contains("matt") Or query.Contains("schulze") Or query.Contains("matt schulze") Then
-		Drama3.Text = "The Transporter"
-		Starter3.Text = "Starring: Jason Statham, Shu Qi, Matt Schulze"
-		Year3.Text = "(2002)"
-		OverView3.Text = "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise."
-		DramaImage3.Gravity = Gravity.FILL
-		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		Drama1.Text = "The Transporter"
+		Starter1.Text = "Starring: Jason Statham, Shu Qi, Matt Schulze"
+		Year1.Text = "(2002)"
+		OverView1.Text = "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
 		
 		Panel3.Visible = False
 		Panel4.Visible = False
@@ -527,12 +527,12 @@ Private Sub SearchBtn_Click
 		
 		p.Height = 70%y
 	Else if query.Contains("chris evans") Or query.Contains("chris") Or query.Contains("evans") Or query.Contains("mark ruffalo") Or query.Contains("mark") Or query.Contains("ruffalo") Then
-		Drama4.Text = "Avengers: Endgame"
-		Starter4.Text = "Starring: Robert Downey Jr., Chris Evans, Mark Ruffalo"
-		Year4.Text = "(2019)"
-		OverView4.Text = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
-		DramaImage4.Gravity = Gravity.FILL
-		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		Drama1.Text = "Avengers: Endgame"
+		Starter1.Text = "Starring: Robert Downey Jr., Chris Evans, Mark Ruffalo"
+		Year1.Text = "(2019)"
+		OverView1.Text = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
 		
 		Panel3.Visible = False
 		Panel4.Visible = False
@@ -541,6 +541,104 @@ Private Sub SearchBtn_Click
 		Panel7.Visible = False
 		
 		p.Height = 70%y
+	Else if query.Contains("dafne keen") Or query.Contains("dafne") Or query.Contains("keen") Then
+		Drama1.Text = "Logan"
+		Starter1.Text = "Starring: Hugh Jackman, Patrick Stewart, Dafne Keen"
+		Year1.Text = "(2017)"
+		OverView1.Text = "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		
+		Panel3.Visible = False
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+		
+	Else if query.Contains("gwyneth paltrow") Or query.Contains("gwyneth") Or query.Contains("paltrow") Or query.Contains("terrence howard") Or query.Contains("terrence") Or query.Contains("howard") Then
+		Drama1.Text = "Iron Man"
+		Starter1.Text = "Starring: Robert Downey Jr., Gwyneth Paltrow, Terrence Howard"
+		Year1.Text = "(2008)"
+		OverView1.Text = "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		
+		Panel3.Visible = False
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+	
+	Else if query.Contains("ian mckellen") Or query.Contains("ian") Or query.Contains("mckellen") Then
+		Drama1.Text = "X-Men"
+		Starter1.Text = "Starring: Patrick Stewart, Hugh Jackman, Ian McKellen"
+		Year1.Text = "(2000)"
+		OverView1.Text = "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		
+		Panel3.Visible = False
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+	
+	Else if query.Contains("brad pitt") Or query.Contains("brad") Or query.Contains("pitt") Or query.Contains("angelina jolie") Or query.Contains("angelina") Or query.Contains("jolie") Or query.Contains("adam brody") Or query.Contains("adam") Or query.Contains("brody") Then
+		Drama1.Text = "Mr. & Mrs. Smith "
+		Starter1.Text = "Starring: Brad Pitt, Angelina Jolie, Adam Brody"
+		Year1.Text = "(2005)"
+		OverView1.Text = "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+		
+		Panel3.Visible = False
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+		
+		
+		
+	Else if query.Contains("will yun lee") Or query.Contains("will") Or query.Contains("yun") Or query.Contains("lee") Or query.Contains("tao okamoto") Or query.Contains("tao") Or query.Contains("okamoto") Then
+		Drama1.Text = "The Wolverine"
+		Starter1.Text = "Starring: Hugh Jackman, Will Yun Lee, Tao Okamoto"
+		Year1.Text = "(2015)"
+		OverView1.Text = "A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		
+		Panel3.Visible = False
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+		
+	Else if query.Contains("jake gyllenhaal") Or query.Contains("jake") Or query.Contains("gyllenhaal") Or query.Contains("viola davis") Or query.Contains("viola") Or query.Contains("davis") Then
+		Drama1.Text = "Prisoners"
+		Starter1.Text = "Starring: Hugh Jackman, Jake Gyllenhaal, Viola Davis"
+		Year1.Text = "(2013)"
+		OverView1.Text = "A desperate father takes the law into his own hands after police fail to find two kidnapped girls."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		
+		Panel3.Visible = False
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+		
 	Else
 		HideAllPanels
 		NotFoundImg.Visible = True
