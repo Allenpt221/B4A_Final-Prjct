@@ -3,7 +3,7 @@ package b4a.example;
 import anywheresoftware.b4a.BA;
 import anywheresoftware.b4a.pc.*;
 
-public class drama_subs_0 {
+public class drama_subs_1 {
 
 
 public static RemoteObject  _actionpage_click() throws Exception{
@@ -415,47 +415,6 @@ Debug.ShouldStop(4194304);
 drama.mostCurrent._activity.runVoidMethod ("Finish");
  BA.debugLineNum = 792;BA.debugLine="End Sub";
 Debug.ShouldStop(8388608);
-return RemoteObject.createImmutable("");
-}
-catch (Exception e) {
-			throw Debug.ErrorCaught(e);
-		} 
-finally {
-			Debug.PopSubsStack();
-		}}
-public static RemoteObject  _panel2_click() throws Exception{
-try {
-		Debug.PushSubsStack("Panel2_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,803);
-if (RapidSub.canDelegate("panel2_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel2_click");}
-RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
- BA.debugLineNum = 803;BA.debugLine="Private Sub Panel2_Click";
-Debug.ShouldStop(4);
- BA.debugLineNum = 804;BA.debugLine="Try";
-Debug.ShouldStop(8);
-try { BA.debugLineNum = 805;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(16);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 806;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-Debug.ShouldStop(32);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0079417/")));
- BA.debugLineNum = 807;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-Debug.ShouldStop(64);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 808;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(128);
-drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
- Debug.CheckDeviceExceptions();
-} 
-       catch (Exception e7) {
-			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 810;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(512);
-drama.mostCurrent.__c.runVoidMethod ("LogImpl","05570567",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
- BA.debugLineNum = 811;BA.debugLine="Msgbox(\"Error\", \"\")";
-Debug.ShouldStop(1024);
-drama.mostCurrent.__c.runVoidMethodAndSync ("Msgbox",(Object)(BA.ObjectToCharSequence("Error")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable(""))),drama.mostCurrent.activityBA);
- };
- BA.debugLineNum = 814;BA.debugLine="End Sub";
-Debug.ShouldStop(8192);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {

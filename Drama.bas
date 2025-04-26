@@ -108,7 +108,7 @@ Sub Globals
 	
 	'not found label generate
 	Private NotFound As Label
-	Private NotFoundImg As ImageView
+	
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -117,7 +117,6 @@ Sub Activity_Create(FirstTime As Boolean)
 	p.Initialize("")
 	p.LoadLayout("panelview")
 	
-	NotFoundImg.Visible = False
 	
 	
 
@@ -202,6 +201,8 @@ End Sub
 
 Private Sub SearchBtn_Click
 	Dim query As String = SearchEngine.Text.ToLowerCase.Trim
+	
+	Dim UserInput As String = SearchEngine.Text
     
 	' Hide all panels by default
 	
@@ -231,6 +232,7 @@ Private Sub SearchBtn_Click
 		OverView1.Text = "After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		
 		
 		Panel3.Visible = False
 		Panel4.Visible = False
@@ -374,6 +376,21 @@ Private Sub SearchBtn_Click
 		Panel7.Visible = False
 		
 		p.Height = 70%y		
+	Else If query.Contains("doubt") Then
+		Drama1.Text = "Doubt"
+		Starter1.Text = "Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"
+		Year1.Text = "(2008)"
+		OverView1.Text = "In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "doubt.jpg")
+		
+		Panel3.Visible = False
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		p.Height = 70%y
+		
 	'cast
 	Else If query.Contains("meryl streep") Or query.Contains("meryl") Or query.Contains("streep") Then
 		Drama1.Text = "The Bridges of Madison County"
@@ -505,12 +522,6 @@ Private Sub SearchBtn_Click
 		p.Height = 70%y
 		
 	Else If query.Contains("amy Adams") Or query.Contains("amy") Or query.Contains("adams") Then
-		Drama1.Text = "Doubt"
-		Starter1.Text = "Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"
-		Year1.Text = "(2008)"
-		OverView1.Text = "In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."
-		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "doubt.jpg")
 		
 		Drama2.Text = "The Master"
 		Starter2.Text = "Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"
@@ -526,6 +537,7 @@ Private Sub SearchBtn_Click
 		DramaImage3.Gravity = Gravity.FILL
 		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
 		
+		Panel4.Visible = False
 		Panel5.Visible = False
 		Panel6.Visible = False
 		Panel7.Visible = False
@@ -600,7 +612,7 @@ Private Sub SearchBtn_Click
 		Panel7.Visible = False
 		
 		p.Height = 70%y
-	Else if query.Contains("dustin hoffman") Or query.Contains("dustin") Or query.Contains("hoffman") Or query.Contains("justin henry") Or query.Contains("justin") Or query.Contains("henry") Then
+	Else if query.Contains("dustin hoffman") Or query.Contains("dustin")  Or query.Contains("justin henry") Or query.Contains("justin") Or query.Contains("henry") Then
 		Drama1.Text = "Kramer vs. Kramer"
 		Starter1.Text = "Starring: Dustin Hoffman, Meryl Streep, Justin Henry"
 		Year1.Text = "(1979)"
@@ -615,11 +627,54 @@ Private Sub SearchBtn_Click
 		Panel7.Visible = False
 		
 		p.Height = 70%y
+	Else If query.Contains("philip seymour hoffman") Or query.Contains("philip") Or query.Contains("seymour") Then
+		Drama1.Text = "Doubt"
+		Starter1.Text = "Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"
+		Year1.Text = "(2008)"
+		OverView1.Text = "In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "doubt.jpg")
+		
+		
+		Drama2.Text = "The Master"
+		Starter2.Text = "Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"
+		Year2.Text = "(2012)"
+		OverView2.Text = "A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."
+		DramaImage2.Gravity = Gravity.FILL
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+		
+	Else If query.Contains("hoffman") Then
+		Drama1.Text = "Kramer vs. Kramer"
+		Starter1.Text = "Starring: Dustin Hoffman, Meryl Streep, Justin Henry"
+		Year1.Text = "(1979)"
+		OverView1.Text = "In this emotionally charged courtroom and family drama, Kramer vs. Kramer refers to the heartbreaking custody battle between Ted Kramer, a man forced into single fatherhood, and Joanna Kramer, the wife who returns after abandoning their son. As love, responsibility, and personal growth collide, the film asks: what defines a good parent?"
+		DramaImage1.Gravity = Gravity.FILL
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		
+		Drama2.Text = "Doubt"
+		Starter2.Text = "Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"
+		Year2.Text = "(2008)"
+		OverView2.Text = "In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."
+		DramaImage2.Gravity = Gravity.FILL
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "doubt.jpg")
+		
+		Panel4.Visible = False
+		Panel5.Visible = False
+		Panel6.Visible = False
+		Panel7.Visible = False
+		
+		p.Height = 70%y
+		
 	Else
-		HideAllPanels
-		NotFoundImg.Visible = True
-		NotFoundImg.Bitmap = LoadBitmap(File.DirAssets, "404.png")
-
+		MsgboxAsync("No results found for" & " """ & UserInput & """" , "")
+		
 	End If
 
 		
@@ -627,18 +682,8 @@ Private Sub SearchBtn_Click
 	ScrollView1.Panel.Height = p.Height
 End Sub
 
-Private Sub HideAllPanels
-	Panel2.Visible = False
-	Panel3.Visible = False
-	Panel4.Visible = False
-	Panel5.Visible = False
-	Panel6.Visible = False
-	Panel7.Visible = False
-	Panel8.Visible = False
-	Panel9.Visible = False
-	Panel10.Visible = False
-	Panel11.Visible = False
-End Sub
+
+
 
 
 Sub SearchEngine_TextChanged (Old As String, New As String)
@@ -661,7 +706,6 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Panel9.Visible = True
 		Panel10.Visible = True
 		Panel11.Visible = True
-		NotFoundImg.Visible = False
 		
 		Drama1.Text = "Kramer vs. Kramer"
 		Starter1.Text = "Starring: Dustin Hoffman, Meryl Streep, Justin Henry"
@@ -741,6 +785,8 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 End Sub
 
 
+
+
 Private Sub SciFiPage_Click
 	StartActivity(SciFi)
 	Activity.Finish
@@ -759,3 +805,5 @@ Private Sub ActionPage_Click
 	StartActivity(Action)
 	Activity.Finish
 End Sub
+
+

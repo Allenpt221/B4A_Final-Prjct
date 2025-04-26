@@ -109,7 +109,6 @@ Sub Globals
 	
 	'not found label generate
 	Private NotFound As Label
-	Private NotFoundImg As ImageView
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -118,14 +117,13 @@ Sub Activity_Create(FirstTime As Boolean)
 	p.Initialize("")
 	p.LoadLayout("panelview")
 	
-	NotFoundImg.Visible = False
 	
 	
 
 	' Set initial images and texts
 
 	Drama1.Text = "Crank"
-	Starter1.Text = "1.	Starring: Jason Statham, Amy Smart, Carlos Sanz"
+	Starter1.Text = "Starring: Jason Statham, Amy Smart, Carlos Sanz"
 	Year1.Text = "(2006)"
 	OverView1.Text = "Professional assassin Chev Chelios learns his rival has injected him with a poison that will kill him if his heart rate drops."
 	DramaImage1.Gravity = Gravity.FILL
@@ -199,12 +197,16 @@ Sub Activity_Create(FirstTime As Boolean)
 	ScrollView1.Panel.Height = p.Height
 End Sub
 
+Private Sub SearchBtn_Click 
+	SearchNow
+End Sub
 
 
-Private Sub SearchBtn_Click
-	Dim query As String = SearchEngine.Text.ToLowerCase.Trim
-    
+Sub SearchNow
+	Dim query As String = SearchEngine.Text.ToLowerCase.Trim    
 	' Hide all panels by default
+	
+	Dim UserInput As String = SearchEngine.Text
 	
     
 	If query.Contains("crank") Then
@@ -640,29 +642,17 @@ Private Sub SearchBtn_Click
 		p.Height = 70%y
 		
 	Else
-		HideAllPanels
-		NotFoundImg.Visible = True
-		NotFoundImg.Bitmap = LoadBitmap(File.DirAssets, "404.png")
-
+		
+		MsgboxAsync("No results found for" & " """ & UserInput & """" , "")
+	
 	End If
 
-		
 	p.Width = 100%x
 	ScrollView1.Panel.Height = p.Height
+	
 End Sub
 
-Private Sub HideAllPanels
-	Panel2.Visible = False
-	Panel3.Visible = False
-	Panel4.Visible = False
-	Panel5.Visible = False
-	Panel6.Visible = False
-	Panel7.Visible = False
-	Panel8.Visible = False
-	Panel9.Visible = False
-	Panel10.Visible = False
-	Panel11.Visible = False
-End Sub
+
 
 
 Sub SearchEngine_TextChanged (Old As String, New As String)
@@ -685,10 +675,9 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Panel9.Visible = True
 		Panel10.Visible = True
 		Panel11.Visible = True
-		NotFoundImg.Visible = False
 		
 		Drama1.Text = "Crank"
-		Starter1.Text = "1.	Starring: Jason Statham, Amy Smart, Carlos Sanz"
+		Starter1.Text = "Starring: Jason Statham, Amy Smart, Carlos Sanz"
 		Year1.Text = "(2006)"
 		OverView1.Text = "Professional assassin Chev Chelios learns his rival has injected him with a poison that will kill him if his heart rate drops."
 		DramaImage1.Gravity = Gravity.FILL
@@ -767,6 +756,7 @@ End Sub
 
 Private Sub SciFiPage_Click
 	StartActivity(SciFi)
+	Activity.Finish
 End Sub
 
 Private Sub ActionPage_Click
@@ -775,8 +765,10 @@ End Sub
 
 Private Sub DramaPage_Click
 	StartActivity(Drama)
+	Activity.Finish
 End Sub
 
 Private Sub HomePage_Click
 	StartActivity(Main)
+	Activity.Finish
 End Sub
