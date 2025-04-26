@@ -423,39 +423,509 @@ catch (Exception e) {
 finally {
 			Debug.PopSubsStack();
 		}}
-public static RemoteObject  _panel2_click() throws Exception{
+public static RemoteObject  _panel10_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel10_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,913);
+if (RapidSub.canDelegate("panel10_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel10_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 913;BA.debugLine="Private Sub Panel10_Click";
+Debug.ShouldStop(65536);
+ BA.debugLineNum = 914;BA.debugLine="Try";
+Debug.ShouldStop(131072);
+try { BA.debugLineNum = 915;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(262144);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 916;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(524288);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt2402927/")));
+ BA.debugLineNum = 917;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(1048576);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 918;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(2097152);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 920;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(8388608);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","06225927",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 921;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(16777216);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 924;BA.debugLine="End Sub";
+Debug.ShouldStop(134217728);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _panel11_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel11_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,926);
+if (RapidSub.canDelegate("panel11_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel11_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 926;BA.debugLine="Private Sub Panel11_Click";
+Debug.ShouldStop(536870912);
+ BA.debugLineNum = 927;BA.debugLine="Try";
+Debug.ShouldStop(1073741824);
+try { BA.debugLineNum = 928;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(-2147483648);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 929;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(1);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt9100054/")));
+ BA.debugLineNum = 930;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(2);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 931;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(4);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 933;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(16);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","06291463",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 934;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(32);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 937;BA.debugLine="End Sub";
+Debug.ShouldStop(256);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static void  _panel2_click() throws Exception{
 try {
 		Debug.PushSubsStack("Panel2_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,803);
-if (RapidSub.canDelegate("panel2_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel2_click");}
+if (RapidSub.canDelegate("panel2_click")) { b4a.example.drama.remoteMe.runUserSub(false, "drama","panel2_click"); return;}
+ResumableSub_Panel2_Click rsub = new ResumableSub_Panel2_Click(null);
+rsub.resume(null, null);
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static class ResumableSub_Panel2_Click extends BA.ResumableSub {
+public ResumableSub_Panel2_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+java.util.LinkedHashMap<String, Object> rsLocals = new java.util.LinkedHashMap<String, Object>();
+b4a.example.drama parent;
+RemoteObject _result = RemoteObject.createImmutable(0);
 RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
- BA.debugLineNum = 803;BA.debugLine="Private Sub Panel2_Click";
-Debug.ShouldStop(4);
+
+@Override
+public void resume(BA ba, RemoteObject result) throws Exception{
+try {
+		Debug.PushSubsStack("Panel2_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,803);
+Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
  BA.debugLineNum = 804;BA.debugLine="Try";
 Debug.ShouldStop(8);
-try { BA.debugLineNum = 805;BA.debugLine="Dim i As Intent";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+ BA.debugLineNum = 805;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(16);
+parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),drama.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
+ BA.debugLineNum = 806;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(32);
+parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", drama.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "drama", "panel2_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
+;
+ BA.debugLineNum = 807;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(64);
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (RemoteObject.solveBoolean("=",_result,BA.numberCast(double.class, parent.mostCurrent.__c.getField(false,"DialogResponse").getField(true,"POSITIVE")))) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+ BA.debugLineNum = 808;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(128);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 809;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(256);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0079417/")));
+ BA.debugLineNum = 810;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(512);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 811;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(1024);
+parent.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ Debug.CheckDeviceExceptions();
+if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+ BA.debugLineNum = 815;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(16384);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","05570572",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 816;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(32768);
+parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+ BA.debugLineNum = 819;BA.debugLine="End Sub";
+Debug.ShouldStop(262144);
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e0.toString());}
+            }
+        }
+    }
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+}
+public static void  _msgbox_result(RemoteObject _result) throws Exception{
+}
+public static RemoteObject  _panel3_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel3_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,822);
+if (RapidSub.canDelegate("panel3_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel3_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 822;BA.debugLine="Private Sub Panel3_Click";
+Debug.ShouldStop(2097152);
+ BA.debugLineNum = 823;BA.debugLine="Try";
+Debug.ShouldStop(4194304);
+try { BA.debugLineNum = 824;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(8388608);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 825;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(16777216);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt4034228/")));
+ BA.debugLineNum = 826;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(33554432);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 827;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(67108864);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 829;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(268435456);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","05701639",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 830;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(536870912);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 833;BA.debugLine="End Sub";
+Debug.ShouldStop(1);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _panel4_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel4_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,835);
+if (RapidSub.canDelegate("panel4_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel4_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 835;BA.debugLine="Private Sub Panel4_Click";
+Debug.ShouldStop(4);
+ BA.debugLineNum = 836;BA.debugLine="Try";
+Debug.ShouldStop(8);
+try { BA.debugLineNum = 837;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(16);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 806;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+ BA.debugLineNum = 838;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 Debug.ShouldStop(32);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0079417/")));
- BA.debugLineNum = 807;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1560747/")));
+ BA.debugLineNum = 839;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 Debug.ShouldStop(64);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 808;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 840;BA.debugLine="StartActivity(i)";
 Debug.ShouldStop(128);
 drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
  Debug.CheckDeviceExceptions();
 } 
        catch (Exception e7) {
-			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 810;BA.debugLine="Log(LastException)";
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 842;BA.debugLine="Log(LastException)";
 Debug.ShouldStop(512);
-drama.mostCurrent.__c.runVoidMethod ("LogImpl","05570567",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
- BA.debugLineNum = 811;BA.debugLine="Msgbox(\"Error\", \"\")";
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","05767175",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 843;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 Debug.ShouldStop(1024);
-drama.mostCurrent.__c.runVoidMethodAndSync ("Msgbox",(Object)(BA.ObjectToCharSequence("Error")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable(""))),drama.mostCurrent.activityBA);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
  };
- BA.debugLineNum = 814;BA.debugLine="End Sub";
+ BA.debugLineNum = 846;BA.debugLine="End Sub";
 Debug.ShouldStop(8192);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _panel5_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel5_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,848);
+if (RapidSub.canDelegate("panel5_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel5_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 848;BA.debugLine="Private Sub Panel5_Click";
+Debug.ShouldStop(32768);
+ BA.debugLineNum = 849;BA.debugLine="Try";
+Debug.ShouldStop(65536);
+try { BA.debugLineNum = 850;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(131072);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 851;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(262144);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0405159/")));
+ BA.debugLineNum = 852;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(524288);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 853;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(1048576);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 855;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(4194304);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","05832711",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 856;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(8388608);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 859;BA.debugLine="End Sub";
+Debug.ShouldStop(67108864);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _panel6_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel6_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,861);
+if (RapidSub.canDelegate("panel6_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel6_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 861;BA.debugLine="Private Sub Panel6_Click";
+Debug.ShouldStop(268435456);
+ BA.debugLineNum = 862;BA.debugLine="Try";
+Debug.ShouldStop(536870912);
+try { BA.debugLineNum = 863;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(1073741824);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 864;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(-2147483648);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0112579/")));
+ BA.debugLineNum = 865;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(1);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 866;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(2);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 868;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(8);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","05898247",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 869;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(16);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 872;BA.debugLine="End Sub";
+Debug.ShouldStop(128);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _panel7_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel7_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,874);
+if (RapidSub.canDelegate("panel7_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel7_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 874;BA.debugLine="Private Sub Panel7_Click";
+Debug.ShouldStop(512);
+ BA.debugLineNum = 875;BA.debugLine="Try";
+Debug.ShouldStop(1024);
+try { BA.debugLineNum = 876;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(2048);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 877;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(4096);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0452623/")));
+ BA.debugLineNum = 878;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(8192);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 879;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(16384);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 881;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(65536);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","05963783",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 882;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(131072);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 885;BA.debugLine="End Sub";
+Debug.ShouldStop(1048576);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _panel8_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel8_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,887);
+if (RapidSub.canDelegate("panel8_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel8_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 887;BA.debugLine="Private Sub Panel8_Click";
+Debug.ShouldStop(4194304);
+ BA.debugLineNum = 888;BA.debugLine="Try";
+Debug.ShouldStop(8388608);
+try { BA.debugLineNum = 889;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(16777216);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 890;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(33554432);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt2334873/")));
+ BA.debugLineNum = 891;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(67108864);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 892;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(134217728);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 894;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(536870912);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","06029319",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 895;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(1073741824);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 898;BA.debugLine="End Sub";
+Debug.ShouldStop(2);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _panel9_click() throws Exception{
+try {
+		Debug.PushSubsStack("Panel9_Click (drama) ","drama",2,drama.mostCurrent.activityBA,drama.mostCurrent,900);
+if (RapidSub.canDelegate("panel9_click")) { return b4a.example.drama.remoteMe.runUserSub(false, "drama","panel9_click");}
+RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentWrapper");
+ BA.debugLineNum = 900;BA.debugLine="Private Sub Panel9_Click";
+Debug.ShouldStop(8);
+ BA.debugLineNum = 901;BA.debugLine="Try";
+Debug.ShouldStop(16);
+try { BA.debugLineNum = 902;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(32);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 903;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+Debug.ShouldStop(64);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1798709/")));
+ BA.debugLineNum = 904;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+Debug.ShouldStop(128);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 905;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(256);
+drama.mostCurrent.__c.runVoidMethod ("StartActivity",drama.processBA,(Object)((_i.getObject())));
+ Debug.CheckDeviceExceptions();
+} 
+       catch (Exception e7) {
+			BA.rdebugUtils.runVoidMethod("setLastException",drama.processBA, e7.toString()); BA.debugLineNum = 907;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(1024);
+drama.mostCurrent.__c.runVoidMethod ("LogImpl","06094855",BA.ObjectToString(drama.mostCurrent.__c.runMethod(false,"LastException",drama.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 908;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(2048);
+drama.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),drama.processBA);
+ };
+ BA.debugLineNum = 911;BA.debugLine="End Sub";
+Debug.ShouldStop(16384);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {

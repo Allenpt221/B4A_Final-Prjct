@@ -16,6 +16,6 @@ ModuleClosedNodes2=6
 ModuleClosedNodes3=
 ModuleClosedNodes4=
 ModuleClosedNodes5=1
-NavigationStack=Drama,Globals,103,0,Drama,Activity_Create,112,0,Drama,SearchEngine_TextChanged,682,0,Drama,DramaPage_Click,794,0,Action,HomePage_Click,769,0,Action,SearchEngine_TextChanged,672,0,Action,Globals,104,0,Action,Activity_Create,112,0,Drama,ActionPage_Click,802,0
+NavigationStack=Drama,Panel9_Click,902,0,Drama,Panel10_Click,915,1,Drama,Panel11_Click,928,0,Drama,Panel2_Click,804,6,Drama,Panel3_Click,828,2,Drama,Panel4_Click,847,2,Drama,Panel5_Click,864,2,Drama,Panel6_Click,881,2,Drama,Panel7_Click,904,3,Drama,Panel8_Click,915,2
 SelectedBuild=0
 VisibleModules=5,2,1,4,3

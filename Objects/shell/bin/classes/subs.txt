@@ -78,6 +78,46 @@ drama,homepage_click,0,0,789,792
 
 
 
+drama,panel10_click,0,1,913,924
+
+
+
+drama,panel11_click,0,1,926,937
+
+
+
+drama,panel2_click,0,1,803,819
+
+
+
+drama,panel3_click,0,1,822,833
+
+
+
+drama,panel4_click,0,1,835,846
+
+
+
+drama,panel5_click,0,1,848,859
+
+
+
+drama,panel6_click,0,1,861,872
+
+
+
+drama,panel7_click,0,1,874,885
+
+
+
+drama,panel8_click,0,1,887,898
+
+
+
+drama,panel9_click,0,1,900,911
+
+
+
 drama,process_globals,0,1,6,9
 
 

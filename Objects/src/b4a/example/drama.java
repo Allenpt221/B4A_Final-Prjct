@@ -667,38 +667,434 @@ RDebugUtils.currentLine=1179651;
  //BA.debugLineNum = 1179651;BA.debugLine="End Sub";
 return "";
 }
-public static String  _panel2_click() throws Exception{
+public static String  _panel10_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel2_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel2_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel10_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel10_click", null));}
 anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=5570560;
- //BA.debugLineNum = 5570560;BA.debugLine="Private Sub Panel2_Click";
-RDebugUtils.currentLine=5570561;
- //BA.debugLineNum = 5570561;BA.debugLine="Try";
-try {RDebugUtils.currentLine=5570562;
- //BA.debugLineNum = 5570562;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=6225920;
+ //BA.debugLineNum = 6225920;BA.debugLine="Private Sub Panel10_Click";
+RDebugUtils.currentLine=6225921;
+ //BA.debugLineNum = 6225921;BA.debugLine="Try";
+try {RDebugUtils.currentLine=6225922;
+ //BA.debugLineNum = 6225922;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5570563;
- //BA.debugLineNum = 5570563;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0079417/");
-RDebugUtils.currentLine=5570564;
- //BA.debugLineNum = 5570564;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=6225923;
+ //BA.debugLineNum = 6225923;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2402927/");
+RDebugUtils.currentLine=6225924;
+ //BA.debugLineNum = 6225924;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5570565;
- //BA.debugLineNum = 5570565;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=6225925;
+ //BA.debugLineNum = 6225925;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  } 
        catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=5570567;
- //BA.debugLineNum = 5570567;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("05570567",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5570568;
- //BA.debugLineNum = 5570568;BA.debugLine="Msgbox(\"Error\", \"\")";
-anywheresoftware.b4a.keywords.Common.Msgbox(BA.ObjectToCharSequence("Error"),BA.ObjectToCharSequence(""),mostCurrent.activityBA);
+			processBA.setLastException(e7);RDebugUtils.currentLine=6225927;
+ //BA.debugLineNum = 6225927;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("06225927",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=6225928;
+ //BA.debugLineNum = 6225928;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  };
-RDebugUtils.currentLine=5570571;
- //BA.debugLineNum = 5570571;BA.debugLine="End Sub";
+RDebugUtils.currentLine=6225931;
+ //BA.debugLineNum = 6225931;BA.debugLine="End Sub";
+return "";
+}
+public static String  _panel11_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel11_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel11_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=6291456;
+ //BA.debugLineNum = 6291456;BA.debugLine="Private Sub Panel11_Click";
+RDebugUtils.currentLine=6291457;
+ //BA.debugLineNum = 6291457;BA.debugLine="Try";
+try {RDebugUtils.currentLine=6291458;
+ //BA.debugLineNum = 6291458;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=6291459;
+ //BA.debugLineNum = 6291459;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt9100054/");
+RDebugUtils.currentLine=6291460;
+ //BA.debugLineNum = 6291460;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=6291461;
+ //BA.debugLineNum = 6291461;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=6291463;
+ //BA.debugLineNum = 6291463;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("06291463",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=6291464;
+ //BA.debugLineNum = 6291464;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=6291467;
+ //BA.debugLineNum = 6291467;BA.debugLine="End Sub";
+return "";
+}
+public static void  _panel2_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel2_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panel2_click", null); return;}
+ResumableSub_Panel2_Click rsub = new ResumableSub_Panel2_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_Panel2_Click extends BA.ResumableSub {
+public ResumableSub_Panel2_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5570561;
+ //BA.debugLineNum = 5570561;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5570562;
+ //BA.debugLineNum = 5570562;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5570563;
+ //BA.debugLineNum = 5570563;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panel2_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5570564;
+ //BA.debugLineNum = 5570564;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5570565;
+ //BA.debugLineNum = 5570565;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5570566;
+ //BA.debugLineNum = 5570566;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0079417/");
+RDebugUtils.currentLine=5570567;
+ //BA.debugLineNum = 5570567;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5570568;
+ //BA.debugLineNum = 5570568;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5570572;
+ //BA.debugLineNum = 5570572;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("05570572",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5570573;
+ //BA.debugLineNum = 5570573;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5570576;
+ //BA.debugLineNum = 5570576;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static String  _panel3_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel3_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel3_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=5701632;
+ //BA.debugLineNum = 5701632;BA.debugLine="Private Sub Panel3_Click";
+RDebugUtils.currentLine=5701633;
+ //BA.debugLineNum = 5701633;BA.debugLine="Try";
+try {RDebugUtils.currentLine=5701634;
+ //BA.debugLineNum = 5701634;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5701635;
+ //BA.debugLineNum = 5701635;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt4034228/");
+RDebugUtils.currentLine=5701636;
+ //BA.debugLineNum = 5701636;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5701637;
+ //BA.debugLineNum = 5701637;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=5701639;
+ //BA.debugLineNum = 5701639;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("05701639",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5701640;
+ //BA.debugLineNum = 5701640;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=5701643;
+ //BA.debugLineNum = 5701643;BA.debugLine="End Sub";
+return "";
+}
+public static String  _panel4_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel4_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel4_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=5767168;
+ //BA.debugLineNum = 5767168;BA.debugLine="Private Sub Panel4_Click";
+RDebugUtils.currentLine=5767169;
+ //BA.debugLineNum = 5767169;BA.debugLine="Try";
+try {RDebugUtils.currentLine=5767170;
+ //BA.debugLineNum = 5767170;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5767171;
+ //BA.debugLineNum = 5767171;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1560747/");
+RDebugUtils.currentLine=5767172;
+ //BA.debugLineNum = 5767172;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5767173;
+ //BA.debugLineNum = 5767173;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=5767175;
+ //BA.debugLineNum = 5767175;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("05767175",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5767176;
+ //BA.debugLineNum = 5767176;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=5767179;
+ //BA.debugLineNum = 5767179;BA.debugLine="End Sub";
+return "";
+}
+public static String  _panel5_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel5_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel5_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=5832704;
+ //BA.debugLineNum = 5832704;BA.debugLine="Private Sub Panel5_Click";
+RDebugUtils.currentLine=5832705;
+ //BA.debugLineNum = 5832705;BA.debugLine="Try";
+try {RDebugUtils.currentLine=5832706;
+ //BA.debugLineNum = 5832706;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5832707;
+ //BA.debugLineNum = 5832707;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0405159/");
+RDebugUtils.currentLine=5832708;
+ //BA.debugLineNum = 5832708;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5832709;
+ //BA.debugLineNum = 5832709;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=5832711;
+ //BA.debugLineNum = 5832711;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("05832711",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5832712;
+ //BA.debugLineNum = 5832712;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=5832715;
+ //BA.debugLineNum = 5832715;BA.debugLine="End Sub";
+return "";
+}
+public static String  _panel6_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel6_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel6_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=5898240;
+ //BA.debugLineNum = 5898240;BA.debugLine="Private Sub Panel6_Click";
+RDebugUtils.currentLine=5898241;
+ //BA.debugLineNum = 5898241;BA.debugLine="Try";
+try {RDebugUtils.currentLine=5898242;
+ //BA.debugLineNum = 5898242;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5898243;
+ //BA.debugLineNum = 5898243;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0112579/");
+RDebugUtils.currentLine=5898244;
+ //BA.debugLineNum = 5898244;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5898245;
+ //BA.debugLineNum = 5898245;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=5898247;
+ //BA.debugLineNum = 5898247;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("05898247",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5898248;
+ //BA.debugLineNum = 5898248;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=5898251;
+ //BA.debugLineNum = 5898251;BA.debugLine="End Sub";
+return "";
+}
+public static String  _panel7_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel7_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel7_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=5963776;
+ //BA.debugLineNum = 5963776;BA.debugLine="Private Sub Panel7_Click";
+RDebugUtils.currentLine=5963777;
+ //BA.debugLineNum = 5963777;BA.debugLine="Try";
+try {RDebugUtils.currentLine=5963778;
+ //BA.debugLineNum = 5963778;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5963779;
+ //BA.debugLineNum = 5963779;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0452623/");
+RDebugUtils.currentLine=5963780;
+ //BA.debugLineNum = 5963780;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5963781;
+ //BA.debugLineNum = 5963781;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=5963783;
+ //BA.debugLineNum = 5963783;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("05963783",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5963784;
+ //BA.debugLineNum = 5963784;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=5963787;
+ //BA.debugLineNum = 5963787;BA.debugLine="End Sub";
+return "";
+}
+public static String  _panel8_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel8_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel8_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=6029312;
+ //BA.debugLineNum = 6029312;BA.debugLine="Private Sub Panel8_Click";
+RDebugUtils.currentLine=6029313;
+ //BA.debugLineNum = 6029313;BA.debugLine="Try";
+try {RDebugUtils.currentLine=6029314;
+ //BA.debugLineNum = 6029314;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=6029315;
+ //BA.debugLineNum = 6029315;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2334873/");
+RDebugUtils.currentLine=6029316;
+ //BA.debugLineNum = 6029316;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=6029317;
+ //BA.debugLineNum = 6029317;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=6029319;
+ //BA.debugLineNum = 6029319;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("06029319",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=6029320;
+ //BA.debugLineNum = 6029320;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=6029323;
+ //BA.debugLineNum = 6029323;BA.debugLine="End Sub";
+return "";
+}
+public static String  _panel9_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panel9_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel9_click", null));}
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+RDebugUtils.currentLine=6094848;
+ //BA.debugLineNum = 6094848;BA.debugLine="Private Sub Panel9_Click";
+RDebugUtils.currentLine=6094849;
+ //BA.debugLineNum = 6094849;BA.debugLine="Try";
+try {RDebugUtils.currentLine=6094850;
+ //BA.debugLineNum = 6094850;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=6094851;
+ //BA.debugLineNum = 6094851;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1798709/");
+RDebugUtils.currentLine=6094852;
+ //BA.debugLineNum = 6094852;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=6094853;
+ //BA.debugLineNum = 6094853;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ } 
+       catch (Exception e7) {
+			processBA.setLastException(e7);RDebugUtils.currentLine=6094855;
+ //BA.debugLineNum = 6094855;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("06094855",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=6094856;
+ //BA.debugLineNum = 6094856;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ };
+RDebugUtils.currentLine=6094859;
+ //BA.debugLineNum = 6094859;BA.debugLine="End Sub";
 return "";
 }
 public static String  _scifipage_click() throws Exception{
