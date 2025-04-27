@@ -414,7 +414,6 @@ public anywheresoftware.b4a.objects.LabelWrapper _year7 = null;
 public anywheresoftware.b4a.objects.LabelWrapper _year8 = null;
 public anywheresoftware.b4a.objects.LabelWrapper _year9 = null;
 public anywheresoftware.b4a.objects.LabelWrapper _year10 = null;
-public anywheresoftware.b4a.objects.LabelWrapper _notfound = null;
 public b4a.example.main _main = null;
 public b4a.example.starter _starter = null;
 public b4a.example.drama _drama = null;
@@ -3037,9 +3036,6 @@ _query = _new.toLowerCase().trim();
 RDebugUtils.currentLine=2490371;
  //BA.debugLineNum = 2490371;BA.debugLine="If query = \"\" Then";
 if ((_query).equals("")) { 
-RDebugUtils.currentLine=2490373;
- //BA.debugLineNum = 2490373;BA.debugLine="NotFound.Text = \"\"";
-mostCurrent._notfound.setText(BA.ObjectToCharSequence(""));
 RDebugUtils.currentLine=2490374;
  //BA.debugLineNum = 2490374;BA.debugLine="p.Height = 210%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (210),mostCurrent.activityBA));

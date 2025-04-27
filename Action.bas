@@ -108,7 +108,7 @@ Sub Globals
 	Private Year10 As Label
 	
 	'not found label generate
-	Private NotFound As Label
+	
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
@@ -661,7 +661,7 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 
 	If query = "" Then
 		' Reset layout
-		NotFound.Text = ""
+		
 		p.Height = 210%y
 		p.Width = 200%x
 		ScrollView1.Panel.Height = p.Height

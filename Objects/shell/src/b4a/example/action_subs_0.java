@@ -396,8 +396,6 @@ action.mostCurrent._year8 = RemoteObject.createNew ("anywheresoftware.b4a.object
 action.mostCurrent._year9 = RemoteObject.createNew ("anywheresoftware.b4a.objects.LabelWrapper");
  //BA.debugLineNum = 102;BA.debugLine="Private Year10 As Label";
 action.mostCurrent._year10 = RemoteObject.createNew ("anywheresoftware.b4a.objects.LabelWrapper");
- //BA.debugLineNum = 105;BA.debugLine="Private NotFound As Label";
-action.mostCurrent._notfound = RemoteObject.createNew ("anywheresoftware.b4a.objects.LabelWrapper");
  //BA.debugLineNum = 106;BA.debugLine="End Sub";
 return RemoteObject.createImmutable("");
 }
@@ -1886,9 +1884,6 @@ _query = _new.runMethod(true,"toLowerCase").runMethod(true,"trim");Debug.locals.
  BA.debugLineNum = 656;BA.debugLine="If query = \"\" Then";
 Debug.ShouldStop(32768);
 if (RemoteObject.solveBoolean("=",_query,BA.ObjectToString(""))) { 
- BA.debugLineNum = 658;BA.debugLine="NotFound.Text = \"\"";
-Debug.ShouldStop(131072);
-action.mostCurrent._notfound.runMethod(true,"setText",BA.ObjectToCharSequence(""));
  BA.debugLineNum = 659;BA.debugLine="p.Height = 210%y";
 Debug.ShouldStop(262144);
 action.mostCurrent._p.runMethod(true,"setHeight",action.mostCurrent.__c.runMethod(true,"PerYToCurrent",(Object)(BA.numberCast(float.class, 210)),action.mostCurrent.activityBA));
