@@ -354,31 +354,31 @@ public static String  _activity_create(boolean _firsttime) throws Exception{
 RDebugUtils.currentModule="panelview";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=2883584;
- //BA.debugLineNum = 2883584;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=2883586;
- //BA.debugLineNum = 2883586;BA.debugLine="Activity.LoadLayout(\"panelview\")";
+RDebugUtils.currentLine=3538944;
+ //BA.debugLineNum = 3538944;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=3538946;
+ //BA.debugLineNum = 3538946;BA.debugLine="Activity.LoadLayout(\"panelview\")";
 mostCurrent._activity.LoadLayout("panelview",mostCurrent.activityBA);
-RDebugUtils.currentLine=2883590;
- //BA.debugLineNum = 2883590;BA.debugLine="End Sub";
+RDebugUtils.currentLine=3538950;
+ //BA.debugLineNum = 3538950;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_pause(boolean _userclosed) throws Exception{
 RDebugUtils.currentModule="panelview";
-RDebugUtils.currentLine=3014656;
- //BA.debugLineNum = 3014656;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
-RDebugUtils.currentLine=3014658;
- //BA.debugLineNum = 3014658;BA.debugLine="End Sub";
+RDebugUtils.currentLine=3670016;
+ //BA.debugLineNum = 3670016;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=3670018;
+ //BA.debugLineNum = 3670018;BA.debugLine="End Sub";
 return "";
 }
 public static String  _activity_resume() throws Exception{
 RDebugUtils.currentModule="panelview";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
-RDebugUtils.currentLine=2949120;
- //BA.debugLineNum = 2949120;BA.debugLine="Sub Activity_Resume";
-RDebugUtils.currentLine=2949122;
- //BA.debugLineNum = 2949122;BA.debugLine="End Sub";
+RDebugUtils.currentLine=3604480;
+ //BA.debugLineNum = 3604480;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=3604482;
+ //BA.debugLineNum = 3604482;BA.debugLine="End Sub";
 return "";
 }
 }

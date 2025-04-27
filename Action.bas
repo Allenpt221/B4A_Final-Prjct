@@ -53,16 +53,16 @@ Sub Globals
 	'panel generate
 	Dim p As Panel
 	Private Panel1 As Panel
-	Private Panel2 As Panel
-	Private Panel3 As Panel
-	Private Panel4 As Panel
-	Private Panel5 As Panel
-	Private Panel6 As Panel
-	Private Panel7 As Panel
-	Private Panel8 As Panel
-	Private Panel9 As Panel
-	Private Panel10 As Panel
-	Private Panel11 As Panel
+	Private PanelMovie1 As Panel
+	Private PanelMovie2 As Panel
+	Private PanelMovie3 As Panel
+	Private PanelMovie4 As Panel
+	Private PanelMovie5 As Panel
+	Private PanelMovie6 As Panel
+	Private PanelMovie7 As Panel
+	Private PanelMovie8 As Panel
+	Private PanelMovie9 As Panel
+	Private PanelMovie10 As Panel
 	
 	
 	
@@ -218,11 +218,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -235,11 +235,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -252,11 +252,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -269,11 +269,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+	
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -286,11 +286,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -303,11 +303,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
 
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -320,11 +320,11 @@ Sub SearchNow
 		DramaImage7.Gravity = Gravity.FILL
 		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -337,11 +337,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -354,11 +354,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -371,11 +371,11 @@ Sub SearchNow
 		DramaImage10.Gravity = Gravity.FILL
 		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		'cast
@@ -394,9 +394,9 @@ Sub SearchNow
 		DramaImage2.Gravity = Gravity.FILL
 		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
 		
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -422,9 +422,9 @@ Sub SearchNow
 		DramaImage3.Gravity = Gravity.FILL
 		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
 		
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 85%y
 	
@@ -443,10 +443,10 @@ Sub SearchNow
 		DramaImage2.Gravity = Gravity.FILL
 		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
 		
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 	
@@ -479,8 +479,9 @@ Sub SearchNow
 		DramaImage4.Gravity = Gravity.FILL
 		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
 		
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
+		
 		p.Height = 85%y
 		'single cast or one movie only
 	Else If query.Contains("amy smart") Or query.Contains("amy") Or query.Contains("smart") Or query.Contains("carlos sanz") Or query.Contains("carlos") Or query.Contains("sanz") Then
@@ -491,11 +492,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 	Else If query.Contains("jude law") Or query.Contains("jude") Or query.Contains("law") Or query.Contains("rachel mcadams") Or query.Contains("rachel") Or query.Contains("mcadams")Then
@@ -506,11 +507,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 	Else if query.Contains("shu qi") Or query.Contains("shu") Or query.Contains("qi") Or query.Contains("matt") Or query.Contains("schulze") Or query.Contains("matt schulze") Then
@@ -521,11 +522,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 	Else if query.Contains("chris evans") Or query.Contains("chris") Or query.Contains("evans") Or query.Contains("mark ruffalo") Or query.Contains("mark") Or query.Contains("ruffalo") Then
@@ -536,11 +537,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 	Else if query.Contains("dafne keen") Or query.Contains("dafne") Or query.Contains("keen") Then
@@ -551,11 +552,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -567,11 +568,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 	
@@ -583,11 +584,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 	
@@ -599,11 +600,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -617,11 +618,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -633,11 +634,11 @@ Sub SearchNow
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
 		
-		Panel3.Visible = False
-		Panel4.Visible = False
-		Panel5.Visible = False
-		Panel6.Visible = False
-		Panel7.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
 		
 		p.Height = 70%y
 		
@@ -665,16 +666,18 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		p.Width = 200%x
 		ScrollView1.Panel.Height = p.Height
 		
-		Panel2.Visible = True
-		Panel3.Visible = True
-		Panel4.Visible = True
-		Panel5.Visible = True
-		Panel6.Visible = True
-		Panel7.Visible = True
-		Panel8.Visible = True
-		Panel9.Visible = True
-		Panel10.Visible = True
-		Panel11.Visible = True
+		PanelMovie1.Visible = False
+		PanelMovie2.Visible = False
+		PanelMovie3.Visible = False
+		PanelMovie4.Visible = False
+		PanelMovie5.Visible = False
+		PanelMovie6.Visible = False
+		PanelMovie7.Visible = False
+		PanelMovie8.Visible = False
+		PanelMovie9.Visible = False
+		PanelMovie10.Visible = False
+		
+		' Restore original texts
 		
 		Drama1.Text = "Crank"
 		Starter1.Text = "Starring: Jason Statham, Amy Smart, Carlos Sanz"
@@ -683,7 +686,7 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
 	
-		Drama2.Text = "Sherlock Holmes "
+		Drama2.Text = "Sherlock Holmes"
 		Starter2.Text = "Starring: Robert Downey Jr., Jude Law, Rachel McAdams"
 		Year2.Text = "(2008)"
 		OverView2.Text = "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England."
@@ -726,7 +729,7 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		DramaImage7.Gravity = Gravity.FILL
 		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
 	
-		Drama8.Text = "Mr. & Mrs. Smith "
+		Drama8.Text = "Mr. & Mrs. Smith"
 		Starter8.Text = "Starring: Brad Pitt, Angelina Jolie, Adam Brody"
 		Year8.Text = "(2005)"
 		OverView8.Text = "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other."
@@ -748,7 +751,7 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
 
 
-		' Restore original texts
+		
 		
 	End If
 End Sub
@@ -771,4 +774,176 @@ End Sub
 Private Sub HomePage_Click
 	StartActivity(Main)
 	Activity.Finish
+End Sub
+
+Private Sub PanelMovie1_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0479884/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+		
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+
+Private Sub PanelMovie2_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0988045/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie3_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt4154796/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie4_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt3315342/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie5_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0371746/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie6_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0120903/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie7_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt2334873/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie8_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0356910/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie9_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1430132/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie10_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1392214/")
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
 End Sub

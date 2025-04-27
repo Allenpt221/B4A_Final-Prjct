@@ -16,7 +16,7 @@ Debug.locals.put("StackTrace", _stacktrace);
 Debug.ShouldStop(67108864);
  BA.debugLineNum = 28;BA.debugLine="Return True";
 Debug.ShouldStop(134217728);
-Debug.CheckDeviceExceptions();if (true) return starter.mostCurrent.__c.getField(true,"True");
+if (true) return starter.mostCurrent.__c.getField(true,"True");
  BA.debugLineNum = 29;BA.debugLine="End Sub";
 Debug.ShouldStop(268435456);
 return RemoteObject.createImmutable(false);

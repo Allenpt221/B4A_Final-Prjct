@@ -370,16 +370,16 @@ public anywheresoftware.b4a.objects.ButtonWrapper _searchbtn = null;
 public anywheresoftware.b4a.objects.EditTextWrapper _searchengine = null;
 public anywheresoftware.b4a.objects.PanelWrapper _p = null;
 public anywheresoftware.b4a.objects.PanelWrapper _panel1 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel2 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel3 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel4 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel5 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel6 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel7 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel8 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel9 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel10 = null;
-public anywheresoftware.b4a.objects.PanelWrapper _panel11 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie1 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie2 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie3 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie4 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie5 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie6 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie7 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie8 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie9 = null;
+public anywheresoftware.b4a.objects.PanelWrapper _panelmovie10 = null;
 public anywheresoftware.b4a.objects.LabelWrapper _dramapage = null;
 public anywheresoftware.b4a.objects.LabelWrapper _homepage = null;
 public anywheresoftware.b4a.objects.LabelWrapper _scifipage = null;
@@ -424,11 +424,242 @@ public static String  _actionpage_click() throws Exception{
 RDebugUtils.currentModule="drama";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "actionpage_click", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "actionpage_click", null));}
-RDebugUtils.currentLine=1310720;
- //BA.debugLineNum = 1310720;BA.debugLine="Private Sub ActionPage_Click";
-RDebugUtils.currentLine=1310721;
- //BA.debugLineNum = 1310721;BA.debugLine="StartActivity(Action)";
+RDebugUtils.currentLine=1441792;
+ //BA.debugLineNum = 1441792;BA.debugLine="Private Sub ActionPage_Click";
+RDebugUtils.currentLine=1441793;
+ //BA.debugLineNum = 1441793;BA.debugLine="StartActivity(Action)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._action.getObject()));
+RDebugUtils.currentLine=1441794;
+ //BA.debugLineNum = 1441794;BA.debugLine="Activity.Finish";
+mostCurrent._activity.Finish();
+RDebugUtils.currentLine=1441795;
+ //BA.debugLineNum = 1441795;BA.debugLine="End Sub";
+return "";
+}
+public static String  _activity_create(boolean _firsttime) throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
+RDebugUtils.currentLine=1048576;
+ //BA.debugLineNum = 1048576;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
+RDebugUtils.currentLine=1048577;
+ //BA.debugLineNum = 1048577;BA.debugLine="Activity.LoadLayout(\"Drama\") ' Layout contains Sc";
+mostCurrent._activity.LoadLayout("Drama",mostCurrent.activityBA);
+RDebugUtils.currentLine=1048579;
+ //BA.debugLineNum = 1048579;BA.debugLine="p.Initialize(\"\")";
+mostCurrent._p.Initialize(mostCurrent.activityBA,"");
+RDebugUtils.currentLine=1048580;
+ //BA.debugLineNum = 1048580;BA.debugLine="p.LoadLayout(\"panelview\")";
+mostCurrent._p.LoadLayout("panelview",mostCurrent.activityBA);
+RDebugUtils.currentLine=1048587;
+ //BA.debugLineNum = 1048587;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
+mostCurrent._drama1.setText(BA.ObjectToCharSequence("Kramer vs. Kramer"));
+RDebugUtils.currentLine=1048588;
+ //BA.debugLineNum = 1048588;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
+mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Dustin Hoffman, Meryl Streep, Justin Henry"));
+RDebugUtils.currentLine=1048589;
+ //BA.debugLineNum = 1048589;BA.debugLine="Year1.Text = \"(1979)\"";
+mostCurrent._year1.setText(BA.ObjectToCharSequence("(1979)"));
+RDebugUtils.currentLine=1048590;
+ //BA.debugLineNum = 1048590;BA.debugLine="OverView1.Text = \"In this emotionally charged cou";
+mostCurrent._overview1.setText(BA.ObjectToCharSequence("In this emotionally charged courtroom and family drama, Kramer vs. Kramer refers to the heartbreaking custody battle between Ted Kramer, a man forced into single fatherhood, and Joanna Kramer, the wife who returns after abandoning their son. As love, responsibility, and personal growth collide, the film asks: what defines a good parent?"));
+RDebugUtils.currentLine=1048591;
+ //BA.debugLineNum = 1048591;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048592;
+ //BA.debugLineNum = 1048592;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"kramer.jpg").getObject()));
+RDebugUtils.currentLine=1048594;
+ //BA.debugLineNum = 1048594;BA.debugLine="Drama2.Text = \"Manchester by the Sea\"";
+mostCurrent._drama2.setText(BA.ObjectToCharSequence("Manchester by the Sea"));
+RDebugUtils.currentLine=1048595;
+ //BA.debugLineNum = 1048595;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michell";
+mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Williams, Lucas Hedges"));
+RDebugUtils.currentLine=1048596;
+ //BA.debugLineNum = 1048596;BA.debugLine="Year2.Text = \"(2016)\"";
+mostCurrent._year2.setText(BA.ObjectToCharSequence("(2016)"));
+RDebugUtils.currentLine=1048597;
+ //BA.debugLineNum = 1048597;BA.debugLine="OverView2.Text = \"After the death of his brother,";
+mostCurrent._overview2.setText(BA.ObjectToCharSequence("After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."));
+RDebugUtils.currentLine=1048598;
+ //BA.debugLineNum = 1048598;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048599;
+ //BA.debugLineNum = 1048599;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"manchester.jpg").getObject()));
+RDebugUtils.currentLine=1048601;
+ //BA.debugLineNum = 1048601;BA.debugLine="Drama3.Text = \"The Master\"";
+mostCurrent._drama3.setText(BA.ObjectToCharSequence("The Master"));
+RDebugUtils.currentLine=1048602;
+ //BA.debugLineNum = 1048602;BA.debugLine="Starter3.Text = \"Starring: Philip Seymour Hoffman";
+mostCurrent._starter3.setText(BA.ObjectToCharSequence("Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"));
+RDebugUtils.currentLine=1048603;
+ //BA.debugLineNum = 1048603;BA.debugLine="Year3.Text = \"(2012)\"";
+mostCurrent._year3.setText(BA.ObjectToCharSequence("(2012)"));
+RDebugUtils.currentLine=1048604;
+ //BA.debugLineNum = 1048604;BA.debugLine="OverView3.Text = \"A mentally unstable WWII vetera";
+mostCurrent._overview3.setText(BA.ObjectToCharSequence("A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."));
+RDebugUtils.currentLine=1048605;
+ //BA.debugLineNum = 1048605;BA.debugLine="DramaImage3.Gravity = Gravity.FILL";
+mostCurrent._dramaimage3.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048606;
+ //BA.debugLineNum = 1048606;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage3.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"master.jpg").getObject()));
+RDebugUtils.currentLine=1048608;
+ //BA.debugLineNum = 1048608;BA.debugLine="Drama4.Text = \"Million Dollar Baby\"";
+mostCurrent._drama4.setText(BA.ObjectToCharSequence("Million Dollar Baby"));
+RDebugUtils.currentLine=1048609;
+ //BA.debugLineNum = 1048609;BA.debugLine="Starter4.Text = \"Starring: Morgan Freeman, Hilary";
+mostCurrent._starter4.setText(BA.ObjectToCharSequence("Starring: Morgan Freeman, Hilary Swank, Clint Eastwood"));
+RDebugUtils.currentLine=1048610;
+ //BA.debugLineNum = 1048610;BA.debugLine="Year4.Text = \"(2004)\"";
+mostCurrent._year4.setText(BA.ObjectToCharSequence("(2004)"));
+RDebugUtils.currentLine=1048611;
+ //BA.debugLineNum = 1048611;BA.debugLine="OverView4.Text = \"A waitress with dreams of becom";
+mostCurrent._overview4.setText(BA.ObjectToCharSequence("A waitress with dreams of becoming a boxer convinces a reluctant trainer to take her on. As she rises through the ranks, a tragic turn of events forces them both to reckon with loss, dignity, and the nature of love."));
+RDebugUtils.currentLine=1048612;
+ //BA.debugLineNum = 1048612;BA.debugLine="DramaImage4.Gravity = Gravity.FILL";
+mostCurrent._dramaimage4.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048613;
+ //BA.debugLineNum = 1048613;BA.debugLine="DramaImage4.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage4.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"millondolar.jpg").getObject()));
+RDebugUtils.currentLine=1048615;
+ //BA.debugLineNum = 1048615;BA.debugLine="Drama5.Text = \"The Bridges of Madison County\"";
+mostCurrent._drama5.setText(BA.ObjectToCharSequence("The Bridges of Madison County"));
+RDebugUtils.currentLine=1048616;
+ //BA.debugLineNum = 1048616;BA.debugLine="Starter5.Text = \"Starring: Clint Eastwood, Meryl";
+mostCurrent._starter5.setText(BA.ObjectToCharSequence("Starring: Clint Eastwood, Meryl Streep"));
+RDebugUtils.currentLine=1048617;
+ //BA.debugLineNum = 1048617;BA.debugLine="Year5.Text = \"(1995)\"";
+mostCurrent._year5.setText(BA.ObjectToCharSequence("(1995)"));
+RDebugUtils.currentLine=1048618;
+ //BA.debugLineNum = 1048618;BA.debugLine="OverView5.Text = \"A brief, passionate romance bet";
+mostCurrent._overview5.setText(BA.ObjectToCharSequence("A brief, passionate romance between a lonely housewife and a traveling photographer leads to a life-changing emotional journey. Set against the backdrop of 1960s Iowa, it’s a heartbreaking story about missed chances and enduring love."));
+RDebugUtils.currentLine=1048619;
+ //BA.debugLineNum = 1048619;BA.debugLine="DramaImage5.Gravity = Gravity.FILL";
+mostCurrent._dramaimage5.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048620;
+ //BA.debugLineNum = 1048620;BA.debugLine="DramaImage5.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage5.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bridges.jpg").getObject()));
+RDebugUtils.currentLine=1048623;
+ //BA.debugLineNum = 1048623;BA.debugLine="Drama6.Text = \"Gone Baby Gone\"";
+mostCurrent._drama6.setText(BA.ObjectToCharSequence("Gone Baby Gone"));
+RDebugUtils.currentLine=1048624;
+ //BA.debugLineNum = 1048624;BA.debugLine="Starter6.Text = \"Starring: Casey Affleck, Michell";
+mostCurrent._starter6.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"));
+RDebugUtils.currentLine=1048625;
+ //BA.debugLineNum = 1048625;BA.debugLine="Year6.Text = \"(2007)\"";
+mostCurrent._year6.setText(BA.ObjectToCharSequence("(2007)"));
+RDebugUtils.currentLine=1048626;
+ //BA.debugLineNum = 1048626;BA.debugLine="OverView6.Text = \"In a tough Boston neighborhood,";
+mostCurrent._overview6.setText(BA.ObjectToCharSequence("In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."));
+RDebugUtils.currentLine=1048627;
+ //BA.debugLineNum = 1048627;BA.debugLine="DramaImage6.Gravity = Gravity.FILL";
+mostCurrent._dramaimage6.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048628;
+ //BA.debugLineNum = 1048628;BA.debugLine="DramaImage6.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage6.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"gonebaby.jpg").getObject()));
+RDebugUtils.currentLine=1048630;
+ //BA.debugLineNum = 1048630;BA.debugLine="Drama7.Text = \"Blue Jasmine\"";
+mostCurrent._drama7.setText(BA.ObjectToCharSequence("Blue Jasmine"));
+RDebugUtils.currentLine=1048631;
+ //BA.debugLineNum = 1048631;BA.debugLine="Starter7.Text = \"Starring: Cate Blanchett, Sally";
+mostCurrent._starter7.setText(BA.ObjectToCharSequence("Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"));
+RDebugUtils.currentLine=1048632;
+ //BA.debugLineNum = 1048632;BA.debugLine="Year7.Text = \"(2013)\"";
+mostCurrent._year7.setText(BA.ObjectToCharSequence("(2013)"));
+RDebugUtils.currentLine=1048633;
+ //BA.debugLineNum = 1048633;BA.debugLine="OverView7.Text = \"After losing her fortune and st";
+mostCurrent._overview7.setText(BA.ObjectToCharSequence("After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."));
+RDebugUtils.currentLine=1048634;
+ //BA.debugLineNum = 1048634;BA.debugLine="DramaImage7.Gravity = Gravity.FILL";
+mostCurrent._dramaimage7.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048635;
+ //BA.debugLineNum = 1048635;BA.debugLine="DramaImage7.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage7.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bluejasmine.jpg").getObject()));
+RDebugUtils.currentLine=1048637;
+ //BA.debugLineNum = 1048637;BA.debugLine="Drama8.Text = \"Her\"";
+mostCurrent._drama8.setText(BA.ObjectToCharSequence("Her"));
+RDebugUtils.currentLine=1048638;
+ //BA.debugLineNum = 1048638;BA.debugLine="Starter8.Text = \"Starring: Joaquin Phoenix, Roone";
+mostCurrent._starter8.setText(BA.ObjectToCharSequence("Starring: Joaquin Phoenix, Rooney Mara, Amy Adams"));
+RDebugUtils.currentLine=1048639;
+ //BA.debugLineNum = 1048639;BA.debugLine="Year8.Text = \"(2013)\"";
+mostCurrent._year8.setText(BA.ObjectToCharSequence("(2013)"));
+RDebugUtils.currentLine=1048640;
+ //BA.debugLineNum = 1048640;BA.debugLine="OverView8.Text = \"In a near-future Los Angeles, a";
+mostCurrent._overview8.setText(BA.ObjectToCharSequence("In a near-future Los Angeles, a lonely man finds solace in a hyper-intelligent AI voice. As their bond deepens into love, he’s forced to question what it means to be human and whether artificial connection is real connection."));
+RDebugUtils.currentLine=1048641;
+ //BA.debugLineNum = 1048641;BA.debugLine="DramaImage8.Gravity = Gravity.FILL";
+mostCurrent._dramaimage8.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048642;
+ //BA.debugLineNum = 1048642;BA.debugLine="DramaImage8.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage8.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"her.jpg").getObject()));
+RDebugUtils.currentLine=1048644;
+ //BA.debugLineNum = 1048644;BA.debugLine="Drama9.Text = \"Carol\"";
+mostCurrent._drama9.setText(BA.ObjectToCharSequence("Carol"));
+RDebugUtils.currentLine=1048645;
+ //BA.debugLineNum = 1048645;BA.debugLine="Starter9.Text = \"Starring: Rooney Mara, Cate Blan";
+mostCurrent._starter9.setText(BA.ObjectToCharSequence("Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"));
+RDebugUtils.currentLine=1048646;
+ //BA.debugLineNum = 1048646;BA.debugLine="Year9.Text = \"(2015)\"";
+mostCurrent._year9.setText(BA.ObjectToCharSequence("(2015)"));
+RDebugUtils.currentLine=1048647;
+ //BA.debugLineNum = 1048647;BA.debugLine="OverView9.Text = \"A chance encounter between a yo";
+mostCurrent._overview9.setText(BA.ObjectToCharSequence("A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."));
+RDebugUtils.currentLine=1048648;
+ //BA.debugLineNum = 1048648;BA.debugLine="DramaImage9.Gravity = Gravity.FILL";
+mostCurrent._dramaimage9.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048649;
+ //BA.debugLineNum = 1048649;BA.debugLine="DramaImage9.Bitmap = LoadBitmap(File.DirAssets, \"";
+mostCurrent._dramaimage9.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"carol.jpg").getObject()));
+RDebugUtils.currentLine=1048651;
+ //BA.debugLineNum = 1048651;BA.debugLine="Drama10.Text = \"The Lost Daughter\"";
+mostCurrent._drama10.setText(BA.ObjectToCharSequence("The Lost Daughter"));
+RDebugUtils.currentLine=1048652;
+ //BA.debugLineNum = 1048652;BA.debugLine="Starter10.Text = \"Starring: Olivia Colman, Dakota";
+mostCurrent._starter10.setText(BA.ObjectToCharSequence("Starring: Olivia Colman, Dakota Johnson, Jessie Buckley"));
+RDebugUtils.currentLine=1048653;
+ //BA.debugLineNum = 1048653;BA.debugLine="Year10.Text = \"(2021)\"";
+mostCurrent._year10.setText(BA.ObjectToCharSequence("(2021)"));
+RDebugUtils.currentLine=1048654;
+ //BA.debugLineNum = 1048654;BA.debugLine="OverView10.Text = \"A solitary woman on vacation b";
+mostCurrent._overview10.setText(BA.ObjectToCharSequence("A solitary woman on vacation becomes fascinated by a young mother and her daughter, triggering memories of her own past choices as a parent. The film dives into the complexities of motherhood, regret, and identity"));
+RDebugUtils.currentLine=1048655;
+ //BA.debugLineNum = 1048655;BA.debugLine="DramaImage10.Gravity = Gravity.FILL";
+mostCurrent._dramaimage10.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
+RDebugUtils.currentLine=1048656;
+ //BA.debugLineNum = 1048656;BA.debugLine="DramaImage10.Bitmap = LoadBitmap(File.DirAssets,";
+mostCurrent._dramaimage10.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"lostdaughter.jpg").getObject()));
+RDebugUtils.currentLine=1048658;
+ //BA.debugLineNum = 1048658;BA.debugLine="ScrollView1.Panel.AddView(p, 0, 0, 200%x, 210%y)";
+mostCurrent._scrollview1.getPanel().AddView((android.view.View)(mostCurrent._p.getObject()),(int) (0),(int) (0),anywheresoftware.b4a.keywords.Common.PerXToCurrent((float) (200),mostCurrent.activityBA),anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (210),mostCurrent.activityBA));
+RDebugUtils.currentLine=1048659;
+ //BA.debugLineNum = 1048659;BA.debugLine="ScrollView1.Panel.Height = p.Height";
+mostCurrent._scrollview1.getPanel().setHeight(mostCurrent._p.getHeight());
+RDebugUtils.currentLine=1048660;
+ //BA.debugLineNum = 1048660;BA.debugLine="End Sub";
+return "";
+}
+public static String  _dramapage_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "dramapage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "dramapage_click", null));}
+RDebugUtils.currentLine=1376256;
+ //BA.debugLineNum = 1376256;BA.debugLine="Private Sub DramaPage_Click";
+RDebugUtils.currentLine=1376258;
+ //BA.debugLineNum = 1376258;BA.debugLine="End Sub";
+return "";
+}
+public static String  _homepage_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "homepage_click", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "homepage_click", null));}
+RDebugUtils.currentLine=1310720;
+ //BA.debugLineNum = 1310720;BA.debugLine="Private Sub HomePage_Click";
+RDebugUtils.currentLine=1310721;
+ //BA.debugLineNum = 1310721;BA.debugLine="StartActivity(Main)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._main.getObject()));
 RDebugUtils.currentLine=1310722;
  //BA.debugLineNum = 1310722;BA.debugLine="Activity.Finish";
 mostCurrent._activity.Finish();
@@ -436,314 +667,263 @@ RDebugUtils.currentLine=1310723;
  //BA.debugLineNum = 1310723;BA.debugLine="End Sub";
 return "";
 }
-public static String  _activity_create(boolean _firsttime) throws Exception{
+public static void  _panelmovie1_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_create", new Object[] {_firsttime}));}
-RDebugUtils.currentLine=851968;
- //BA.debugLineNum = 851968;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
-RDebugUtils.currentLine=851969;
- //BA.debugLineNum = 851969;BA.debugLine="Activity.LoadLayout(\"Drama\") ' Layout contains Sc";
-mostCurrent._activity.LoadLayout("Drama",mostCurrent.activityBA);
-RDebugUtils.currentLine=851971;
- //BA.debugLineNum = 851971;BA.debugLine="p.Initialize(\"\")";
-mostCurrent._p.Initialize(mostCurrent.activityBA,"");
-RDebugUtils.currentLine=851972;
- //BA.debugLineNum = 851972;BA.debugLine="p.LoadLayout(\"panelview\")";
-mostCurrent._p.LoadLayout("panelview",mostCurrent.activityBA);
-RDebugUtils.currentLine=851979;
- //BA.debugLineNum = 851979;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
-mostCurrent._drama1.setText(BA.ObjectToCharSequence("Kramer vs. Kramer"));
-RDebugUtils.currentLine=851980;
- //BA.debugLineNum = 851980;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
-mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Dustin Hoffman, Meryl Streep, Justin Henry"));
-RDebugUtils.currentLine=851981;
- //BA.debugLineNum = 851981;BA.debugLine="Year1.Text = \"(1979)\"";
-mostCurrent._year1.setText(BA.ObjectToCharSequence("(1979)"));
-RDebugUtils.currentLine=851982;
- //BA.debugLineNum = 851982;BA.debugLine="OverView1.Text = \"In this emotionally charged cou";
-mostCurrent._overview1.setText(BA.ObjectToCharSequence("In this emotionally charged courtroom and family drama, Kramer vs. Kramer refers to the heartbreaking custody battle between Ted Kramer, a man forced into single fatherhood, and Joanna Kramer, the wife who returns after abandoning their son. As love, responsibility, and personal growth collide, the film asks: what defines a good parent?"));
-RDebugUtils.currentLine=851983;
- //BA.debugLineNum = 851983;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
-mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=851984;
- //BA.debugLineNum = 851984;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"kramer.jpg").getObject()));
-RDebugUtils.currentLine=851986;
- //BA.debugLineNum = 851986;BA.debugLine="Drama2.Text = \"Manchester by the Sea\"";
-mostCurrent._drama2.setText(BA.ObjectToCharSequence("Manchester by the Sea"));
-RDebugUtils.currentLine=851987;
- //BA.debugLineNum = 851987;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michell";
-mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Williams, Lucas Hedges"));
-RDebugUtils.currentLine=851988;
- //BA.debugLineNum = 851988;BA.debugLine="Year2.Text = \"(2016)\"";
-mostCurrent._year2.setText(BA.ObjectToCharSequence("(2016)"));
-RDebugUtils.currentLine=851989;
- //BA.debugLineNum = 851989;BA.debugLine="OverView2.Text = \"After the death of his brother,";
-mostCurrent._overview2.setText(BA.ObjectToCharSequence("After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."));
-RDebugUtils.currentLine=851990;
- //BA.debugLineNum = 851990;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
-mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=851991;
- //BA.debugLineNum = 851991;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"manchester.jpg").getObject()));
-RDebugUtils.currentLine=851993;
- //BA.debugLineNum = 851993;BA.debugLine="Drama3.Text = \"The Master\"";
-mostCurrent._drama3.setText(BA.ObjectToCharSequence("The Master"));
-RDebugUtils.currentLine=851994;
- //BA.debugLineNum = 851994;BA.debugLine="Starter3.Text = \"Starring: Philip Seymour Hoffman";
-mostCurrent._starter3.setText(BA.ObjectToCharSequence("Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"));
-RDebugUtils.currentLine=851995;
- //BA.debugLineNum = 851995;BA.debugLine="Year3.Text = \"(2012)\"";
-mostCurrent._year3.setText(BA.ObjectToCharSequence("(2012)"));
-RDebugUtils.currentLine=851996;
- //BA.debugLineNum = 851996;BA.debugLine="OverView3.Text = \"A mentally unstable WWII vetera";
-mostCurrent._overview3.setText(BA.ObjectToCharSequence("A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."));
-RDebugUtils.currentLine=851997;
- //BA.debugLineNum = 851997;BA.debugLine="DramaImage3.Gravity = Gravity.FILL";
-mostCurrent._dramaimage3.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=851998;
- //BA.debugLineNum = 851998;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage3.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"master.jpg").getObject()));
-RDebugUtils.currentLine=852000;
- //BA.debugLineNum = 852000;BA.debugLine="Drama4.Text = \"Million Dollar Baby\"";
-mostCurrent._drama4.setText(BA.ObjectToCharSequence("Million Dollar Baby"));
-RDebugUtils.currentLine=852001;
- //BA.debugLineNum = 852001;BA.debugLine="Starter4.Text = \"Starring: Morgan Freeman, Hilary";
-mostCurrent._starter4.setText(BA.ObjectToCharSequence("Starring: Morgan Freeman, Hilary Swank, Clint Eastwood"));
-RDebugUtils.currentLine=852002;
- //BA.debugLineNum = 852002;BA.debugLine="Year4.Text = \"(2004)\"";
-mostCurrent._year4.setText(BA.ObjectToCharSequence("(2004)"));
-RDebugUtils.currentLine=852003;
- //BA.debugLineNum = 852003;BA.debugLine="OverView4.Text = \"A waitress with dreams of becom";
-mostCurrent._overview4.setText(BA.ObjectToCharSequence("A waitress with dreams of becoming a boxer convinces a reluctant trainer to take her on. As she rises through the ranks, a tragic turn of events forces them both to reckon with loss, dignity, and the nature of love."));
-RDebugUtils.currentLine=852004;
- //BA.debugLineNum = 852004;BA.debugLine="DramaImage4.Gravity = Gravity.FILL";
-mostCurrent._dramaimage4.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=852005;
- //BA.debugLineNum = 852005;BA.debugLine="DramaImage4.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage4.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"millondolar.jpg").getObject()));
-RDebugUtils.currentLine=852007;
- //BA.debugLineNum = 852007;BA.debugLine="Drama5.Text = \"The Bridges of Madison County\"";
-mostCurrent._drama5.setText(BA.ObjectToCharSequence("The Bridges of Madison County"));
-RDebugUtils.currentLine=852008;
- //BA.debugLineNum = 852008;BA.debugLine="Starter5.Text = \"Starring: Clint Eastwood, Meryl";
-mostCurrent._starter5.setText(BA.ObjectToCharSequence("Starring: Clint Eastwood, Meryl Streep"));
-RDebugUtils.currentLine=852009;
- //BA.debugLineNum = 852009;BA.debugLine="Year5.Text = \"(1995)\"";
-mostCurrent._year5.setText(BA.ObjectToCharSequence("(1995)"));
-RDebugUtils.currentLine=852010;
- //BA.debugLineNum = 852010;BA.debugLine="OverView5.Text = \"A brief, passionate romance bet";
-mostCurrent._overview5.setText(BA.ObjectToCharSequence("A brief, passionate romance between a lonely housewife and a traveling photographer leads to a life-changing emotional journey. Set against the backdrop of 1960s Iowa, it’s a heartbreaking story about missed chances and enduring love."));
-RDebugUtils.currentLine=852011;
- //BA.debugLineNum = 852011;BA.debugLine="DramaImage5.Gravity = Gravity.FILL";
-mostCurrent._dramaimage5.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=852012;
- //BA.debugLineNum = 852012;BA.debugLine="DramaImage5.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage5.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bridges.jpg").getObject()));
-RDebugUtils.currentLine=852015;
- //BA.debugLineNum = 852015;BA.debugLine="Drama6.Text = \"Gone Baby Gone\"";
-mostCurrent._drama6.setText(BA.ObjectToCharSequence("Gone Baby Gone"));
-RDebugUtils.currentLine=852016;
- //BA.debugLineNum = 852016;BA.debugLine="Starter6.Text = \"Starring: Casey Affleck, Michell";
-mostCurrent._starter6.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"));
-RDebugUtils.currentLine=852017;
- //BA.debugLineNum = 852017;BA.debugLine="Year6.Text = \"(2007)\"";
-mostCurrent._year6.setText(BA.ObjectToCharSequence("(2007)"));
-RDebugUtils.currentLine=852018;
- //BA.debugLineNum = 852018;BA.debugLine="OverView6.Text = \"In a tough Boston neighborhood,";
-mostCurrent._overview6.setText(BA.ObjectToCharSequence("In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."));
-RDebugUtils.currentLine=852019;
- //BA.debugLineNum = 852019;BA.debugLine="DramaImage6.Gravity = Gravity.FILL";
-mostCurrent._dramaimage6.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=852020;
- //BA.debugLineNum = 852020;BA.debugLine="DramaImage6.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage6.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"gonebaby.jpg").getObject()));
-RDebugUtils.currentLine=852022;
- //BA.debugLineNum = 852022;BA.debugLine="Drama7.Text = \"Blue Jasmine\"";
-mostCurrent._drama7.setText(BA.ObjectToCharSequence("Blue Jasmine"));
-RDebugUtils.currentLine=852023;
- //BA.debugLineNum = 852023;BA.debugLine="Starter7.Text = \"Starring: Cate Blanchett, Sally";
-mostCurrent._starter7.setText(BA.ObjectToCharSequence("Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"));
-RDebugUtils.currentLine=852024;
- //BA.debugLineNum = 852024;BA.debugLine="Year7.Text = \"(2013)\"";
-mostCurrent._year7.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=852025;
- //BA.debugLineNum = 852025;BA.debugLine="OverView7.Text = \"After losing her fortune and st";
-mostCurrent._overview7.setText(BA.ObjectToCharSequence("After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."));
-RDebugUtils.currentLine=852026;
- //BA.debugLineNum = 852026;BA.debugLine="DramaImage7.Gravity = Gravity.FILL";
-mostCurrent._dramaimage7.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=852027;
- //BA.debugLineNum = 852027;BA.debugLine="DramaImage7.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage7.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bluejasmine.jpg").getObject()));
-RDebugUtils.currentLine=852029;
- //BA.debugLineNum = 852029;BA.debugLine="Drama8.Text = \"Her\"";
-mostCurrent._drama8.setText(BA.ObjectToCharSequence("Her"));
-RDebugUtils.currentLine=852030;
- //BA.debugLineNum = 852030;BA.debugLine="Starter8.Text = \"Starring: Joaquin Phoenix, Roone";
-mostCurrent._starter8.setText(BA.ObjectToCharSequence("Starring: Joaquin Phoenix, Rooney Mara, Amy Adams"));
-RDebugUtils.currentLine=852031;
- //BA.debugLineNum = 852031;BA.debugLine="Year8.Text = \"(2013)\"";
-mostCurrent._year8.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=852032;
- //BA.debugLineNum = 852032;BA.debugLine="OverView8.Text = \"In a near-future Los Angeles, a";
-mostCurrent._overview8.setText(BA.ObjectToCharSequence("In a near-future Los Angeles, a lonely man finds solace in a hyper-intelligent AI voice. As their bond deepens into love, he’s forced to question what it means to be human and whether artificial connection is real connection."));
-RDebugUtils.currentLine=852033;
- //BA.debugLineNum = 852033;BA.debugLine="DramaImage8.Gravity = Gravity.FILL";
-mostCurrent._dramaimage8.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=852034;
- //BA.debugLineNum = 852034;BA.debugLine="DramaImage8.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage8.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"her.jpg").getObject()));
-RDebugUtils.currentLine=852036;
- //BA.debugLineNum = 852036;BA.debugLine="Drama9.Text = \"Carol\"";
-mostCurrent._drama9.setText(BA.ObjectToCharSequence("Carol"));
-RDebugUtils.currentLine=852037;
- //BA.debugLineNum = 852037;BA.debugLine="Starter9.Text = \"Starring: Rooney Mara, Cate Blan";
-mostCurrent._starter9.setText(BA.ObjectToCharSequence("Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"));
-RDebugUtils.currentLine=852038;
- //BA.debugLineNum = 852038;BA.debugLine="Year9.Text = \"(2015)\"";
-mostCurrent._year9.setText(BA.ObjectToCharSequence("(2015)"));
-RDebugUtils.currentLine=852039;
- //BA.debugLineNum = 852039;BA.debugLine="OverView9.Text = \"A chance encounter between a yo";
-mostCurrent._overview9.setText(BA.ObjectToCharSequence("A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."));
-RDebugUtils.currentLine=852040;
- //BA.debugLineNum = 852040;BA.debugLine="DramaImage9.Gravity = Gravity.FILL";
-mostCurrent._dramaimage9.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=852041;
- //BA.debugLineNum = 852041;BA.debugLine="DramaImage9.Bitmap = LoadBitmap(File.DirAssets, \"";
-mostCurrent._dramaimage9.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"carol.jpg").getObject()));
-RDebugUtils.currentLine=852043;
- //BA.debugLineNum = 852043;BA.debugLine="Drama10.Text = \"The Lost Daughter\"";
-mostCurrent._drama10.setText(BA.ObjectToCharSequence("The Lost Daughter"));
-RDebugUtils.currentLine=852044;
- //BA.debugLineNum = 852044;BA.debugLine="Starter10.Text = \"Starring: Olivia Colman, Dakota";
-mostCurrent._starter10.setText(BA.ObjectToCharSequence("Starring: Olivia Colman, Dakota Johnson, Jessie Buckley"));
-RDebugUtils.currentLine=852045;
- //BA.debugLineNum = 852045;BA.debugLine="Year10.Text = \"(2021)\"";
-mostCurrent._year10.setText(BA.ObjectToCharSequence("(2021)"));
-RDebugUtils.currentLine=852046;
- //BA.debugLineNum = 852046;BA.debugLine="OverView10.Text = \"A solitary woman on vacation b";
-mostCurrent._overview10.setText(BA.ObjectToCharSequence("A solitary woman on vacation becomes fascinated by a young mother and her daughter, triggering memories of her own past choices as a parent. The film dives into the complexities of motherhood, regret, and identity"));
-RDebugUtils.currentLine=852047;
- //BA.debugLineNum = 852047;BA.debugLine="DramaImage10.Gravity = Gravity.FILL";
-mostCurrent._dramaimage10.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=852048;
- //BA.debugLineNum = 852048;BA.debugLine="DramaImage10.Bitmap = LoadBitmap(File.DirAssets,";
-mostCurrent._dramaimage10.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"lostdaughter.jpg").getObject()));
-RDebugUtils.currentLine=852050;
- //BA.debugLineNum = 852050;BA.debugLine="ScrollView1.Panel.AddView(p, 0, 0, 200%x, 210%y)";
-mostCurrent._scrollview1.getPanel().AddView((android.view.View)(mostCurrent._p.getObject()),(int) (0),(int) (0),anywheresoftware.b4a.keywords.Common.PerXToCurrent((float) (200),mostCurrent.activityBA),anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (210),mostCurrent.activityBA));
-RDebugUtils.currentLine=852051;
- //BA.debugLineNum = 852051;BA.debugLine="ScrollView1.Panel.Height = p.Height";
-mostCurrent._scrollview1.getPanel().setHeight(mostCurrent._p.getHeight());
-RDebugUtils.currentLine=852052;
- //BA.debugLineNum = 852052;BA.debugLine="End Sub";
-return "";
-}
-public static String  _dramapage_click() throws Exception{
-RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "dramapage_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "dramapage_click", null));}
-RDebugUtils.currentLine=1245184;
- //BA.debugLineNum = 1245184;BA.debugLine="Private Sub DramaPage_Click";
-RDebugUtils.currentLine=1245186;
- //BA.debugLineNum = 1245186;BA.debugLine="End Sub";
-return "";
-}
-public static String  _homepage_click() throws Exception{
-RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "homepage_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "homepage_click", null));}
-RDebugUtils.currentLine=1179648;
- //BA.debugLineNum = 1179648;BA.debugLine="Private Sub HomePage_Click";
-RDebugUtils.currentLine=1179649;
- //BA.debugLineNum = 1179649;BA.debugLine="StartActivity(Main)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._main.getObject()));
-RDebugUtils.currentLine=1179650;
- //BA.debugLineNum = 1179650;BA.debugLine="Activity.Finish";
-mostCurrent._activity.Finish();
-RDebugUtils.currentLine=1179651;
- //BA.debugLineNum = 1179651;BA.debugLine="End Sub";
-return "";
-}
-public static String  _panel10_click() throws Exception{
-RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel10_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel10_click", null));}
-anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=6225920;
- //BA.debugLineNum = 6225920;BA.debugLine="Private Sub Panel10_Click";
-RDebugUtils.currentLine=6225921;
- //BA.debugLineNum = 6225921;BA.debugLine="Try";
-try {RDebugUtils.currentLine=6225922;
- //BA.debugLineNum = 6225922;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=6225923;
- //BA.debugLineNum = 6225923;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2402927/");
-RDebugUtils.currentLine=6225924;
- //BA.debugLineNum = 6225924;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=6225925;
- //BA.debugLineNum = 6225925;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=6225927;
- //BA.debugLineNum = 6225927;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("06225927",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=6225928;
- //BA.debugLineNum = 6225928;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
-RDebugUtils.currentLine=6225931;
- //BA.debugLineNum = 6225931;BA.debugLine="End Sub";
-return "";
-}
-public static String  _panel11_click() throws Exception{
-RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel11_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel11_click", null));}
-anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=6291456;
- //BA.debugLineNum = 6291456;BA.debugLine="Private Sub Panel11_Click";
-RDebugUtils.currentLine=6291457;
- //BA.debugLineNum = 6291457;BA.debugLine="Try";
-try {RDebugUtils.currentLine=6291458;
- //BA.debugLineNum = 6291458;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=6291459;
- //BA.debugLineNum = 6291459;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt9100054/");
-RDebugUtils.currentLine=6291460;
- //BA.debugLineNum = 6291460;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=6291461;
- //BA.debugLineNum = 6291461;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=6291463;
- //BA.debugLineNum = 6291463;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("06291463",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=6291464;
- //BA.debugLineNum = 6291464;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
-RDebugUtils.currentLine=6291467;
- //BA.debugLineNum = 6291467;BA.debugLine="End Sub";
-return "";
-}
-public static void  _panel2_click() throws Exception{
-RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel2_click", false))
-	 {Debug.delegate(mostCurrent.activityBA, "panel2_click", null); return;}
-ResumableSub_Panel2_Click rsub = new ResumableSub_Panel2_Click(null);
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie1_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie1_click", null); return;}
+ResumableSub_PanelMovie1_Click rsub = new ResumableSub_PanelMovie1_Click(null);
 rsub.resume(processBA, null);
 }
-public static class ResumableSub_Panel2_Click extends BA.ResumableSub {
-public ResumableSub_Panel2_Click(b4a.example.drama parent) {
+public static class ResumableSub_PanelMovie1_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie1_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5439489;
+ //BA.debugLineNum = 5439489;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5439490;
+ //BA.debugLineNum = 5439490;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5439491;
+ //BA.debugLineNum = 5439491;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie1_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5439492;
+ //BA.debugLineNum = 5439492;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5439493;
+ //BA.debugLineNum = 5439493;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5439494;
+ //BA.debugLineNum = 5439494;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0079417/");
+RDebugUtils.currentLine=5439495;
+ //BA.debugLineNum = 5439495;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5439496;
+ //BA.debugLineNum = 5439496;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5439500;
+ //BA.debugLineNum = 5439500;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25439500",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5439501;
+ //BA.debugLineNum = 5439501;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5439504;
+ //BA.debugLineNum = 5439504;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie10_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie10_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie10_click", null); return;}
+ResumableSub_PanelMovie10_Click rsub = new ResumableSub_PanelMovie10_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie10_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie10_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=6160385;
+ //BA.debugLineNum = 6160385;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=6160386;
+ //BA.debugLineNum = 6160386;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=6160387;
+ //BA.debugLineNum = 6160387;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie10_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=6160388;
+ //BA.debugLineNum = 6160388;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=6160389;
+ //BA.debugLineNum = 6160389;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=6160390;
+ //BA.debugLineNum = 6160390;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt9100054/");
+RDebugUtils.currentLine=6160391;
+ //BA.debugLineNum = 6160391;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=6160392;
+ //BA.debugLineNum = 6160392;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=6160395;
+ //BA.debugLineNum = 6160395;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("26160395",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=6160396;
+ //BA.debugLineNum = 6160396;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=6160399;
+ //BA.debugLineNum = 6160399;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie2_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie2_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie2_click", null); return;}
+ResumableSub_PanelMovie2_Click rsub = new ResumableSub_PanelMovie2_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie2_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie2_Click(b4a.example.drama parent) {
 this.parent = parent;
 }
 b4a.example.drama parent;
@@ -784,7 +964,7 @@ RDebugUtils.currentLine=5570562;
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=5570563;
  //BA.debugLineNum = 5570563;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panel2_click"), null);
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie2_click"), null);
 this.state = 11;
 return;
 case 11:
@@ -810,10 +990,10 @@ RDebugUtils.currentLine=5570565;
  //BA.debugLineNum = 5570565;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
 RDebugUtils.currentLine=5570566;
- //BA.debugLineNum = 5570566;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0079417/");
+ //BA.debugLineNum = 5570566;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt4034228/");
 RDebugUtils.currentLine=5570567;
- //BA.debugLineNum = 5570567;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+ //BA.debugLineNum = 5570567;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
 RDebugUtils.currentLine=5570568;
  //BA.debugLineNum = 5570568;BA.debugLine="StartActivity(i)";
@@ -830,11 +1010,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
+RDebugUtils.currentLine=5570571;
+ //BA.debugLineNum = 5570571;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25570571",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
 RDebugUtils.currentLine=5570572;
- //BA.debugLineNum = 5570572;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("05570572",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5570573;
- //BA.debugLineNum = 5570573;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+ //BA.debugLineNum = 5570572;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -844,8 +1024,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5570576;
- //BA.debugLineNum = 5570576;BA.debugLine="End Sub";
+RDebugUtils.currentLine=5570575;
+ //BA.debugLineNum = 5570575;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -859,258 +1039,888 @@ processBA.setLastException(e0);}
         }
     }
 }
-public static String  _panel3_click() throws Exception{
+public static void  _panelmovie3_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel3_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel3_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie3_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie3_click", null); return;}
+ResumableSub_PanelMovie3_Click rsub = new ResumableSub_PanelMovie3_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie3_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie3_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
 anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=5701632;
- //BA.debugLineNum = 5701632;BA.debugLine="Private Sub Panel3_Click";
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5636097;
+ //BA.debugLineNum = 5636097;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5636098;
+ //BA.debugLineNum = 5636098;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5636099;
+ //BA.debugLineNum = 5636099;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie3_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5636100;
+ //BA.debugLineNum = 5636100;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5636101;
+ //BA.debugLineNum = 5636101;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5636102;
+ //BA.debugLineNum = 5636102;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1560747/");
+RDebugUtils.currentLine=5636103;
+ //BA.debugLineNum = 5636103;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5636104;
+ //BA.debugLineNum = 5636104;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5636107;
+ //BA.debugLineNum = 5636107;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25636107",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5636108;
+ //BA.debugLineNum = 5636108;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5636111;
+ //BA.debugLineNum = 5636111;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie4_click() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie4_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie4_click", null); return;}
+ResumableSub_PanelMovie4_Click rsub = new ResumableSub_PanelMovie4_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie4_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie4_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
 RDebugUtils.currentLine=5701633;
  //BA.debugLineNum = 5701633;BA.debugLine="Try";
-try {RDebugUtils.currentLine=5701634;
- //BA.debugLineNum = 5701634;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5701634;
+ //BA.debugLineNum = 5701634;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=5701635;
- //BA.debugLineNum = 5701635;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt4034228/");
+ //BA.debugLineNum = 5701635;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie4_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
 RDebugUtils.currentLine=5701636;
- //BA.debugLineNum = 5701636;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+ //BA.debugLineNum = 5701636;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
 RDebugUtils.currentLine=5701637;
- //BA.debugLineNum = 5701637;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=5701639;
- //BA.debugLineNum = 5701639;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("05701639",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+ //BA.debugLineNum = 5701637;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5701638;
+ //BA.debugLineNum = 5701638;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0405159/");
+RDebugUtils.currentLine=5701639;
+ //BA.debugLineNum = 5701639;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
 RDebugUtils.currentLine=5701640;
- //BA.debugLineNum = 5701640;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
+ //BA.debugLineNum = 5701640;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
 RDebugUtils.currentLine=5701643;
- //BA.debugLineNum = 5701643;BA.debugLine="End Sub";
-return "";
+ //BA.debugLineNum = 5701643;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25701643",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5701644;
+ //BA.debugLineNum = 5701644;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5701647;
+ //BA.debugLineNum = 5701647;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
 }
-public static String  _panel4_click() throws Exception{
+public static void  _panelmovie5_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel4_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel4_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie5_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie5_click", null); return;}
+ResumableSub_PanelMovie5_Click rsub = new ResumableSub_PanelMovie5_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie5_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie5_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
 anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=5767168;
- //BA.debugLineNum = 5767168;BA.debugLine="Private Sub Panel4_Click";
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
 RDebugUtils.currentLine=5767169;
  //BA.debugLineNum = 5767169;BA.debugLine="Try";
-try {RDebugUtils.currentLine=5767170;
- //BA.debugLineNum = 5767170;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5767170;
+ //BA.debugLineNum = 5767170;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=5767171;
- //BA.debugLineNum = 5767171;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1560747/");
+ //BA.debugLineNum = 5767171;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie5_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
 RDebugUtils.currentLine=5767172;
- //BA.debugLineNum = 5767172;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+ //BA.debugLineNum = 5767172;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
 RDebugUtils.currentLine=5767173;
- //BA.debugLineNum = 5767173;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=5767175;
- //BA.debugLineNum = 5767175;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("05767175",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+ //BA.debugLineNum = 5767173;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5767174;
+ //BA.debugLineNum = 5767174;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0112579/");
+RDebugUtils.currentLine=5767175;
+ //BA.debugLineNum = 5767175;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
 RDebugUtils.currentLine=5767176;
- //BA.debugLineNum = 5767176;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
+ //BA.debugLineNum = 5767176;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
 RDebugUtils.currentLine=5767179;
- //BA.debugLineNum = 5767179;BA.debugLine="End Sub";
-return "";
+ //BA.debugLineNum = 5767179;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25767179",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5767180;
+ //BA.debugLineNum = 5767180;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5767183;
+ //BA.debugLineNum = 5767183;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
 }
-public static String  _panel5_click() throws Exception{
+public static void  _panelmovie6_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel5_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel5_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie6_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie6_click", null); return;}
+ResumableSub_PanelMovie6_Click rsub = new ResumableSub_PanelMovie6_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie6_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie6_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
 anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=5832704;
- //BA.debugLineNum = 5832704;BA.debugLine="Private Sub Panel5_Click";
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
 RDebugUtils.currentLine=5832705;
  //BA.debugLineNum = 5832705;BA.debugLine="Try";
-try {RDebugUtils.currentLine=5832706;
- //BA.debugLineNum = 5832706;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5832706;
+ //BA.debugLineNum = 5832706;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=5832707;
- //BA.debugLineNum = 5832707;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0405159/");
+ //BA.debugLineNum = 5832707;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie6_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
 RDebugUtils.currentLine=5832708;
- //BA.debugLineNum = 5832708;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+ //BA.debugLineNum = 5832708;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
 RDebugUtils.currentLine=5832709;
- //BA.debugLineNum = 5832709;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=5832711;
- //BA.debugLineNum = 5832711;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("05832711",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+ //BA.debugLineNum = 5832709;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5832710;
+ //BA.debugLineNum = 5832710;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0452623/");
+RDebugUtils.currentLine=5832711;
+ //BA.debugLineNum = 5832711;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
 RDebugUtils.currentLine=5832712;
- //BA.debugLineNum = 5832712;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
+ //BA.debugLineNum = 5832712;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
 RDebugUtils.currentLine=5832715;
- //BA.debugLineNum = 5832715;BA.debugLine="End Sub";
-return "";
+ //BA.debugLineNum = 5832715;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25832715",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5832716;
+ //BA.debugLineNum = 5832716;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5832719;
+ //BA.debugLineNum = 5832719;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
 }
-public static String  _panel6_click() throws Exception{
+public static void  _panelmovie7_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel6_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel6_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie7_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie7_click", null); return;}
+ResumableSub_PanelMovie7_Click rsub = new ResumableSub_PanelMovie7_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie7_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie7_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
 anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=5898240;
- //BA.debugLineNum = 5898240;BA.debugLine="Private Sub Panel6_Click";
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
 RDebugUtils.currentLine=5898241;
  //BA.debugLineNum = 5898241;BA.debugLine="Try";
-try {RDebugUtils.currentLine=5898242;
- //BA.debugLineNum = 5898242;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5898242;
+ //BA.debugLineNum = 5898242;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=5898243;
- //BA.debugLineNum = 5898243;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0112579/");
+ //BA.debugLineNum = 5898243;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie7_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
 RDebugUtils.currentLine=5898244;
- //BA.debugLineNum = 5898244;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+ //BA.debugLineNum = 5898244;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
 RDebugUtils.currentLine=5898245;
- //BA.debugLineNum = 5898245;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=5898247;
- //BA.debugLineNum = 5898247;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("05898247",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+ //BA.debugLineNum = 5898245;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5898246;
+ //BA.debugLineNum = 5898246;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2334873/");
+RDebugUtils.currentLine=5898247;
+ //BA.debugLineNum = 5898247;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
 RDebugUtils.currentLine=5898248;
- //BA.debugLineNum = 5898248;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
+ //BA.debugLineNum = 5898248;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
 RDebugUtils.currentLine=5898251;
- //BA.debugLineNum = 5898251;BA.debugLine="End Sub";
-return "";
+ //BA.debugLineNum = 5898251;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25898251",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5898252;
+ //BA.debugLineNum = 5898252;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5898255;
+ //BA.debugLineNum = 5898255;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
 }
-public static String  _panel7_click() throws Exception{
+public static void  _panelmovie8_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel7_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel7_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie8_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie8_click", null); return;}
+ResumableSub_PanelMovie8_Click rsub = new ResumableSub_PanelMovie8_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie8_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie8_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
 anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=5963776;
- //BA.debugLineNum = 5963776;BA.debugLine="Private Sub Panel7_Click";
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
 RDebugUtils.currentLine=5963777;
  //BA.debugLineNum = 5963777;BA.debugLine="Try";
-try {RDebugUtils.currentLine=5963778;
- //BA.debugLineNum = 5963778;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5963778;
+ //BA.debugLineNum = 5963778;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=5963779;
- //BA.debugLineNum = 5963779;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0452623/");
+ //BA.debugLineNum = 5963779;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie8_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
 RDebugUtils.currentLine=5963780;
- //BA.debugLineNum = 5963780;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+ //BA.debugLineNum = 5963780;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
 RDebugUtils.currentLine=5963781;
- //BA.debugLineNum = 5963781;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=5963783;
- //BA.debugLineNum = 5963783;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("05963783",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+ //BA.debugLineNum = 5963781;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5963782;
+ //BA.debugLineNum = 5963782;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1798709/");
+RDebugUtils.currentLine=5963783;
+ //BA.debugLineNum = 5963783;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
 RDebugUtils.currentLine=5963784;
- //BA.debugLineNum = 5963784;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
+ //BA.debugLineNum = 5963784;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
 RDebugUtils.currentLine=5963787;
- //BA.debugLineNum = 5963787;BA.debugLine="End Sub";
-return "";
+ //BA.debugLineNum = 5963787;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("25963787",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5963788;
+ //BA.debugLineNum = 5963788;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5963791;
+ //BA.debugLineNum = 5963791;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
 }
-public static String  _panel8_click() throws Exception{
+public static void  _panelmovie9_click() throws Exception{
 RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel8_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel8_click", null));}
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie9_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie9_click", null); return;}
+ResumableSub_PanelMovie9_Click rsub = new ResumableSub_PanelMovie9_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie9_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie9_Click(b4a.example.drama parent) {
+this.parent = parent;
+}
+b4a.example.drama parent;
+int _result = 0;
 anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=6029312;
- //BA.debugLineNum = 6029312;BA.debugLine="Private Sub Panel8_Click";
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="drama";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
 RDebugUtils.currentLine=6029313;
  //BA.debugLineNum = 6029313;BA.debugLine="Try";
-try {RDebugUtils.currentLine=6029314;
- //BA.debugLineNum = 6029314;BA.debugLine="Dim i As Intent";
-_i = new anywheresoftware.b4a.objects.IntentWrapper();
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=6029314;
+ //BA.debugLineNum = 6029314;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
 RDebugUtils.currentLine=6029315;
- //BA.debugLineNum = 6029315;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2334873/");
+ //BA.debugLineNum = 6029315;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie9_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
 RDebugUtils.currentLine=6029316;
- //BA.debugLineNum = 6029316;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
-_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+ //BA.debugLineNum = 6029316;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
 RDebugUtils.currentLine=6029317;
- //BA.debugLineNum = 6029317;BA.debugLine="StartActivity(i)";
-anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=6029319;
- //BA.debugLineNum = 6029319;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("06029319",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=6029320;
- //BA.debugLineNum = 6029320;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
-RDebugUtils.currentLine=6029323;
- //BA.debugLineNum = 6029323;BA.debugLine="End Sub";
-return "";
-}
-public static String  _panel9_click() throws Exception{
-RDebugUtils.currentModule="drama";
-if (Debug.shouldDelegate(mostCurrent.activityBA, "panel9_click", false))
-	 {return ((String) Debug.delegate(mostCurrent.activityBA, "panel9_click", null));}
-anywheresoftware.b4a.objects.IntentWrapper _i = null;
-RDebugUtils.currentLine=6094848;
- //BA.debugLineNum = 6094848;BA.debugLine="Private Sub Panel9_Click";
-RDebugUtils.currentLine=6094849;
- //BA.debugLineNum = 6094849;BA.debugLine="Try";
-try {RDebugUtils.currentLine=6094850;
- //BA.debugLineNum = 6094850;BA.debugLine="Dim i As Intent";
+ //BA.debugLineNum = 6029317;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=6094851;
- //BA.debugLineNum = 6094851;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
-_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1798709/");
-RDebugUtils.currentLine=6094852;
- //BA.debugLineNum = 6094852;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=6029318;
+ //BA.debugLineNum = 6029318;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2402927/");
+RDebugUtils.currentLine=6029319;
+ //BA.debugLineNum = 6029319;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=6094853;
- //BA.debugLineNum = 6094853;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=6029320;
+ //BA.debugLineNum = 6029320;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
- } 
-       catch (Exception e7) {
-			processBA.setLastException(e7);RDebugUtils.currentLine=6094855;
- //BA.debugLineNum = 6094855;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("06094855",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=6094856;
- //BA.debugLineNum = 6094856;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=6029323;
+ //BA.debugLineNum = 6029323;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("26029323",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=6029324;
+ //BA.debugLineNum = 6029324;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
- };
-RDebugUtils.currentLine=6094859;
- //BA.debugLineNum = 6094859;BA.debugLine="End Sub";
-return "";
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=6029327;
+ //BA.debugLineNum = 6029327;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
 }
 public static String  _scifipage_click() throws Exception{
 RDebugUtils.currentModule="drama";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "scifipage_click", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "scifipage_click", null));}
-RDebugUtils.currentLine=1114112;
- //BA.debugLineNum = 1114112;BA.debugLine="Private Sub SciFiPage_Click";
-RDebugUtils.currentLine=1114113;
- //BA.debugLineNum = 1114113;BA.debugLine="StartActivity(SciFi)";
+RDebugUtils.currentLine=1245184;
+ //BA.debugLineNum = 1245184;BA.debugLine="Private Sub SciFiPage_Click";
+RDebugUtils.currentLine=1245185;
+ //BA.debugLineNum = 1245185;BA.debugLine="StartActivity(SciFi)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(mostCurrent._scifi.getObject()));
-RDebugUtils.currentLine=1114114;
- //BA.debugLineNum = 1114114;BA.debugLine="Activity.Finish";
+RDebugUtils.currentLine=1245186;
+ //BA.debugLineNum = 1245186;BA.debugLine="Activity.Finish";
 mostCurrent._activity.Finish();
-RDebugUtils.currentLine=1114115;
- //BA.debugLineNum = 1114115;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1245187;
+ //BA.debugLineNum = 1245187;BA.debugLine="End Sub";
 return "";
 }
 public static String  _searchbtn_click() throws Exception{
@@ -1119,1171 +1929,1168 @@ if (Debug.shouldDelegate(mostCurrent.activityBA, "searchbtn_click", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "searchbtn_click", null));}
 String _query = "";
 String _userinput = "";
-RDebugUtils.currentLine=917504;
- //BA.debugLineNum = 917504;BA.debugLine="Private Sub SearchBtn_Click";
-RDebugUtils.currentLine=917505;
- //BA.debugLineNum = 917505;BA.debugLine="Dim query As String = SearchEngine.Text.ToLowerCa";
+RDebugUtils.currentLine=1114112;
+ //BA.debugLineNum = 1114112;BA.debugLine="Private Sub SearchBtn_Click";
+RDebugUtils.currentLine=1114113;
+ //BA.debugLineNum = 1114113;BA.debugLine="Dim query As String = SearchEngine.Text.ToLowerCa";
 _query = mostCurrent._searchengine.getText().toLowerCase().trim();
-RDebugUtils.currentLine=917507;
- //BA.debugLineNum = 917507;BA.debugLine="Dim UserInput As String = SearchEngine.Text";
+RDebugUtils.currentLine=1114115;
+ //BA.debugLineNum = 1114115;BA.debugLine="Dim UserInput As String = SearchEngine.Text";
 _userinput = mostCurrent._searchengine.getText();
-RDebugUtils.currentLine=917512;
- //BA.debugLineNum = 917512;BA.debugLine="If query.Contains(\"kramer\") Or query.Contains(\"kr";
+RDebugUtils.currentLine=1114120;
+ //BA.debugLineNum = 1114120;BA.debugLine="If query.Contains(\"kramer\") Or query.Contains(\"kr";
 if (_query.contains("kramer") || _query.contains("kramer vs kramer")) { 
-RDebugUtils.currentLine=917514;
- //BA.debugLineNum = 917514;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
+RDebugUtils.currentLine=1114122;
+ //BA.debugLineNum = 1114122;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Kramer vs. Kramer"));
-RDebugUtils.currentLine=917515;
- //BA.debugLineNum = 917515;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
+RDebugUtils.currentLine=1114123;
+ //BA.debugLineNum = 1114123;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Dustin Hoffman, Meryl Streep, Justin Henry"));
-RDebugUtils.currentLine=917516;
- //BA.debugLineNum = 917516;BA.debugLine="Year1.Text = \"(1979)\"";
+RDebugUtils.currentLine=1114124;
+ //BA.debugLineNum = 1114124;BA.debugLine="Year1.Text = \"(1979)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(1979)"));
-RDebugUtils.currentLine=917517;
- //BA.debugLineNum = 917517;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
+RDebugUtils.currentLine=1114125;
+ //BA.debugLineNum = 1114125;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In this emotionally charged courtroom and family drama, Kramer vs. Kramer refers to the heartbreaking custody battle between Ted Kramer, a man forced into single fatherhood, and Joanna Kramer, the wife who returns after abandoning their son. As love, responsibility, and personal growth collide, the film asks: what defines a good parent?"));
-RDebugUtils.currentLine=917518;
- //BA.debugLineNum = 917518;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114126;
+ //BA.debugLineNum = 1114126;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917519;
- //BA.debugLineNum = 917519;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114127;
+ //BA.debugLineNum = 1114127;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"kramer.jpg").getObject()));
-RDebugUtils.currentLine=917521;
- //BA.debugLineNum = 917521;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917522;
- //BA.debugLineNum = 917522;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917523;
- //BA.debugLineNum = 917523;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917524;
- //BA.debugLineNum = 917524;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917525;
- //BA.debugLineNum = 917525;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917527;
- //BA.debugLineNum = 917527;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114129;
+ //BA.debugLineNum = 1114129;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114130;
+ //BA.debugLineNum = 1114130;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114131;
+ //BA.debugLineNum = 1114131;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114132;
+ //BA.debugLineNum = 1114132;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114133;
+ //BA.debugLineNum = 1114133;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114135;
+ //BA.debugLineNum = 1114135;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917529;
- //BA.debugLineNum = 917529;BA.debugLine="Else If query.Contains(\"manchester by the Sea\") O";
+{RDebugUtils.currentLine=1114137;
+ //BA.debugLineNum = 1114137;BA.debugLine="Else If query.Contains(\"manchester by the Sea\") O";
 if (_query.contains("manchester by the Sea") || _query.contains("manchester")) { 
-RDebugUtils.currentLine=917531;
- //BA.debugLineNum = 917531;BA.debugLine="Drama1.Text = \"Manchester by the Sea\"";
+RDebugUtils.currentLine=1114139;
+ //BA.debugLineNum = 1114139;BA.debugLine="Drama1.Text = \"Manchester by the Sea\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Manchester by the Sea"));
-RDebugUtils.currentLine=917532;
- //BA.debugLineNum = 917532;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1114140;
+ //BA.debugLineNum = 1114140;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Williams, Lucas Hedges"));
-RDebugUtils.currentLine=917533;
- //BA.debugLineNum = 917533;BA.debugLine="Year1.Text = \"(2016)\"";
+RDebugUtils.currentLine=1114141;
+ //BA.debugLineNum = 1114141;BA.debugLine="Year1.Text = \"(2016)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2016)"));
-RDebugUtils.currentLine=917534;
- //BA.debugLineNum = 917534;BA.debugLine="OverView1.Text = \"After the death of his brother";
+RDebugUtils.currentLine=1114142;
+ //BA.debugLineNum = 1114142;BA.debugLine="OverView1.Text = \"After the death of his brother";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."));
-RDebugUtils.currentLine=917535;
- //BA.debugLineNum = 917535;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114143;
+ //BA.debugLineNum = 1114143;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917536;
- //BA.debugLineNum = 917536;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114144;
+ //BA.debugLineNum = 1114144;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"manchester.jpg").getObject()));
-RDebugUtils.currentLine=917539;
- //BA.debugLineNum = 917539;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917540;
- //BA.debugLineNum = 917540;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917541;
- //BA.debugLineNum = 917541;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917542;
- //BA.debugLineNum = 917542;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917543;
- //BA.debugLineNum = 917543;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917545;
- //BA.debugLineNum = 917545;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114147;
+ //BA.debugLineNum = 1114147;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114148;
+ //BA.debugLineNum = 1114148;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114149;
+ //BA.debugLineNum = 1114149;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114150;
+ //BA.debugLineNum = 1114150;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114151;
+ //BA.debugLineNum = 1114151;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114153;
+ //BA.debugLineNum = 1114153;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917547;
- //BA.debugLineNum = 917547;BA.debugLine="Else If query.Contains(\"the master\") Or query.Con";
+{RDebugUtils.currentLine=1114155;
+ //BA.debugLineNum = 1114155;BA.debugLine="Else If query.Contains(\"the master\") Or query.Con";
 if (_query.contains("the master") || _query.contains("master")) { 
-RDebugUtils.currentLine=917549;
- //BA.debugLineNum = 917549;BA.debugLine="Drama1.Text = \"The Master\"";
+RDebugUtils.currentLine=1114157;
+ //BA.debugLineNum = 1114157;BA.debugLine="Drama1.Text = \"The Master\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("The Master"));
-RDebugUtils.currentLine=917550;
- //BA.debugLineNum = 917550;BA.debugLine="Starter1.Text = \"Starring: Philip Seymour Hoffma";
+RDebugUtils.currentLine=1114158;
+ //BA.debugLineNum = 1114158;BA.debugLine="Starter1.Text = \"Starring: Philip Seymour Hoffma";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"));
-RDebugUtils.currentLine=917551;
- //BA.debugLineNum = 917551;BA.debugLine="Year1.Text = \"(2012)\"";
+RDebugUtils.currentLine=1114159;
+ //BA.debugLineNum = 1114159;BA.debugLine="Year1.Text = \"(2012)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2012)"));
-RDebugUtils.currentLine=917552;
- //BA.debugLineNum = 917552;BA.debugLine="OverView1.Text = \"A mentally unstable WWII veter";
+RDebugUtils.currentLine=1114160;
+ //BA.debugLineNum = 1114160;BA.debugLine="OverView1.Text = \"A mentally unstable WWII veter";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."));
-RDebugUtils.currentLine=917553;
- //BA.debugLineNum = 917553;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114161;
+ //BA.debugLineNum = 1114161;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917554;
- //BA.debugLineNum = 917554;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114162;
+ //BA.debugLineNum = 1114162;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"master.jpg").getObject()));
-RDebugUtils.currentLine=917556;
- //BA.debugLineNum = 917556;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917557;
- //BA.debugLineNum = 917557;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917558;
- //BA.debugLineNum = 917558;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917559;
- //BA.debugLineNum = 917559;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917560;
- //BA.debugLineNum = 917560;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917562;
- //BA.debugLineNum = 917562;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114164;
+ //BA.debugLineNum = 1114164;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114165;
+ //BA.debugLineNum = 1114165;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114166;
+ //BA.debugLineNum = 1114166;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114167;
+ //BA.debugLineNum = 1114167;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114168;
+ //BA.debugLineNum = 1114168;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114170;
+ //BA.debugLineNum = 1114170;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917564;
- //BA.debugLineNum = 917564;BA.debugLine="Else If query.Contains(\"million dollar\") Or query";
+{RDebugUtils.currentLine=1114172;
+ //BA.debugLineNum = 1114172;BA.debugLine="Else If query.Contains(\"million dollar\") Or query";
 if (_query.contains("million dollar") || _query.contains("million") || _query.contains("million dollar baby")) { 
-RDebugUtils.currentLine=917566;
- //BA.debugLineNum = 917566;BA.debugLine="Drama1.Text = \"Million Dollar Baby\"";
+RDebugUtils.currentLine=1114174;
+ //BA.debugLineNum = 1114174;BA.debugLine="Drama1.Text = \"Million Dollar Baby\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Million Dollar Baby"));
-RDebugUtils.currentLine=917567;
- //BA.debugLineNum = 917567;BA.debugLine="Starter1.Text = \"Starring: Morgan Freeman, Hilar";
+RDebugUtils.currentLine=1114175;
+ //BA.debugLineNum = 1114175;BA.debugLine="Starter1.Text = \"Starring: Morgan Freeman, Hilar";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Morgan Freeman, Hilary Swank, Clint Eastwood"));
-RDebugUtils.currentLine=917568;
- //BA.debugLineNum = 917568;BA.debugLine="Year1.Text = \"(2004)\"";
+RDebugUtils.currentLine=1114176;
+ //BA.debugLineNum = 1114176;BA.debugLine="Year1.Text = \"(2004)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2004)"));
-RDebugUtils.currentLine=917569;
- //BA.debugLineNum = 917569;BA.debugLine="OverView1.Text = \"A waitress with dreams of beco";
+RDebugUtils.currentLine=1114177;
+ //BA.debugLineNum = 1114177;BA.debugLine="OverView1.Text = \"A waitress with dreams of beco";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A waitress with dreams of becoming a boxer convinces a reluctant trainer to take her on. As she rises through the ranks, a tragic turn of events forces them both to reckon with loss, dignity, and the nature of love."));
-RDebugUtils.currentLine=917570;
- //BA.debugLineNum = 917570;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114178;
+ //BA.debugLineNum = 1114178;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917571;
- //BA.debugLineNum = 917571;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114179;
+ //BA.debugLineNum = 1114179;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"millondolar.jpg").getObject()));
-RDebugUtils.currentLine=917573;
- //BA.debugLineNum = 917573;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917574;
- //BA.debugLineNum = 917574;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917575;
- //BA.debugLineNum = 917575;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917576;
- //BA.debugLineNum = 917576;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917577;
- //BA.debugLineNum = 917577;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917579;
- //BA.debugLineNum = 917579;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114181;
+ //BA.debugLineNum = 1114181;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114182;
+ //BA.debugLineNum = 1114182;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114183;
+ //BA.debugLineNum = 1114183;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114184;
+ //BA.debugLineNum = 1114184;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114185;
+ //BA.debugLineNum = 1114185;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114187;
+ //BA.debugLineNum = 1114187;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917581;
- //BA.debugLineNum = 917581;BA.debugLine="Else If query.Contains(\"the Bridges of madison co";
+{RDebugUtils.currentLine=1114189;
+ //BA.debugLineNum = 1114189;BA.debugLine="Else If query.Contains(\"the Bridges of madison co";
 if (_query.contains("the Bridges of madison country") || _query.contains("Bridge") || _query.contains("bridges of madison")) { 
-RDebugUtils.currentLine=917583;
- //BA.debugLineNum = 917583;BA.debugLine="Drama1.Text = \"The Bridges of Madison County\"";
+RDebugUtils.currentLine=1114191;
+ //BA.debugLineNum = 1114191;BA.debugLine="Drama1.Text = \"The Bridges of Madison County\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("The Bridges of Madison County"));
-RDebugUtils.currentLine=917584;
- //BA.debugLineNum = 917584;BA.debugLine="Starter1.Text = \"Starring: Clint Eastwood, Meryl";
+RDebugUtils.currentLine=1114192;
+ //BA.debugLineNum = 1114192;BA.debugLine="Starter1.Text = \"Starring: Clint Eastwood, Meryl";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Clint Eastwood, Meryl Streep"));
-RDebugUtils.currentLine=917585;
- //BA.debugLineNum = 917585;BA.debugLine="Year1.Text = \"(1995)\"";
+RDebugUtils.currentLine=1114193;
+ //BA.debugLineNum = 1114193;BA.debugLine="Year1.Text = \"(1995)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(1995)"));
-RDebugUtils.currentLine=917586;
- //BA.debugLineNum = 917586;BA.debugLine="OverView1.Text = \"A brief, passionate romance be";
+RDebugUtils.currentLine=1114194;
+ //BA.debugLineNum = 1114194;BA.debugLine="OverView1.Text = \"A brief, passionate romance be";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A brief, passionate romance between a lonely housewife and a traveling photographer leads to a life-changing emotional journey. Set against the backdrop of 1960s Iowa, it’s a heartbreaking story about missed chances and enduring love."));
-RDebugUtils.currentLine=917587;
- //BA.debugLineNum = 917587;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114195;
+ //BA.debugLineNum = 1114195;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917588;
- //BA.debugLineNum = 917588;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114196;
+ //BA.debugLineNum = 1114196;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bridges.jpg").getObject()));
-RDebugUtils.currentLine=917590;
- //BA.debugLineNum = 917590;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917591;
- //BA.debugLineNum = 917591;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917592;
- //BA.debugLineNum = 917592;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917593;
- //BA.debugLineNum = 917593;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917594;
- //BA.debugLineNum = 917594;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917596;
- //BA.debugLineNum = 917596;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114198;
+ //BA.debugLineNum = 1114198;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114199;
+ //BA.debugLineNum = 1114199;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114200;
+ //BA.debugLineNum = 1114200;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114201;
+ //BA.debugLineNum = 1114201;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114202;
+ //BA.debugLineNum = 1114202;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114204;
+ //BA.debugLineNum = 1114204;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917598;
- //BA.debugLineNum = 917598;BA.debugLine="Else If query.Contains(\"gone\") Or query.Contains(";
+{RDebugUtils.currentLine=1114206;
+ //BA.debugLineNum = 1114206;BA.debugLine="Else If query.Contains(\"gone\") Or query.Contains(";
 if (_query.contains("gone") || _query.contains("gone baby gone") || _query.contains("gone baby")) { 
-RDebugUtils.currentLine=917600;
- //BA.debugLineNum = 917600;BA.debugLine="Drama1.Text = \"Gone Baby Gone\"";
+RDebugUtils.currentLine=1114208;
+ //BA.debugLineNum = 1114208;BA.debugLine="Drama1.Text = \"Gone Baby Gone\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Gone Baby Gone"));
-RDebugUtils.currentLine=917601;
- //BA.debugLineNum = 917601;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1114209;
+ //BA.debugLineNum = 1114209;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"));
-RDebugUtils.currentLine=917602;
- //BA.debugLineNum = 917602;BA.debugLine="Year1.Text = \"(2007)\"";
+RDebugUtils.currentLine=1114210;
+ //BA.debugLineNum = 1114210;BA.debugLine="Year1.Text = \"(2007)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2007)"));
-RDebugUtils.currentLine=917603;
- //BA.debugLineNum = 917603;BA.debugLine="OverView1.Text = \"In a tough Boston neighborhood";
+RDebugUtils.currentLine=1114211;
+ //BA.debugLineNum = 1114211;BA.debugLine="OverView1.Text = \"In a tough Boston neighborhood";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."));
-RDebugUtils.currentLine=917605;
- //BA.debugLineNum = 917605;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917606;
- //BA.debugLineNum = 917606;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917607;
- //BA.debugLineNum = 917607;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917608;
- //BA.debugLineNum = 917608;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917609;
- //BA.debugLineNum = 917609;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917611;
- //BA.debugLineNum = 917611;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114213;
+ //BA.debugLineNum = 1114213;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114214;
+ //BA.debugLineNum = 1114214;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114215;
+ //BA.debugLineNum = 1114215;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114216;
+ //BA.debugLineNum = 1114216;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114217;
+ //BA.debugLineNum = 1114217;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114219;
+ //BA.debugLineNum = 1114219;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917613;
- //BA.debugLineNum = 917613;BA.debugLine="Else If query.Contains(\"blue\") Or query.Contains(";
+{RDebugUtils.currentLine=1114221;
+ //BA.debugLineNum = 1114221;BA.debugLine="Else If query.Contains(\"blue\") Or query.Contains(";
 if (_query.contains("blue") || _query.contains("blue jasmine")) { 
-RDebugUtils.currentLine=917616;
- //BA.debugLineNum = 917616;BA.debugLine="Drama1.Text = \"Blue Jasmine\"";
+RDebugUtils.currentLine=1114224;
+ //BA.debugLineNum = 1114224;BA.debugLine="Drama1.Text = \"Blue Jasmine\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Blue Jasmine"));
-RDebugUtils.currentLine=917617;
- //BA.debugLineNum = 917617;BA.debugLine="Starter1.Text = \"Starring: Cate Blanchett, Sally";
+RDebugUtils.currentLine=1114225;
+ //BA.debugLineNum = 1114225;BA.debugLine="Starter1.Text = \"Starring: Cate Blanchett, Sally";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"));
-RDebugUtils.currentLine=917618;
- //BA.debugLineNum = 917618;BA.debugLine="Year1.Text = \"(2013)\"";
+RDebugUtils.currentLine=1114226;
+ //BA.debugLineNum = 1114226;BA.debugLine="Year1.Text = \"(2013)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=917619;
- //BA.debugLineNum = 917619;BA.debugLine="OverView1.Text = \"After losing her fortune and s";
+RDebugUtils.currentLine=1114227;
+ //BA.debugLineNum = 1114227;BA.debugLine="OverView1.Text = \"After losing her fortune and s";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."));
-RDebugUtils.currentLine=917620;
- //BA.debugLineNum = 917620;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114228;
+ //BA.debugLineNum = 1114228;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917621;
- //BA.debugLineNum = 917621;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114229;
+ //BA.debugLineNum = 1114229;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"gonebaby.jpg").getObject()));
-RDebugUtils.currentLine=917623;
- //BA.debugLineNum = 917623;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917624;
- //BA.debugLineNum = 917624;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917625;
- //BA.debugLineNum = 917625;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917626;
- //BA.debugLineNum = 917626;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917627;
- //BA.debugLineNum = 917627;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917629;
- //BA.debugLineNum = 917629;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114231;
+ //BA.debugLineNum = 1114231;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114232;
+ //BA.debugLineNum = 1114232;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114233;
+ //BA.debugLineNum = 1114233;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114234;
+ //BA.debugLineNum = 1114234;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114235;
+ //BA.debugLineNum = 1114235;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114237;
+ //BA.debugLineNum = 1114237;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917631;
- //BA.debugLineNum = 917631;BA.debugLine="Else If query.Contains(\"her\") Then";
+{RDebugUtils.currentLine=1114239;
+ //BA.debugLineNum = 1114239;BA.debugLine="Else If query.Contains(\"her\") Then";
 if (_query.contains("her")) { 
-RDebugUtils.currentLine=917633;
- //BA.debugLineNum = 917633;BA.debugLine="Drama1.Text = \"Her\"";
+RDebugUtils.currentLine=1114241;
+ //BA.debugLineNum = 1114241;BA.debugLine="Drama1.Text = \"Her\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Her"));
-RDebugUtils.currentLine=917634;
- //BA.debugLineNum = 917634;BA.debugLine="Starter1.Text = \"Starring: Joaquin Phoenix, Roon";
+RDebugUtils.currentLine=1114242;
+ //BA.debugLineNum = 1114242;BA.debugLine="Starter1.Text = \"Starring: Joaquin Phoenix, Roon";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Joaquin Phoenix, Rooney Mara, Amy Adams"));
-RDebugUtils.currentLine=917635;
- //BA.debugLineNum = 917635;BA.debugLine="Year1.Text = \"(2013)\"";
+RDebugUtils.currentLine=1114243;
+ //BA.debugLineNum = 1114243;BA.debugLine="Year1.Text = \"(2013)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=917636;
- //BA.debugLineNum = 917636;BA.debugLine="OverView1.Text = \"In a near-future Los Angeles,";
+RDebugUtils.currentLine=1114244;
+ //BA.debugLineNum = 1114244;BA.debugLine="OverView1.Text = \"In a near-future Los Angeles,";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In a near-future Los Angeles, a lonely man finds solace in a hyper-intelligent AI voice. As their bond deepens into love, he’s forced to question what it means to be human and whether artificial connection is real connection."));
-RDebugUtils.currentLine=917637;
- //BA.debugLineNum = 917637;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114245;
+ //BA.debugLineNum = 1114245;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917638;
- //BA.debugLineNum = 917638;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114246;
+ //BA.debugLineNum = 1114246;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"her.jpg").getObject()));
-RDebugUtils.currentLine=917640;
- //BA.debugLineNum = 917640;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917641;
- //BA.debugLineNum = 917641;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917642;
- //BA.debugLineNum = 917642;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917643;
- //BA.debugLineNum = 917643;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917644;
- //BA.debugLineNum = 917644;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917646;
- //BA.debugLineNum = 917646;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114248;
+ //BA.debugLineNum = 1114248;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114249;
+ //BA.debugLineNum = 1114249;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114250;
+ //BA.debugLineNum = 1114250;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114251;
+ //BA.debugLineNum = 1114251;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114252;
+ //BA.debugLineNum = 1114252;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114254;
+ //BA.debugLineNum = 1114254;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917648;
- //BA.debugLineNum = 917648;BA.debugLine="Else If query.Contains(\"carol\") Or query.Contains";
+{RDebugUtils.currentLine=1114256;
+ //BA.debugLineNum = 1114256;BA.debugLine="Else If query.Contains(\"carol\") Or query.Contains";
 if (_query.contains("carol") || _query.contains("sarah paulson") || _query.contains("sarah") || _query.contains("paulson")) { 
-RDebugUtils.currentLine=917650;
- //BA.debugLineNum = 917650;BA.debugLine="Drama1.Text = \"Carol\"";
+RDebugUtils.currentLine=1114258;
+ //BA.debugLineNum = 1114258;BA.debugLine="Drama1.Text = \"Carol\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Carol"));
-RDebugUtils.currentLine=917651;
- //BA.debugLineNum = 917651;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
+RDebugUtils.currentLine=1114259;
+ //BA.debugLineNum = 1114259;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"));
-RDebugUtils.currentLine=917652;
- //BA.debugLineNum = 917652;BA.debugLine="Year1.Text = \"(2015)\"";
+RDebugUtils.currentLine=1114260;
+ //BA.debugLineNum = 1114260;BA.debugLine="Year1.Text = \"(2015)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2015)"));
-RDebugUtils.currentLine=917653;
- //BA.debugLineNum = 917653;BA.debugLine="OverView1.Text = \"A chance encounter between a y";
+RDebugUtils.currentLine=1114261;
+ //BA.debugLineNum = 1114261;BA.debugLine="OverView1.Text = \"A chance encounter between a y";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."));
-RDebugUtils.currentLine=917654;
- //BA.debugLineNum = 917654;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114262;
+ //BA.debugLineNum = 1114262;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917655;
- //BA.debugLineNum = 917655;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114263;
+ //BA.debugLineNum = 1114263;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"carol.jpg").getObject()));
-RDebugUtils.currentLine=917657;
- //BA.debugLineNum = 917657;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917658;
- //BA.debugLineNum = 917658;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917659;
- //BA.debugLineNum = 917659;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917660;
- //BA.debugLineNum = 917660;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917661;
- //BA.debugLineNum = 917661;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917663;
- //BA.debugLineNum = 917663;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114265;
+ //BA.debugLineNum = 1114265;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114266;
+ //BA.debugLineNum = 1114266;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114267;
+ //BA.debugLineNum = 1114267;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114268;
+ //BA.debugLineNum = 1114268;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114269;
+ //BA.debugLineNum = 1114269;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114271;
+ //BA.debugLineNum = 1114271;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917665;
- //BA.debugLineNum = 917665;BA.debugLine="Else If query.Contains(\"the lost daugther\") Or qu";
+{RDebugUtils.currentLine=1114273;
+ //BA.debugLineNum = 1114273;BA.debugLine="Else If query.Contains(\"the lost daugther\") Or qu";
 if (_query.contains("the lost daugther") || _query.contains("lost daughter") || _query.contains("lost")) { 
-RDebugUtils.currentLine=917667;
- //BA.debugLineNum = 917667;BA.debugLine="Drama1.Text = \"The Lost Daughter\"";
+RDebugUtils.currentLine=1114275;
+ //BA.debugLineNum = 1114275;BA.debugLine="Drama1.Text = \"The Lost Daughter\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("The Lost Daughter"));
-RDebugUtils.currentLine=917668;
- //BA.debugLineNum = 917668;BA.debugLine="Starter1.Text = \"Starring: Olivia Colman, Dakota";
+RDebugUtils.currentLine=1114276;
+ //BA.debugLineNum = 1114276;BA.debugLine="Starter1.Text = \"Starring: Olivia Colman, Dakota";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Olivia Colman, Dakota Johnson, Jessie Buckley"));
-RDebugUtils.currentLine=917669;
- //BA.debugLineNum = 917669;BA.debugLine="Year1.Text = \"(2021)\"";
+RDebugUtils.currentLine=1114277;
+ //BA.debugLineNum = 1114277;BA.debugLine="Year1.Text = \"(2021)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2021)"));
-RDebugUtils.currentLine=917670;
- //BA.debugLineNum = 917670;BA.debugLine="OverView1.Text = \"A solitary woman on vacation b";
+RDebugUtils.currentLine=1114278;
+ //BA.debugLineNum = 1114278;BA.debugLine="OverView1.Text = \"A solitary woman on vacation b";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A solitary woman on vacation becomes fascinated by a young mother and her daughter, triggering memories of her own past choices as a parent. The film dives into the complexities of motherhood, regret, and identity"));
-RDebugUtils.currentLine=917671;
- //BA.debugLineNum = 917671;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114279;
+ //BA.debugLineNum = 1114279;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917672;
- //BA.debugLineNum = 917672;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114280;
+ //BA.debugLineNum = 1114280;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"lostdaughter.jpg").getObject()));
-RDebugUtils.currentLine=917674;
- //BA.debugLineNum = 917674;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917675;
- //BA.debugLineNum = 917675;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917676;
- //BA.debugLineNum = 917676;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917677;
- //BA.debugLineNum = 917677;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917678;
- //BA.debugLineNum = 917678;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917680;
- //BA.debugLineNum = 917680;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114282;
+ //BA.debugLineNum = 1114282;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114283;
+ //BA.debugLineNum = 1114283;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114284;
+ //BA.debugLineNum = 1114284;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114285;
+ //BA.debugLineNum = 1114285;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114286;
+ //BA.debugLineNum = 1114286;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114288;
+ //BA.debugLineNum = 1114288;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917681;
- //BA.debugLineNum = 917681;BA.debugLine="Else If query.Contains(\"doubt\") Then";
+{RDebugUtils.currentLine=1114289;
+ //BA.debugLineNum = 1114289;BA.debugLine="Else If query.Contains(\"doubt\") Then";
 if (_query.contains("doubt")) { 
-RDebugUtils.currentLine=917682;
- //BA.debugLineNum = 917682;BA.debugLine="Drama1.Text = \"Doubt\"";
+RDebugUtils.currentLine=1114290;
+ //BA.debugLineNum = 1114290;BA.debugLine="Drama1.Text = \"Doubt\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Doubt"));
-RDebugUtils.currentLine=917683;
- //BA.debugLineNum = 917683;BA.debugLine="Starter1.Text = \"Starring: Meryl Streep, Philip";
+RDebugUtils.currentLine=1114291;
+ //BA.debugLineNum = 1114291;BA.debugLine="Starter1.Text = \"Starring: Meryl Streep, Philip";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"));
-RDebugUtils.currentLine=917684;
- //BA.debugLineNum = 917684;BA.debugLine="Year1.Text = \"(2008)\"";
+RDebugUtils.currentLine=1114292;
+ //BA.debugLineNum = 1114292;BA.debugLine="Year1.Text = \"(2008)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2008)"));
-RDebugUtils.currentLine=917685;
- //BA.debugLineNum = 917685;BA.debugLine="OverView1.Text = \"In a Catholic school in the Br";
+RDebugUtils.currentLine=1114293;
+ //BA.debugLineNum = 1114293;BA.debugLine="OverView1.Text = \"In a Catholic school in the Br";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."));
-RDebugUtils.currentLine=917686;
- //BA.debugLineNum = 917686;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114294;
+ //BA.debugLineNum = 1114294;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917687;
- //BA.debugLineNum = 917687;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114295;
+ //BA.debugLineNum = 1114295;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"doubt.jpg").getObject()));
-RDebugUtils.currentLine=917689;
- //BA.debugLineNum = 917689;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917690;
- //BA.debugLineNum = 917690;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917691;
- //BA.debugLineNum = 917691;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917692;
- //BA.debugLineNum = 917692;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917693;
- //BA.debugLineNum = 917693;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917694;
- //BA.debugLineNum = 917694;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114297;
+ //BA.debugLineNum = 1114297;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114298;
+ //BA.debugLineNum = 1114298;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114299;
+ //BA.debugLineNum = 1114299;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114300;
+ //BA.debugLineNum = 1114300;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114301;
+ //BA.debugLineNum = 1114301;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114303;
+ //BA.debugLineNum = 1114303;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917697;
- //BA.debugLineNum = 917697;BA.debugLine="Else If query.Contains(\"meryl streep\") Or query.C";
+{RDebugUtils.currentLine=1114306;
+ //BA.debugLineNum = 1114306;BA.debugLine="Else If query.Contains(\"meryl streep\") Or query.C";
 if (_query.contains("meryl streep") || _query.contains("meryl") || _query.contains("streep")) { 
-RDebugUtils.currentLine=917698;
- //BA.debugLineNum = 917698;BA.debugLine="Drama1.Text = \"The Bridges of Madison County\"";
+RDebugUtils.currentLine=1114307;
+ //BA.debugLineNum = 1114307;BA.debugLine="Drama1.Text = \"The Bridges of Madison County\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("The Bridges of Madison County"));
-RDebugUtils.currentLine=917699;
- //BA.debugLineNum = 917699;BA.debugLine="Starter1.Text = \"Starring: Clint Eastwood, Meryl";
+RDebugUtils.currentLine=1114308;
+ //BA.debugLineNum = 1114308;BA.debugLine="Starter1.Text = \"Starring: Clint Eastwood, Meryl";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Clint Eastwood, Meryl Streep"));
-RDebugUtils.currentLine=917700;
- //BA.debugLineNum = 917700;BA.debugLine="Year1.Text = \"(1995)\"";
+RDebugUtils.currentLine=1114309;
+ //BA.debugLineNum = 1114309;BA.debugLine="Year1.Text = \"(1995)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(1995)"));
-RDebugUtils.currentLine=917701;
- //BA.debugLineNum = 917701;BA.debugLine="OverView1.Text = \"A brief, passionate romance be";
+RDebugUtils.currentLine=1114310;
+ //BA.debugLineNum = 1114310;BA.debugLine="OverView1.Text = \"A brief, passionate romance be";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A brief, passionate romance between a lonely housewife and a traveling photographer leads to a life-changing emotional journey. Set against the backdrop of 1960s Iowa, it’s a heartbreaking story about missed chances and enduring love."));
-RDebugUtils.currentLine=917702;
- //BA.debugLineNum = 917702;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114311;
+ //BA.debugLineNum = 1114311;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917703;
- //BA.debugLineNum = 917703;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114312;
+ //BA.debugLineNum = 1114312;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bridges.jpg").getObject()));
-RDebugUtils.currentLine=917705;
- //BA.debugLineNum = 917705;BA.debugLine="Drama2.Text = \"Doubt\"";
+RDebugUtils.currentLine=1114314;
+ //BA.debugLineNum = 1114314;BA.debugLine="Drama2.Text = \"Doubt\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Doubt"));
-RDebugUtils.currentLine=917706;
- //BA.debugLineNum = 917706;BA.debugLine="Starter2.Text = \"Starring: Meryl Streep, Philip";
+RDebugUtils.currentLine=1114315;
+ //BA.debugLineNum = 1114315;BA.debugLine="Starter2.Text = \"Starring: Meryl Streep, Philip";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"));
-RDebugUtils.currentLine=917707;
- //BA.debugLineNum = 917707;BA.debugLine="Year2.Text = \"(2008)\"";
+RDebugUtils.currentLine=1114316;
+ //BA.debugLineNum = 1114316;BA.debugLine="Year2.Text = \"(2008)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2008)"));
-RDebugUtils.currentLine=917708;
- //BA.debugLineNum = 917708;BA.debugLine="OverView2.Text = \"In a Catholic school in the Br";
+RDebugUtils.currentLine=1114317;
+ //BA.debugLineNum = 1114317;BA.debugLine="OverView2.Text = \"In a Catholic school in the Br";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."));
-RDebugUtils.currentLine=917709;
- //BA.debugLineNum = 917709;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114318;
+ //BA.debugLineNum = 1114318;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917710;
- //BA.debugLineNum = 917710;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114319;
+ //BA.debugLineNum = 1114319;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"doubt.jpg").getObject()));
-RDebugUtils.currentLine=917712;
- //BA.debugLineNum = 917712;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917713;
- //BA.debugLineNum = 917713;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917714;
- //BA.debugLineNum = 917714;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917715;
- //BA.debugLineNum = 917715;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917716;
- //BA.debugLineNum = 917716;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114322;
+ //BA.debugLineNum = 1114322;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114323;
+ //BA.debugLineNum = 1114323;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114324;
+ //BA.debugLineNum = 1114324;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114325;
+ //BA.debugLineNum = 1114325;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114327;
+ //BA.debugLineNum = 1114327;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917717;
- //BA.debugLineNum = 917717;BA.debugLine="Else If query.Contains(\"casey\") Or query.Contains";
+{RDebugUtils.currentLine=1114328;
+ //BA.debugLineNum = 1114328;BA.debugLine="Else If query.Contains(\"casey\") Or query.Contains";
 if (_query.contains("casey") || _query.contains("casey affleck")) { 
-RDebugUtils.currentLine=917718;
- //BA.debugLineNum = 917718;BA.debugLine="Drama1.Text = \"Gone Baby Gone\"";
+RDebugUtils.currentLine=1114329;
+ //BA.debugLineNum = 1114329;BA.debugLine="Drama1.Text = \"Gone Baby Gone\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Gone Baby Gone"));
-RDebugUtils.currentLine=917719;
- //BA.debugLineNum = 917719;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1114330;
+ //BA.debugLineNum = 1114330;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"));
-RDebugUtils.currentLine=917720;
- //BA.debugLineNum = 917720;BA.debugLine="Year1.Text = \"(2007)\"";
+RDebugUtils.currentLine=1114331;
+ //BA.debugLineNum = 1114331;BA.debugLine="Year1.Text = \"(2007)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2007)"));
-RDebugUtils.currentLine=917721;
- //BA.debugLineNum = 917721;BA.debugLine="OverView1.Text = \"In a tough Boston neighborhood";
+RDebugUtils.currentLine=1114332;
+ //BA.debugLineNum = 1114332;BA.debugLine="OverView1.Text = \"In a tough Boston neighborhood";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."));
-RDebugUtils.currentLine=917722;
- //BA.debugLineNum = 917722;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114333;
+ //BA.debugLineNum = 1114333;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917723;
- //BA.debugLineNum = 917723;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114334;
+ //BA.debugLineNum = 1114334;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"gonebaby.jpg").getObject()));
-RDebugUtils.currentLine=917725;
- //BA.debugLineNum = 917725;BA.debugLine="Drama2.Text = \"Manchester by the Sea\"";
+RDebugUtils.currentLine=1114336;
+ //BA.debugLineNum = 1114336;BA.debugLine="Drama2.Text = \"Manchester by the Sea\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Manchester by the Sea"));
-RDebugUtils.currentLine=917726;
- //BA.debugLineNum = 917726;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1114337;
+ //BA.debugLineNum = 1114337;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Williams, Lucas Hedges"));
-RDebugUtils.currentLine=917727;
- //BA.debugLineNum = 917727;BA.debugLine="Year2.Text = \"(2016)\"";
+RDebugUtils.currentLine=1114338;
+ //BA.debugLineNum = 1114338;BA.debugLine="Year2.Text = \"(2016)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2016)"));
-RDebugUtils.currentLine=917728;
- //BA.debugLineNum = 917728;BA.debugLine="OverView2.Text = \"After the death of his brother";
+RDebugUtils.currentLine=1114339;
+ //BA.debugLineNum = 1114339;BA.debugLine="OverView2.Text = \"After the death of his brother";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."));
-RDebugUtils.currentLine=917729;
- //BA.debugLineNum = 917729;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114340;
+ //BA.debugLineNum = 1114340;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917730;
- //BA.debugLineNum = 917730;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114341;
+ //BA.debugLineNum = 1114341;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"manchester.jpg").getObject()));
-RDebugUtils.currentLine=917732;
- //BA.debugLineNum = 917732;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917733;
- //BA.debugLineNum = 917733;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917734;
- //BA.debugLineNum = 917734;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917735;
- //BA.debugLineNum = 917735;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917736;
- //BA.debugLineNum = 917736;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114343;
+ //BA.debugLineNum = 1114343;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114344;
+ //BA.debugLineNum = 1114344;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114345;
+ //BA.debugLineNum = 1114345;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114346;
+ //BA.debugLineNum = 1114346;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114348;
+ //BA.debugLineNum = 1114348;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917738;
- //BA.debugLineNum = 917738;BA.debugLine="Else If query.Contains(\"joaquin\") Or query.Contai";
+{RDebugUtils.currentLine=1114350;
+ //BA.debugLineNum = 1114350;BA.debugLine="Else If query.Contains(\"joaquin\") Or query.Contai";
 if (_query.contains("joaquin") || _query.contains("joaquin phoenix") || _query.contains("amy adams") || _query.contains("amy")) { 
-RDebugUtils.currentLine=917739;
- //BA.debugLineNum = 917739;BA.debugLine="Drama1.Text = \"The Master\"";
+RDebugUtils.currentLine=1114351;
+ //BA.debugLineNum = 1114351;BA.debugLine="Drama1.Text = \"The Master\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("The Master"));
-RDebugUtils.currentLine=917740;
- //BA.debugLineNum = 917740;BA.debugLine="Starter1.Text = \"Starring: Philip Seymour Hoffma";
+RDebugUtils.currentLine=1114352;
+ //BA.debugLineNum = 1114352;BA.debugLine="Starter1.Text = \"Starring: Philip Seymour Hoffma";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"));
-RDebugUtils.currentLine=917741;
- //BA.debugLineNum = 917741;BA.debugLine="Year1.Text = \"(2012)\"";
+RDebugUtils.currentLine=1114353;
+ //BA.debugLineNum = 1114353;BA.debugLine="Year1.Text = \"(2012)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2012)"));
-RDebugUtils.currentLine=917742;
- //BA.debugLineNum = 917742;BA.debugLine="OverView1.Text = \"A mentally unstable WWII veter";
+RDebugUtils.currentLine=1114354;
+ //BA.debugLineNum = 1114354;BA.debugLine="OverView1.Text = \"A mentally unstable WWII veter";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."));
-RDebugUtils.currentLine=917743;
- //BA.debugLineNum = 917743;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114355;
+ //BA.debugLineNum = 1114355;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917744;
- //BA.debugLineNum = 917744;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114356;
+ //BA.debugLineNum = 1114356;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"master.jpg").getObject()));
-RDebugUtils.currentLine=917746;
- //BA.debugLineNum = 917746;BA.debugLine="Drama2.Text = \"Her\"";
+RDebugUtils.currentLine=1114358;
+ //BA.debugLineNum = 1114358;BA.debugLine="Drama2.Text = \"Her\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Her"));
-RDebugUtils.currentLine=917747;
- //BA.debugLineNum = 917747;BA.debugLine="Starter2.Text = \"Starring: Joaquin Phoenix, Roon";
+RDebugUtils.currentLine=1114359;
+ //BA.debugLineNum = 1114359;BA.debugLine="Starter2.Text = \"Starring: Joaquin Phoenix, Roon";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Joaquin Phoenix, Rooney Mara, Amy Adams"));
-RDebugUtils.currentLine=917748;
- //BA.debugLineNum = 917748;BA.debugLine="Year2.Text = \"(2013)\"";
+RDebugUtils.currentLine=1114360;
+ //BA.debugLineNum = 1114360;BA.debugLine="Year2.Text = \"(2013)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=917749;
- //BA.debugLineNum = 917749;BA.debugLine="OverView2.Text = \"In a near-future Los Angeles,";
+RDebugUtils.currentLine=1114361;
+ //BA.debugLineNum = 1114361;BA.debugLine="OverView2.Text = \"In a near-future Los Angeles,";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("In a near-future Los Angeles, a lonely man finds solace in a hyper-intelligent AI voice. As their bond deepens into love, he’s forced to question what it means to be human and whether artificial connection is real connection."));
-RDebugUtils.currentLine=917750;
- //BA.debugLineNum = 917750;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114362;
+ //BA.debugLineNum = 1114362;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917751;
- //BA.debugLineNum = 917751;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114363;
+ //BA.debugLineNum = 1114363;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"her.jpg").getObject()));
-RDebugUtils.currentLine=917753;
- //BA.debugLineNum = 917753;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917754;
- //BA.debugLineNum = 917754;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917755;
- //BA.debugLineNum = 917755;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917756;
- //BA.debugLineNum = 917756;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917758;
- //BA.debugLineNum = 917758;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114365;
+ //BA.debugLineNum = 1114365;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114366;
+ //BA.debugLineNum = 1114366;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114367;
+ //BA.debugLineNum = 1114367;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114368;
+ //BA.debugLineNum = 1114368;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114370;
+ //BA.debugLineNum = 1114370;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917760;
- //BA.debugLineNum = 917760;BA.debugLine="Else If query.Contains(\"cate blanchett\") Or query";
+{RDebugUtils.currentLine=1114372;
+ //BA.debugLineNum = 1114372;BA.debugLine="Else If query.Contains(\"cate blanchett\") Or query";
 if (_query.contains("cate blanchett") || _query.contains("cate")) { 
-RDebugUtils.currentLine=917761;
- //BA.debugLineNum = 917761;BA.debugLine="Drama1.Text = \"Carol\"";
+RDebugUtils.currentLine=1114373;
+ //BA.debugLineNum = 1114373;BA.debugLine="Drama1.Text = \"Carol\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Carol"));
-RDebugUtils.currentLine=917762;
- //BA.debugLineNum = 917762;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
+RDebugUtils.currentLine=1114374;
+ //BA.debugLineNum = 1114374;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"));
-RDebugUtils.currentLine=917763;
- //BA.debugLineNum = 917763;BA.debugLine="Year1.Text = \"(2015)\"";
+RDebugUtils.currentLine=1114375;
+ //BA.debugLineNum = 1114375;BA.debugLine="Year1.Text = \"(2015)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2015)"));
-RDebugUtils.currentLine=917764;
- //BA.debugLineNum = 917764;BA.debugLine="OverView1.Text = \"A chance encounter between a y";
+RDebugUtils.currentLine=1114376;
+ //BA.debugLineNum = 1114376;BA.debugLine="OverView1.Text = \"A chance encounter between a y";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."));
-RDebugUtils.currentLine=917765;
- //BA.debugLineNum = 917765;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114377;
+ //BA.debugLineNum = 1114377;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917766;
- //BA.debugLineNum = 917766;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114378;
+ //BA.debugLineNum = 1114378;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"carol.jpg").getObject()));
-RDebugUtils.currentLine=917768;
- //BA.debugLineNum = 917768;BA.debugLine="Drama2.Text = \"Blue Jasmine\"";
+RDebugUtils.currentLine=1114380;
+ //BA.debugLineNum = 1114380;BA.debugLine="Drama2.Text = \"Blue Jasmine\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Blue Jasmine"));
-RDebugUtils.currentLine=917769;
- //BA.debugLineNum = 917769;BA.debugLine="Starter2.Text = \"Starring: Cate Blanchett, Sally";
+RDebugUtils.currentLine=1114381;
+ //BA.debugLineNum = 1114381;BA.debugLine="Starter2.Text = \"Starring: Cate Blanchett, Sally";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"));
-RDebugUtils.currentLine=917770;
- //BA.debugLineNum = 917770;BA.debugLine="Year2.Text = \"(2013)\"";
+RDebugUtils.currentLine=1114382;
+ //BA.debugLineNum = 1114382;BA.debugLine="Year2.Text = \"(2013)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=917771;
- //BA.debugLineNum = 917771;BA.debugLine="OverView2.Text = \"After losing her fortune and s";
+RDebugUtils.currentLine=1114383;
+ //BA.debugLineNum = 1114383;BA.debugLine="OverView2.Text = \"After losing her fortune and s";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."));
-RDebugUtils.currentLine=917772;
- //BA.debugLineNum = 917772;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114384;
+ //BA.debugLineNum = 1114384;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917773;
- //BA.debugLineNum = 917773;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114385;
+ //BA.debugLineNum = 1114385;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bluejasmine.jpg").getObject()));
-RDebugUtils.currentLine=917775;
- //BA.debugLineNum = 917775;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917776;
- //BA.debugLineNum = 917776;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917777;
- //BA.debugLineNum = 917777;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917778;
- //BA.debugLineNum = 917778;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917780;
- //BA.debugLineNum = 917780;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114387;
+ //BA.debugLineNum = 1114387;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114388;
+ //BA.debugLineNum = 1114388;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114389;
+ //BA.debugLineNum = 1114389;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114390;
+ //BA.debugLineNum = 1114390;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114392;
+ //BA.debugLineNum = 1114392;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917782;
- //BA.debugLineNum = 917782;BA.debugLine="Else If query.Contains(\"morgan freeman\") Or query";
+{RDebugUtils.currentLine=1114394;
+ //BA.debugLineNum = 1114394;BA.debugLine="Else If query.Contains(\"morgan freeman\") Or query";
 if (_query.contains("morgan freeman") || _query.contains("morgan")) { 
-RDebugUtils.currentLine=917783;
- //BA.debugLineNum = 917783;BA.debugLine="Drama1.Text = \"Million Dollar Baby\"";
+RDebugUtils.currentLine=1114395;
+ //BA.debugLineNum = 1114395;BA.debugLine="Drama1.Text = \"Million Dollar Baby\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Million Dollar Baby"));
-RDebugUtils.currentLine=917784;
- //BA.debugLineNum = 917784;BA.debugLine="Starter1.Text = \"Starring: Morgan Freeman, Hilar";
+RDebugUtils.currentLine=1114396;
+ //BA.debugLineNum = 1114396;BA.debugLine="Starter1.Text = \"Starring: Morgan Freeman, Hilar";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Morgan Freeman, Hilary Swank, Clint Eastwood"));
-RDebugUtils.currentLine=917785;
- //BA.debugLineNum = 917785;BA.debugLine="Year1.Text = \"(2004)\"";
+RDebugUtils.currentLine=1114397;
+ //BA.debugLineNum = 1114397;BA.debugLine="Year1.Text = \"(2004)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2004)"));
-RDebugUtils.currentLine=917786;
- //BA.debugLineNum = 917786;BA.debugLine="OverView1.Text = \"A waitress with dreams of beco";
+RDebugUtils.currentLine=1114398;
+ //BA.debugLineNum = 1114398;BA.debugLine="OverView1.Text = \"A waitress with dreams of beco";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A waitress with dreams of becoming a boxer convinces a reluctant trainer to take her on. As she rises through the ranks, a tragic turn of events forces them both to reckon with loss, dignity, and the nature of love."));
-RDebugUtils.currentLine=917787;
- //BA.debugLineNum = 917787;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114399;
+ //BA.debugLineNum = 1114399;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917788;
- //BA.debugLineNum = 917788;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114400;
+ //BA.debugLineNum = 1114400;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"millondolar.jpg").getObject()));
-RDebugUtils.currentLine=917790;
- //BA.debugLineNum = 917790;BA.debugLine="Drama2.Text = \"Gone Baby Gone\"";
+RDebugUtils.currentLine=1114402;
+ //BA.debugLineNum = 1114402;BA.debugLine="Drama2.Text = \"Gone Baby Gone\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Gone Baby Gone"));
-RDebugUtils.currentLine=917791;
- //BA.debugLineNum = 917791;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1114403;
+ //BA.debugLineNum = 1114403;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"));
-RDebugUtils.currentLine=917792;
- //BA.debugLineNum = 917792;BA.debugLine="Year2.Text = \"(2007)\"";
+RDebugUtils.currentLine=1114404;
+ //BA.debugLineNum = 1114404;BA.debugLine="Year2.Text = \"(2007)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2007)"));
-RDebugUtils.currentLine=917793;
- //BA.debugLineNum = 917793;BA.debugLine="OverView2.Text = \"In a tough Boston neighborhood";
+RDebugUtils.currentLine=1114405;
+ //BA.debugLineNum = 1114405;BA.debugLine="OverView2.Text = \"In a tough Boston neighborhood";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."));
-RDebugUtils.currentLine=917794;
- //BA.debugLineNum = 917794;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114406;
+ //BA.debugLineNum = 1114406;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917795;
- //BA.debugLineNum = 917795;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114407;
+ //BA.debugLineNum = 1114407;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"gonebaby.jpg").getObject()));
-RDebugUtils.currentLine=917797;
- //BA.debugLineNum = 917797;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917798;
- //BA.debugLineNum = 917798;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917799;
- //BA.debugLineNum = 917799;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917800;
- //BA.debugLineNum = 917800;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917802;
- //BA.debugLineNum = 917802;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114409;
+ //BA.debugLineNum = 1114409;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114410;
+ //BA.debugLineNum = 1114410;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114411;
+ //BA.debugLineNum = 1114411;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114412;
+ //BA.debugLineNum = 1114412;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114414;
+ //BA.debugLineNum = 1114414;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917804;
- //BA.debugLineNum = 917804;BA.debugLine="Else If query.Contains(\"clint eastwood\") Or query";
+{RDebugUtils.currentLine=1114416;
+ //BA.debugLineNum = 1114416;BA.debugLine="Else If query.Contains(\"clint eastwood\") Or query";
 if (_query.contains("clint eastwood") || _query.contains("clint") || _query.contains("eastwood")) { 
-RDebugUtils.currentLine=917805;
- //BA.debugLineNum = 917805;BA.debugLine="Drama1.Text = \"Million Dollar Baby\"";
+RDebugUtils.currentLine=1114417;
+ //BA.debugLineNum = 1114417;BA.debugLine="Drama1.Text = \"Million Dollar Baby\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Million Dollar Baby"));
-RDebugUtils.currentLine=917806;
- //BA.debugLineNum = 917806;BA.debugLine="Starter1.Text = \"Starring: Morgan Freeman, Hilar";
+RDebugUtils.currentLine=1114418;
+ //BA.debugLineNum = 1114418;BA.debugLine="Starter1.Text = \"Starring: Morgan Freeman, Hilar";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Morgan Freeman, Hilary Swank, Clint Eastwood"));
-RDebugUtils.currentLine=917807;
- //BA.debugLineNum = 917807;BA.debugLine="Year1.Text = \"(2004)\"";
+RDebugUtils.currentLine=1114419;
+ //BA.debugLineNum = 1114419;BA.debugLine="Year1.Text = \"(2004)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2004)"));
-RDebugUtils.currentLine=917808;
- //BA.debugLineNum = 917808;BA.debugLine="OverView1.Text = \"A waitress with dreams of beco";
+RDebugUtils.currentLine=1114420;
+ //BA.debugLineNum = 1114420;BA.debugLine="OverView1.Text = \"A waitress with dreams of beco";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A waitress with dreams of becoming a boxer convinces a reluctant trainer to take her on. As she rises through the ranks, a tragic turn of events forces them both to reckon with loss, dignity, and the nature of love."));
-RDebugUtils.currentLine=917809;
- //BA.debugLineNum = 917809;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114421;
+ //BA.debugLineNum = 1114421;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917810;
- //BA.debugLineNum = 917810;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114422;
+ //BA.debugLineNum = 1114422;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"millondolar.jpg").getObject()));
-RDebugUtils.currentLine=917812;
- //BA.debugLineNum = 917812;BA.debugLine="Drama2.Text = \"The Bridges of Madison Country\"";
+RDebugUtils.currentLine=1114424;
+ //BA.debugLineNum = 1114424;BA.debugLine="Drama2.Text = \"The Bridges of Madison Country\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("The Bridges of Madison Country"));
-RDebugUtils.currentLine=917813;
- //BA.debugLineNum = 917813;BA.debugLine="Starter2.Text = \"Starring: Clint Eastwood, Meryl";
+RDebugUtils.currentLine=1114425;
+ //BA.debugLineNum = 1114425;BA.debugLine="Starter2.Text = \"Starring: Clint Eastwood, Meryl";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Clint Eastwood, Meryl Streep"));
-RDebugUtils.currentLine=917814;
- //BA.debugLineNum = 917814;BA.debugLine="Year2.Text = \"(1995)\"";
+RDebugUtils.currentLine=1114426;
+ //BA.debugLineNum = 1114426;BA.debugLine="Year2.Text = \"(1995)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(1995)"));
-RDebugUtils.currentLine=917815;
- //BA.debugLineNum = 917815;BA.debugLine="OverView2.Text = \"A brief, passionate romance be";
+RDebugUtils.currentLine=1114427;
+ //BA.debugLineNum = 1114427;BA.debugLine="OverView2.Text = \"A brief, passionate romance be";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("A brief, passionate romance between a lonely housewife and a traveling photographer leads to a life-changing emotional journey. Set against the backdrop of 1960s Iowa, it’s a heartbreaking story about missed chances and enduring love."));
-RDebugUtils.currentLine=917816;
- //BA.debugLineNum = 917816;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114428;
+ //BA.debugLineNum = 1114428;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917817;
- //BA.debugLineNum = 917817;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114429;
+ //BA.debugLineNum = 1114429;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bridges.jpg").getObject()));
-RDebugUtils.currentLine=917819;
- //BA.debugLineNum = 917819;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917820;
- //BA.debugLineNum = 917820;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917821;
- //BA.debugLineNum = 917821;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917822;
- //BA.debugLineNum = 917822;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917824;
- //BA.debugLineNum = 917824;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114431;
+ //BA.debugLineNum = 1114431;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114432;
+ //BA.debugLineNum = 1114432;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114433;
+ //BA.debugLineNum = 1114433;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114434;
+ //BA.debugLineNum = 1114434;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114436;
+ //BA.debugLineNum = 1114436;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917826;
- //BA.debugLineNum = 917826;BA.debugLine="Else If query.Contains(\"amy Adams\") Or query.Cont";
+{RDebugUtils.currentLine=1114438;
+ //BA.debugLineNum = 1114438;BA.debugLine="Else If query.Contains(\"amy Adams\") Or query.Cont";
 if (_query.contains("amy Adams") || _query.contains("amy") || _query.contains("adams")) { 
-RDebugUtils.currentLine=917828;
- //BA.debugLineNum = 917828;BA.debugLine="Drama2.Text = \"The Master\"";
+RDebugUtils.currentLine=1114440;
+ //BA.debugLineNum = 1114440;BA.debugLine="Drama2.Text = \"The Master\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("The Master"));
-RDebugUtils.currentLine=917829;
- //BA.debugLineNum = 917829;BA.debugLine="Starter2.Text = \"Starring: Philip Seymour Hoffma";
+RDebugUtils.currentLine=1114441;
+ //BA.debugLineNum = 1114441;BA.debugLine="Starter2.Text = \"Starring: Philip Seymour Hoffma";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"));
-RDebugUtils.currentLine=917830;
- //BA.debugLineNum = 917830;BA.debugLine="Year2.Text = \"(2012)\"";
+RDebugUtils.currentLine=1114442;
+ //BA.debugLineNum = 1114442;BA.debugLine="Year2.Text = \"(2012)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2012)"));
-RDebugUtils.currentLine=917831;
- //BA.debugLineNum = 917831;BA.debugLine="OverView2.Text = \"A mentally unstable WWII veter";
+RDebugUtils.currentLine=1114443;
+ //BA.debugLineNum = 1114443;BA.debugLine="OverView2.Text = \"A mentally unstable WWII veter";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."));
-RDebugUtils.currentLine=917832;
- //BA.debugLineNum = 917832;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114444;
+ //BA.debugLineNum = 1114444;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917833;
- //BA.debugLineNum = 917833;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114445;
+ //BA.debugLineNum = 1114445;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"master.jpg").getObject()));
-RDebugUtils.currentLine=917835;
- //BA.debugLineNum = 917835;BA.debugLine="Drama3.Text = \"Her\"";
+RDebugUtils.currentLine=1114447;
+ //BA.debugLineNum = 1114447;BA.debugLine="Drama3.Text = \"Her\"";
 mostCurrent._drama3.setText(BA.ObjectToCharSequence("Her"));
-RDebugUtils.currentLine=917836;
- //BA.debugLineNum = 917836;BA.debugLine="Starter3.Text = \"Starring: Joaquin Phoenix, Roon";
+RDebugUtils.currentLine=1114448;
+ //BA.debugLineNum = 1114448;BA.debugLine="Starter3.Text = \"Starring: Joaquin Phoenix, Roon";
 mostCurrent._starter3.setText(BA.ObjectToCharSequence("Starring: Joaquin Phoenix, Rooney Mara, Amy Adams"));
-RDebugUtils.currentLine=917837;
- //BA.debugLineNum = 917837;BA.debugLine="Year3.Text = \"(2013)\"";
+RDebugUtils.currentLine=1114449;
+ //BA.debugLineNum = 1114449;BA.debugLine="Year3.Text = \"(2013)\"";
 mostCurrent._year3.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=917838;
- //BA.debugLineNum = 917838;BA.debugLine="OverView3.Text = \"In a near-future Los Angeles,";
+RDebugUtils.currentLine=1114450;
+ //BA.debugLineNum = 1114450;BA.debugLine="OverView3.Text = \"In a near-future Los Angeles,";
 mostCurrent._overview3.setText(BA.ObjectToCharSequence("In a near-future Los Angeles, a lonely man finds solace in a hyper-intelligent AI voice. As their bond deepens into love, he’s forced to question what it means to be human and whether artificial connection is real connection."));
-RDebugUtils.currentLine=917839;
- //BA.debugLineNum = 917839;BA.debugLine="DramaImage3.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114451;
+ //BA.debugLineNum = 1114451;BA.debugLine="DramaImage3.Gravity = Gravity.FILL";
 mostCurrent._dramaimage3.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917840;
- //BA.debugLineNum = 917840;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114452;
+ //BA.debugLineNum = 1114452;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage3.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"her.jpg").getObject()));
-RDebugUtils.currentLine=917842;
- //BA.debugLineNum = 917842;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917843;
- //BA.debugLineNum = 917843;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917844;
- //BA.debugLineNum = 917844;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917845;
- //BA.debugLineNum = 917845;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917847;
- //BA.debugLineNum = 917847;BA.debugLine="p.Height = 85%y";
+RDebugUtils.currentLine=1114454;
+ //BA.debugLineNum = 1114454;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114455;
+ //BA.debugLineNum = 1114455;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114456;
+ //BA.debugLineNum = 1114456;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114457;
+ //BA.debugLineNum = 1114457;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114459;
+ //BA.debugLineNum = 1114459;BA.debugLine="p.Height = 85%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (85),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917848;
- //BA.debugLineNum = 917848;BA.debugLine="Else If query.Contains(\"rooney mara\") Or query.Co";
+{RDebugUtils.currentLine=1114460;
+ //BA.debugLineNum = 1114460;BA.debugLine="Else If query.Contains(\"rooney mara\") Or query.Co";
 if (_query.contains("rooney mara") || _query.contains("rooney") || _query.contains("mara") || _query.contains("sarah") || _query.contains("sarah paulson") || _query.contains("paulson")) { 
-RDebugUtils.currentLine=917849;
- //BA.debugLineNum = 917849;BA.debugLine="Drama1.Text = \"Carol\"";
+RDebugUtils.currentLine=1114461;
+ //BA.debugLineNum = 1114461;BA.debugLine="Drama1.Text = \"Carol\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Carol"));
-RDebugUtils.currentLine=917850;
- //BA.debugLineNum = 917850;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
+RDebugUtils.currentLine=1114462;
+ //BA.debugLineNum = 1114462;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"));
-RDebugUtils.currentLine=917851;
- //BA.debugLineNum = 917851;BA.debugLine="Year1.Text = \"(2015)\"";
+RDebugUtils.currentLine=1114463;
+ //BA.debugLineNum = 1114463;BA.debugLine="Year1.Text = \"(2015)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2015)"));
-RDebugUtils.currentLine=917852;
- //BA.debugLineNum = 917852;BA.debugLine="OverView1.Text = \"A chance encounter between a y";
+RDebugUtils.currentLine=1114464;
+ //BA.debugLineNum = 1114464;BA.debugLine="OverView1.Text = \"A chance encounter between a y";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."));
-RDebugUtils.currentLine=917853;
- //BA.debugLineNum = 917853;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114465;
+ //BA.debugLineNum = 1114465;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917854;
- //BA.debugLineNum = 917854;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114466;
+ //BA.debugLineNum = 1114466;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"carol.jpg").getObject()));
-RDebugUtils.currentLine=917856;
- //BA.debugLineNum = 917856;BA.debugLine="Drama2.Text = \"Blue Jasmine\"";
+RDebugUtils.currentLine=1114468;
+ //BA.debugLineNum = 1114468;BA.debugLine="Drama2.Text = \"Blue Jasmine\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Blue Jasmine"));
-RDebugUtils.currentLine=917857;
- //BA.debugLineNum = 917857;BA.debugLine="Starter2.Text = \"Starring: Cate Blanchett, Sally";
+RDebugUtils.currentLine=1114469;
+ //BA.debugLineNum = 1114469;BA.debugLine="Starter2.Text = \"Starring: Cate Blanchett, Sally";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"));
-RDebugUtils.currentLine=917858;
- //BA.debugLineNum = 917858;BA.debugLine="Year2.Text = \"(2013)\"";
+RDebugUtils.currentLine=1114470;
+ //BA.debugLineNum = 1114470;BA.debugLine="Year2.Text = \"(2013)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=917859;
- //BA.debugLineNum = 917859;BA.debugLine="OverView2.Text = \"After losing her fortune and s";
+RDebugUtils.currentLine=1114471;
+ //BA.debugLineNum = 1114471;BA.debugLine="OverView2.Text = \"After losing her fortune and s";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."));
-RDebugUtils.currentLine=917860;
- //BA.debugLineNum = 917860;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114472;
+ //BA.debugLineNum = 1114472;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917861;
- //BA.debugLineNum = 917861;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114473;
+ //BA.debugLineNum = 1114473;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bluejasmine.jpg").getObject()));
-RDebugUtils.currentLine=917863;
- //BA.debugLineNum = 917863;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917864;
- //BA.debugLineNum = 917864;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917865;
- //BA.debugLineNum = 917865;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917866;
- //BA.debugLineNum = 917866;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917868;
- //BA.debugLineNum = 917868;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114475;
+ //BA.debugLineNum = 1114475;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114476;
+ //BA.debugLineNum = 1114476;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114477;
+ //BA.debugLineNum = 1114477;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114478;
+ //BA.debugLineNum = 1114478;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114480;
+ //BA.debugLineNum = 1114480;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917871;
- //BA.debugLineNum = 917871;BA.debugLine="Else If query.Contains(\"olvia coloman\") Or query.";
+{RDebugUtils.currentLine=1114483;
+ //BA.debugLineNum = 1114483;BA.debugLine="Else If query.Contains(\"olvia coloman\") Or query.";
 if (_query.contains("olvia coloman") || _query.contains("dakota johnson") || _query.contains("jessie buckley") || _query.contains("olvia") || _query.contains("jessie ") || _query.contains("dakota") || _query.contains("buckley") || _query.contains("coloman") || _query.contains("johnson")) { 
-RDebugUtils.currentLine=917872;
- //BA.debugLineNum = 917872;BA.debugLine="Drama1.Text = \"Carol\"";
+RDebugUtils.currentLine=1114484;
+ //BA.debugLineNum = 1114484;BA.debugLine="Drama1.Text = \"Carol\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Carol"));
-RDebugUtils.currentLine=917873;
- //BA.debugLineNum = 917873;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
+RDebugUtils.currentLine=1114485;
+ //BA.debugLineNum = 1114485;BA.debugLine="Starter1.Text = \"Starring: Rooney Mara, Cate Bla";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"));
-RDebugUtils.currentLine=917874;
- //BA.debugLineNum = 917874;BA.debugLine="Year1.Text = \"(2015)\"";
+RDebugUtils.currentLine=1114486;
+ //BA.debugLineNum = 1114486;BA.debugLine="Year1.Text = \"(2015)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2015)"));
-RDebugUtils.currentLine=917875;
- //BA.debugLineNum = 917875;BA.debugLine="OverView1.Text = \"A solitary woman on vacation b";
+RDebugUtils.currentLine=1114487;
+ //BA.debugLineNum = 1114487;BA.debugLine="OverView1.Text = \"A solitary woman on vacation b";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("A solitary woman on vacation becomes fascinated by a young mother and her daughter, triggering memories of her own past choices as a parent. The film dives into the complexities of motherhood, regret, and identity."));
-RDebugUtils.currentLine=917876;
- //BA.debugLineNum = 917876;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114488;
+ //BA.debugLineNum = 1114488;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917877;
- //BA.debugLineNum = 917877;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114489;
+ //BA.debugLineNum = 1114489;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"carol.jpg").getObject()));
-RDebugUtils.currentLine=917879;
- //BA.debugLineNum = 917879;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917880;
- //BA.debugLineNum = 917880;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917881;
- //BA.debugLineNum = 917881;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917882;
- //BA.debugLineNum = 917882;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917883;
- //BA.debugLineNum = 917883;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917885;
- //BA.debugLineNum = 917885;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114491;
+ //BA.debugLineNum = 1114491;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114492;
+ //BA.debugLineNum = 1114492;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114493;
+ //BA.debugLineNum = 1114493;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114494;
+ //BA.debugLineNum = 1114494;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114496;
+ //BA.debugLineNum = 1114496;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917887;
- //BA.debugLineNum = 917887;BA.debugLine="Else If query.Contains(\"sally hawkins\") Or query.";
+{RDebugUtils.currentLine=1114498;
+ //BA.debugLineNum = 1114498;BA.debugLine="Else If query.Contains(\"sally hawkins\") Or query.";
 if (_query.contains("sally hawkins") || _query.contains("alec baldwin") || _query.contains("sally") || _query.contains("haswkins") || _query.contains("alec") || _query.contains("baldwin")) { 
-RDebugUtils.currentLine=917888;
- //BA.debugLineNum = 917888;BA.debugLine="Drama1.Text = \"Blue Jasmine\"";
+RDebugUtils.currentLine=1114499;
+ //BA.debugLineNum = 1114499;BA.debugLine="Drama1.Text = \"Blue Jasmine\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Blue Jasmine"));
-RDebugUtils.currentLine=917889;
- //BA.debugLineNum = 917889;BA.debugLine="Starter1.Text = \"Starring: Cate Blanchett, Sally";
+RDebugUtils.currentLine=1114500;
+ //BA.debugLineNum = 1114500;BA.debugLine="Starter1.Text = \"Starring: Cate Blanchett, Sally";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"));
-RDebugUtils.currentLine=917890;
- //BA.debugLineNum = 917890;BA.debugLine="Year1.Text = \"(2013)\"";
+RDebugUtils.currentLine=1114501;
+ //BA.debugLineNum = 1114501;BA.debugLine="Year1.Text = \"(2013)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=917891;
- //BA.debugLineNum = 917891;BA.debugLine="OverView1.Text = \"After losing her fortune and s";
+RDebugUtils.currentLine=1114502;
+ //BA.debugLineNum = 1114502;BA.debugLine="OverView1.Text = \"After losing her fortune and s";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."));
-RDebugUtils.currentLine=917892;
- //BA.debugLineNum = 917892;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114503;
+ //BA.debugLineNum = 1114503;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917893;
- //BA.debugLineNum = 917893;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114504;
+ //BA.debugLineNum = 1114504;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bluejasmine.jpg").getObject()));
-RDebugUtils.currentLine=917895;
- //BA.debugLineNum = 917895;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917896;
- //BA.debugLineNum = 917896;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917897;
- //BA.debugLineNum = 917897;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917898;
- //BA.debugLineNum = 917898;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917899;
- //BA.debugLineNum = 917899;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917901;
- //BA.debugLineNum = 917901;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114506;
+ //BA.debugLineNum = 1114506;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114507;
+ //BA.debugLineNum = 1114507;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114508;
+ //BA.debugLineNum = 1114508;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114509;
+ //BA.debugLineNum = 1114509;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114510;
+ //BA.debugLineNum = 1114510;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114512;
+ //BA.debugLineNum = 1114512;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917902;
- //BA.debugLineNum = 917902;BA.debugLine="Else if query.Contains(\"michelle williams\") Or qu";
+{RDebugUtils.currentLine=1114513;
+ //BA.debugLineNum = 1114513;BA.debugLine="Else if query.Contains(\"michelle williams\") Or qu";
 if (_query.contains("michelle williams") || _query.contains("lucas hedges") || _query.contains("michelle") || _query.contains("williams") || _query.contains("lucas") || _query.contains("hedges")) { 
-RDebugUtils.currentLine=917903;
- //BA.debugLineNum = 917903;BA.debugLine="Drama1.Text = \"Manchester by the Sea\"";
+RDebugUtils.currentLine=1114514;
+ //BA.debugLineNum = 1114514;BA.debugLine="Drama1.Text = \"Manchester by the Sea\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Manchester by the Sea"));
-RDebugUtils.currentLine=917904;
- //BA.debugLineNum = 917904;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1114515;
+ //BA.debugLineNum = 1114515;BA.debugLine="Starter1.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Williams, Lucas Hedges"));
-RDebugUtils.currentLine=917905;
- //BA.debugLineNum = 917905;BA.debugLine="Year1.Text = \"(2016)\"";
+RDebugUtils.currentLine=1114516;
+ //BA.debugLineNum = 1114516;BA.debugLine="Year1.Text = \"(2016)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2016)"));
-RDebugUtils.currentLine=917906;
- //BA.debugLineNum = 917906;BA.debugLine="OverView1.Text = \"After the death of his brother";
+RDebugUtils.currentLine=1114517;
+ //BA.debugLineNum = 1114517;BA.debugLine="OverView1.Text = \"After the death of his brother";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."));
-RDebugUtils.currentLine=917907;
- //BA.debugLineNum = 917907;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114518;
+ //BA.debugLineNum = 1114518;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917908;
- //BA.debugLineNum = 917908;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114519;
+ //BA.debugLineNum = 1114519;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"manchester.jpg").getObject()));
-RDebugUtils.currentLine=917910;
- //BA.debugLineNum = 917910;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917911;
- //BA.debugLineNum = 917911;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917912;
- //BA.debugLineNum = 917912;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917913;
- //BA.debugLineNum = 917913;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917914;
- //BA.debugLineNum = 917914;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917916;
- //BA.debugLineNum = 917916;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114521;
+ //BA.debugLineNum = 1114521;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114522;
+ //BA.debugLineNum = 1114522;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114523;
+ //BA.debugLineNum = 1114523;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114524;
+ //BA.debugLineNum = 1114524;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114525;
+ //BA.debugLineNum = 1114525;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114527;
+ //BA.debugLineNum = 1114527;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917917;
- //BA.debugLineNum = 917917;BA.debugLine="Else if query.Contains(\"dustin hoffman\") Or query";
+{RDebugUtils.currentLine=1114528;
+ //BA.debugLineNum = 1114528;BA.debugLine="Else if query.Contains(\"dustin hoffman\") Or query";
 if (_query.contains("dustin hoffman") || _query.contains("dustin") || _query.contains("justin henry") || _query.contains("justin") || _query.contains("henry")) { 
-RDebugUtils.currentLine=917918;
- //BA.debugLineNum = 917918;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
+RDebugUtils.currentLine=1114529;
+ //BA.debugLineNum = 1114529;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Kramer vs. Kramer"));
-RDebugUtils.currentLine=917919;
- //BA.debugLineNum = 917919;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
+RDebugUtils.currentLine=1114530;
+ //BA.debugLineNum = 1114530;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Dustin Hoffman, Meryl Streep, Justin Henry"));
-RDebugUtils.currentLine=917920;
- //BA.debugLineNum = 917920;BA.debugLine="Year1.Text = \"(1979)\"";
+RDebugUtils.currentLine=1114531;
+ //BA.debugLineNum = 1114531;BA.debugLine="Year1.Text = \"(1979)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(1979)"));
-RDebugUtils.currentLine=917921;
- //BA.debugLineNum = 917921;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
+RDebugUtils.currentLine=1114532;
+ //BA.debugLineNum = 1114532;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In this emotionally charged courtroom and family drama, Kramer vs. Kramer refers to the heartbreaking custody battle between Ted Kramer, a man forced into single fatherhood, and Joanna Kramer, the wife who returns after abandoning their son. As love, responsibility, and personal growth collide, the film asks: what defines a good parent?"));
-RDebugUtils.currentLine=917922;
- //BA.debugLineNum = 917922;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114533;
+ //BA.debugLineNum = 1114533;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917923;
- //BA.debugLineNum = 917923;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114534;
+ //BA.debugLineNum = 1114534;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"kramer.jpg").getObject()));
-RDebugUtils.currentLine=917925;
- //BA.debugLineNum = 917925;BA.debugLine="Panel3.Visible = False";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917926;
- //BA.debugLineNum = 917926;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917927;
- //BA.debugLineNum = 917927;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917928;
- //BA.debugLineNum = 917928;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917929;
- //BA.debugLineNum = 917929;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917931;
- //BA.debugLineNum = 917931;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114536;
+ //BA.debugLineNum = 1114536;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114537;
+ //BA.debugLineNum = 1114537;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114538;
+ //BA.debugLineNum = 1114538;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114539;
+ //BA.debugLineNum = 1114539;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114540;
+ //BA.debugLineNum = 1114540;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114542;
+ //BA.debugLineNum = 1114542;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917932;
- //BA.debugLineNum = 917932;BA.debugLine="Else If query.Contains(\"philip seymour hoffman\")";
+{RDebugUtils.currentLine=1114543;
+ //BA.debugLineNum = 1114543;BA.debugLine="Else If query.Contains(\"philip seymour hoffman\")";
 if (_query.contains("philip seymour hoffman") || _query.contains("philip") || _query.contains("seymour")) { 
-RDebugUtils.currentLine=917933;
- //BA.debugLineNum = 917933;BA.debugLine="Drama1.Text = \"Doubt\"";
+RDebugUtils.currentLine=1114544;
+ //BA.debugLineNum = 1114544;BA.debugLine="Drama1.Text = \"Doubt\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Doubt"));
-RDebugUtils.currentLine=917934;
- //BA.debugLineNum = 917934;BA.debugLine="Starter1.Text = \"Starring: Meryl Streep, Philip";
+RDebugUtils.currentLine=1114545;
+ //BA.debugLineNum = 1114545;BA.debugLine="Starter1.Text = \"Starring: Meryl Streep, Philip";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"));
-RDebugUtils.currentLine=917935;
- //BA.debugLineNum = 917935;BA.debugLine="Year1.Text = \"(2008)\"";
+RDebugUtils.currentLine=1114546;
+ //BA.debugLineNum = 1114546;BA.debugLine="Year1.Text = \"(2008)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(2008)"));
-RDebugUtils.currentLine=917936;
- //BA.debugLineNum = 917936;BA.debugLine="OverView1.Text = \"In a Catholic school in the Br";
+RDebugUtils.currentLine=1114547;
+ //BA.debugLineNum = 1114547;BA.debugLine="OverView1.Text = \"In a Catholic school in the Br";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."));
-RDebugUtils.currentLine=917937;
- //BA.debugLineNum = 917937;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114548;
+ //BA.debugLineNum = 1114548;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917938;
- //BA.debugLineNum = 917938;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114549;
+ //BA.debugLineNum = 1114549;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"doubt.jpg").getObject()));
-RDebugUtils.currentLine=917941;
- //BA.debugLineNum = 917941;BA.debugLine="Drama2.Text = \"The Master\"";
+RDebugUtils.currentLine=1114552;
+ //BA.debugLineNum = 1114552;BA.debugLine="Drama2.Text = \"The Master\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("The Master"));
-RDebugUtils.currentLine=917942;
- //BA.debugLineNum = 917942;BA.debugLine="Starter2.Text = \"Starring: Philip Seymour Hoffma";
+RDebugUtils.currentLine=1114553;
+ //BA.debugLineNum = 1114553;BA.debugLine="Starter2.Text = \"Starring: Philip Seymour Hoffma";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"));
-RDebugUtils.currentLine=917943;
- //BA.debugLineNum = 917943;BA.debugLine="Year2.Text = \"(2012)\"";
+RDebugUtils.currentLine=1114554;
+ //BA.debugLineNum = 1114554;BA.debugLine="Year2.Text = \"(2012)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2012)"));
-RDebugUtils.currentLine=917944;
- //BA.debugLineNum = 917944;BA.debugLine="OverView2.Text = \"A mentally unstable WWII veter";
+RDebugUtils.currentLine=1114555;
+ //BA.debugLineNum = 1114555;BA.debugLine="OverView2.Text = \"A mentally unstable WWII veter";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."));
-RDebugUtils.currentLine=917945;
- //BA.debugLineNum = 917945;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114556;
+ //BA.debugLineNum = 1114556;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917946;
- //BA.debugLineNum = 917946;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114557;
+ //BA.debugLineNum = 1114557;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"master.jpg").getObject()));
-RDebugUtils.currentLine=917948;
- //BA.debugLineNum = 917948;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917949;
- //BA.debugLineNum = 917949;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917950;
- //BA.debugLineNum = 917950;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917951;
- //BA.debugLineNum = 917951;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917953;
- //BA.debugLineNum = 917953;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114559;
+ //BA.debugLineNum = 1114559;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114560;
+ //BA.debugLineNum = 1114560;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114561;
+ //BA.debugLineNum = 1114561;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114562;
+ //BA.debugLineNum = 1114562;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114564;
+ //BA.debugLineNum = 1114564;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else 
-{RDebugUtils.currentLine=917955;
- //BA.debugLineNum = 917955;BA.debugLine="Else If query.Contains(\"hoffman\") Then";
+{RDebugUtils.currentLine=1114566;
+ //BA.debugLineNum = 1114566;BA.debugLine="Else If query.Contains(\"hoffman\") Then";
 if (_query.contains("hoffman")) { 
-RDebugUtils.currentLine=917956;
- //BA.debugLineNum = 917956;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
+RDebugUtils.currentLine=1114567;
+ //BA.debugLineNum = 1114567;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Kramer vs. Kramer"));
-RDebugUtils.currentLine=917957;
- //BA.debugLineNum = 917957;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
+RDebugUtils.currentLine=1114568;
+ //BA.debugLineNum = 1114568;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Dustin Hoffman, Meryl Streep, Justin Henry"));
-RDebugUtils.currentLine=917958;
- //BA.debugLineNum = 917958;BA.debugLine="Year1.Text = \"(1979)\"";
+RDebugUtils.currentLine=1114569;
+ //BA.debugLineNum = 1114569;BA.debugLine="Year1.Text = \"(1979)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(1979)"));
-RDebugUtils.currentLine=917959;
- //BA.debugLineNum = 917959;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
+RDebugUtils.currentLine=1114570;
+ //BA.debugLineNum = 1114570;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In this emotionally charged courtroom and family drama, Kramer vs. Kramer refers to the heartbreaking custody battle between Ted Kramer, a man forced into single fatherhood, and Joanna Kramer, the wife who returns after abandoning their son. As love, responsibility, and personal growth collide, the film asks: what defines a good parent?"));
-RDebugUtils.currentLine=917960;
- //BA.debugLineNum = 917960;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114571;
+ //BA.debugLineNum = 1114571;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917961;
- //BA.debugLineNum = 917961;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114572;
+ //BA.debugLineNum = 1114572;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"kramer.jpg").getObject()));
-RDebugUtils.currentLine=917963;
- //BA.debugLineNum = 917963;BA.debugLine="Drama2.Text = \"Doubt\"";
+RDebugUtils.currentLine=1114574;
+ //BA.debugLineNum = 1114574;BA.debugLine="Drama2.Text = \"Doubt\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Doubt"));
-RDebugUtils.currentLine=917964;
- //BA.debugLineNum = 917964;BA.debugLine="Starter2.Text = \"Starring: Meryl Streep, Philip";
+RDebugUtils.currentLine=1114575;
+ //BA.debugLineNum = 1114575;BA.debugLine="Starter2.Text = \"Starring: Meryl Streep, Philip";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Meryl Streep, Philip Seymour Hoffman, Amy Adams"));
-RDebugUtils.currentLine=917965;
- //BA.debugLineNum = 917965;BA.debugLine="Year2.Text = \"(2008)\"";
+RDebugUtils.currentLine=1114576;
+ //BA.debugLineNum = 1114576;BA.debugLine="Year2.Text = \"(2008)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2008)"));
-RDebugUtils.currentLine=917966;
- //BA.debugLineNum = 917966;BA.debugLine="OverView2.Text = \"In a Catholic school in the Br";
+RDebugUtils.currentLine=1114577;
+ //BA.debugLineNum = 1114577;BA.debugLine="OverView2.Text = \"In a Catholic school in the Br";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("In a Catholic school in the Bronx, a strict nun becomes suspicious of a priest’s relationship with a student. As she digs deeper, the lines between truth and suspicion blur, leaving everyone in moral and emotional limbo."));
-RDebugUtils.currentLine=917967;
- //BA.debugLineNum = 917967;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1114578;
+ //BA.debugLineNum = 1114578;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=917968;
- //BA.debugLineNum = 917968;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1114579;
+ //BA.debugLineNum = 1114579;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"doubt.jpg").getObject()));
-RDebugUtils.currentLine=917970;
- //BA.debugLineNum = 917970;BA.debugLine="Panel4.Visible = False";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917971;
- //BA.debugLineNum = 917971;BA.debugLine="Panel5.Visible = False";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917972;
- //BA.debugLineNum = 917972;BA.debugLine="Panel6.Visible = False";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917973;
- //BA.debugLineNum = 917973;BA.debugLine="Panel7.Visible = False";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=917975;
- //BA.debugLineNum = 917975;BA.debugLine="p.Height = 70%y";
+RDebugUtils.currentLine=1114581;
+ //BA.debugLineNum = 1114581;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114582;
+ //BA.debugLineNum = 1114582;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114583;
+ //BA.debugLineNum = 1114583;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114584;
+ //BA.debugLineNum = 1114584;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1114586;
+ //BA.debugLineNum = 1114586;BA.debugLine="p.Height = 70%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (70),mostCurrent.activityBA));
  }else {
-RDebugUtils.currentLine=917978;
- //BA.debugLineNum = 917978;BA.debugLine="MsgboxAsync(\"No results found for\" & \" \"\"\" & Use";
+RDebugUtils.currentLine=1114589;
+ //BA.debugLineNum = 1114589;BA.debugLine="MsgboxAsync(\"No results found for\" & \" \"\"\" & Use";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("No results found for"+" \""+_userinput+"\""),BA.ObjectToCharSequence(""),processBA);
  }}}}}}}}}}}}}}}}}}}}}}}}}
 ;
-RDebugUtils.currentLine=917983;
- //BA.debugLineNum = 917983;BA.debugLine="p.Width = 100%x";
+RDebugUtils.currentLine=1114594;
+ //BA.debugLineNum = 1114594;BA.debugLine="p.Width = 100%x";
 mostCurrent._p.setWidth(anywheresoftware.b4a.keywords.Common.PerXToCurrent((float) (100),mostCurrent.activityBA));
-RDebugUtils.currentLine=917984;
- //BA.debugLineNum = 917984;BA.debugLine="ScrollView1.Panel.Height = p.Height";
+RDebugUtils.currentLine=1114595;
+ //BA.debugLineNum = 1114595;BA.debugLine="ScrollView1.Panel.Height = p.Height";
 mostCurrent._scrollview1.getPanel().setHeight(mostCurrent._p.getHeight());
-RDebugUtils.currentLine=917985;
- //BA.debugLineNum = 917985;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1114596;
+ //BA.debugLineNum = 1114596;BA.debugLine="End Sub";
 return "";
 }
 public static String  _searchengine_textchanged(String _old,String _new) throws Exception{
@@ -2291,239 +3098,239 @@ RDebugUtils.currentModule="drama";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "searchengine_textchanged", false))
 	 {return ((String) Debug.delegate(mostCurrent.activityBA, "searchengine_textchanged", new Object[] {_old,_new}));}
 String _query = "";
-RDebugUtils.currentLine=1048576;
- //BA.debugLineNum = 1048576;BA.debugLine="Sub SearchEngine_TextChanged (Old As String, New A";
-RDebugUtils.currentLine=1048577;
- //BA.debugLineNum = 1048577;BA.debugLine="Dim query As String = New.ToLowerCase.Trim";
+RDebugUtils.currentLine=1179648;
+ //BA.debugLineNum = 1179648;BA.debugLine="Sub SearchEngine_TextChanged (Old As String, New A";
+RDebugUtils.currentLine=1179649;
+ //BA.debugLineNum = 1179649;BA.debugLine="Dim query As String = New.ToLowerCase.Trim";
 _query = _new.toLowerCase().trim();
-RDebugUtils.currentLine=1048579;
- //BA.debugLineNum = 1048579;BA.debugLine="If query = \"\" Then";
+RDebugUtils.currentLine=1179651;
+ //BA.debugLineNum = 1179651;BA.debugLine="If query = \"\" Then";
 if ((_query).equals("")) { 
-RDebugUtils.currentLine=1048581;
- //BA.debugLineNum = 1048581;BA.debugLine="NotFound.Text = \"\"";
+RDebugUtils.currentLine=1179653;
+ //BA.debugLineNum = 1179653;BA.debugLine="NotFound.Text = \"\"";
 mostCurrent._notfound.setText(BA.ObjectToCharSequence(""));
-RDebugUtils.currentLine=1048582;
- //BA.debugLineNum = 1048582;BA.debugLine="p.Height = 210%y";
+RDebugUtils.currentLine=1179654;
+ //BA.debugLineNum = 1179654;BA.debugLine="p.Height = 210%y";
 mostCurrent._p.setHeight(anywheresoftware.b4a.keywords.Common.PerYToCurrent((float) (210),mostCurrent.activityBA));
-RDebugUtils.currentLine=1048583;
- //BA.debugLineNum = 1048583;BA.debugLine="p.Width = 200%x";
+RDebugUtils.currentLine=1179655;
+ //BA.debugLineNum = 1179655;BA.debugLine="p.Width = 200%x";
 mostCurrent._p.setWidth(anywheresoftware.b4a.keywords.Common.PerXToCurrent((float) (200),mostCurrent.activityBA));
-RDebugUtils.currentLine=1048584;
- //BA.debugLineNum = 1048584;BA.debugLine="ScrollView1.Panel.Height = p.Height";
+RDebugUtils.currentLine=1179656;
+ //BA.debugLineNum = 1179656;BA.debugLine="ScrollView1.Panel.Height = p.Height";
 mostCurrent._scrollview1.getPanel().setHeight(mostCurrent._p.getHeight());
-RDebugUtils.currentLine=1048586;
- //BA.debugLineNum = 1048586;BA.debugLine="Panel2.Visible = True";
-mostCurrent._panel2.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048587;
- //BA.debugLineNum = 1048587;BA.debugLine="Panel3.Visible = True";
-mostCurrent._panel3.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048588;
- //BA.debugLineNum = 1048588;BA.debugLine="Panel4.Visible = True";
-mostCurrent._panel4.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048589;
- //BA.debugLineNum = 1048589;BA.debugLine="Panel5.Visible = True";
-mostCurrent._panel5.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048590;
- //BA.debugLineNum = 1048590;BA.debugLine="Panel6.Visible = True";
-mostCurrent._panel6.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048591;
- //BA.debugLineNum = 1048591;BA.debugLine="Panel7.Visible = True";
-mostCurrent._panel7.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048592;
- //BA.debugLineNum = 1048592;BA.debugLine="Panel8.Visible = True";
-mostCurrent._panel8.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048593;
- //BA.debugLineNum = 1048593;BA.debugLine="Panel9.Visible = True";
-mostCurrent._panel9.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048594;
- //BA.debugLineNum = 1048594;BA.debugLine="Panel10.Visible = True";
-mostCurrent._panel10.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048595;
- //BA.debugLineNum = 1048595;BA.debugLine="Panel11.Visible = True";
-mostCurrent._panel11.setVisible(anywheresoftware.b4a.keywords.Common.True);
-RDebugUtils.currentLine=1048597;
- //BA.debugLineNum = 1048597;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
+RDebugUtils.currentLine=1179658;
+ //BA.debugLineNum = 1179658;BA.debugLine="PanelMovie1.Visible = False";
+mostCurrent._panelmovie1.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179659;
+ //BA.debugLineNum = 1179659;BA.debugLine="PanelMovie2.Visible = False";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179660;
+ //BA.debugLineNum = 1179660;BA.debugLine="PanelMovie3.Visible = False";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179661;
+ //BA.debugLineNum = 1179661;BA.debugLine="PanelMovie4.Visible = False";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179662;
+ //BA.debugLineNum = 1179662;BA.debugLine="PanelMovie5.Visible = False";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179663;
+ //BA.debugLineNum = 1179663;BA.debugLine="PanelMovie6.Visible = False";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179664;
+ //BA.debugLineNum = 1179664;BA.debugLine="PanelMovie7.Visible = False";
+mostCurrent._panelmovie7.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179665;
+ //BA.debugLineNum = 1179665;BA.debugLine="PanelMovie8.Visible = False";
+mostCurrent._panelmovie8.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179666;
+ //BA.debugLineNum = 1179666;BA.debugLine="PanelMovie9.Visible = False";
+mostCurrent._panelmovie9.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179667;
+ //BA.debugLineNum = 1179667;BA.debugLine="PanelMovie10.Visible = False";
+mostCurrent._panelmovie10.setVisible(anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=1179669;
+ //BA.debugLineNum = 1179669;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Kramer vs. Kramer"));
-RDebugUtils.currentLine=1048598;
- //BA.debugLineNum = 1048598;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
+RDebugUtils.currentLine=1179670;
+ //BA.debugLineNum = 1179670;BA.debugLine="Starter1.Text = \"Starring: Dustin Hoffman, Meryl";
 mostCurrent._starter1.setText(BA.ObjectToCharSequence("Starring: Dustin Hoffman, Meryl Streep, Justin Henry"));
-RDebugUtils.currentLine=1048599;
- //BA.debugLineNum = 1048599;BA.debugLine="Year1.Text = \"(1979)\"";
+RDebugUtils.currentLine=1179671;
+ //BA.debugLineNum = 1179671;BA.debugLine="Year1.Text = \"(1979)\"";
 mostCurrent._year1.setText(BA.ObjectToCharSequence("(1979)"));
-RDebugUtils.currentLine=1048600;
- //BA.debugLineNum = 1048600;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
+RDebugUtils.currentLine=1179672;
+ //BA.debugLineNum = 1179672;BA.debugLine="OverView1.Text = \"In this emotionally charged co";
 mostCurrent._overview1.setText(BA.ObjectToCharSequence("In this emotionally charged courtroom and family drama, Kramer vs. Kramer refers to the heartbreaking custody battle between Ted Kramer, a man forced into single fatherhood, and Joanna Kramer, the wife who returns after abandoning their son. As love, responsibility, and personal growth collide, the film asks: what defines a good parent?"));
-RDebugUtils.currentLine=1048601;
- //BA.debugLineNum = 1048601;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179673;
+ //BA.debugLineNum = 1179673;BA.debugLine="DramaImage1.Gravity = Gravity.FILL";
 mostCurrent._dramaimage1.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048602;
- //BA.debugLineNum = 1048602;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179674;
+ //BA.debugLineNum = 1179674;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage1.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"kramer.jpg").getObject()));
-RDebugUtils.currentLine=1048604;
- //BA.debugLineNum = 1048604;BA.debugLine="Drama2.Text = \"Manchester by the Sea\"";
+RDebugUtils.currentLine=1179676;
+ //BA.debugLineNum = 1179676;BA.debugLine="Drama2.Text = \"Manchester by the Sea\"";
 mostCurrent._drama2.setText(BA.ObjectToCharSequence("Manchester by the Sea"));
-RDebugUtils.currentLine=1048605;
- //BA.debugLineNum = 1048605;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1179677;
+ //BA.debugLineNum = 1179677;BA.debugLine="Starter2.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter2.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Williams, Lucas Hedges"));
-RDebugUtils.currentLine=1048606;
- //BA.debugLineNum = 1048606;BA.debugLine="Year2.Text = \"(2016)\"";
+RDebugUtils.currentLine=1179678;
+ //BA.debugLineNum = 1179678;BA.debugLine="Year2.Text = \"(2016)\"";
 mostCurrent._year2.setText(BA.ObjectToCharSequence("(2016)"));
-RDebugUtils.currentLine=1048607;
- //BA.debugLineNum = 1048607;BA.debugLine="OverView2.Text = \"After the death of his brother";
+RDebugUtils.currentLine=1179679;
+ //BA.debugLineNum = 1179679;BA.debugLine="OverView2.Text = \"After the death of his brother";
 mostCurrent._overview2.setText(BA.ObjectToCharSequence("After the death of his brother, a withdrawn and guilt-ridden janitor is forced to return to his hometown and take care of his teenage nephew. As buried trauma resurfaces, he must face his tragic past and confront the limits of personal healing."));
-RDebugUtils.currentLine=1048608;
- //BA.debugLineNum = 1048608;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179680;
+ //BA.debugLineNum = 1179680;BA.debugLine="DramaImage2.Gravity = Gravity.FILL";
 mostCurrent._dramaimage2.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048609;
- //BA.debugLineNum = 1048609;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179681;
+ //BA.debugLineNum = 1179681;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage2.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"manchester.jpg").getObject()));
-RDebugUtils.currentLine=1048611;
- //BA.debugLineNum = 1048611;BA.debugLine="Drama3.Text = \"The Master\"";
+RDebugUtils.currentLine=1179683;
+ //BA.debugLineNum = 1179683;BA.debugLine="Drama3.Text = \"The Master\"";
 mostCurrent._drama3.setText(BA.ObjectToCharSequence("The Master"));
-RDebugUtils.currentLine=1048612;
- //BA.debugLineNum = 1048612;BA.debugLine="Starter3.Text = \"Starring: Philip Seymour Hoffma";
+RDebugUtils.currentLine=1179684;
+ //BA.debugLineNum = 1179684;BA.debugLine="Starter3.Text = \"Starring: Philip Seymour Hoffma";
 mostCurrent._starter3.setText(BA.ObjectToCharSequence("Starring: Philip Seymour Hoffman, Joaquin Phoenix, Amy Adams"));
-RDebugUtils.currentLine=1048613;
- //BA.debugLineNum = 1048613;BA.debugLine="Year3.Text = \"(2012)\"";
+RDebugUtils.currentLine=1179685;
+ //BA.debugLineNum = 1179685;BA.debugLine="Year3.Text = \"(2012)\"";
 mostCurrent._year3.setText(BA.ObjectToCharSequence("(2012)"));
-RDebugUtils.currentLine=1048614;
- //BA.debugLineNum = 1048614;BA.debugLine="OverView3.Text = \"A mentally unstable WWII veter";
+RDebugUtils.currentLine=1179686;
+ //BA.debugLineNum = 1179686;BA.debugLine="OverView3.Text = \"A mentally unstable WWII veter";
 mostCurrent._overview3.setText(BA.ObjectToCharSequence("A mentally unstable WWII veteran is drawn to a charismatic cult leader and his belief system. As their relationship grows, the film explores themes of control, identity, and the search for meaning in a post-war world."));
-RDebugUtils.currentLine=1048615;
- //BA.debugLineNum = 1048615;BA.debugLine="DramaImage3.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179687;
+ //BA.debugLineNum = 1179687;BA.debugLine="DramaImage3.Gravity = Gravity.FILL";
 mostCurrent._dramaimage3.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048616;
- //BA.debugLineNum = 1048616;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179688;
+ //BA.debugLineNum = 1179688;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage3.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"master.jpg").getObject()));
-RDebugUtils.currentLine=1048618;
- //BA.debugLineNum = 1048618;BA.debugLine="Drama4.Text = \"Million Dollar Baby\"";
+RDebugUtils.currentLine=1179690;
+ //BA.debugLineNum = 1179690;BA.debugLine="Drama4.Text = \"Million Dollar Baby\"";
 mostCurrent._drama4.setText(BA.ObjectToCharSequence("Million Dollar Baby"));
-RDebugUtils.currentLine=1048619;
- //BA.debugLineNum = 1048619;BA.debugLine="Starter4.Text = \"Starring: Morgan Freeman, Hilar";
+RDebugUtils.currentLine=1179691;
+ //BA.debugLineNum = 1179691;BA.debugLine="Starter4.Text = \"Starring: Morgan Freeman, Hilar";
 mostCurrent._starter4.setText(BA.ObjectToCharSequence("Starring: Morgan Freeman, Hilary Swank, Clint Eastwood"));
-RDebugUtils.currentLine=1048620;
- //BA.debugLineNum = 1048620;BA.debugLine="Year4.Text = \"(2004)\"";
+RDebugUtils.currentLine=1179692;
+ //BA.debugLineNum = 1179692;BA.debugLine="Year4.Text = \"(2004)\"";
 mostCurrent._year4.setText(BA.ObjectToCharSequence("(2004)"));
-RDebugUtils.currentLine=1048621;
- //BA.debugLineNum = 1048621;BA.debugLine="OverView4.Text = \"A waitress with dreams of beco";
+RDebugUtils.currentLine=1179693;
+ //BA.debugLineNum = 1179693;BA.debugLine="OverView4.Text = \"A waitress with dreams of beco";
 mostCurrent._overview4.setText(BA.ObjectToCharSequence("A waitress with dreams of becoming a boxer convinces a reluctant trainer to take her on. As she rises through the ranks, a tragic turn of events forces them both to reckon with loss, dignity, and the nature of love."));
-RDebugUtils.currentLine=1048622;
- //BA.debugLineNum = 1048622;BA.debugLine="DramaImage4.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179694;
+ //BA.debugLineNum = 1179694;BA.debugLine="DramaImage4.Gravity = Gravity.FILL";
 mostCurrent._dramaimage4.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048623;
- //BA.debugLineNum = 1048623;BA.debugLine="DramaImage4.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179695;
+ //BA.debugLineNum = 1179695;BA.debugLine="DramaImage4.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage4.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"millondolar.jpg").getObject()));
-RDebugUtils.currentLine=1048625;
- //BA.debugLineNum = 1048625;BA.debugLine="Drama5.Text = \"The Bridges of Madison County\"";
+RDebugUtils.currentLine=1179697;
+ //BA.debugLineNum = 1179697;BA.debugLine="Drama5.Text = \"The Bridges of Madison County\"";
 mostCurrent._drama5.setText(BA.ObjectToCharSequence("The Bridges of Madison County"));
-RDebugUtils.currentLine=1048626;
- //BA.debugLineNum = 1048626;BA.debugLine="Starter5.Text = \"Starring: Clint Eastwood, Meryl";
+RDebugUtils.currentLine=1179698;
+ //BA.debugLineNum = 1179698;BA.debugLine="Starter5.Text = \"Starring: Clint Eastwood, Meryl";
 mostCurrent._starter5.setText(BA.ObjectToCharSequence("Starring: Clint Eastwood, Meryl Streep"));
-RDebugUtils.currentLine=1048627;
- //BA.debugLineNum = 1048627;BA.debugLine="Year5.Text = \"(1995)\"";
+RDebugUtils.currentLine=1179699;
+ //BA.debugLineNum = 1179699;BA.debugLine="Year5.Text = \"(1995)\"";
 mostCurrent._year5.setText(BA.ObjectToCharSequence("(1995)"));
-RDebugUtils.currentLine=1048628;
- //BA.debugLineNum = 1048628;BA.debugLine="OverView5.Text = \"A brief, passionate romance be";
+RDebugUtils.currentLine=1179700;
+ //BA.debugLineNum = 1179700;BA.debugLine="OverView5.Text = \"A brief, passionate romance be";
 mostCurrent._overview5.setText(BA.ObjectToCharSequence("A brief, passionate romance between a lonely housewife and a traveling photographer leads to a life-changing emotional journey. Set against the backdrop of 1960s Iowa, it’s a heartbreaking story about missed chances and enduring love."));
-RDebugUtils.currentLine=1048629;
- //BA.debugLineNum = 1048629;BA.debugLine="DramaImage5.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179701;
+ //BA.debugLineNum = 1179701;BA.debugLine="DramaImage5.Gravity = Gravity.FILL";
 mostCurrent._dramaimage5.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048630;
- //BA.debugLineNum = 1048630;BA.debugLine="DramaImage5.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179702;
+ //BA.debugLineNum = 1179702;BA.debugLine="DramaImage5.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage5.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bridges.jpg").getObject()));
-RDebugUtils.currentLine=1048633;
- //BA.debugLineNum = 1048633;BA.debugLine="Drama6.Text = \"Gone Baby Gone\"";
+RDebugUtils.currentLine=1179705;
+ //BA.debugLineNum = 1179705;BA.debugLine="Drama6.Text = \"Gone Baby Gone\"";
 mostCurrent._drama6.setText(BA.ObjectToCharSequence("Gone Baby Gone"));
-RDebugUtils.currentLine=1048634;
- //BA.debugLineNum = 1048634;BA.debugLine="Starter6.Text = \"Starring: Casey Affleck, Michel";
+RDebugUtils.currentLine=1179706;
+ //BA.debugLineNum = 1179706;BA.debugLine="Starter6.Text = \"Starring: Casey Affleck, Michel";
 mostCurrent._starter6.setText(BA.ObjectToCharSequence("Starring: Casey Affleck, Michelle Monaghan, Morgan Freeman"));
-RDebugUtils.currentLine=1048635;
- //BA.debugLineNum = 1048635;BA.debugLine="Year6.Text = \"(2007)\"";
+RDebugUtils.currentLine=1179707;
+ //BA.debugLineNum = 1179707;BA.debugLine="Year6.Text = \"(2007)\"";
 mostCurrent._year6.setText(BA.ObjectToCharSequence("(2007)"));
-RDebugUtils.currentLine=1048636;
- //BA.debugLineNum = 1048636;BA.debugLine="OverView6.Text = \"In a tough Boston neighborhood";
+RDebugUtils.currentLine=1179708;
+ //BA.debugLineNum = 1179708;BA.debugLine="OverView6.Text = \"In a tough Boston neighborhood";
 mostCurrent._overview6.setText(BA.ObjectToCharSequence("In a tough Boston neighborhood, a pair of private detectives investigates the kidnapping of a young girl. As they get closer to the truth, they are forced to question what justice really means, and whether doing the right thing is always right."));
-RDebugUtils.currentLine=1048637;
- //BA.debugLineNum = 1048637;BA.debugLine="DramaImage6.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179709;
+ //BA.debugLineNum = 1179709;BA.debugLine="DramaImage6.Gravity = Gravity.FILL";
 mostCurrent._dramaimage6.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048638;
- //BA.debugLineNum = 1048638;BA.debugLine="DramaImage6.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179710;
+ //BA.debugLineNum = 1179710;BA.debugLine="DramaImage6.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage6.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"gonebaby.jpg").getObject()));
-RDebugUtils.currentLine=1048640;
- //BA.debugLineNum = 1048640;BA.debugLine="Drama7.Text = \"Blue Jasmine\"";
+RDebugUtils.currentLine=1179712;
+ //BA.debugLineNum = 1179712;BA.debugLine="Drama7.Text = \"Blue Jasmine\"";
 mostCurrent._drama7.setText(BA.ObjectToCharSequence("Blue Jasmine"));
-RDebugUtils.currentLine=1048641;
- //BA.debugLineNum = 1048641;BA.debugLine="Starter7.Text = \"Starring: Cate Blanchett, Sally";
+RDebugUtils.currentLine=1179713;
+ //BA.debugLineNum = 1179713;BA.debugLine="Starter7.Text = \"Starring: Cate Blanchett, Sally";
 mostCurrent._starter7.setText(BA.ObjectToCharSequence("Starring: Cate Blanchett, Sally Hawkins, Alec Baldwin"));
-RDebugUtils.currentLine=1048642;
- //BA.debugLineNum = 1048642;BA.debugLine="Year7.Text = \"(2013)\"";
+RDebugUtils.currentLine=1179714;
+ //BA.debugLineNum = 1179714;BA.debugLine="Year7.Text = \"(2013)\"";
 mostCurrent._year7.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=1048643;
- //BA.debugLineNum = 1048643;BA.debugLine="OverView7.Text = \"After losing her fortune and s";
+RDebugUtils.currentLine=1179715;
+ //BA.debugLineNum = 1179715;BA.debugLine="OverView7.Text = \"After losing her fortune and s";
 mostCurrent._overview7.setText(BA.ObjectToCharSequence("After losing her fortune and status, a New York socialite is forced to move in with her working-class sister. As her mental state deteriorates, her desperate attempts to reclaim her old life unravel into tragic self-destruction."));
-RDebugUtils.currentLine=1048644;
- //BA.debugLineNum = 1048644;BA.debugLine="DramaImage7.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179716;
+ //BA.debugLineNum = 1179716;BA.debugLine="DramaImage7.Gravity = Gravity.FILL";
 mostCurrent._dramaimage7.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048645;
- //BA.debugLineNum = 1048645;BA.debugLine="DramaImage7.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179717;
+ //BA.debugLineNum = 1179717;BA.debugLine="DramaImage7.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage7.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"bluejasmine.jpg").getObject()));
-RDebugUtils.currentLine=1048647;
- //BA.debugLineNum = 1048647;BA.debugLine="Drama8.Text = \"Her\"";
+RDebugUtils.currentLine=1179719;
+ //BA.debugLineNum = 1179719;BA.debugLine="Drama8.Text = \"Her\"";
 mostCurrent._drama8.setText(BA.ObjectToCharSequence("Her"));
-RDebugUtils.currentLine=1048648;
- //BA.debugLineNum = 1048648;BA.debugLine="Starter8.Text = \"Starring: Joaquin Phoenix, Roon";
+RDebugUtils.currentLine=1179720;
+ //BA.debugLineNum = 1179720;BA.debugLine="Starter8.Text = \"Starring: Joaquin Phoenix, Roon";
 mostCurrent._starter8.setText(BA.ObjectToCharSequence("Starring: Joaquin Phoenix, Rooney Mara, Amy Adams"));
-RDebugUtils.currentLine=1048649;
- //BA.debugLineNum = 1048649;BA.debugLine="Year8.Text = \"(2013)\"";
+RDebugUtils.currentLine=1179721;
+ //BA.debugLineNum = 1179721;BA.debugLine="Year8.Text = \"(2013)\"";
 mostCurrent._year8.setText(BA.ObjectToCharSequence("(2013)"));
-RDebugUtils.currentLine=1048650;
- //BA.debugLineNum = 1048650;BA.debugLine="OverView8.Text = \"In a near-future Los Angeles,";
+RDebugUtils.currentLine=1179722;
+ //BA.debugLineNum = 1179722;BA.debugLine="OverView8.Text = \"In a near-future Los Angeles,";
 mostCurrent._overview8.setText(BA.ObjectToCharSequence("In a near-future Los Angeles, a lonely man finds solace in a hyper-intelligent AI voice. As their bond deepens into love, he’s forced to question what it means to be human and whether artificial connection is real connection."));
-RDebugUtils.currentLine=1048651;
- //BA.debugLineNum = 1048651;BA.debugLine="DramaImage8.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179723;
+ //BA.debugLineNum = 1179723;BA.debugLine="DramaImage8.Gravity = Gravity.FILL";
 mostCurrent._dramaimage8.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048652;
- //BA.debugLineNum = 1048652;BA.debugLine="DramaImage8.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179724;
+ //BA.debugLineNum = 1179724;BA.debugLine="DramaImage8.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage8.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"her.jpg").getObject()));
-RDebugUtils.currentLine=1048654;
- //BA.debugLineNum = 1048654;BA.debugLine="Drama9.Text = \"Carol\"";
+RDebugUtils.currentLine=1179726;
+ //BA.debugLineNum = 1179726;BA.debugLine="Drama9.Text = \"Carol\"";
 mostCurrent._drama9.setText(BA.ObjectToCharSequence("Carol"));
-RDebugUtils.currentLine=1048655;
- //BA.debugLineNum = 1048655;BA.debugLine="Starter9.Text = \"Starring: Rooney Mara, Cate Bla";
+RDebugUtils.currentLine=1179727;
+ //BA.debugLineNum = 1179727;BA.debugLine="Starter9.Text = \"Starring: Rooney Mara, Cate Bla";
 mostCurrent._starter9.setText(BA.ObjectToCharSequence("Starring: Rooney Mara, Cate Blanchett, Sarah Paulson"));
-RDebugUtils.currentLine=1048656;
- //BA.debugLineNum = 1048656;BA.debugLine="Year9.Text = \"(2015)\"";
+RDebugUtils.currentLine=1179728;
+ //BA.debugLineNum = 1179728;BA.debugLine="Year9.Text = \"(2015)\"";
 mostCurrent._year9.setText(BA.ObjectToCharSequence("(2015)"));
-RDebugUtils.currentLine=1048657;
- //BA.debugLineNum = 1048657;BA.debugLine="OverView9.Text = \"A chance encounter between a y";
+RDebugUtils.currentLine=1179729;
+ //BA.debugLineNum = 1179729;BA.debugLine="OverView9.Text = \"A chance encounter between a y";
 mostCurrent._overview9.setText(BA.ObjectToCharSequence("A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."));
-RDebugUtils.currentLine=1048658;
- //BA.debugLineNum = 1048658;BA.debugLine="DramaImage9.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179730;
+ //BA.debugLineNum = 1179730;BA.debugLine="DramaImage9.Gravity = Gravity.FILL";
 mostCurrent._dramaimage9.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048659;
- //BA.debugLineNum = 1048659;BA.debugLine="DramaImage9.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179731;
+ //BA.debugLineNum = 1179731;BA.debugLine="DramaImage9.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage9.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"carol.jpg").getObject()));
-RDebugUtils.currentLine=1048661;
- //BA.debugLineNum = 1048661;BA.debugLine="Drama10.Text = \"The Lost Daughter\"";
+RDebugUtils.currentLine=1179733;
+ //BA.debugLineNum = 1179733;BA.debugLine="Drama10.Text = \"The Lost Daughter\"";
 mostCurrent._drama10.setText(BA.ObjectToCharSequence("The Lost Daughter"));
-RDebugUtils.currentLine=1048662;
- //BA.debugLineNum = 1048662;BA.debugLine="Starter10.Text = \"Starring: Olivia Colman, Dakot";
+RDebugUtils.currentLine=1179734;
+ //BA.debugLineNum = 1179734;BA.debugLine="Starter10.Text = \"Starring: Olivia Colman, Dakot";
 mostCurrent._starter10.setText(BA.ObjectToCharSequence("Starring: Olivia Colman, Dakota Johnson, Jessie Buckley"));
-RDebugUtils.currentLine=1048663;
- //BA.debugLineNum = 1048663;BA.debugLine="Year10.Text = \"(2021)\"";
+RDebugUtils.currentLine=1179735;
+ //BA.debugLineNum = 1179735;BA.debugLine="Year10.Text = \"(2021)\"";
 mostCurrent._year10.setText(BA.ObjectToCharSequence("(2021)"));
-RDebugUtils.currentLine=1048664;
- //BA.debugLineNum = 1048664;BA.debugLine="OverView10.Text = \"A solitary woman on vacation";
+RDebugUtils.currentLine=1179736;
+ //BA.debugLineNum = 1179736;BA.debugLine="OverView10.Text = \"A solitary woman on vacation";
 mostCurrent._overview10.setText(BA.ObjectToCharSequence("A solitary woman on vacation becomes fascinated by a young mother and her daughter, triggering memories of her own past choices as a parent. The film dives into the complexities of motherhood, regret, and identity"));
-RDebugUtils.currentLine=1048665;
- //BA.debugLineNum = 1048665;BA.debugLine="DramaImage10.Gravity = Gravity.FILL";
+RDebugUtils.currentLine=1179737;
+ //BA.debugLineNum = 1179737;BA.debugLine="DramaImage10.Gravity = Gravity.FILL";
 mostCurrent._dramaimage10.setGravity(anywheresoftware.b4a.keywords.Common.Gravity.FILL);
-RDebugUtils.currentLine=1048666;
- //BA.debugLineNum = 1048666;BA.debugLine="DramaImage10.Bitmap = LoadBitmap(File.DirAssets,";
+RDebugUtils.currentLine=1179738;
+ //BA.debugLineNum = 1179738;BA.debugLine="DramaImage10.Bitmap = LoadBitmap(File.DirAssets,";
 mostCurrent._dramaimage10.setBitmap((android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.LoadBitmap(anywheresoftware.b4a.keywords.Common.File.getDirAssets(),"lostdaughter.jpg").getObject()));
  };
-RDebugUtils.currentLine=1048672;
- //BA.debugLineNum = 1048672;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1179744;
+ //BA.debugLineNum = 1179744;BA.debugLine="End Sub";
 return "";
 }
 }
