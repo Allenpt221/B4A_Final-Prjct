@@ -681,6 +681,1246 @@ RDebugUtils.currentLine=4063234;
  //BA.debugLineNum = 4063234;BA.debugLine="End Sub";
 return "";
 }
+public static void  _panelmovie1_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie1_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie1_click", null); return;}
+ResumableSub_PanelMovie1_Click rsub = new ResumableSub_PanelMovie1_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie1_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie1_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=4915201;
+ //BA.debugLineNum = 4915201;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=4915202;
+ //BA.debugLineNum = 4915202;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=4915203;
+ //BA.debugLineNum = 4915203;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie1_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=4915204;
+ //BA.debugLineNum = 4915204;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=4915205;
+ //BA.debugLineNum = 4915205;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=4915206;
+ //BA.debugLineNum = 4915206;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0479884/");
+RDebugUtils.currentLine=4915207;
+ //BA.debugLineNum = 4915207;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=4915208;
+ //BA.debugLineNum = 4915208;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=4915212;
+ //BA.debugLineNum = 4915212;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("84915212",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=4915213;
+ //BA.debugLineNum = 4915213;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=4915216;
+ //BA.debugLineNum = 4915216;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie10_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie10_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie10_click", null); return;}
+ResumableSub_PanelMovie10_Click rsub = new ResumableSub_PanelMovie10_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie10_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie10_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5505025;
+ //BA.debugLineNum = 5505025;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5505026;
+ //BA.debugLineNum = 5505026;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5505027;
+ //BA.debugLineNum = 5505027;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie10_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5505028;
+ //BA.debugLineNum = 5505028;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5505029;
+ //BA.debugLineNum = 5505029;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5505030;
+ //BA.debugLineNum = 5505030;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1392214/");
+RDebugUtils.currentLine=5505031;
+ //BA.debugLineNum = 5505031;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5505032;
+ //BA.debugLineNum = 5505032;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5505035;
+ //BA.debugLineNum = 5505035;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85505035",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5505036;
+ //BA.debugLineNum = 5505036;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5505039;
+ //BA.debugLineNum = 5505039;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie2_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie2_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie2_click", null); return;}
+ResumableSub_PanelMovie2_Click rsub = new ResumableSub_PanelMovie2_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie2_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie2_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=4980737;
+ //BA.debugLineNum = 4980737;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=4980738;
+ //BA.debugLineNum = 4980738;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=4980739;
+ //BA.debugLineNum = 4980739;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie2_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=4980740;
+ //BA.debugLineNum = 4980740;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=4980741;
+ //BA.debugLineNum = 4980741;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=4980742;
+ //BA.debugLineNum = 4980742;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0988045/");
+RDebugUtils.currentLine=4980743;
+ //BA.debugLineNum = 4980743;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=4980744;
+ //BA.debugLineNum = 4980744;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=4980747;
+ //BA.debugLineNum = 4980747;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("84980747",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=4980748;
+ //BA.debugLineNum = 4980748;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=4980751;
+ //BA.debugLineNum = 4980751;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie3_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie3_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie3_click", null); return;}
+ResumableSub_PanelMovie3_Click rsub = new ResumableSub_PanelMovie3_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie3_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie3_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5046273;
+ //BA.debugLineNum = 5046273;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5046274;
+ //BA.debugLineNum = 5046274;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5046275;
+ //BA.debugLineNum = 5046275;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie3_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5046276;
+ //BA.debugLineNum = 5046276;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5046277;
+ //BA.debugLineNum = 5046277;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5046278;
+ //BA.debugLineNum = 5046278;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt4154796/");
+RDebugUtils.currentLine=5046279;
+ //BA.debugLineNum = 5046279;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5046280;
+ //BA.debugLineNum = 5046280;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5046283;
+ //BA.debugLineNum = 5046283;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85046283",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5046284;
+ //BA.debugLineNum = 5046284;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5046287;
+ //BA.debugLineNum = 5046287;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie4_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie4_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie4_click", null); return;}
+ResumableSub_PanelMovie4_Click rsub = new ResumableSub_PanelMovie4_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie4_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie4_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5111809;
+ //BA.debugLineNum = 5111809;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5111810;
+ //BA.debugLineNum = 5111810;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5111811;
+ //BA.debugLineNum = 5111811;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie4_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5111812;
+ //BA.debugLineNum = 5111812;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5111813;
+ //BA.debugLineNum = 5111813;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5111814;
+ //BA.debugLineNum = 5111814;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt3315342/");
+RDebugUtils.currentLine=5111815;
+ //BA.debugLineNum = 5111815;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5111816;
+ //BA.debugLineNum = 5111816;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5111819;
+ //BA.debugLineNum = 5111819;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85111819",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5111820;
+ //BA.debugLineNum = 5111820;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5111823;
+ //BA.debugLineNum = 5111823;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie5_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie5_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie5_click", null); return;}
+ResumableSub_PanelMovie5_Click rsub = new ResumableSub_PanelMovie5_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie5_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie5_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5177345;
+ //BA.debugLineNum = 5177345;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5177346;
+ //BA.debugLineNum = 5177346;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5177347;
+ //BA.debugLineNum = 5177347;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie5_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5177348;
+ //BA.debugLineNum = 5177348;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5177349;
+ //BA.debugLineNum = 5177349;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5177350;
+ //BA.debugLineNum = 5177350;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0371746/");
+RDebugUtils.currentLine=5177351;
+ //BA.debugLineNum = 5177351;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5177352;
+ //BA.debugLineNum = 5177352;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5177355;
+ //BA.debugLineNum = 5177355;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85177355",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5177356;
+ //BA.debugLineNum = 5177356;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5177359;
+ //BA.debugLineNum = 5177359;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie6_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie6_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie6_click", null); return;}
+ResumableSub_PanelMovie6_Click rsub = new ResumableSub_PanelMovie6_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie6_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie6_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5242881;
+ //BA.debugLineNum = 5242881;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5242882;
+ //BA.debugLineNum = 5242882;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5242883;
+ //BA.debugLineNum = 5242883;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie6_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5242884;
+ //BA.debugLineNum = 5242884;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5242885;
+ //BA.debugLineNum = 5242885;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5242886;
+ //BA.debugLineNum = 5242886;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0120903/");
+RDebugUtils.currentLine=5242887;
+ //BA.debugLineNum = 5242887;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5242888;
+ //BA.debugLineNum = 5242888;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5242891;
+ //BA.debugLineNum = 5242891;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85242891",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5242892;
+ //BA.debugLineNum = 5242892;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5242895;
+ //BA.debugLineNum = 5242895;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie7_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie7_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie7_click", null); return;}
+ResumableSub_PanelMovie7_Click rsub = new ResumableSub_PanelMovie7_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie7_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie7_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5308417;
+ //BA.debugLineNum = 5308417;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5308418;
+ //BA.debugLineNum = 5308418;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5308419;
+ //BA.debugLineNum = 5308419;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie7_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5308420;
+ //BA.debugLineNum = 5308420;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5308421;
+ //BA.debugLineNum = 5308421;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5308422;
+ //BA.debugLineNum = 5308422;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2334873/");
+RDebugUtils.currentLine=5308423;
+ //BA.debugLineNum = 5308423;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5308424;
+ //BA.debugLineNum = 5308424;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5308427;
+ //BA.debugLineNum = 5308427;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85308427",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5308428;
+ //BA.debugLineNum = 5308428;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5308431;
+ //BA.debugLineNum = 5308431;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie8_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie8_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie8_click", null); return;}
+ResumableSub_PanelMovie8_Click rsub = new ResumableSub_PanelMovie8_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie8_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie8_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5373953;
+ //BA.debugLineNum = 5373953;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5373954;
+ //BA.debugLineNum = 5373954;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5373955;
+ //BA.debugLineNum = 5373955;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie8_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5373956;
+ //BA.debugLineNum = 5373956;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5373957;
+ //BA.debugLineNum = 5373957;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5373958;
+ //BA.debugLineNum = 5373958;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0356910/");
+RDebugUtils.currentLine=5373959;
+ //BA.debugLineNum = 5373959;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5373960;
+ //BA.debugLineNum = 5373960;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5373963;
+ //BA.debugLineNum = 5373963;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85373963",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5373964;
+ //BA.debugLineNum = 5373964;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5373967;
+ //BA.debugLineNum = 5373967;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
+public static void  _panelmovie9_click() throws Exception{
+RDebugUtils.currentModule="scifi";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "panelmovie9_click", false))
+	 {Debug.delegate(mostCurrent.activityBA, "panelmovie9_click", null); return;}
+ResumableSub_PanelMovie9_Click rsub = new ResumableSub_PanelMovie9_Click(null);
+rsub.resume(processBA, null);
+}
+public static class ResumableSub_PanelMovie9_Click extends BA.ResumableSub {
+public ResumableSub_PanelMovie9_Click(b4a.example.scifi parent) {
+this.parent = parent;
+}
+b4a.example.scifi parent;
+int _result = 0;
+anywheresoftware.b4a.objects.IntentWrapper _i = null;
+
+@Override
+public void resume(BA ba, Object[] result) throws Exception{
+RDebugUtils.currentModule="scifi";
+
+    while (true) {
+try {
+
+        switch (state) {
+            case -1:
+return;
+
+case 0:
+//C
+this.state = 1;
+RDebugUtils.currentLine=5439489;
+ //BA.debugLineNum = 5439489;BA.debugLine="Try";
+if (true) break;
+
+case 1:
+//try
+this.state = 10;
+this.catchState = 9;
+this.state = 3;
+if (true) break;
+
+case 3:
+//C
+this.state = 4;
+this.catchState = 9;
+RDebugUtils.currentLine=5439490;
+ //BA.debugLineNum = 5439490;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
+RDebugUtils.currentLine=5439491;
+ //BA.debugLineNum = 5439491;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "scifi", "panelmovie9_click"), null);
+this.state = 11;
+return;
+case 11:
+//C
+this.state = 4;
+_result = (Integer) result[0];
+;
+RDebugUtils.currentLine=5439492;
+ //BA.debugLineNum = 5439492;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+if (true) break;
+
+case 4:
+//if
+this.state = 7;
+if (_result==anywheresoftware.b4a.keywords.Common.DialogResponse.POSITIVE) { 
+this.state = 6;
+}if (true) break;
+
+case 6:
+//C
+this.state = 7;
+RDebugUtils.currentLine=5439493;
+ //BA.debugLineNum = 5439493;BA.debugLine="Dim i As Intent";
+_i = new anywheresoftware.b4a.objects.IntentWrapper();
+RDebugUtils.currentLine=5439494;
+ //BA.debugLineNum = 5439494;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+_i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1430132/");
+RDebugUtils.currentLine=5439495;
+ //BA.debugLineNum = 5439495;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+_i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
+RDebugUtils.currentLine=5439496;
+ //BA.debugLineNum = 5439496;BA.debugLine="StartActivity(i)";
+anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
+ if (true) break;
+
+case 7:
+//C
+this.state = 10;
+;
+ if (true) break;
+
+case 9:
+//C
+this.state = 10;
+this.catchState = 0;
+RDebugUtils.currentLine=5439499;
+ //BA.debugLineNum = 5439499;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("85439499",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=5439500;
+ //BA.debugLineNum = 5439500;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
+ if (true) break;
+if (true) break;
+
+case 10:
+//C
+this.state = -1;
+this.catchState = 0;
+;
+RDebugUtils.currentLine=5439503;
+ //BA.debugLineNum = 5439503;BA.debugLine="End Sub";
+if (true) break;
+}} 
+       catch (Exception e0) {
+			
+if (catchState == 0)
+    throw e0;
+else {
+    state = catchState;
+processBA.setLastException(e0);}
+            }
+        }
+    }
+}
 public static String  _scifipage_click() throws Exception{
 RDebugUtils.currentModule="scifi";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "scifipage_click", false))

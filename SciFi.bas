@@ -807,7 +807,7 @@ Private Sub SciFiPage_Click
 End Sub
 
 Private Sub HomePage_Click
-	StartActivity(Main)	
+	StartActivity(Main)
 End Sub
 
 Private Sub DramaPage_Click
@@ -816,4 +816,177 @@ End Sub
 
 Private Sub ActionPage_Click
 	StartActivity(Action)
+End Sub
+
+
+Private Sub PanelMovie1_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0479884/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+		
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+
+Private Sub PanelMovie2_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0988045/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie3_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt4154796/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie4_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt3315342/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie5_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0371746/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie6_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0120903/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie7_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt2334873/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie8_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0356910/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie9_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1430132/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
+End Sub
+
+Private Sub PanelMovie10_Click
+	Try
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
+		Wait For Msgbox_Result (Result As Int)
+		If Result = DialogResponse.POSITIVE Then
+			Dim i As Intent
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1392214/") 'change the url for this
+			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
+			StartActivity(i)
+		End If
+	Catch
+		Log(LastException)
+		MsgboxAsync("can't find Chome app", "Error")
+	End Try
+	
 End Sub

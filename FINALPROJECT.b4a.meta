@@ -16,6 +16,6 @@ ModuleClosedNodes2=
 ModuleClosedNodes3=
 ModuleClosedNodes4=
 ModuleClosedNodes5=1
-NavigationStack=Main,Activity_Resume,39,0,Drama,SearchEngine_TextChanged,778,0,Action,SearchEngine_TextChanged,752,1,SciFi,Activity_Pause,760,0,Action,Activity_Pause,758,0,Drama,Activity_Pause,786,0,SciFi,ActionPage_Click,812,0,SciFi,SearchEngine_TextChanged,738,0,SciFi,Activity_Create,144,6,SciFi,SearchNow,509,6
+NavigationStack=SciFi,PanelMovie6_Click,908,0,SciFi,PanelMovie7_Click,925,0,SciFi,PanelMovie8_Click,942,0,SciFi,PanelMovie9_Click,959,0,Action,PanelMovie1_Click,781,0,Drama,Activity_Pause,786,0,Action,PanelMovie2_Click,807,0,SciFi,PanelMovie10_Click,976,0,SciFi,PanelMovie1_Click,831,0,SciFi,PanelMovie2_Click,844,0
 SelectedBuild=0
 VisibleModules=5,2,1,4,3

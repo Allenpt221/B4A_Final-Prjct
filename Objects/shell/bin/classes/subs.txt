@@ -258,6 +258,46 @@ scifi,homepage_click,0,0,803,805
 
 
 
+scifi,panelmovie1_click,0,1,816,832
+
+
+
+scifi,panelmovie10_click,0,1,971,986
+
+
+
+scifi,panelmovie2_click,0,1,835,850
+
+
+
+scifi,panelmovie3_click,0,1,852,867
+
+
+
+scifi,panelmovie4_click,0,1,869,884
+
+
+
+scifi,panelmovie5_click,0,1,886,901
+
+
+
+scifi,panelmovie6_click,0,1,903,918
+
+
+
+scifi,panelmovie7_click,0,1,920,935
+
+
+
+scifi,panelmovie8_click,0,1,937,952
+
+
+
+scifi,panelmovie9_click,0,1,954,969
+
+
+
 scifi,process_globals,0,1,6,10
 
 
