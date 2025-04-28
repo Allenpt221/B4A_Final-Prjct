@@ -8,12 +8,12 @@ public class action_subs_0 {
 
 public static RemoteObject  _actionpage_click() throws Exception{
 try {
-		Debug.PushSubsStack("ActionPage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,759);
+		Debug.PushSubsStack("ActionPage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,768);
 if (RapidSub.canDelegate("actionpage_click")) { return b4a.example.action.remoteMe.runUserSub(false, "action","actionpage_click");}
- BA.debugLineNum = 759;BA.debugLine="Private Sub ActionPage_Click";
-Debug.ShouldStop(4194304);
- BA.debugLineNum = 761;BA.debugLine="End Sub";
-Debug.ShouldStop(16777216);
+ BA.debugLineNum = 768;BA.debugLine="Private Sub ActionPage_Click";
+Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 770;BA.debugLine="End Sub";
+Debug.ShouldStop(2);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -234,20 +234,53 @@ catch (Exception e) {
 finally {
 			Debug.PopSubsStack();
 		}}
+public static RemoteObject  _activity_pause(RemoteObject _userclosed) throws Exception{
+try {
+		Debug.PushSubsStack("Activity_Pause (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,757);
+if (RapidSub.canDelegate("activity_pause")) { return b4a.example.action.remoteMe.runUserSub(false, "action","activity_pause", _userclosed);}
+Debug.locals.put("UserClosed", _userclosed);
+ BA.debugLineNum = 757;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+Debug.ShouldStop(1048576);
+ BA.debugLineNum = 759;BA.debugLine="End Sub";
+Debug.ShouldStop(4194304);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
+public static RemoteObject  _activity_resume() throws Exception{
+try {
+		Debug.PushSubsStack("Activity_Resume (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,753);
+if (RapidSub.canDelegate("activity_resume")) { return b4a.example.action.remoteMe.runUserSub(false, "action","activity_resume");}
+ BA.debugLineNum = 753;BA.debugLine="Sub Activity_Resume";
+Debug.ShouldStop(65536);
+ BA.debugLineNum = 755;BA.debugLine="End Sub";
+Debug.ShouldStop(262144);
+return RemoteObject.createImmutable("");
+}
+catch (Exception e) {
+			throw Debug.ErrorCaught(e);
+		} 
+finally {
+			Debug.PopSubsStack();
+		}}
 public static RemoteObject  _dramapage_click() throws Exception{
 try {
-		Debug.PushSubsStack("DramaPage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,763);
+		Debug.PushSubsStack("DramaPage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,772);
 if (RapidSub.canDelegate("dramapage_click")) { return b4a.example.action.remoteMe.runUserSub(false, "action","dramapage_click");}
- BA.debugLineNum = 763;BA.debugLine="Private Sub DramaPage_Click";
-Debug.ShouldStop(67108864);
- BA.debugLineNum = 764;BA.debugLine="StartActivity(Drama)";
-Debug.ShouldStop(134217728);
+ BA.debugLineNum = 772;BA.debugLine="Private Sub DramaPage_Click";
+Debug.ShouldStop(8);
+ BA.debugLineNum = 773;BA.debugLine="StartActivity(Drama)";
+Debug.ShouldStop(16);
 action.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((action.mostCurrent._drama.getObject())));
- BA.debugLineNum = 765;BA.debugLine="Activity.Finish";
-Debug.ShouldStop(268435456);
+ BA.debugLineNum = 774;BA.debugLine="Activity.Finish";
+Debug.ShouldStop(32);
 action.mostCurrent._activity.runVoidMethod ("Finish");
- BA.debugLineNum = 766;BA.debugLine="End Sub";
-Debug.ShouldStop(536870912);
+ BA.debugLineNum = 775;BA.debugLine="End Sub";
+Debug.ShouldStop(64);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -401,18 +434,18 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _homepage_click() throws Exception{
 try {
-		Debug.PushSubsStack("HomePage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,768);
+		Debug.PushSubsStack("HomePage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,777);
 if (RapidSub.canDelegate("homepage_click")) { return b4a.example.action.remoteMe.runUserSub(false, "action","homepage_click");}
- BA.debugLineNum = 768;BA.debugLine="Private Sub HomePage_Click";
-Debug.ShouldStop(-2147483648);
- BA.debugLineNum = 769;BA.debugLine="StartActivity(Main)";
-Debug.ShouldStop(1);
+ BA.debugLineNum = 777;BA.debugLine="Private Sub HomePage_Click";
+Debug.ShouldStop(256);
+ BA.debugLineNum = 778;BA.debugLine="StartActivity(Main)";
+Debug.ShouldStop(512);
 action.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((action.mostCurrent._main.getObject())));
- BA.debugLineNum = 770;BA.debugLine="Activity.Finish";
-Debug.ShouldStop(2);
+ BA.debugLineNum = 779;BA.debugLine="Activity.Finish";
+Debug.ShouldStop(1024);
 action.mostCurrent._activity.runVoidMethod ("Finish");
- BA.debugLineNum = 771;BA.debugLine="End Sub";
-Debug.ShouldStop(4);
+ BA.debugLineNum = 780;BA.debugLine="End Sub";
+Debug.ShouldStop(2048);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -423,7 +456,7 @@ finally {
 		}}
 public static void  _panelmovie1_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie1_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,773);
+		Debug.PushSubsStack("PanelMovie1_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,782);
 if (RapidSub.canDelegate("panelmovie1_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie1_click"); return;}
 ResumableSub_PanelMovie1_Click rsub = new ResumableSub_PanelMovie1_Click(null);
 rsub.resume(null, null);
@@ -446,7 +479,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie1_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,773);
+		Debug.PushSubsStack("PanelMovie1_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,782);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -459,8 +492,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 774;BA.debugLine="Try";
-Debug.ShouldStop(32);
+ BA.debugLineNum = 783;BA.debugLine="Try";
+Debug.ShouldStop(16384);
 if (true) break;
 
 case 1:
@@ -474,11 +507,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 775;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(64);
+ BA.debugLineNum = 784;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(32768);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 776;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(128);
+ BA.debugLineNum = 785;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(65536);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie1_click"), null);
 this.state = 11;
 return;
@@ -487,8 +520,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 777;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(256);
+ BA.debugLineNum = 786;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(131072);
 if (true) break;
 
 case 4:
@@ -501,17 +534,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 778;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(512);
+ BA.debugLineNum = 787;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(262144);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 779;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(1024);
+ BA.debugLineNum = 788;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(524288);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0479884/")));
- BA.debugLineNum = 780;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(2048);
+ BA.debugLineNum = 789;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(1048576);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 781;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(4096);
+ BA.debugLineNum = 790;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(2097152);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -526,11 +559,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 785;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(65536);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","24456460",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 786;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(131072);
+ BA.debugLineNum = 794;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(33554432);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","82818060",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 795;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(67108864);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -540,8 +573,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 789;BA.debugLine="End Sub";
-Debug.ShouldStop(1048576);
+ BA.debugLineNum = 798;BA.debugLine="End Sub";
+Debug.ShouldStop(536870912);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -565,7 +598,7 @@ public static void  _msgbox_result(RemoteObject _result) throws Exception{
 }
 public static void  _panelmovie10_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie10_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,928);
+		Debug.PushSubsStack("PanelMovie10_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,937);
 if (RapidSub.canDelegate("panelmovie10_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie10_click"); return;}
 ResumableSub_PanelMovie10_Click rsub = new ResumableSub_PanelMovie10_Click(null);
 rsub.resume(null, null);
@@ -588,7 +621,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie10_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,928);
+		Debug.PushSubsStack("PanelMovie10_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,937);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -601,8 +634,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 929;BA.debugLine="Try";
-Debug.ShouldStop(1);
+ BA.debugLineNum = 938;BA.debugLine="Try";
+Debug.ShouldStop(512);
 if (true) break;
 
 case 1:
@@ -616,11 +649,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 930;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(2);
+ BA.debugLineNum = 939;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(1024);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 931;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(4);
+ BA.debugLineNum = 940;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(2048);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie10_click"), null);
 this.state = 11;
 return;
@@ -629,8 +662,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 932;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(8);
+ BA.debugLineNum = 941;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(4096);
 if (true) break;
 
 case 4:
@@ -643,17 +676,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 933;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(16);
+ BA.debugLineNum = 942;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(8192);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 934;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(32);
+ BA.debugLineNum = 943;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(16384);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1392214/")));
- BA.debugLineNum = 935;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(64);
+ BA.debugLineNum = 944;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(32768);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 936;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(128);
+ BA.debugLineNum = 945;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(65536);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -668,11 +701,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 939;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(1024);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","25242891",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 940;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(2048);
+ BA.debugLineNum = 948;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(524288);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","83407883",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 949;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(1048576);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -682,8 +715,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 943;BA.debugLine="End Sub";
-Debug.ShouldStop(16384);
+ BA.debugLineNum = 952;BA.debugLine="End Sub";
+Debug.ShouldStop(8388608);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -705,7 +738,7 @@ finally {
 }
 public static void  _panelmovie2_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie2_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,792);
+		Debug.PushSubsStack("PanelMovie2_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,801);
 if (RapidSub.canDelegate("panelmovie2_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie2_click"); return;}
 ResumableSub_PanelMovie2_Click rsub = new ResumableSub_PanelMovie2_Click(null);
 rsub.resume(null, null);
@@ -728,7 +761,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie2_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,792);
+		Debug.PushSubsStack("PanelMovie2_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,801);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -741,8 +774,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 793;BA.debugLine="Try";
-Debug.ShouldStop(16777216);
+ BA.debugLineNum = 802;BA.debugLine="Try";
+Debug.ShouldStop(2);
 if (true) break;
 
 case 1:
@@ -756,11 +789,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 794;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(33554432);
+ BA.debugLineNum = 803;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(4);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 795;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(67108864);
+ BA.debugLineNum = 804;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(8);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie2_click"), null);
 this.state = 11;
 return;
@@ -769,8 +802,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 796;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(134217728);
+ BA.debugLineNum = 805;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(16);
 if (true) break;
 
 case 4:
@@ -783,17 +816,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 797;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(268435456);
+ BA.debugLineNum = 806;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(32);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 798;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(536870912);
+ BA.debugLineNum = 807;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(64);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0988045/")));
- BA.debugLineNum = 799;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(1073741824);
+ BA.debugLineNum = 808;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(128);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 800;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 809;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(256);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -808,11 +841,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 803;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(4);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","24587531",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 804;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(8);
+ BA.debugLineNum = 812;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(2048);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","82883595",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 813;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(4096);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -822,8 +855,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 807;BA.debugLine="End Sub";
-Debug.ShouldStop(64);
+ BA.debugLineNum = 816;BA.debugLine="End Sub";
+Debug.ShouldStop(32768);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -845,7 +878,7 @@ finally {
 }
 public static void  _panelmovie3_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie3_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,809);
+		Debug.PushSubsStack("PanelMovie3_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,818);
 if (RapidSub.canDelegate("panelmovie3_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie3_click"); return;}
 ResumableSub_PanelMovie3_Click rsub = new ResumableSub_PanelMovie3_Click(null);
 rsub.resume(null, null);
@@ -868,7 +901,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie3_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,809);
+		Debug.PushSubsStack("PanelMovie3_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,818);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -881,8 +914,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 810;BA.debugLine="Try";
-Debug.ShouldStop(512);
+ BA.debugLineNum = 819;BA.debugLine="Try";
+Debug.ShouldStop(262144);
 if (true) break;
 
 case 1:
@@ -896,11 +929,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 811;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(1024);
+ BA.debugLineNum = 820;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(524288);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 812;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(2048);
+ BA.debugLineNum = 821;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(1048576);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie3_click"), null);
 this.state = 11;
 return;
@@ -909,8 +942,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 813;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(4096);
+ BA.debugLineNum = 822;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(2097152);
 if (true) break;
 
 case 4:
@@ -923,17 +956,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 814;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(8192);
+ BA.debugLineNum = 823;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(4194304);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 815;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(16384);
+ BA.debugLineNum = 824;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(8388608);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt4154796/")));
- BA.debugLineNum = 816;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(32768);
+ BA.debugLineNum = 825;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(16777216);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 817;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(65536);
+ BA.debugLineNum = 826;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(33554432);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -948,11 +981,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 820;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(524288);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","24653067",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 821;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(1048576);
+ BA.debugLineNum = 829;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(268435456);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","82949131",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 830;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(536870912);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -962,8 +995,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 824;BA.debugLine="End Sub";
-Debug.ShouldStop(8388608);
+ BA.debugLineNum = 833;BA.debugLine="End Sub";
+Debug.ShouldStop(1);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -985,7 +1018,7 @@ finally {
 }
 public static void  _panelmovie4_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie4_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,826);
+		Debug.PushSubsStack("PanelMovie4_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,835);
 if (RapidSub.canDelegate("panelmovie4_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie4_click"); return;}
 ResumableSub_PanelMovie4_Click rsub = new ResumableSub_PanelMovie4_Click(null);
 rsub.resume(null, null);
@@ -1008,7 +1041,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie4_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,826);
+		Debug.PushSubsStack("PanelMovie4_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,835);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1021,8 +1054,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 827;BA.debugLine="Try";
-Debug.ShouldStop(67108864);
+ BA.debugLineNum = 836;BA.debugLine="Try";
+Debug.ShouldStop(8);
 if (true) break;
 
 case 1:
@@ -1036,11 +1069,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 828;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(134217728);
+ BA.debugLineNum = 837;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(16);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 829;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(268435456);
+ BA.debugLineNum = 838;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(32);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie4_click"), null);
 this.state = 11;
 return;
@@ -1049,8 +1082,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 830;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(536870912);
+ BA.debugLineNum = 839;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(64);
 if (true) break;
 
 case 4:
@@ -1063,17 +1096,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 831;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(1073741824);
+ BA.debugLineNum = 840;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(128);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 832;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 841;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(256);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt3315342/")));
- BA.debugLineNum = 833;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(1);
+ BA.debugLineNum = 842;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(512);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 834;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(2);
+ BA.debugLineNum = 843;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(1024);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1088,11 +1121,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 837;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(16);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","24718603",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 838;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(32);
+ BA.debugLineNum = 846;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(8192);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","83014667",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 847;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(16384);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -1102,8 +1135,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 841;BA.debugLine="End Sub";
-Debug.ShouldStop(256);
+ BA.debugLineNum = 850;BA.debugLine="End Sub";
+Debug.ShouldStop(131072);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1125,7 +1158,7 @@ finally {
 }
 public static void  _panelmovie5_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie5_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,843);
+		Debug.PushSubsStack("PanelMovie5_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,852);
 if (RapidSub.canDelegate("panelmovie5_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie5_click"); return;}
 ResumableSub_PanelMovie5_Click rsub = new ResumableSub_PanelMovie5_Click(null);
 rsub.resume(null, null);
@@ -1148,7 +1181,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie5_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,843);
+		Debug.PushSubsStack("PanelMovie5_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,852);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1161,8 +1194,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 844;BA.debugLine="Try";
-Debug.ShouldStop(2048);
+ BA.debugLineNum = 853;BA.debugLine="Try";
+Debug.ShouldStop(1048576);
 if (true) break;
 
 case 1:
@@ -1176,11 +1209,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 845;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(4096);
+ BA.debugLineNum = 854;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(2097152);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 846;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(8192);
+ BA.debugLineNum = 855;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(4194304);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie5_click"), null);
 this.state = 11;
 return;
@@ -1189,8 +1222,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 847;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(16384);
+ BA.debugLineNum = 856;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(8388608);
 if (true) break;
 
 case 4:
@@ -1203,17 +1236,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 848;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(32768);
+ BA.debugLineNum = 857;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(16777216);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 849;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(65536);
+ BA.debugLineNum = 858;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(33554432);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0371746/")));
- BA.debugLineNum = 850;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(131072);
+ BA.debugLineNum = 859;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(67108864);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 851;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(262144);
+ BA.debugLineNum = 860;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(134217728);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1228,11 +1261,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 854;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(2097152);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","24784139",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 855;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(4194304);
+ BA.debugLineNum = 863;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(1073741824);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","83080203",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 864;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(-2147483648);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -1242,8 +1275,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 858;BA.debugLine="End Sub";
-Debug.ShouldStop(33554432);
+ BA.debugLineNum = 867;BA.debugLine="End Sub";
+Debug.ShouldStop(4);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1265,7 +1298,7 @@ finally {
 }
 public static void  _panelmovie6_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie6_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,860);
+		Debug.PushSubsStack("PanelMovie6_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,869);
 if (RapidSub.canDelegate("panelmovie6_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie6_click"); return;}
 ResumableSub_PanelMovie6_Click rsub = new ResumableSub_PanelMovie6_Click(null);
 rsub.resume(null, null);
@@ -1288,7 +1321,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie6_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,860);
+		Debug.PushSubsStack("PanelMovie6_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,869);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1301,8 +1334,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 861;BA.debugLine="Try";
-Debug.ShouldStop(268435456);
+ BA.debugLineNum = 870;BA.debugLine="Try";
+Debug.ShouldStop(32);
 if (true) break;
 
 case 1:
@@ -1316,11 +1349,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 862;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(536870912);
+ BA.debugLineNum = 871;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(64);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 863;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(1073741824);
+ BA.debugLineNum = 872;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(128);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie6_click"), null);
 this.state = 11;
 return;
@@ -1329,8 +1362,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 864;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 873;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(256);
 if (true) break;
 
 case 4:
@@ -1343,17 +1376,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 865;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(1);
+ BA.debugLineNum = 874;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(512);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 866;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(2);
+ BA.debugLineNum = 875;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(1024);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0120903/")));
- BA.debugLineNum = 867;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(4);
+ BA.debugLineNum = 876;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(2048);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 868;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(8);
+ BA.debugLineNum = 877;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(4096);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1368,11 +1401,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 871;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(64);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","24915211",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 872;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(128);
+ BA.debugLineNum = 880;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(32768);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","83145739",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 881;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(65536);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -1382,8 +1415,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 875;BA.debugLine="End Sub";
-Debug.ShouldStop(1024);
+ BA.debugLineNum = 884;BA.debugLine="End Sub";
+Debug.ShouldStop(524288);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1405,7 +1438,7 @@ finally {
 }
 public static void  _panelmovie7_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie7_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,877);
+		Debug.PushSubsStack("PanelMovie7_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,886);
 if (RapidSub.canDelegate("panelmovie7_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie7_click"); return;}
 ResumableSub_PanelMovie7_Click rsub = new ResumableSub_PanelMovie7_Click(null);
 rsub.resume(null, null);
@@ -1428,7 +1461,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie7_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,877);
+		Debug.PushSubsStack("PanelMovie7_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,886);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1441,8 +1474,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 878;BA.debugLine="Try";
-Debug.ShouldStop(8192);
+ BA.debugLineNum = 887;BA.debugLine="Try";
+Debug.ShouldStop(4194304);
 if (true) break;
 
 case 1:
@@ -1456,11 +1489,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 879;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(16384);
+ BA.debugLineNum = 888;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(8388608);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 880;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(32768);
+ BA.debugLineNum = 889;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(16777216);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie7_click"), null);
 this.state = 11;
 return;
@@ -1469,8 +1502,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 881;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(65536);
+ BA.debugLineNum = 890;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(33554432);
 if (true) break;
 
 case 4:
@@ -1483,17 +1516,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 882;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(131072);
+ BA.debugLineNum = 891;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(67108864);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 883;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(262144);
+ BA.debugLineNum = 892;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(134217728);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt2334873/")));
- BA.debugLineNum = 884;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(524288);
+ BA.debugLineNum = 893;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(268435456);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 885;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(1048576);
+ BA.debugLineNum = 894;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(536870912);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1508,11 +1541,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 888;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(8388608);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","25111819",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 889;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(16777216);
+ BA.debugLineNum = 897;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(1);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","83211275",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 898;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(2);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -1522,8 +1555,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 892;BA.debugLine="End Sub";
-Debug.ShouldStop(134217728);
+ BA.debugLineNum = 901;BA.debugLine="End Sub";
+Debug.ShouldStop(16);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1545,7 +1578,7 @@ finally {
 }
 public static void  _panelmovie8_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie8_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,894);
+		Debug.PushSubsStack("PanelMovie8_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,903);
 if (RapidSub.canDelegate("panelmovie8_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie8_click"); return;}
 ResumableSub_PanelMovie8_Click rsub = new ResumableSub_PanelMovie8_Click(null);
 rsub.resume(null, null);
@@ -1568,7 +1601,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie8_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,894);
+		Debug.PushSubsStack("PanelMovie8_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,903);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1581,8 +1614,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 895;BA.debugLine="Try";
-Debug.ShouldStop(1073741824);
+ BA.debugLineNum = 904;BA.debugLine="Try";
+Debug.ShouldStop(128);
 if (true) break;
 
 case 1:
@@ -1596,11 +1629,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 896;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 905;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(256);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 897;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(1);
+ BA.debugLineNum = 906;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(512);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie8_click"), null);
 this.state = 11;
 return;
@@ -1609,8 +1642,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 898;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(2);
+ BA.debugLineNum = 907;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(1024);
 if (true) break;
 
 case 4:
@@ -1623,17 +1656,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 899;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(4);
+ BA.debugLineNum = 908;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(2048);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 900;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(8);
+ BA.debugLineNum = 909;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(4096);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0356910/")));
- BA.debugLineNum = 901;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(16);
+ BA.debugLineNum = 910;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(8192);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 902;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(32);
+ BA.debugLineNum = 911;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(16384);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1648,11 +1681,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 905;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(256);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","25046283",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 906;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(512);
+ BA.debugLineNum = 914;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(131072);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","83276811",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 915;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(262144);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -1662,8 +1695,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 909;BA.debugLine="End Sub";
-Debug.ShouldStop(4096);
+ BA.debugLineNum = 918;BA.debugLine="End Sub";
+Debug.ShouldStop(2097152);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1685,7 +1718,7 @@ finally {
 }
 public static void  _panelmovie9_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie9_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,911);
+		Debug.PushSubsStack("PanelMovie9_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,920);
 if (RapidSub.canDelegate("panelmovie9_click")) { b4a.example.action.remoteMe.runUserSub(false, "action","panelmovie9_click"); return;}
 ResumableSub_PanelMovie9_Click rsub = new ResumableSub_PanelMovie9_Click(null);
 rsub.resume(null, null);
@@ -1708,7 +1741,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie9_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,911);
+		Debug.PushSubsStack("PanelMovie9_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,920);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1721,8 +1754,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 912;BA.debugLine="Try";
-Debug.ShouldStop(32768);
+ BA.debugLineNum = 921;BA.debugLine="Try";
+Debug.ShouldStop(16777216);
 if (true) break;
 
 case 1:
@@ -1736,11 +1769,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 913;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(65536);
+ BA.debugLineNum = 922;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(33554432);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),action.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 914;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(131072);
+ BA.debugLineNum = 923;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(67108864);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", action.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "action", "panelmovie9_click"), null);
 this.state = 11;
 return;
@@ -1749,8 +1782,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 915;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(262144);
+ BA.debugLineNum = 924;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(134217728);
 if (true) break;
 
 case 4:
@@ -1763,17 +1796,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 916;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(524288);
+ BA.debugLineNum = 925;BA.debugLine="Dim i As Intent";
+Debug.ShouldStop(268435456);
 _i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 917;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(1048576);
+ BA.debugLineNum = 926;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(536870912);
 _i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1430132/")));
- BA.debugLineNum = 918;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(2097152);
+ BA.debugLineNum = 927;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(1073741824);
 _i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 919;BA.debugLine="StartActivity(i)";
-Debug.ShouldStop(4194304);
+ BA.debugLineNum = 928;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(-2147483648);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1788,11 +1821,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 922;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(33554432);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","25177355",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
- BA.debugLineNum = 923;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(67108864);
+ BA.debugLineNum = 931;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(4);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","83342347",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",action.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 932;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(8);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),action.processBA);
  if (true) break;
 if (true) break;
@@ -1802,8 +1835,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 926;BA.debugLine="End Sub";
-Debug.ShouldStop(536870912);
+ BA.debugLineNum = 935;BA.debugLine="End Sub";
+Debug.ShouldStop(64);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1830,18 +1863,18 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _scifipage_click() throws Exception{
 try {
-		Debug.PushSubsStack("SciFiPage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,754);
+		Debug.PushSubsStack("SciFiPage_Click (action) ","action",3,action.mostCurrent.activityBA,action.mostCurrent,763);
 if (RapidSub.canDelegate("scifipage_click")) { return b4a.example.action.remoteMe.runUserSub(false, "action","scifipage_click");}
- BA.debugLineNum = 754;BA.debugLine="Private Sub SciFiPage_Click";
-Debug.ShouldStop(131072);
- BA.debugLineNum = 755;BA.debugLine="StartActivity(SciFi)";
-Debug.ShouldStop(262144);
+ BA.debugLineNum = 763;BA.debugLine="Private Sub SciFiPage_Click";
+Debug.ShouldStop(67108864);
+ BA.debugLineNum = 764;BA.debugLine="StartActivity(SciFi)";
+Debug.ShouldStop(134217728);
 action.mostCurrent.__c.runVoidMethod ("StartActivity",action.processBA,(Object)((action.mostCurrent._scifi.getObject())));
- BA.debugLineNum = 756;BA.debugLine="Activity.Finish";
-Debug.ShouldStop(524288);
+ BA.debugLineNum = 765;BA.debugLine="Activity.Finish";
+Debug.ShouldStop(268435456);
 action.mostCurrent._activity.runVoidMethod ("Finish");
- BA.debugLineNum = 757;BA.debugLine="End Sub";
-Debug.ShouldStop(1048576);
+ BA.debugLineNum = 766;BA.debugLine="End Sub";
+Debug.ShouldStop(536870912);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -1893,36 +1926,36 @@ action.mostCurrent._p.runMethod(true,"setWidth",action.mostCurrent.__c.runMethod
  BA.debugLineNum = 661;BA.debugLine="ScrollView1.Panel.Height = p.Height";
 Debug.ShouldStop(1048576);
 action.mostCurrent._scrollview1.runMethod(false,"getPanel").runMethod(true,"setHeight",action.mostCurrent._p.runMethod(true,"getHeight"));
- BA.debugLineNum = 663;BA.debugLine="PanelMovie1.Visible = False";
+ BA.debugLineNum = 663;BA.debugLine="PanelMovie1.Visible = True";
 Debug.ShouldStop(4194304);
-action.mostCurrent._panelmovie1.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 664;BA.debugLine="PanelMovie2.Visible = False";
+action.mostCurrent._panelmovie1.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 664;BA.debugLine="PanelMovie2.Visible = True";
 Debug.ShouldStop(8388608);
-action.mostCurrent._panelmovie2.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 665;BA.debugLine="PanelMovie3.Visible = False";
+action.mostCurrent._panelmovie2.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 665;BA.debugLine="PanelMovie3.Visible = True";
 Debug.ShouldStop(16777216);
-action.mostCurrent._panelmovie3.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 666;BA.debugLine="PanelMovie4.Visible = False";
+action.mostCurrent._panelmovie3.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 666;BA.debugLine="PanelMovie4.Visible = True";
 Debug.ShouldStop(33554432);
-action.mostCurrent._panelmovie4.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 667;BA.debugLine="PanelMovie5.Visible = False";
+action.mostCurrent._panelmovie4.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 667;BA.debugLine="PanelMovie5.Visible = True";
 Debug.ShouldStop(67108864);
-action.mostCurrent._panelmovie5.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 668;BA.debugLine="PanelMovie6.Visible = False";
+action.mostCurrent._panelmovie5.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 668;BA.debugLine="PanelMovie6.Visible = True";
 Debug.ShouldStop(134217728);
-action.mostCurrent._panelmovie6.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 669;BA.debugLine="PanelMovie7.Visible = False";
+action.mostCurrent._panelmovie6.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 669;BA.debugLine="PanelMovie7.Visible = True";
 Debug.ShouldStop(268435456);
-action.mostCurrent._panelmovie7.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 670;BA.debugLine="PanelMovie8.Visible = False";
+action.mostCurrent._panelmovie7.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 670;BA.debugLine="PanelMovie8.Visible = True";
 Debug.ShouldStop(536870912);
-action.mostCurrent._panelmovie8.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 671;BA.debugLine="PanelMovie9.Visible = False";
+action.mostCurrent._panelmovie8.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 671;BA.debugLine="PanelMovie9.Visible = True";
 Debug.ShouldStop(1073741824);
-action.mostCurrent._panelmovie9.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
- BA.debugLineNum = 672;BA.debugLine="PanelMovie10.Visible = False";
+action.mostCurrent._panelmovie9.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
+ BA.debugLineNum = 672;BA.debugLine="PanelMovie10.Visible = True";
 Debug.ShouldStop(-2147483648);
-action.mostCurrent._panelmovie10.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"False"));
+action.mostCurrent._panelmovie10.runMethod(true,"setVisible",action.mostCurrent.__c.getField(true,"True"));
  BA.debugLineNum = 676;BA.debugLine="Drama1.Text = \"Crank\"";
 Debug.ShouldStop(8);
 action.mostCurrent._drama1.runMethod(true,"setText",BA.ObjectToCharSequence("Crank"));

@@ -640,6 +640,24 @@ RDebugUtils.currentLine=1048660;
  //BA.debugLineNum = 1048660;BA.debugLine="End Sub";
 return "";
 }
+public static String  _activity_pause(boolean _userclosed) throws Exception{
+RDebugUtils.currentModule="drama";
+RDebugUtils.currentLine=4784128;
+ //BA.debugLineNum = 4784128;BA.debugLine="Sub Activity_Pause (UserClosed As Boolean)";
+RDebugUtils.currentLine=4784130;
+ //BA.debugLineNum = 4784130;BA.debugLine="End Sub";
+return "";
+}
+public static String  _activity_resume() throws Exception{
+RDebugUtils.currentModule="drama";
+if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_resume", false))
+	 {return ((String) Debug.delegate(mostCurrent.activityBA, "activity_resume", null));}
+RDebugUtils.currentLine=4718592;
+ //BA.debugLineNum = 4718592;BA.debugLine="Sub Activity_Resume";
+RDebugUtils.currentLine=4718594;
+ //BA.debugLineNum = 4718594;BA.debugLine="End Sub";
+return "";
+}
 public static String  _dramapage_click() throws Exception{
 RDebugUtils.currentModule="drama";
 if (Debug.shouldDelegate(mostCurrent.activityBA, "dramapage_click", false))
@@ -695,8 +713,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5439489;
- //BA.debugLineNum = 5439489;BA.debugLine="Try";
+RDebugUtils.currentLine=1507329;
+ //BA.debugLineNum = 1507329;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -710,11 +728,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5439490;
- //BA.debugLineNum = 5439490;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1507330;
+ //BA.debugLineNum = 1507330;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5439491;
- //BA.debugLineNum = 5439491;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1507331;
+ //BA.debugLineNum = 1507331;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie1_click"), null);
 this.state = 11;
 return;
@@ -723,8 +741,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5439492;
- //BA.debugLineNum = 5439492;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1507332;
+ //BA.debugLineNum = 1507332;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -737,17 +755,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5439493;
- //BA.debugLineNum = 5439493;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1507333;
+ //BA.debugLineNum = 1507333;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5439494;
- //BA.debugLineNum = 5439494;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+RDebugUtils.currentLine=1507334;
+ //BA.debugLineNum = 1507334;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0079417/");
-RDebugUtils.currentLine=5439495;
- //BA.debugLineNum = 5439495;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+RDebugUtils.currentLine=1507335;
+ //BA.debugLineNum = 1507335;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5439496;
- //BA.debugLineNum = 5439496;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1507336;
+ //BA.debugLineNum = 1507336;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -761,11 +779,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5439500;
- //BA.debugLineNum = 5439500;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25439500",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5439501;
- //BA.debugLineNum = 5439501;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1507340;
+ //BA.debugLineNum = 1507340;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81507340",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1507341;
+ //BA.debugLineNum = 1507341;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -775,8 +793,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5439504;
- //BA.debugLineNum = 5439504;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1507344;
+ //BA.debugLineNum = 1507344;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -819,8 +837,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=6160385;
- //BA.debugLineNum = 6160385;BA.debugLine="Try";
+RDebugUtils.currentLine=2097153;
+ //BA.debugLineNum = 2097153;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -834,11 +852,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=6160386;
- //BA.debugLineNum = 6160386;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=2097154;
+ //BA.debugLineNum = 2097154;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=6160387;
- //BA.debugLineNum = 6160387;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=2097155;
+ //BA.debugLineNum = 2097155;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie10_click"), null);
 this.state = 11;
 return;
@@ -847,8 +865,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=6160388;
- //BA.debugLineNum = 6160388;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=2097156;
+ //BA.debugLineNum = 2097156;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -861,17 +879,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=6160389;
- //BA.debugLineNum = 6160389;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=2097157;
+ //BA.debugLineNum = 2097157;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=6160390;
- //BA.debugLineNum = 6160390;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=2097158;
+ //BA.debugLineNum = 2097158;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt9100054/");
-RDebugUtils.currentLine=6160391;
- //BA.debugLineNum = 6160391;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=2097159;
+ //BA.debugLineNum = 2097159;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=6160392;
- //BA.debugLineNum = 6160392;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=2097160;
+ //BA.debugLineNum = 2097160;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -885,11 +903,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=6160395;
- //BA.debugLineNum = 6160395;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("26160395",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=6160396;
- //BA.debugLineNum = 6160396;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=2097163;
+ //BA.debugLineNum = 2097163;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("82097163",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=2097164;
+ //BA.debugLineNum = 2097164;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -899,8 +917,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=6160399;
- //BA.debugLineNum = 6160399;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2097167;
+ //BA.debugLineNum = 2097167;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -943,8 +961,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5570561;
- //BA.debugLineNum = 5570561;BA.debugLine="Try";
+RDebugUtils.currentLine=1572865;
+ //BA.debugLineNum = 1572865;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -958,11 +976,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5570562;
- //BA.debugLineNum = 5570562;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1572866;
+ //BA.debugLineNum = 1572866;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5570563;
- //BA.debugLineNum = 5570563;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1572867;
+ //BA.debugLineNum = 1572867;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie2_click"), null);
 this.state = 11;
 return;
@@ -971,8 +989,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5570564;
- //BA.debugLineNum = 5570564;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1572868;
+ //BA.debugLineNum = 1572868;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -985,17 +1003,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5570565;
- //BA.debugLineNum = 5570565;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1572869;
+ //BA.debugLineNum = 1572869;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5570566;
- //BA.debugLineNum = 5570566;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=1572870;
+ //BA.debugLineNum = 1572870;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt4034228/");
-RDebugUtils.currentLine=5570567;
- //BA.debugLineNum = 5570567;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=1572871;
+ //BA.debugLineNum = 1572871;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5570568;
- //BA.debugLineNum = 5570568;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1572872;
+ //BA.debugLineNum = 1572872;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1009,11 +1027,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5570571;
- //BA.debugLineNum = 5570571;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25570571",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5570572;
- //BA.debugLineNum = 5570572;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1572875;
+ //BA.debugLineNum = 1572875;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81572875",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1572876;
+ //BA.debugLineNum = 1572876;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1023,8 +1041,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5570575;
- //BA.debugLineNum = 5570575;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1572879;
+ //BA.debugLineNum = 1572879;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1067,8 +1085,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5636097;
- //BA.debugLineNum = 5636097;BA.debugLine="Try";
+RDebugUtils.currentLine=1638401;
+ //BA.debugLineNum = 1638401;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -1082,11 +1100,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5636098;
- //BA.debugLineNum = 5636098;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1638402;
+ //BA.debugLineNum = 1638402;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5636099;
- //BA.debugLineNum = 5636099;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1638403;
+ //BA.debugLineNum = 1638403;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie3_click"), null);
 this.state = 11;
 return;
@@ -1095,8 +1113,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5636100;
- //BA.debugLineNum = 5636100;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1638404;
+ //BA.debugLineNum = 1638404;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -1109,17 +1127,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5636101;
- //BA.debugLineNum = 5636101;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1638405;
+ //BA.debugLineNum = 1638405;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5636102;
- //BA.debugLineNum = 5636102;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=1638406;
+ //BA.debugLineNum = 1638406;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1560747/");
-RDebugUtils.currentLine=5636103;
- //BA.debugLineNum = 5636103;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=1638407;
+ //BA.debugLineNum = 1638407;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5636104;
- //BA.debugLineNum = 5636104;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1638408;
+ //BA.debugLineNum = 1638408;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1133,11 +1151,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5636107;
- //BA.debugLineNum = 5636107;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25636107",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5636108;
- //BA.debugLineNum = 5636108;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1638411;
+ //BA.debugLineNum = 1638411;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81638411",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1638412;
+ //BA.debugLineNum = 1638412;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1147,8 +1165,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5636111;
- //BA.debugLineNum = 5636111;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1638415;
+ //BA.debugLineNum = 1638415;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1191,8 +1209,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5701633;
- //BA.debugLineNum = 5701633;BA.debugLine="Try";
+RDebugUtils.currentLine=1703937;
+ //BA.debugLineNum = 1703937;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -1206,11 +1224,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5701634;
- //BA.debugLineNum = 5701634;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1703938;
+ //BA.debugLineNum = 1703938;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5701635;
- //BA.debugLineNum = 5701635;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1703939;
+ //BA.debugLineNum = 1703939;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie4_click"), null);
 this.state = 11;
 return;
@@ -1219,8 +1237,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5701636;
- //BA.debugLineNum = 5701636;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1703940;
+ //BA.debugLineNum = 1703940;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -1233,17 +1251,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5701637;
- //BA.debugLineNum = 5701637;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1703941;
+ //BA.debugLineNum = 1703941;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5701638;
- //BA.debugLineNum = 5701638;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=1703942;
+ //BA.debugLineNum = 1703942;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0405159/");
-RDebugUtils.currentLine=5701639;
- //BA.debugLineNum = 5701639;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=1703943;
+ //BA.debugLineNum = 1703943;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5701640;
- //BA.debugLineNum = 5701640;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1703944;
+ //BA.debugLineNum = 1703944;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1257,11 +1275,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5701643;
- //BA.debugLineNum = 5701643;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25701643",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5701644;
- //BA.debugLineNum = 5701644;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1703947;
+ //BA.debugLineNum = 1703947;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81703947",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1703948;
+ //BA.debugLineNum = 1703948;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1271,8 +1289,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5701647;
- //BA.debugLineNum = 5701647;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1703951;
+ //BA.debugLineNum = 1703951;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1315,8 +1333,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5767169;
- //BA.debugLineNum = 5767169;BA.debugLine="Try";
+RDebugUtils.currentLine=1769473;
+ //BA.debugLineNum = 1769473;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -1330,11 +1348,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5767170;
- //BA.debugLineNum = 5767170;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1769474;
+ //BA.debugLineNum = 1769474;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5767171;
- //BA.debugLineNum = 5767171;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1769475;
+ //BA.debugLineNum = 1769475;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie5_click"), null);
 this.state = 11;
 return;
@@ -1343,8 +1361,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5767172;
- //BA.debugLineNum = 5767172;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1769476;
+ //BA.debugLineNum = 1769476;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -1357,17 +1375,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5767173;
- //BA.debugLineNum = 5767173;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1769477;
+ //BA.debugLineNum = 1769477;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5767174;
- //BA.debugLineNum = 5767174;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=1769478;
+ //BA.debugLineNum = 1769478;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0112579/");
-RDebugUtils.currentLine=5767175;
- //BA.debugLineNum = 5767175;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=1769479;
+ //BA.debugLineNum = 1769479;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5767176;
- //BA.debugLineNum = 5767176;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1769480;
+ //BA.debugLineNum = 1769480;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1381,11 +1399,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5767179;
- //BA.debugLineNum = 5767179;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25767179",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5767180;
- //BA.debugLineNum = 5767180;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1769483;
+ //BA.debugLineNum = 1769483;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81769483",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1769484;
+ //BA.debugLineNum = 1769484;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1395,8 +1413,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5767183;
- //BA.debugLineNum = 5767183;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1769487;
+ //BA.debugLineNum = 1769487;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1439,8 +1457,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5832705;
- //BA.debugLineNum = 5832705;BA.debugLine="Try";
+RDebugUtils.currentLine=1835009;
+ //BA.debugLineNum = 1835009;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -1454,11 +1472,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5832706;
- //BA.debugLineNum = 5832706;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1835010;
+ //BA.debugLineNum = 1835010;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5832707;
- //BA.debugLineNum = 5832707;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1835011;
+ //BA.debugLineNum = 1835011;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie6_click"), null);
 this.state = 11;
 return;
@@ -1467,8 +1485,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5832708;
- //BA.debugLineNum = 5832708;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1835012;
+ //BA.debugLineNum = 1835012;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -1481,17 +1499,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5832709;
- //BA.debugLineNum = 5832709;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1835013;
+ //BA.debugLineNum = 1835013;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5832710;
- //BA.debugLineNum = 5832710;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=1835014;
+ //BA.debugLineNum = 1835014;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt0452623/");
-RDebugUtils.currentLine=5832711;
- //BA.debugLineNum = 5832711;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=1835015;
+ //BA.debugLineNum = 1835015;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5832712;
- //BA.debugLineNum = 5832712;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1835016;
+ //BA.debugLineNum = 1835016;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1505,11 +1523,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5832715;
- //BA.debugLineNum = 5832715;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25832715",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5832716;
- //BA.debugLineNum = 5832716;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1835019;
+ //BA.debugLineNum = 1835019;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81835019",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1835020;
+ //BA.debugLineNum = 1835020;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1519,8 +1537,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5832719;
- //BA.debugLineNum = 5832719;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1835023;
+ //BA.debugLineNum = 1835023;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1563,8 +1581,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5898241;
- //BA.debugLineNum = 5898241;BA.debugLine="Try";
+RDebugUtils.currentLine=1900545;
+ //BA.debugLineNum = 1900545;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -1578,11 +1596,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5898242;
- //BA.debugLineNum = 5898242;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1900546;
+ //BA.debugLineNum = 1900546;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5898243;
- //BA.debugLineNum = 5898243;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1900547;
+ //BA.debugLineNum = 1900547;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie7_click"), null);
 this.state = 11;
 return;
@@ -1591,8 +1609,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5898244;
- //BA.debugLineNum = 5898244;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1900548;
+ //BA.debugLineNum = 1900548;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -1605,17 +1623,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5898245;
- //BA.debugLineNum = 5898245;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1900549;
+ //BA.debugLineNum = 1900549;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5898246;
- //BA.debugLineNum = 5898246;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=1900550;
+ //BA.debugLineNum = 1900550;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2334873/");
-RDebugUtils.currentLine=5898247;
- //BA.debugLineNum = 5898247;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=1900551;
+ //BA.debugLineNum = 1900551;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5898248;
- //BA.debugLineNum = 5898248;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1900552;
+ //BA.debugLineNum = 1900552;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1629,11 +1647,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5898251;
- //BA.debugLineNum = 5898251;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25898251",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5898252;
- //BA.debugLineNum = 5898252;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1900555;
+ //BA.debugLineNum = 1900555;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81900555",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1900556;
+ //BA.debugLineNum = 1900556;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1643,8 +1661,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5898255;
- //BA.debugLineNum = 5898255;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1900559;
+ //BA.debugLineNum = 1900559;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1687,8 +1705,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=5963777;
- //BA.debugLineNum = 5963777;BA.debugLine="Try";
+RDebugUtils.currentLine=1966081;
+ //BA.debugLineNum = 1966081;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -1702,11 +1720,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=5963778;
- //BA.debugLineNum = 5963778;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=1966082;
+ //BA.debugLineNum = 1966082;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=5963779;
- //BA.debugLineNum = 5963779;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=1966083;
+ //BA.debugLineNum = 1966083;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie8_click"), null);
 this.state = 11;
 return;
@@ -1715,8 +1733,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=5963780;
- //BA.debugLineNum = 5963780;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=1966084;
+ //BA.debugLineNum = 1966084;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -1729,17 +1747,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=5963781;
- //BA.debugLineNum = 5963781;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=1966085;
+ //BA.debugLineNum = 1966085;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=5963782;
- //BA.debugLineNum = 5963782;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=1966086;
+ //BA.debugLineNum = 1966086;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt1798709/");
-RDebugUtils.currentLine=5963783;
- //BA.debugLineNum = 5963783;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=1966087;
+ //BA.debugLineNum = 1966087;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=5963784;
- //BA.debugLineNum = 5963784;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=1966088;
+ //BA.debugLineNum = 1966088;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1753,11 +1771,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=5963787;
- //BA.debugLineNum = 5963787;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("25963787",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=5963788;
- //BA.debugLineNum = 5963788;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=1966091;
+ //BA.debugLineNum = 1966091;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("81966091",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=1966092;
+ //BA.debugLineNum = 1966092;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1767,8 +1785,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=5963791;
- //BA.debugLineNum = 5963791;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1966095;
+ //BA.debugLineNum = 1966095;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1811,8 +1829,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=6029313;
- //BA.debugLineNum = 6029313;BA.debugLine="Try";
+RDebugUtils.currentLine=2031617;
+ //BA.debugLineNum = 2031617;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -1826,11 +1844,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
-RDebugUtils.currentLine=6029314;
- //BA.debugLineNum = 6029314;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+RDebugUtils.currentLine=2031618;
+ //BA.debugLineNum = 2031618;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
 anywheresoftware.b4a.keywords.Common.Msgbox2Async(BA.ObjectToCharSequence("Want to watch the trailer of the movie?"),BA.ObjectToCharSequence("Go to Trailer"),"Yes","","No",(anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper) anywheresoftware.b4a.AbsObjectWrapper.ConvertToWrapper(new anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper(), (android.graphics.Bitmap)(anywheresoftware.b4a.keywords.Common.Null)),processBA,anywheresoftware.b4a.keywords.Common.False);
-RDebugUtils.currentLine=6029315;
- //BA.debugLineNum = 6029315;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+RDebugUtils.currentLine=2031619;
+ //BA.debugLineNum = 2031619;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
 anywheresoftware.b4a.keywords.Common.WaitFor("msgbox_result", processBA, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "drama", "panelmovie9_click"), null);
 this.state = 11;
 return;
@@ -1839,8 +1857,8 @@ case 11:
 this.state = 4;
 _result = (Integer) result[0];
 ;
-RDebugUtils.currentLine=6029316;
- //BA.debugLineNum = 6029316;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+RDebugUtils.currentLine=2031620;
+ //BA.debugLineNum = 2031620;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
 if (true) break;
 
 case 4:
@@ -1853,17 +1871,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
-RDebugUtils.currentLine=6029317;
- //BA.debugLineNum = 6029317;BA.debugLine="Dim i As Intent";
+RDebugUtils.currentLine=2031621;
+ //BA.debugLineNum = 2031621;BA.debugLine="Dim i As Intent";
 _i = new anywheresoftware.b4a.objects.IntentWrapper();
-RDebugUtils.currentLine=6029318;
- //BA.debugLineNum = 6029318;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
+RDebugUtils.currentLine=2031622;
+ //BA.debugLineNum = 2031622;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.co";
 _i.Initialize(_i.ACTION_VIEW,"https://www.imdb.com/title/tt2402927/");
-RDebugUtils.currentLine=6029319;
- //BA.debugLineNum = 6029319;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
+RDebugUtils.currentLine=2031623;
+ //BA.debugLineNum = 2031623;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.an";
 _i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main");
-RDebugUtils.currentLine=6029320;
- //BA.debugLineNum = 6029320;BA.debugLine="StartActivity(i)";
+RDebugUtils.currentLine=2031624;
+ //BA.debugLineNum = 2031624;BA.debugLine="StartActivity(i)";
 anywheresoftware.b4a.keywords.Common.StartActivity(processBA,(Object)(_i.getObject()));
  if (true) break;
 
@@ -1877,11 +1895,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
-RDebugUtils.currentLine=6029323;
- //BA.debugLineNum = 6029323;BA.debugLine="Log(LastException)";
-anywheresoftware.b4a.keywords.Common.LogImpl("26029323",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
-RDebugUtils.currentLine=6029324;
- //BA.debugLineNum = 6029324;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+RDebugUtils.currentLine=2031627;
+ //BA.debugLineNum = 2031627;BA.debugLine="Log(LastException)";
+anywheresoftware.b4a.keywords.Common.LogImpl("82031627",BA.ObjectToString(anywheresoftware.b4a.keywords.Common.LastException(mostCurrent.activityBA)),0);
+RDebugUtils.currentLine=2031628;
+ //BA.debugLineNum = 2031628;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
 anywheresoftware.b4a.keywords.Common.MsgboxAsync(BA.ObjectToCharSequence("can't find Chome app"),BA.ObjectToCharSequence("Error"),processBA);
  if (true) break;
 if (true) break;
@@ -1891,8 +1909,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=6029327;
- //BA.debugLineNum = 6029327;BA.debugLine="End Sub";
+RDebugUtils.currentLine=2031631;
+ //BA.debugLineNum = 2031631;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -3115,35 +3133,35 @@ RDebugUtils.currentLine=1179655;
  //BA.debugLineNum = 1179655;BA.debugLine="ScrollView1.Panel.Height = p.Height";
 mostCurrent._scrollview1.getPanel().setHeight(mostCurrent._p.getHeight());
 RDebugUtils.currentLine=1179657;
- //BA.debugLineNum = 1179657;BA.debugLine="PanelMovie1.Visible = False";
-mostCurrent._panelmovie1.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179657;BA.debugLine="PanelMovie1.Visible = True";
+mostCurrent._panelmovie1.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179658;
- //BA.debugLineNum = 1179658;BA.debugLine="PanelMovie2.Visible = False";
-mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179658;BA.debugLine="PanelMovie2.Visible = True";
+mostCurrent._panelmovie2.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179659;
- //BA.debugLineNum = 1179659;BA.debugLine="PanelMovie3.Visible = False";
-mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179659;BA.debugLine="PanelMovie3.Visible = True";
+mostCurrent._panelmovie3.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179660;
- //BA.debugLineNum = 1179660;BA.debugLine="PanelMovie4.Visible = False";
-mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179660;BA.debugLine="PanelMovie4.Visible = True";
+mostCurrent._panelmovie4.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179661;
- //BA.debugLineNum = 1179661;BA.debugLine="PanelMovie5.Visible = False";
-mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179661;BA.debugLine="PanelMovie5.Visible = True";
+mostCurrent._panelmovie5.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179662;
- //BA.debugLineNum = 1179662;BA.debugLine="PanelMovie6.Visible = False";
-mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179662;BA.debugLine="PanelMovie6.Visible = True";
+mostCurrent._panelmovie6.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179663;
- //BA.debugLineNum = 1179663;BA.debugLine="PanelMovie7.Visible = False";
-mostCurrent._panelmovie7.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179663;BA.debugLine="PanelMovie7.Visible = True";
+mostCurrent._panelmovie7.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179664;
- //BA.debugLineNum = 1179664;BA.debugLine="PanelMovie8.Visible = False";
-mostCurrent._panelmovie8.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179664;BA.debugLine="PanelMovie8.Visible = True";
+mostCurrent._panelmovie8.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179665;
- //BA.debugLineNum = 1179665;BA.debugLine="PanelMovie9.Visible = False";
-mostCurrent._panelmovie9.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179665;BA.debugLine="PanelMovie9.Visible = True";
+mostCurrent._panelmovie9.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179666;
- //BA.debugLineNum = 1179666;BA.debugLine="PanelMovie10.Visible = False";
-mostCurrent._panelmovie10.setVisible(anywheresoftware.b4a.keywords.Common.False);
+ //BA.debugLineNum = 1179666;BA.debugLine="PanelMovie10.Visible = True";
+mostCurrent._panelmovie10.setVisible(anywheresoftware.b4a.keywords.Common.True);
 RDebugUtils.currentLine=1179668;
  //BA.debugLineNum = 1179668;BA.debugLine="Drama1.Text = \"Kramer vs. Kramer\"";
 mostCurrent._drama1.setText(BA.ObjectToCharSequence("Kramer vs. Kramer"));

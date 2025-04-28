@@ -696,16 +696,16 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		p.Width = 200%x
 		ScrollView1.Panel.Height = p.Height
 		
-		PanelMovie1.Visible = False
-		PanelMovie2.Visible = False
-		PanelMovie3.Visible = False
-		PanelMovie4.Visible = False
-		PanelMovie5.Visible = False
-		PanelMovie6.Visible = False
-		PanelMovie7.Visible = False
-		PanelMovie8.Visible = False
-		PanelMovie9.Visible = False
-		PanelMovie10.Visible = False
+		PanelMovie1.Visible = True
+		PanelMovie2.Visible = True
+		PanelMovie3.Visible = True
+		PanelMovie4.Visible = True
+		PanelMovie5.Visible = True
+		PanelMovie6.Visible = True
+		PanelMovie7.Visible = True
+		PanelMovie8.Visible = True
+		PanelMovie9.Visible = True
+		PanelMovie10.Visible = True
 		
 		Drama1.Text = "Kramer vs. Kramer"
 		Starter1.Text = "Starring: Dustin Hoffman, Meryl Streep, Justin Henry"
@@ -782,6 +782,14 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		' Restore original texts
 		
 	End If
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
 End Sub
 
 
