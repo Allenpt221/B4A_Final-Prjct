@@ -16,6 +16,6 @@ ModuleClosedNodes2=
 ModuleClosedNodes3=
 ModuleClosedNodes4=
 ModuleClosedNodes5=1
-NavigationStack=SciFi,SearchEngine_TextChanged,774,6,SciFi,PanelMovie8_Click,942,0,SciFi,PanelMovie9_Click,959,0,Visual Designer,action.bal,-100,5,Action,Activity_Create,173,0,Action,SearchEngine_TextChanged,730,0,Action,SearchNow,265,6,SciFi,PanelMovie10_Click,976,0,SciFi,HomePage_Click,804,2,SciFi,DramaPage_Click,809,0,SciFi,ActionPage_Click,814,0
+NavigationStack=SciFi,PanelMovie2_Click,852,1,SciFi,PanelMovie4_Click,874,0,SciFi,PanelMovie5_Click,890,0,SciFi,PanelMovie6_Click,907,0,SciFi,PanelMovie7_Click,924,0,SciFi,PanelMovie8_Click,941,0,SciFi,PanelMovie9_Click,958,0,SciFi,Activity_Create,142,0,SciFi,SearchNow,564,0,SciFi,SearchEngine_TextChanged,724,0
 SelectedBuild=0
 VisibleModules=5,2,1,4,3

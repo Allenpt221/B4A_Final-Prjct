@@ -568,7 +568,7 @@ Sub SearchNow
 	Else if query.Contains("daniel radcliffe") Or query.Contains("daniel") Or query.Contains("radcliffe") Or query.Contains("rupert grint") Or query.Contains("rupert") Or query.Contains("grint") Or query.Contains("emma watson") Or query.Contains("emma") Or query.Contains("watson") Then
 		Drama1.Text = "Harry Potter and the Philosopher's Stone"
 		Starter1.Text = "Starring: Daniel Radcliffe, Rupert Grint, Emma Watson"
-		Year1.Text = "(2003)"
+		Year1.Text = "(2001)"
 		OverView1.Text = "Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."
 		DramaImage1.Gravity = Gravity.FILL
 		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "harryPotter.jpg")
@@ -843,7 +843,7 @@ End Sub
 
 Private Sub PanelMovie2_Click
 	Try
-		Msgbox2Async("Want to watch the trailer of the movie?", "Go to", "Yes", "", "No", Null, False)
+		Msgbox2Async("Want to watch the trailer of the movie?", "Go to Trailer", "Yes", "", "No", Null, False)
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
