@@ -128,35 +128,35 @@ Sub Activity_Create(FirstTime As Boolean)
 	Year1.Text = "(2001)"
 	OverView1.Text = "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend"
 	DramaImage1.Gravity = Gravity.FILL
-	DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+	DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lordRings.jpg")
 	
 	Drama2.Text = "Charlie and the Chocolate Factory"
 	Starter2.Text = "Starring: Johnny Depp, Freddie Highmore, Helena Bonham Carter, David Kelly"
 	Year2.Text = "(2005)"
 	OverView2.Text = "Charlie Bucket, a humble boy from a poor family, wins a golden ticket to tour Willy Wonka’s magical chocolate factory. Inside, he witnesses the strange fates of other spoiled children and proves his honesty and kindness to the eccentric candy-maker."
 	DramaImage2.Gravity = Gravity.FILL
-	DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+	DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "charlieAndTheChocolate.jpg")
 	
 	Drama3.Text = "Alice in Wonderland"
 	Starter3.Text = "Starring: Mia Wasikowska, Johnny Depp, Helena Bonham Carter, Anne Hathaway"
 	Year3.Text = "(2010)"
 	OverView3.Text = "Alice, now a teenager, returns to the fantastical world of Underland, where she must unite the divided inhabitants and defeat the cruel Red Queen by battling the Jabberwocky, fulfilling her true destiny."
 	DramaImage3.Gravity = Gravity.FILL
-	DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+	DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "aliceAndWonderland.jpg")
 	
 	Drama4.Text = "Harry Potter and the Philosopher's Stone"
 	Starter4.Text = "Starring: Daniel Radcliffe, Rupert Grint, Emma Watson"
-	Year4.Text = "(2003)"
+	Year4.Text = "(2001)"
 	OverView4.Text = "Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."
 	DramaImage4.Gravity = Gravity.FILL
-	DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+	DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "harryPotter.jpg")
 	
 	Drama5.Text = "The Curse of the Black Pearl"
 	Starter5.Text = "Starring: Johnny Depp, Orlando Bloom, Keira Knightley"
 	Year5.Text = "(2003)"
 	OverView5.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 	DramaImage5.Gravity = Gravity.FILL
-	DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+	DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "piratesCurse.jpg")
 	
 	
 	Drama6.Text = "The Chronicles of Narnia"
@@ -164,35 +164,35 @@ Sub Activity_Create(FirstTime As Boolean)
 	Year6.Text = "(2003)"
 	OverView6.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 	DramaImage6.Gravity = Gravity.FILL
-	DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+	DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "narnia.jpg")
 	
 	Drama7.Text = "Doctor Strange"
 	Starter7.Text = "Starring: Benedict Cumberbatch, Chiwetel Ejiofor"
 	Year7.Text = "(2016)"
 	OverView7.Text = "After a life-changing accident ends his career, arrogant surgeon Stephen Strange seeks healing in Nepal, where he learns the mystic arts and must protect the world from dark magical forces beyond reality."
 	DramaImage7.Gravity = Gravity.FILL
-	DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+	DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "doctorStrange.png")
 	
 	Drama8.Text = "V for Vendetta"
 	Starter8.Text = "Starring: Hugo Weaving, Natalie Portman, Stephen Rea, John Hurt"
 	Year8.Text = "(2005)"
 	OverView8.Text = "In a totalitarian future Britain, a masked revolutionary known as ""V"" ignites a movement against the oppressive regime, forming a bond with a young woman named Evey and inspiring citizens to fight back."
 	DramaImage8.Gravity = Gravity.FILL
-	DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+	DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "vendetta.jpg")
 	
 	Drama9.Text = "Aladdin"
 	Starter9.Text = "Starring: Mena Massoud, Naomi Scott, Will Smith"
 	Year9.Text = "(2019)"
 	OverView9.Text = "Aladdin, a kind-hearted street urchin in the city of Agrabah, discovers a magical lamp that releases a powerful Genie. With the Genie's help, Aladdin embarks on a journey to win the heart of Princess Jasmine and thwart the evil sorcerer Jafar, who seeks to overthrow the Sultan and rule the kingdom."
 	DramaImage9.Gravity = Gravity.FILL
-	DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+	DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "aladdin.jpg")
 	
 	Drama10.Text = "After Earth"
 	Starter10.Text = "Starring: Will Smith, Jaden Smith, Sigourney Weaver"
 	Year10.Text = "(2013)"
 	OverView10.Text = "Set in the future, After Earth follows a father and son (Will Smith and Jaden Smith) who crash-land on an abandoned Earth. As they fight to survive and find a way to escape, they must face various dangers, including dangerous wildlife and the elements, all while dealing with internal tensions and fears. The film mixes sci-fi with fantasy elements, particularly around survival and overcoming obstacles."
 	DramaImage10.Gravity = Gravity.FILL
-	DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+	DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "afterEarch.jpg")
 	
 	ScrollView1.Panel.AddView(p, 0, 0, 200%x, 210%y)
 	ScrollView1.Panel.Height = p.Height
@@ -218,7 +218,7 @@ Sub SearchNow
 		Year1.Text = "(2001)"
 		OverView1.Text = "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend"
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lordRings.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -235,7 +235,7 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "Charlie Bucket, a humble boy from a poor family, wins a golden ticket to tour Willy Wonka’s magical chocolate factory. Inside, he witnesses the strange fates of other spoiled children and proves his honesty and kindness to the eccentric candy-maker."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "charlieAndTheChocolate.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -252,7 +252,7 @@ Sub SearchNow
 		Year1.Text = "(2010)"
 		OverView1.Text = "Alice, now a teenager, returns to the fantastical world of Underland, where she must unite the divided inhabitants and defeat the cruel Red Queen by battling the Jabberwocky, fulfilling her true destiny."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "aliceAndWonderland.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -266,10 +266,10 @@ Sub SearchNow
 		' movie 4
 		Drama1.Text = "Harry Potter and the Philosopher's Stone"
 		Starter1.Text = "Starring: Daniel Radcliffe, Rupert Grint, Emma Watson"
-		Year1.Text = "(2003)"
+		Year1.Text = "(2001)"
 		OverView1.Text = "Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "harryPotter.jpg")
 		
 	
 		PanelMovie3.Visible = False
@@ -286,7 +286,7 @@ Sub SearchNow
 		Year1.Text = "(2003)"
 		OverView1.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "piratesCurse.jpg")
 
 		
 		PanelMovie2.Visible = False
@@ -304,7 +304,7 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "narnia.jpg")
 
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -321,7 +321,7 @@ Sub SearchNow
 		Year1.Text = "(2016)"
 		OverView1.Text = "After a life-changing accident ends his career, arrogant surgeon Stephen Strange seeks healing in Nepal, where he learns the mystic arts and must protect the world from dark magical forces beyond reality."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "doctorStrange.png")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -338,7 +338,7 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "In a totalitarian future Britain, a masked revolutionary known as ""V"" ignites a movement against the oppressive regime, forming a bond with a young woman named Evey and inspiring citizens to fight back."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "vendetta.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -355,7 +355,7 @@ Sub SearchNow
 		Year1.Text = "(2019)"
 		OverView1.Text = "Aladdin, a kind-hearted street urchin in the city of Agrabah, discovers a magical lamp that releases a powerful Genie. With the Genie's help, Aladdin embarks on a journey to win the heart of Princess Jasmine and thwart the evil sorcerer Jafar, who seeks to overthrow the Sultan and rule the kingdom."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "afterEarch.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -388,14 +388,14 @@ Sub SearchNow
 		Year1.Text = "(2001)"
 		OverView1.Text = "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend"
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lordRings.jpg")
 		
 		Drama2.Text = "The Curse of the Black Pearl"
 		Starter2.Text = "Starring: Johnny Depp, Orlando Bloom, Keira Knightley, Geoffrey Rush"
 		Year2.Text = "(2003)"
 		OverView2.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "piratesCurse.jpg")
 		
 		PanelMovie4.Visible = False
 		PanelMovie5.Visible = False
@@ -409,21 +409,21 @@ Sub SearchNow
 		Year1.Text = "(2010)"
 		OverView1.Text = "Alice, now a teenager, returns to the fantastical world of Underland, where she must unite the divided inhabitants and defeat the cruel Red Queen by battling the Jabberwocky, fulfilling her true destiny."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "aliceAndWonderland.jpg")
 		
 		Drama2.Text = "Charlie and the Chocolate Factory"
 		Starter2.Text = "Starring: Johnny Depp, Freddie Highmore, Helena Bonham Carter, David Kelly"
 		Year2.Text = "(2005)"
 		OverView2.Text = "Charlie Bucket, a humble boy from a poor family, wins a golden ticket to tour Willy Wonka’s magical chocolate factory. Inside, he witnesses the strange fates of other spoiled children and proves his honesty and kindness to the eccentric candy-maker."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "charlieAndTheChocolate.jpg")
 		
 		Drama3.Text = "The Curse of the Black Pearl"
 		Starter3.Text = "Starring: Johnny Depp, Orlando Bloom, Keira Knightley, Geoffrey Rush"
 		Year3.Text = "(2003)"
 		OverView3.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage3.Gravity = Gravity.FILL
-		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "PiratesCurse.jpg")
 		
 		PanelMovie4.Visible = False
 		PanelMovie5.Visible = False
@@ -437,14 +437,14 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "Charlie Bucket, a humble boy from a poor family, wins a golden ticket to tour Willy Wonka’s magical chocolate factory. Inside, he witnesses the strange fates of other spoiled children and proves his honesty and kindness to the eccentric candy-maker."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "charlieAndTheChocolate.jpg")
 		
 		Drama2.Text = "Alice in Wonderland"
 		Starter2.Text = "Starring: Mia Wasikowska, Johnny Depp, Helena Bonham Carter, Anne Hathaway"
 		Year2.Text = "(2010)"
 		OverView2.Text = "Alice, now a teenager, returns to the fantastical world of Underland, where she must unite the divided inhabitants and defeat the cruel Red Queen by battling the Jabberwocky, fulfilling her true destiny."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "aliceAndWonderland.jpg")
 		
 		PanelMovie3.Visible = False
 		PanelMovie4.Visible = False
@@ -459,14 +459,14 @@ Sub SearchNow
 		Year1.Text = "(2019)"
 		OverView1.Text = "Aladdin, a kind-hearted street urchin in the city of Agrabah, discovers a magical lamp that releases a powerful Genie. With the Genie's help, Aladdin embarks on a journey to win the heart of Princess Jasmine and thwart the evil sorcerer Jafar, who seeks to overthrow the Sultan and rule the kingdom."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "aladdin.jpg")
 		
 		Drama1.Text = "After Earth"
 		Starter1.Text = "Starring: Will Smith, Jaden Smith, Sigourney Weaver"
 		Year1.Text = "(2013)"
 		OverView1.Text = "Set in the future, After Earth follows a father and son (Will Smith and Jaden Smith) who crash-land on an abandoned Earth. As they fight to survive and find a way to escape, they must face various dangers, including dangerous wildlife and the elements, all while dealing with internal tensions and fears. The film mixes sci-fi with fantasy elements, particularly around survival and overcoming obstacles."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "afterEarch.jpg")
 		
 		PanelMovie5.Visible = False
 		PanelMovie6.Visible = False
@@ -480,14 +480,14 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "narnia.jpg")
 		
 		Drama2.Text = "The Little Mermaid"
 		Starter2.Text = "Starring: Poppy Drayton, William Moseley, Shirley MacLaine"
 		Year2.Text = "(2018)"
 		OverView2.Text = "A young reporter and his niece discover a real-life mermaid being held captive by a shady circus owner. As they befriend the mermaid, they embark on a magical adventure to save her and help her return to the sea."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "littleMermaid.jpg")
 		
 		PanelMovie3.Visible = False
 		PanelMovie4.Visible = False
@@ -510,7 +510,7 @@ Sub SearchNow
 		Year2.Text = "(2013)"
 		OverView2.Text = "Thor must team up with his treacherous brother Loki to stop the Dark Elves, led by the vengeful Malekith, who seeks to plunge the universe into darkness using a powerful ancient force known as the Aether."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "thorDark.jpg")
 		
 		PanelMovie3.Visible = False
 		PanelMovie4.Visible = False
@@ -526,7 +526,7 @@ Sub SearchNow
 		Year1.Text = "(2001)"
 		OverView1.Text = "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend"
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lordRings.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -541,7 +541,7 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "Charlie Bucket, a humble boy from a poor family, wins a golden ticket to tour Willy Wonka’s magical chocolate factory. Inside, he witnesses the strange fates of other spoiled children and proves his honesty and kindness to the eccentric candy-maker."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "charlieAndTheChocolate.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -556,7 +556,7 @@ Sub SearchNow
 		Year1.Text = "(2010)"
 		OverView1.Text = "Alice, now a teenager, returns to the fantastical world of Underland, where she must unite the divided inhabitants and defeat the cruel Red Queen by battling the Jabberwocky, fulfilling her true destiny."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "aliceAndWonderland.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -571,7 +571,7 @@ Sub SearchNow
 		Year1.Text = "(2003)"
 		OverView1.Text = "Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "harryPotter.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -586,7 +586,7 @@ Sub SearchNow
 		Year1.Text = "(2003)"
 		OverView1.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "PiratesCurse.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -602,7 +602,7 @@ Sub SearchNow
 		Year6.Text = "(2005)"
 		OverView6.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage6.Gravity = Gravity.FILL
-		DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "narnia.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -618,7 +618,7 @@ Sub SearchNow
 		Year1.Text = "(2016)"
 		OverView1.Text = "After a life-changing accident ends his career, arrogant surgeon Stephen Strange seeks healing in Nepal, where he learns the mystic arts and must protect the world from dark magical forces beyond reality."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "doctorStrange.png")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -634,7 +634,7 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "In a totalitarian future Britain, a masked revolutionary known as ""V"" ignites a movement against the oppressive regime, forming a bond with a young woman named Evey and inspiring citizens to fight back."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "vendetta.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -651,7 +651,7 @@ Sub SearchNow
 		Year1.Text = "(2019)"
 		OverView1.Text = "Aladdin, a kind-hearted street urchin in the city of Agrabah, discovers a magical lamp that releases a powerful Genie. With the Genie's help, Aladdin embarks on a journey to win the heart of Princess Jasmine and thwart the evil sorcerer Jafar, who seeks to overthrow the Sultan and rule the kingdom."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "aladdin.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -667,7 +667,7 @@ Sub SearchNow
 		Year1.Text = "(2013)"
 		OverView1.Text = "Set in the future, After Earth follows a father and son (Will Smith and Jaden Smith) who crash-land on an abandoned Earth. As they fight to survive and find a way to escape, they must face various dangers, including dangerous wildlife and the elements, all while dealing with internal tensions and fears. The film mixes sci-fi with fantasy elements, particularly around survival and overcoming obstacles."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "afterEarch.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -719,35 +719,35 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Year1.Text = "(2001)"
 		OverView1.Text = "The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend"
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lordRings.jpg")
 	
 		Drama2.Text = "Charlie and the Chocolate Factory"
 		Starter2.Text = "Starring: Johnny Depp, Freddie Highmore, Helena Bonham Carter, David Kelly"
 		Year2.Text = "(2005)"
 		OverView2.Text = "Charlie Bucket, a humble boy from a poor family, wins a golden ticket to tour Willy Wonka’s magical chocolate factory. Inside, he witnesses the strange fates of other spoiled children and proves his honesty and kindness to the eccentric candy-maker."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "charlieAndTheChocolate.jpg")
 	
 		Drama3.Text = "Alice in Wonderland"
 		Starter3.Text = "Starring: Mia Wasikowska, Johnny Depp, Helena Bonham Carter, Anne Hathaway"
 		Year3.Text = "(2010)"
 		OverView3.Text = "Alice, now a teenager, returns to the fantastical world of Underland, where she must unite the divided inhabitants and defeat the cruel Red Queen by battling the Jabberwocky, fulfilling her true destiny."
 		DramaImage3.Gravity = Gravity.FILL
-		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "aliceAndWonderland.jpg")
 	
 		Drama4.Text = "Harry Potter and the Philosopher's Stone"
 		Starter4.Text = "Starring: Daniel Radcliffe, Rupert Grint, Emma Watson"
-		Year4.Text = "(2003)"
+		Year4.Text = "(2001)"
 		OverView4.Text = "Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."
 		DramaImage4.Gravity = Gravity.FILL
-		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "harryPotter.jpg")
 	
 		Drama5.Text = "The Curse of the Black Pearl"
 		Starter5.Text = "Starring: Johnny Depp, Orlando Bloom, Keira Knightley"
 		Year5.Text = "(2003)"
 		OverView5.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage5.Gravity = Gravity.FILL
-		DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "PiratesCurse.jpg")
 	
 	
 		Drama6.Text = "The Chronicles of Narnia"
@@ -755,35 +755,35 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Year6.Text = "(2005)"
 		OverView6.Text = "Four siblings, evacuated from wartime London, discover the magical land of Narnia through a wardrobe. There, they join forces with the lion Aslan to battle the evil White Witch and fulfill an ancient prophecy to save the realm."
 		DramaImage6.Gravity = Gravity.FILL
-		DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "narnia.jpg")
 	
 		Drama7.Text = "Doctor Strange"
 		Starter7.Text = "Starring: Benedict Cumberbatch, Chiwetel Ejiofor"
 		Year7.Text = "(2016)"
 		OverView7.Text = "After a life-changing accident ends his career, arrogant surgeon Stephen Strange seeks healing in Nepal, where he learns the mystic arts and must protect the world from dark magical forces beyond reality."
 		DramaImage7.Gravity = Gravity.FILL
-		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "doctorStrange.png")
 	
 		Drama8.Text = "V for Vendetta"
 		Starter8.Text = "Starring: Hugo Weaving, Natalie Portman, Stephen Rea, John Hurt"
 		Year8.Text = "(2005)"
 		OverView8.Text = "In a totalitarian future Britain, a masked revolutionary known as ""V"" ignites a movement against the oppressive regime, forming a bond with a young woman named Evey and inspiring citizens to fight back."
 		DramaImage8.Gravity = Gravity.FILL
-		DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+		DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "vendetta.jpg")
 	
 		Drama9.Text = "Aladdin"
 		Starter9.Text = "Starring: Mena Massoud, Naomi Scott, Will Smith"
 		Year9.Text = "(2019)"
 		OverView9.Text = "Aladdin, a kind-hearted street urchin in the city of Agrabah, discovers a magical lamp that releases a powerful Genie. With the Genie's help, Aladdin embarks on a journey to win the heart of Princess Jasmine and thwart the evil sorcerer Jafar, who seeks to overthrow the Sultan and rule the kingdom."
 		DramaImage9.Gravity = Gravity.FILL
-		DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "aladdin.jpg")
 	
 		Drama10.Text = "After Earth"
 		Starter10.Text = "Starring: Will Smith, Jaden Smith, Sigourney Weaver"
 		Year10.Text = "(2013)"
 		OverView10.Text = "Set in the future, After Earth follows a father and son (Will Smith and Jaden Smith) who crash-land on an abandoned Earth. As they fight to survive and find a way to escape, they must face various dangers, including dangerous wildlife and the elements, all while dealing with internal tensions and fears. The film mixes sci-fi with fantasy elements, particularly around survival and overcoming obstacles."
 		DramaImage10.Gravity = Gravity.FILL
-		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "afterEarch.jpg")
 
 
 		
@@ -808,14 +808,17 @@ End Sub
 
 Private Sub HomePage_Click
 	StartActivity(Main)
+	Activity.Finish
 End Sub
 
 Private Sub DramaPage_Click
 	StartActivity(Drama)
+	Activity.Finish
 End Sub
 
 Private Sub ActionPage_Click
 	StartActivity(Action)
+	Activity.Finish
 End Sub
 
 
@@ -825,7 +828,7 @@ Private Sub PanelMovie1_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0479884/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0120737/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -844,7 +847,7 @@ Private Sub PanelMovie2_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0988045/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0367594/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -861,7 +864,7 @@ Private Sub PanelMovie3_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt4154796/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1014759/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -878,7 +881,7 @@ Private Sub PanelMovie4_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt3315342/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0241527/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -895,7 +898,7 @@ Private Sub PanelMovie5_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0371746/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0325980/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -912,7 +915,7 @@ Private Sub PanelMovie6_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0120903/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0363771/")
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -929,7 +932,7 @@ Private Sub PanelMovie7_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt2334873/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1211837/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -946,7 +949,7 @@ Private Sub PanelMovie8_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0356910/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt0434409/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -963,7 +966,7 @@ Private Sub PanelMovie9_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1430132/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt6139732/")
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If
@@ -980,7 +983,7 @@ Private Sub PanelMovie10_Click
 		Wait For Msgbox_Result (Result As Int)
 		If Result = DialogResponse.POSITIVE Then
 			Dim i As Intent
-			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1392214/") 'change the url for this
+			i.Initialize(i.ACTION_VIEW, "https://www.imdb.com/title/tt1815862/") 
 			i.SetComponent("com.android.chrome/com.google.android.apps.chrome.Main")
 			StartActivity(i)
 		End If

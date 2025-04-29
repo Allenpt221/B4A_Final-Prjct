@@ -127,35 +127,35 @@ Sub Activity_Create(FirstTime As Boolean)
 	Year1.Text = "(2006)"
 	OverView1.Text = "Professional assassin Chev Chelios learns his rival has injected him with a poison that will kill him if his heart rate drops."
 	DramaImage1.Gravity = Gravity.FILL
-	DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+	DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "crank.jpg")
 	
 	Drama2.Text = "Sherlock Holmes "
 	Starter2.Text = "Starring: Robert Downey Jr., Jude Law, Rachel McAdams"
 	Year2.Text = "(2008)"
 	OverView2.Text = "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England."
 	DramaImage2.Gravity = Gravity.FILL
-	DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+	DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "sherlockHolmes.jpg")
 	
 	Drama3.Text = "The Transporter"
 	Starter3.Text = "Starring: Jason Statham, Shu Qi, Matt Schulze"
 	Year3.Text = "(2002)"
 	OverView3.Text = "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise."
 	DramaImage3.Gravity = Gravity.FILL
-	DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+	DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "transporter.jpg")
 	
 	Drama4.Text = "Avengers: Endgame"
 	Starter4.Text = "Starring: Robert Downey Jr., Chris Evans, Mark Ruffalo"
 	Year4.Text = "(2019)"
 	OverView4.Text = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
 	DramaImage4.Gravity = Gravity.FILL
-	DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+	DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "avengersEndgame.png")
 	
 	Drama5.Text = "Logan"
 	Starter5.Text = "Starring: Hugh Jackman, Patrick Stewart, Dafne Keen"
 	Year5.Text = "(2017)"
 	OverView5.Text = "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
 	DramaImage5.Gravity = Gravity.FILL
-	DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+	DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "logan.jpg")
 	
 	
 	Drama6.Text = "Iron Man"
@@ -163,35 +163,35 @@ Sub Activity_Create(FirstTime As Boolean)
 	Year6.Text = "(2008)"
 	OverView6.Text = "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
 	DramaImage6.Gravity = Gravity.FILL
-	DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+	DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "ironman.jpg")
 	
 	Drama7.Text = "X-Men"
 	Starter7.Text = "Starring: Patrick Stewart, Hugh Jackman, Ian McKellen"
 	Year7.Text = "(2000)"
 	OverView7.Text = "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
 	DramaImage7.Gravity = Gravity.FILL
-	DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+	DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "xmen.jpg")
 	
 	Drama8.Text = "Mr. & Mrs. Smith "
 	Starter8.Text = "Starring: Brad Pitt, Angelina Jolie, Adam Brody"
 	Year8.Text = "(2005)"
 	OverView8.Text = "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other."
 	DramaImage8.Gravity = Gravity.FILL
-	DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+	DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "MrAndMrs.png")
 	
 	Drama9.Text = "The Wolverine"
 	Starter9.Text = "Starring: Hugh Jackman, Will Yun Lee, Tao Okamoto"
 	Year9.Text = "(2015)"
 	OverView9.Text = "A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."
 	DramaImage9.Gravity = Gravity.FILL
-	DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+	DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "wolverine.png")
 	
 	Drama10.Text = "Prisoners"
 	Starter10.Text = "Starring: Hugh Jackman, Jake Gyllenhaal, Viola Davis"
 	Year10.Text = "(2013)"
 	OverView10.Text = "A desperate father takes the law into his own hands after police fail to find two kidnapped girls."
 	DramaImage10.Gravity = Gravity.FILL
-	DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+	DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "prisoners.jpg")
 	
 	ScrollView1.Panel.AddView(p, 0, 0, 200%x, 210%y)
 	ScrollView1.Panel.Height = p.Height
@@ -216,7 +216,7 @@ Sub SearchNow
 		Year1.Text = "(2006)"
 		OverView1.Text = "Professional assassin Chev Chelios learns his rival has injected him with a poison that will kill him if his heart rate drops."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "crank.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -233,7 +233,7 @@ Sub SearchNow
 		Year1.Text = "(2008)"
 		OverView1.Text = "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "sherlockHolmes.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -250,7 +250,7 @@ Sub SearchNow
 		Year1.Text = "(2002)"
 		OverView1.Text = "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "transporter.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -267,9 +267,9 @@ Sub SearchNow
 		Year1.Text = "(2019)"
 		OverView1.Text = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "avengersEndgame.png")
 		
-	
+		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
 		PanelMovie4.Visible = False
 		PanelMovie5.Visible = False
@@ -284,7 +284,7 @@ Sub SearchNow
 		Year1.Text = "(2017)"
 		OverView1.Text = "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "logan.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -301,7 +301,7 @@ Sub SearchNow
 		Year1.Text = "(2008)"
 		OverView1.Text = "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "ironman.jpg")
 
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -318,7 +318,7 @@ Sub SearchNow
 		Year7.Text = "(2000)"
 		OverView7.Text = "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
 		DramaImage7.Gravity = Gravity.FILL
-		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "xmen.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -335,7 +335,7 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "MrAndMrs.png")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -352,7 +352,7 @@ Sub SearchNow
 		Year1.Text = "(2015)"
 		OverView1.Text = "A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "wolverine.png")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -369,7 +369,7 @@ Sub SearchNow
 		Year10.Text = "(2013)"
 		OverView10.Text = "A desperate father takes the law into his own hands after police fail to find two kidnapped girls."
 		DramaImage10.Gravity = Gravity.FILL
-		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "prisoners.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -385,14 +385,14 @@ Sub SearchNow
 		Year1.Text = "(2006)"
 		OverView1.Text = "Professional assassin Chev Chelios learns his rival has injected him with a poison that will kill him if his heart rate drops."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "crank.jpg")
 		
 		Drama2.Text = "The Transporter"
 		Starter2.Text = "Starring: Jason Statham, Shu Qi, Matt Schulze"
 		Year2.Text = "(2002)"
 		OverView2.Text = "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "transporter.jpg")
 		
 		PanelMovie4.Visible = False
 		PanelMovie5.Visible = False
@@ -406,21 +406,21 @@ Sub SearchNow
 		Year1.Text = "(2008)"
 		OverView1.Text = "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "sherlockHolmes.jpg")
 		
 		Drama2.Text = "Avengers: Endgame"
 		Starter2.Text = "Starring: Robert Downey Jr., Chris Evans, Mark Ruffalo"
 		Year2.Text = "(2019)"
 		OverView2.Text = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "avengersEndgame.png")
 		
 		Drama3.Text = "Iron Man"
 		Starter3.Text = "Starring: Robert Downey Jr., Gwyneth Paltrow, Terrence Howard"
 		Year3.Text = "(2008)"
 		OverView3.Text = "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
 		DramaImage3.Gravity = Gravity.FILL
-		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "ironman.jpg")
 		
 		PanelMovie4.Visible = False
 		PanelMovie5.Visible = False
@@ -434,14 +434,14 @@ Sub SearchNow
 		Year1.Text = "(2017)"
 		OverView1.Text = "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "logan.jpg")
 		
 		Drama2.Text = "X-Men"
 		Starter2.Text = "Starring: Patrick Stewart, Hugh Jackman, Ian McKellen"
 		Year2.Text = "(2000)"
 		OverView2.Text = "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "xmen.jpg")
 		
 		PanelMovie3.Visible = False
 		PanelMovie4.Visible = False
@@ -456,28 +456,28 @@ Sub SearchNow
 		Year1.Text = "(2017)"
 		OverView1.Text = "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "logan.jpg")
 		
 		Drama2.Text = "X-Men"
 		Starter2.Text = "Starring: Patrick Stewart, Hugh Jackman, Ian McKellen"
 		Year2.Text = "(2000)"
 		OverView2.Text = "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "xmen.jpg")
 		
 		Drama3.Text = "The Wolverine"
 		Starter3.Text = "Starring: Hugh Jackman, Will Yun Lee, Tao Okamoto"
 		Year3.Text = "(2015)"
 		OverView3.Text = "A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."
 		DramaImage3.Gravity = Gravity.FILL
-		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "wolverine.png")
 		
 		Drama4.Text = "Prisoners"
 		Starter4.Text = "Starring: Hugh Jackman, Jake Gyllenhaal, Viola Davis"
 		Year4.Text = "(2013)"
 		OverView4.Text = "A desperate father takes the law into his own hands after police fail to find two kidnapped girls."
 		DramaImage4.Gravity = Gravity.FILL
-		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "prisoners.jpg")
 		
 		PanelMovie5.Visible = False
 		PanelMovie6.Visible = False
@@ -490,7 +490,7 @@ Sub SearchNow
 		Year1.Text = "(2006)"
 		OverView1.Text = "Professional assassin Chev Chelios learns his rival has injected him with a poison that will kill him if his heart rate drops."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "crank.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -505,7 +505,7 @@ Sub SearchNow
 		Year1.Text = "(2008)"
 		OverView1.Text = "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "sherlockHolmes.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -520,7 +520,7 @@ Sub SearchNow
 		Year1.Text = "(2002)"
 		OverView1.Text = "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "transporter.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -535,7 +535,7 @@ Sub SearchNow
 		Year1.Text = "(2019)"
 		OverView1.Text = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "avengersEndgame.png")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -550,7 +550,7 @@ Sub SearchNow
 		Year1.Text = "(2017)"
 		OverView1.Text = "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "logan.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -566,7 +566,7 @@ Sub SearchNow
 		Year1.Text = "(2008)"
 		OverView1.Text = "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "ironman.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -582,7 +582,7 @@ Sub SearchNow
 		Year1.Text = "(2000)"
 		OverView1.Text = "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "xmen.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -598,7 +598,7 @@ Sub SearchNow
 		Year1.Text = "(2005)"
 		OverView1.Text = "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "MrAndMrs.png")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -616,7 +616,7 @@ Sub SearchNow
 		Year1.Text = "(2015)"
 		OverView1.Text = "A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "wolverine.png")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -632,7 +632,7 @@ Sub SearchNow
 		Year1.Text = "(2013)"
 		OverView1.Text = "A desperate father takes the law into his own hands after police fail to find two kidnapped girls."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "prisoners.jpg")
 		
 		PanelMovie2.Visible = False
 		PanelMovie3.Visible = False
@@ -684,35 +684,35 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Year1.Text = "(2006)"
 		OverView1.Text = "Professional assassin Chev Chelios learns his rival has injected him with a poison that will kill him if his heart rate drops."
 		DramaImage1.Gravity = Gravity.FILL
-		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "kramer.jpg")
+		DramaImage1.Bitmap = LoadBitmap(File.DirAssets, "crank.jpg")
 	
 		Drama2.Text = "Sherlock Holmes"
 		Starter2.Text = "Starring: Robert Downey Jr., Jude Law, Rachel McAdams"
 		Year2.Text = "(2008)"
 		OverView2.Text = "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England."
 		DramaImage2.Gravity = Gravity.FILL
-		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "manchester.jpg")
+		DramaImage2.Bitmap = LoadBitmap(File.DirAssets, "sherlockHolmes.jpg")
 	
 		Drama3.Text = "The Transporter"
 		Starter3.Text = "Starring: Jason Statham, Shu Qi, Matt Schulze"
 		Year3.Text = "(2002)"
 		OverView3.Text = "Frank Martin, who transports packages for unknown clients, is asked to move a package that soon begins moving, and complications arise."
 		DramaImage3.Gravity = Gravity.FILL
-		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "master.jpg")
+		DramaImage3.Bitmap = LoadBitmap(File.DirAssets, "transporter.jpg")
 	
 		Drama4.Text = "Avengers: Endgame"
 		Starter4.Text = "Starring: Robert Downey Jr., Chris Evans, Mark Ruffalo"
 		Year4.Text = "(2019)"
 		OverView4.Text = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
 		DramaImage4.Gravity = Gravity.FILL
-		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "millondolar.jpg")
+		DramaImage4.Bitmap = LoadBitmap(File.DirAssets, "avengersEndgame.png")
 	
 		Drama5.Text = "Logan"
 		Starter5.Text = "Starring: Hugh Jackman, Patrick Stewart, Dafne Keen"
 		Year5.Text = "(2017)"
 		OverView5.Text = "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
 		DramaImage5.Gravity = Gravity.FILL
-		DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "bridges.jpg")
+		DramaImage5.Bitmap = LoadBitmap(File.DirAssets, "logan.jpg")
 	
 	
 		Drama6.Text = "Iron Man"
@@ -720,35 +720,35 @@ Sub SearchEngine_TextChanged (Old As String, New As String)
 		Year6.Text = "(2008)"
 		OverView6.Text = "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."
 		DramaImage6.Gravity = Gravity.FILL
-		DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "gonebaby.jpg")
+		DramaImage6.Bitmap = LoadBitmap(File.DirAssets, "ironman.jpg")
 	
 		Drama7.Text = "X-Men"
 		Starter7.Text = "Starring: Patrick Stewart, Hugh Jackman, Ian McKellen"
 		Year7.Text = "(2000)"
 		OverView7.Text = "In a world where mutants (evolved super-powered humans) exist and are discriminated against, two groups form for an inevitable clash: the supremacist Brotherhood, and the pacifist X-Men."
 		DramaImage7.Gravity = Gravity.FILL
-		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "bluejasmine.jpg")
+		DramaImage7.Bitmap = LoadBitmap(File.DirAssets, "xmen.jpg")
 	
 		Drama8.Text = "Mr. & Mrs. Smith"
 		Starter8.Text = "Starring: Brad Pitt, Angelina Jolie, Adam Brody"
 		Year8.Text = "(2005)"
 		OverView8.Text = "A husband and wife struggle to keep their marriage alive until they realize they are both secretly working as assassins. Now, their respective assignments require them to kill each other."
 		DramaImage8.Gravity = Gravity.FILL
-		DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "her.jpg")
+		DramaImage8.Bitmap = LoadBitmap(File.DirAssets, "MrAndMrs.png")
 	
 		Drama9.Text = "The Wolverine"
 		Starter9.Text = "Starring: Hugh Jackman, Will Yun Lee, Tao Okamoto"
 		Year9.Text = "(2015)"
 		OverView9.Text = "A chance encounter between a young aspiring photographer and a glamorous older woman sparks an unexpected romance. Set in the 1950s, this tale of forbidden love explores identity, societal expectations, and emotional resilience."
 		DramaImage9.Gravity = Gravity.FILL
-		DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "carol.jpg")
+		DramaImage9.Bitmap = LoadBitmap(File.DirAssets, "wolverine.png")
 	
 		Drama10.Text = "Prisoners"
 		Starter10.Text = "Starring: Hugh Jackman, Jake Gyllenhaal, Viola Davis"
 		Year10.Text = "(2013)"
 		OverView10.Text = "A desperate father takes the law into his own hands after police fail to find two kidnapped girls."
 		DramaImage10.Gravity = Gravity.FILL
-		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "lostdaughter.jpg")
+		DramaImage10.Bitmap = LoadBitmap(File.DirAssets, "prisoners.jpg")
 
 
 		

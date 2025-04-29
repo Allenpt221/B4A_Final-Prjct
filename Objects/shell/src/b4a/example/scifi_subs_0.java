@@ -8,15 +8,18 @@ public class scifi_subs_0 {
 
 public static RemoteObject  _actionpage_click() throws Exception{
 try {
-		Debug.PushSubsStack("ActionPage_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,811);
+		Debug.PushSubsStack("ActionPage_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,813);
 if (RapidSub.canDelegate("actionpage_click")) { return b4a.example.scifi.remoteMe.runUserSub(false, "scifi","actionpage_click");}
- BA.debugLineNum = 811;BA.debugLine="Private Sub ActionPage_Click";
-Debug.ShouldStop(1024);
- BA.debugLineNum = 812;BA.debugLine="StartActivity(Action)";
-Debug.ShouldStop(2048);
-scifi.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((scifi.mostCurrent._action.getObject())));
- BA.debugLineNum = 813;BA.debugLine="End Sub";
+ BA.debugLineNum = 813;BA.debugLine="Private Sub ActionPage_Click";
 Debug.ShouldStop(4096);
+ BA.debugLineNum = 814;BA.debugLine="StartActivity(Action)";
+Debug.ShouldStop(8192);
+scifi.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((scifi.mostCurrent._action.getObject())));
+ BA.debugLineNum = 815;BA.debugLine="Activity.Finish";
+Debug.ShouldStop(16384);
+scifi.mostCurrent._activity.runVoidMethod ("Finish");
+ BA.debugLineNum = 816;BA.debugLine="End Sub";
+Debug.ShouldStop(32768);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -58,7 +61,7 @@ Debug.ShouldStop(134217728);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 125;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(268435456);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("kramer.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lordRings.jpg"))).getObject()));
  BA.debugLineNum = 127;BA.debugLine="Drama2.Text = \"Charlie and the Chocolate Factory\"";
 Debug.ShouldStop(1073741824);
 scifi.mostCurrent._drama2.runMethod(true,"setText",BA.ObjectToCharSequence("Charlie and the Chocolate Factory"));
@@ -76,7 +79,7 @@ Debug.ShouldStop(4);
 scifi.mostCurrent._dramaimage2.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 132;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(8);
-scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("manchester.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("charlieAndTheChocolate.jpg"))).getObject()));
  BA.debugLineNum = 134;BA.debugLine="Drama3.Text = \"Alice in Wonderland\"";
 Debug.ShouldStop(32);
 scifi.mostCurrent._drama3.runMethod(true,"setText",BA.ObjectToCharSequence("Alice in Wonderland"));
@@ -94,16 +97,16 @@ Debug.ShouldStop(512);
 scifi.mostCurrent._dramaimage3.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 139;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(1024);
-scifi.mostCurrent._dramaimage3.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("master.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage3.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aliceAndWonderland.jpg"))).getObject()));
  BA.debugLineNum = 141;BA.debugLine="Drama4.Text = \"Harry Potter and the Philosopher's";
 Debug.ShouldStop(4096);
 scifi.mostCurrent._drama4.runMethod(true,"setText",BA.ObjectToCharSequence("Harry Potter and the Philosopher's Stone"));
  BA.debugLineNum = 142;BA.debugLine="Starter4.Text = \"Starring: Daniel Radcliffe, Rupe";
 Debug.ShouldStop(8192);
 scifi.mostCurrent._starter4.runMethod(true,"setText",BA.ObjectToCharSequence("Starring: Daniel Radcliffe, Rupert Grint, Emma Watson"));
- BA.debugLineNum = 143;BA.debugLine="Year4.Text = \"(2003)\"";
+ BA.debugLineNum = 143;BA.debugLine="Year4.Text = \"(2001)\"";
 Debug.ShouldStop(16384);
-scifi.mostCurrent._year4.runMethod(true,"setText",BA.ObjectToCharSequence("(2003)"));
+scifi.mostCurrent._year4.runMethod(true,"setText",BA.ObjectToCharSequence("(2001)"));
  BA.debugLineNum = 144;BA.debugLine="OverView4.Text = \"Captain Jack Sparrow must rescu";
 Debug.ShouldStop(32768);
 scifi.mostCurrent._overview4.runMethod(true,"setText",BA.ObjectToCharSequence("Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."));
@@ -112,7 +115,7 @@ Debug.ShouldStop(65536);
 scifi.mostCurrent._dramaimage4.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 146;BA.debugLine="DramaImage4.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(131072);
-scifi.mostCurrent._dramaimage4.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("millondolar.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage4.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("harryPotter.jpg"))).getObject()));
  BA.debugLineNum = 148;BA.debugLine="Drama5.Text = \"The Curse of the Black Pearl\"";
 Debug.ShouldStop(524288);
 scifi.mostCurrent._drama5.runMethod(true,"setText",BA.ObjectToCharSequence("The Curse of the Black Pearl"));
@@ -130,7 +133,7 @@ Debug.ShouldStop(8388608);
 scifi.mostCurrent._dramaimage5.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 153;BA.debugLine="DramaImage5.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(16777216);
-scifi.mostCurrent._dramaimage5.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bridges.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage5.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("piratesCurse.jpg"))).getObject()));
  BA.debugLineNum = 156;BA.debugLine="Drama6.Text = \"The Chronicles of Narnia\"";
 Debug.ShouldStop(134217728);
 scifi.mostCurrent._drama6.runMethod(true,"setText",BA.ObjectToCharSequence("The Chronicles of Narnia"));
@@ -148,7 +151,7 @@ Debug.ShouldStop(-2147483648);
 scifi.mostCurrent._dramaimage6.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 161;BA.debugLine="DramaImage6.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(1);
-scifi.mostCurrent._dramaimage6.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("gonebaby.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage6.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("narnia.jpg"))).getObject()));
  BA.debugLineNum = 163;BA.debugLine="Drama7.Text = \"Doctor Strange\"";
 Debug.ShouldStop(4);
 scifi.mostCurrent._drama7.runMethod(true,"setText",BA.ObjectToCharSequence("Doctor Strange"));
@@ -166,7 +169,7 @@ Debug.ShouldStop(64);
 scifi.mostCurrent._dramaimage7.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 168;BA.debugLine="DramaImage7.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(128);
-scifi.mostCurrent._dramaimage7.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bluejasmine.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage7.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("doctorStrange.png"))).getObject()));
  BA.debugLineNum = 170;BA.debugLine="Drama8.Text = \"V for Vendetta\"";
 Debug.ShouldStop(512);
 scifi.mostCurrent._drama8.runMethod(true,"setText",BA.ObjectToCharSequence("V for Vendetta"));
@@ -184,7 +187,7 @@ Debug.ShouldStop(8192);
 scifi.mostCurrent._dramaimage8.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 175;BA.debugLine="DramaImage8.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(16384);
-scifi.mostCurrent._dramaimage8.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("her.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage8.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("vendetta.jpg"))).getObject()));
  BA.debugLineNum = 177;BA.debugLine="Drama9.Text = \"Aladdin\"";
 Debug.ShouldStop(65536);
 scifi.mostCurrent._drama9.runMethod(true,"setText",BA.ObjectToCharSequence("Aladdin"));
@@ -202,7 +205,7 @@ Debug.ShouldStop(1048576);
 scifi.mostCurrent._dramaimage9.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 182;BA.debugLine="DramaImage9.Bitmap = LoadBitmap(File.DirAssets, \"";
 Debug.ShouldStop(2097152);
-scifi.mostCurrent._dramaimage9.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("carol.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage9.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aladdin.jpg"))).getObject()));
  BA.debugLineNum = 184;BA.debugLine="Drama10.Text = \"After Earth\"";
 Debug.ShouldStop(8388608);
 scifi.mostCurrent._drama10.runMethod(true,"setText",BA.ObjectToCharSequence("After Earth"));
@@ -220,7 +223,7 @@ Debug.ShouldStop(134217728);
 scifi.mostCurrent._dramaimage10.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 189;BA.debugLine="DramaImage10.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(268435456);
-scifi.mostCurrent._dramaimage10.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lostdaughter.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage10.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("afterEarch.jpg"))).getObject()));
  BA.debugLineNum = 191;BA.debugLine="ScrollView1.Panel.AddView(p, 0, 0, 200%x, 210%y)";
 Debug.ShouldStop(1073741824);
 scifi.mostCurrent._scrollview1.runMethod(false,"getPanel").runVoidMethod ("AddView",(Object)((scifi.mostCurrent._p.getObject())),(Object)(BA.numberCast(int.class, 0)),(Object)(BA.numberCast(int.class, 0)),(Object)(scifi.mostCurrent.__c.runMethod(true,"PerXToCurrent",(Object)(BA.numberCast(float.class, 200)),scifi.mostCurrent.activityBA)),(Object)(scifi.mostCurrent.__c.runMethod(true,"PerYToCurrent",(Object)(BA.numberCast(float.class, 210)),scifi.mostCurrent.activityBA)));
@@ -272,15 +275,18 @@ finally {
 		}}
 public static RemoteObject  _dramapage_click() throws Exception{
 try {
-		Debug.PushSubsStack("DramaPage_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,807);
+		Debug.PushSubsStack("DramaPage_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,808);
 if (RapidSub.canDelegate("dramapage_click")) { return b4a.example.scifi.remoteMe.runUserSub(false, "scifi","dramapage_click");}
- BA.debugLineNum = 807;BA.debugLine="Private Sub DramaPage_Click";
-Debug.ShouldStop(64);
- BA.debugLineNum = 808;BA.debugLine="StartActivity(Drama)";
+ BA.debugLineNum = 808;BA.debugLine="Private Sub DramaPage_Click";
 Debug.ShouldStop(128);
-scifi.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((scifi.mostCurrent._drama.getObject())));
- BA.debugLineNum = 809;BA.debugLine="End Sub";
+ BA.debugLineNum = 809;BA.debugLine="StartActivity(Drama)";
 Debug.ShouldStop(256);
+scifi.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((scifi.mostCurrent._drama.getObject())));
+ BA.debugLineNum = 810;BA.debugLine="Activity.Finish";
+Debug.ShouldStop(512);
+scifi.mostCurrent._activity.runVoidMethod ("Finish");
+ BA.debugLineNum = 811;BA.debugLine="End Sub";
+Debug.ShouldStop(1024);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -441,8 +447,11 @@ Debug.ShouldStop(4);
  BA.debugLineNum = 804;BA.debugLine="StartActivity(Main)";
 Debug.ShouldStop(8);
 scifi.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((scifi.mostCurrent._main.getObject())));
- BA.debugLineNum = 805;BA.debugLine="End Sub";
+ BA.debugLineNum = 805;BA.debugLine="Activity.Finish";
 Debug.ShouldStop(16);
+scifi.mostCurrent._activity.runVoidMethod ("Finish");
+ BA.debugLineNum = 806;BA.debugLine="End Sub";
+Debug.ShouldStop(32);
 return RemoteObject.createImmutable("");
 }
 catch (Exception e) {
@@ -453,7 +462,7 @@ finally {
 		}}
 public static void  _panelmovie1_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie1_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,816);
+		Debug.PushSubsStack("PanelMovie1_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,819);
 if (RapidSub.canDelegate("panelmovie1_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie1_click"); return;}
 ResumableSub_PanelMovie1_Click rsub = new ResumableSub_PanelMovie1_Click(null);
 rsub.resume(null, null);
@@ -476,7 +485,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie1_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,816);
+		Debug.PushSubsStack("PanelMovie1_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,819);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -489,8 +498,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 817;BA.debugLine="Try";
-Debug.ShouldStop(65536);
+ BA.debugLineNum = 820;BA.debugLine="Try";
+Debug.ShouldStop(524288);
 if (true) break;
 
 case 1:
@@ -504,11 +513,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 818;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(131072);
+ BA.debugLineNum = 821;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(1048576);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 819;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(262144);
+ BA.debugLineNum = 822;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(2097152);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie1_click"), null);
 this.state = 11;
 return;
@@ -517,8 +526,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 820;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(524288);
+ BA.debugLineNum = 823;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(4194304);
 if (true) break;
 
 case 4:
@@ -531,17 +540,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 821;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(1048576);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 822;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(2097152);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0479884/")));
- BA.debugLineNum = 823;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(4194304);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 824;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 824;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(8388608);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 825;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(16777216);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0120737/")));
+ BA.debugLineNum = 826;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(33554432);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 827;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(67108864);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -556,11 +565,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 828;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(134217728);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","84915212",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 829;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(268435456);
+ BA.debugLineNum = 831;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(1073741824);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54521996",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 832;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(-2147483648);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -570,8 +579,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 832;BA.debugLine="End Sub";
-Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 835;BA.debugLine="End Sub";
+Debug.ShouldStop(4);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -595,7 +604,7 @@ public static void  _msgbox_result(RemoteObject _result) throws Exception{
 }
 public static void  _panelmovie10_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie10_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,971);
+		Debug.PushSubsStack("PanelMovie10_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,974);
 if (RapidSub.canDelegate("panelmovie10_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie10_click"); return;}
 ResumableSub_PanelMovie10_Click rsub = new ResumableSub_PanelMovie10_Click(null);
 rsub.resume(null, null);
@@ -618,7 +627,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie10_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,971);
+		Debug.PushSubsStack("PanelMovie10_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,974);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -631,8 +640,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 972;BA.debugLine="Try";
-Debug.ShouldStop(2048);
+ BA.debugLineNum = 975;BA.debugLine="Try";
+Debug.ShouldStop(16384);
 if (true) break;
 
 case 1:
@@ -646,11 +655,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 973;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(4096);
+ BA.debugLineNum = 976;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(32768);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 974;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(8192);
+ BA.debugLineNum = 977;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(65536);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie10_click"), null);
 this.state = 11;
 return;
@@ -659,8 +668,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 975;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(16384);
+ BA.debugLineNum = 978;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(131072);
 if (true) break;
 
 case 4:
@@ -673,17 +682,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 976;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(32768);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 977;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(65536);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1392214/")));
- BA.debugLineNum = 978;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(131072);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 979;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 979;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(262144);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 980;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(524288);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1815862/")));
+ BA.debugLineNum = 981;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(1048576);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 982;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(2097152);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -698,11 +707,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 982;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(2097152);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85505035",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 983;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(4194304);
+ BA.debugLineNum = 985;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(16777216);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","55111819",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 986;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(33554432);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -712,8 +721,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 986;BA.debugLine="End Sub";
-Debug.ShouldStop(33554432);
+ BA.debugLineNum = 989;BA.debugLine="End Sub";
+Debug.ShouldStop(268435456);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -735,7 +744,7 @@ finally {
 }
 public static void  _panelmovie2_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie2_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,835);
+		Debug.PushSubsStack("PanelMovie2_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,838);
 if (RapidSub.canDelegate("panelmovie2_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie2_click"); return;}
 ResumableSub_PanelMovie2_Click rsub = new ResumableSub_PanelMovie2_Click(null);
 rsub.resume(null, null);
@@ -758,7 +767,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie2_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,835);
+		Debug.PushSubsStack("PanelMovie2_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,838);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -771,8 +780,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 836;BA.debugLine="Try";
-Debug.ShouldStop(8);
+ BA.debugLineNum = 839;BA.debugLine="Try";
+Debug.ShouldStop(64);
 if (true) break;
 
 case 1:
@@ -786,11 +795,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 837;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(16);
+ BA.debugLineNum = 840;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(128);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 838;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(32);
+ BA.debugLineNum = 841;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(256);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie2_click"), null);
 this.state = 11;
 return;
@@ -799,8 +808,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 839;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(64);
+ BA.debugLineNum = 842;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(512);
 if (true) break;
 
 case 4:
@@ -813,17 +822,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 840;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(128);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 841;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(256);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0988045/")));
- BA.debugLineNum = 842;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(512);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 843;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 843;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(1024);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 844;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(2048);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0367594/")));
+ BA.debugLineNum = 845;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(4096);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 846;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(8192);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -838,11 +847,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 846;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(8192);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","84980747",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 847;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(16384);
+ BA.debugLineNum = 849;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(65536);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54587531",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 850;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(131072);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -852,8 +861,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 850;BA.debugLine="End Sub";
-Debug.ShouldStop(131072);
+ BA.debugLineNum = 853;BA.debugLine="End Sub";
+Debug.ShouldStop(1048576);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -875,7 +884,7 @@ finally {
 }
 public static void  _panelmovie3_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie3_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,852);
+		Debug.PushSubsStack("PanelMovie3_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,855);
 if (RapidSub.canDelegate("panelmovie3_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie3_click"); return;}
 ResumableSub_PanelMovie3_Click rsub = new ResumableSub_PanelMovie3_Click(null);
 rsub.resume(null, null);
@@ -898,7 +907,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie3_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,852);
+		Debug.PushSubsStack("PanelMovie3_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,855);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -911,8 +920,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 853;BA.debugLine="Try";
-Debug.ShouldStop(1048576);
+ BA.debugLineNum = 856;BA.debugLine="Try";
+Debug.ShouldStop(8388608);
 if (true) break;
 
 case 1:
@@ -926,11 +935,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 854;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(2097152);
+ BA.debugLineNum = 857;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(16777216);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 855;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(4194304);
+ BA.debugLineNum = 858;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(33554432);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie3_click"), null);
 this.state = 11;
 return;
@@ -939,8 +948,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 856;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(8388608);
+ BA.debugLineNum = 859;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(67108864);
 if (true) break;
 
 case 4:
@@ -953,17 +962,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 857;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(16777216);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 858;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(33554432);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt4154796/")));
- BA.debugLineNum = 859;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(67108864);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 860;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 860;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(134217728);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 861;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(268435456);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1014759/")));
+ BA.debugLineNum = 862;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(536870912);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 863;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(1073741824);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -978,11 +987,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 863;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(1073741824);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85046283",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 864;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(-2147483648);
+ BA.debugLineNum = 866;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(2);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54653067",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 867;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(4);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -992,8 +1001,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 867;BA.debugLine="End Sub";
-Debug.ShouldStop(4);
+ BA.debugLineNum = 870;BA.debugLine="End Sub";
+Debug.ShouldStop(32);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1015,7 +1024,7 @@ finally {
 }
 public static void  _panelmovie4_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie4_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,869);
+		Debug.PushSubsStack("PanelMovie4_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,872);
 if (RapidSub.canDelegate("panelmovie4_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie4_click"); return;}
 ResumableSub_PanelMovie4_Click rsub = new ResumableSub_PanelMovie4_Click(null);
 rsub.resume(null, null);
@@ -1038,7 +1047,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie4_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,869);
+		Debug.PushSubsStack("PanelMovie4_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,872);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1051,8 +1060,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 870;BA.debugLine="Try";
-Debug.ShouldStop(32);
+ BA.debugLineNum = 873;BA.debugLine="Try";
+Debug.ShouldStop(256);
 if (true) break;
 
 case 1:
@@ -1066,11 +1075,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 871;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(64);
+ BA.debugLineNum = 874;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(512);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 872;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(128);
+ BA.debugLineNum = 875;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(1024);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie4_click"), null);
 this.state = 11;
 return;
@@ -1079,8 +1088,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 873;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(256);
+ BA.debugLineNum = 876;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(2048);
 if (true) break;
 
 case 4:
@@ -1093,17 +1102,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 874;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(512);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 875;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(1024);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt3315342/")));
- BA.debugLineNum = 876;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(2048);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 877;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 877;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(4096);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 878;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(8192);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0241527/")));
+ BA.debugLineNum = 879;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(16384);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 880;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(32768);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1118,11 +1127,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 880;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(32768);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85111819",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 881;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(65536);
+ BA.debugLineNum = 883;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(262144);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54718603",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 884;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(524288);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -1132,8 +1141,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 884;BA.debugLine="End Sub";
-Debug.ShouldStop(524288);
+ BA.debugLineNum = 887;BA.debugLine="End Sub";
+Debug.ShouldStop(4194304);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1155,7 +1164,7 @@ finally {
 }
 public static void  _panelmovie5_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie5_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,886);
+		Debug.PushSubsStack("PanelMovie5_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,889);
 if (RapidSub.canDelegate("panelmovie5_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie5_click"); return;}
 ResumableSub_PanelMovie5_Click rsub = new ResumableSub_PanelMovie5_Click(null);
 rsub.resume(null, null);
@@ -1178,7 +1187,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie5_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,886);
+		Debug.PushSubsStack("PanelMovie5_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,889);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1191,8 +1200,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 887;BA.debugLine="Try";
-Debug.ShouldStop(4194304);
+ BA.debugLineNum = 890;BA.debugLine="Try";
+Debug.ShouldStop(33554432);
 if (true) break;
 
 case 1:
@@ -1206,11 +1215,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 888;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(8388608);
+ BA.debugLineNum = 891;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(67108864);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 889;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(16777216);
+ BA.debugLineNum = 892;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(134217728);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie5_click"), null);
 this.state = 11;
 return;
@@ -1219,8 +1228,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 890;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(33554432);
+ BA.debugLineNum = 893;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(268435456);
 if (true) break;
 
 case 4:
@@ -1233,17 +1242,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 891;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(67108864);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 892;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(134217728);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0371746/")));
- BA.debugLineNum = 893;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(268435456);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 894;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 894;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(536870912);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 895;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(1073741824);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0325980/")));
+ BA.debugLineNum = 896;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(-2147483648);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 897;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(1);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1258,11 +1267,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 897;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(1);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85177355",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 898;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(2);
+ BA.debugLineNum = 900;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(8);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54784139",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 901;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(16);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -1272,8 +1281,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 901;BA.debugLine="End Sub";
-Debug.ShouldStop(16);
+ BA.debugLineNum = 904;BA.debugLine="End Sub";
+Debug.ShouldStop(128);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1295,7 +1304,7 @@ finally {
 }
 public static void  _panelmovie6_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie6_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,903);
+		Debug.PushSubsStack("PanelMovie6_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,906);
 if (RapidSub.canDelegate("panelmovie6_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie6_click"); return;}
 ResumableSub_PanelMovie6_Click rsub = new ResumableSub_PanelMovie6_Click(null);
 rsub.resume(null, null);
@@ -1318,7 +1327,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie6_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,903);
+		Debug.PushSubsStack("PanelMovie6_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,906);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1331,8 +1340,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 904;BA.debugLine="Try";
-Debug.ShouldStop(128);
+ BA.debugLineNum = 907;BA.debugLine="Try";
+Debug.ShouldStop(1024);
 if (true) break;
 
 case 1:
@@ -1346,11 +1355,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 905;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(256);
+ BA.debugLineNum = 908;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(2048);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 906;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(512);
+ BA.debugLineNum = 909;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(4096);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie6_click"), null);
 this.state = 11;
 return;
@@ -1359,8 +1368,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 907;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(1024);
+ BA.debugLineNum = 910;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(8192);
 if (true) break;
 
 case 4:
@@ -1373,17 +1382,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 908;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(2048);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 909;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(4096);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0120903/")));
- BA.debugLineNum = 910;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(8192);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 911;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 911;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(16384);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 912;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(32768);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0363771/")));
+ BA.debugLineNum = 913;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(65536);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 914;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(131072);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1398,11 +1407,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 914;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(131072);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85242891",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 915;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(262144);
+ BA.debugLineNum = 917;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(1048576);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54849675",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 918;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(2097152);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -1412,8 +1421,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 918;BA.debugLine="End Sub";
-Debug.ShouldStop(2097152);
+ BA.debugLineNum = 921;BA.debugLine="End Sub";
+Debug.ShouldStop(16777216);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1435,7 +1444,7 @@ finally {
 }
 public static void  _panelmovie7_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie7_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,920);
+		Debug.PushSubsStack("PanelMovie7_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,923);
 if (RapidSub.canDelegate("panelmovie7_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie7_click"); return;}
 ResumableSub_PanelMovie7_Click rsub = new ResumableSub_PanelMovie7_Click(null);
 rsub.resume(null, null);
@@ -1458,7 +1467,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie7_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,920);
+		Debug.PushSubsStack("PanelMovie7_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,923);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1471,8 +1480,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 921;BA.debugLine="Try";
-Debug.ShouldStop(16777216);
+ BA.debugLineNum = 924;BA.debugLine="Try";
+Debug.ShouldStop(134217728);
 if (true) break;
 
 case 1:
@@ -1486,11 +1495,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 922;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(33554432);
+ BA.debugLineNum = 925;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(268435456);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 923;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(67108864);
+ BA.debugLineNum = 926;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(536870912);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie7_click"), null);
 this.state = 11;
 return;
@@ -1499,8 +1508,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 924;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(134217728);
+ BA.debugLineNum = 927;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(1073741824);
 if (true) break;
 
 case 4:
@@ -1513,17 +1522,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 925;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(268435456);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 926;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(536870912);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt2334873/")));
- BA.debugLineNum = 927;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(1073741824);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 928;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 928;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(-2147483648);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 929;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(1);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1211837/")));
+ BA.debugLineNum = 930;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(2);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 931;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(4);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1538,11 +1547,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 931;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(4);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85308427",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 932;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(8);
+ BA.debugLineNum = 934;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(32);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54915211",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 935;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(64);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -1552,8 +1561,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 935;BA.debugLine="End Sub";
-Debug.ShouldStop(64);
+ BA.debugLineNum = 938;BA.debugLine="End Sub";
+Debug.ShouldStop(512);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1575,7 +1584,7 @@ finally {
 }
 public static void  _panelmovie8_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie8_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,937);
+		Debug.PushSubsStack("PanelMovie8_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,940);
 if (RapidSub.canDelegate("panelmovie8_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie8_click"); return;}
 ResumableSub_PanelMovie8_Click rsub = new ResumableSub_PanelMovie8_Click(null);
 rsub.resume(null, null);
@@ -1598,7 +1607,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie8_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,937);
+		Debug.PushSubsStack("PanelMovie8_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,940);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1611,8 +1620,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 938;BA.debugLine="Try";
-Debug.ShouldStop(512);
+ BA.debugLineNum = 941;BA.debugLine="Try";
+Debug.ShouldStop(4096);
 if (true) break;
 
 case 1:
@@ -1626,11 +1635,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 939;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(1024);
+ BA.debugLineNum = 942;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(8192);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 940;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(2048);
+ BA.debugLineNum = 943;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(16384);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie8_click"), null);
 this.state = 11;
 return;
@@ -1639,8 +1648,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 941;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(4096);
+ BA.debugLineNum = 944;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(32768);
 if (true) break;
 
 case 4:
@@ -1653,17 +1662,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 942;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(8192);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 943;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(16384);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0356910/")));
- BA.debugLineNum = 944;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(32768);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 945;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 945;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(65536);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 946;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(131072);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt0434409/")));
+ BA.debugLineNum = 947;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(262144);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 948;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(524288);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1678,11 +1687,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 948;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(524288);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85373963",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 949;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(1048576);
+ BA.debugLineNum = 951;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(4194304);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","54980747",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 952;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(8388608);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -1692,8 +1701,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 952;BA.debugLine="End Sub";
-Debug.ShouldStop(8388608);
+ BA.debugLineNum = 955;BA.debugLine="End Sub";
+Debug.ShouldStop(67108864);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1715,7 +1724,7 @@ finally {
 }
 public static void  _panelmovie9_click() throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie9_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,954);
+		Debug.PushSubsStack("PanelMovie9_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,957);
 if (RapidSub.canDelegate("panelmovie9_click")) { b4a.example.scifi.remoteMe.runUserSub(false, "scifi","panelmovie9_click"); return;}
 ResumableSub_PanelMovie9_Click rsub = new ResumableSub_PanelMovie9_Click(null);
 rsub.resume(null, null);
@@ -1738,7 +1747,7 @@ RemoteObject _i = RemoteObject.declareNull("anywheresoftware.b4a.objects.IntentW
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("PanelMovie9_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,954);
+		Debug.PushSubsStack("PanelMovie9_Click (scifi) ","scifi",4,scifi.mostCurrent.activityBA,scifi.mostCurrent,957);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -1751,8 +1760,8 @@ return;
 case 0:
 //C
 this.state = 1;
- BA.debugLineNum = 955;BA.debugLine="Try";
-Debug.ShouldStop(67108864);
+ BA.debugLineNum = 958;BA.debugLine="Try";
+Debug.ShouldStop(536870912);
 if (true) break;
 
 case 1:
@@ -1766,11 +1775,11 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 9;
- BA.debugLineNum = 956;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
-Debug.ShouldStop(134217728);
+ BA.debugLineNum = 959;BA.debugLine="Msgbox2Async(\"Want to watch the trailer of the m";
+Debug.ShouldStop(1073741824);
 parent.mostCurrent.__c.runVoidMethod ("Msgbox2Async",(Object)(BA.ObjectToCharSequence("Want to watch the trailer of the movie?")),(Object)(BA.ObjectToCharSequence("Go to Trailer")),(Object)(BA.ObjectToString("Yes")),(Object)(BA.ObjectToString("")),(Object)(BA.ObjectToString("No")),RemoteObject.declareNull("anywheresoftware.b4a.AbsObjectWrapper").runMethod(false, "ConvertToWrapper", RemoteObject.createNew("anywheresoftware.b4a.objects.drawable.CanvasWrapper.BitmapWrapper"), parent.mostCurrent.__c.getField(false,"Null")),scifi.processBA,(Object)(parent.mostCurrent.__c.getField(true,"False")));
- BA.debugLineNum = 957;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
-Debug.ShouldStop(268435456);
+ BA.debugLineNum = 960;BA.debugLine="Wait For Msgbox_Result (Result As Int)";
+Debug.ShouldStop(-2147483648);
 parent.mostCurrent.__c.runVoidMethod ("WaitFor","msgbox_result", scifi.processBA, anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSub(this, "scifi", "panelmovie9_click"), null);
 this.state = 11;
 return;
@@ -1779,8 +1788,8 @@ case 11:
 this.state = 4;
 _result = (RemoteObject) result.getArrayElement(true,RemoteObject.createImmutable(0));Debug.locals.put("Result", _result);
 ;
- BA.debugLineNum = 958;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
-Debug.ShouldStop(536870912);
+ BA.debugLineNum = 961;BA.debugLine="If Result = DialogResponse.POSITIVE Then";
+Debug.ShouldStop(1);
 if (true) break;
 
 case 4:
@@ -1793,17 +1802,17 @@ this.state = 6;
 case 6:
 //C
 this.state = 7;
- BA.debugLineNum = 959;BA.debugLine="Dim i As Intent";
-Debug.ShouldStop(1073741824);
-_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
- BA.debugLineNum = 960;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
-Debug.ShouldStop(-2147483648);
-_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt1430132/")));
- BA.debugLineNum = 961;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
-Debug.ShouldStop(1);
-_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
- BA.debugLineNum = 962;BA.debugLine="StartActivity(i)";
+ BA.debugLineNum = 962;BA.debugLine="Dim i As Intent";
 Debug.ShouldStop(2);
+_i = RemoteObject.createNew ("anywheresoftware.b4a.objects.IntentWrapper");Debug.locals.put("i", _i);
+ BA.debugLineNum = 963;BA.debugLine="i.Initialize(i.ACTION_VIEW, \"https://www.imdb.c";
+Debug.ShouldStop(4);
+_i.runVoidMethod ("Initialize",(Object)(_i.getField(true,"ACTION_VIEW")),(Object)(RemoteObject.createImmutable("https://www.imdb.com/title/tt6139732/")));
+ BA.debugLineNum = 964;BA.debugLine="i.SetComponent(\"com.android.chrome/com.google.a";
+Debug.ShouldStop(8);
+_i.runVoidMethod ("SetComponent",(Object)(RemoteObject.createImmutable("com.android.chrome/com.google.android.apps.chrome.Main")));
+ BA.debugLineNum = 965;BA.debugLine="StartActivity(i)";
+Debug.ShouldStop(16);
 parent.mostCurrent.__c.runVoidMethod ("StartActivity",scifi.processBA,(Object)((_i.getObject())));
  if (true) break;
 
@@ -1818,11 +1827,11 @@ case 9:
 //C
 this.state = 10;
 this.catchState = 0;
- BA.debugLineNum = 965;BA.debugLine="Log(LastException)";
-Debug.ShouldStop(16);
-parent.mostCurrent.__c.runVoidMethod ("LogImpl","85439499",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
- BA.debugLineNum = 966;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
-Debug.ShouldStop(32);
+ BA.debugLineNum = 968;BA.debugLine="Log(LastException)";
+Debug.ShouldStop(128);
+parent.mostCurrent.__c.runVoidMethod ("LogImpl","55046283",BA.ObjectToString(parent.mostCurrent.__c.runMethod(false,"LastException",scifi.mostCurrent.activityBA)),0);
+ BA.debugLineNum = 969;BA.debugLine="MsgboxAsync(\"can't find Chome app\", \"Error\")";
+Debug.ShouldStop(256);
 parent.mostCurrent.__c.runVoidMethod ("MsgboxAsync",(Object)(BA.ObjectToCharSequence("can't find Chome app")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),scifi.processBA);
  if (true) break;
 if (true) break;
@@ -1832,8 +1841,8 @@ case 10:
 this.state = -1;
 this.catchState = 0;
 ;
- BA.debugLineNum = 969;BA.debugLine="End Sub";
-Debug.ShouldStop(256);
+ BA.debugLineNum = 972;BA.debugLine="End Sub";
+Debug.ShouldStop(2048);
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -1964,7 +1973,7 @@ Debug.ShouldStop(1024);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 716;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(2048);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("kramer.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lordRings.jpg"))).getObject()));
  BA.debugLineNum = 718;BA.debugLine="Drama2.Text = \"Charlie and the Chocolate Factory";
 Debug.ShouldStop(8192);
 scifi.mostCurrent._drama2.runMethod(true,"setText",BA.ObjectToCharSequence("Charlie and the Chocolate Factory"));
@@ -1982,7 +1991,7 @@ Debug.ShouldStop(131072);
 scifi.mostCurrent._dramaimage2.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 723;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(262144);
-scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("manchester.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("charlieAndTheChocolate.jpg"))).getObject()));
  BA.debugLineNum = 725;BA.debugLine="Drama3.Text = \"Alice in Wonderland\"";
 Debug.ShouldStop(1048576);
 scifi.mostCurrent._drama3.runMethod(true,"setText",BA.ObjectToCharSequence("Alice in Wonderland"));
@@ -2000,16 +2009,16 @@ Debug.ShouldStop(16777216);
 scifi.mostCurrent._dramaimage3.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 730;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(33554432);
-scifi.mostCurrent._dramaimage3.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("master.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage3.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aliceAndWonderland.jpg"))).getObject()));
  BA.debugLineNum = 732;BA.debugLine="Drama4.Text = \"Harry Potter and the Philosopher'";
 Debug.ShouldStop(134217728);
 scifi.mostCurrent._drama4.runMethod(true,"setText",BA.ObjectToCharSequence("Harry Potter and the Philosopher's Stone"));
  BA.debugLineNum = 733;BA.debugLine="Starter4.Text = \"Starring: Daniel Radcliffe, Rup";
 Debug.ShouldStop(268435456);
 scifi.mostCurrent._starter4.runMethod(true,"setText",BA.ObjectToCharSequence("Starring: Daniel Radcliffe, Rupert Grint, Emma Watson"));
- BA.debugLineNum = 734;BA.debugLine="Year4.Text = \"(2003)\"";
+ BA.debugLineNum = 734;BA.debugLine="Year4.Text = \"(2001)\"";
 Debug.ShouldStop(536870912);
-scifi.mostCurrent._year4.runMethod(true,"setText",BA.ObjectToCharSequence("(2003)"));
+scifi.mostCurrent._year4.runMethod(true,"setText",BA.ObjectToCharSequence("(2001)"));
  BA.debugLineNum = 735;BA.debugLine="OverView4.Text = \"Captain Jack Sparrow must resc";
 Debug.ShouldStop(1073741824);
 scifi.mostCurrent._overview4.runMethod(true,"setText",BA.ObjectToCharSequence("Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."));
@@ -2018,7 +2027,7 @@ Debug.ShouldStop(-2147483648);
 scifi.mostCurrent._dramaimage4.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 737;BA.debugLine="DramaImage4.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(1);
-scifi.mostCurrent._dramaimage4.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("millondolar.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage4.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("harryPotter.jpg"))).getObject()));
  BA.debugLineNum = 739;BA.debugLine="Drama5.Text = \"The Curse of the Black Pearl\"";
 Debug.ShouldStop(4);
 scifi.mostCurrent._drama5.runMethod(true,"setText",BA.ObjectToCharSequence("The Curse of the Black Pearl"));
@@ -2036,7 +2045,7 @@ Debug.ShouldStop(64);
 scifi.mostCurrent._dramaimage5.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 744;BA.debugLine="DramaImage5.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(128);
-scifi.mostCurrent._dramaimage5.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bridges.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage5.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("PiratesCurse.jpg"))).getObject()));
  BA.debugLineNum = 747;BA.debugLine="Drama6.Text = \"The Chronicles of Narnia\"";
 Debug.ShouldStop(1024);
 scifi.mostCurrent._drama6.runMethod(true,"setText",BA.ObjectToCharSequence("The Chronicles of Narnia"));
@@ -2054,7 +2063,7 @@ Debug.ShouldStop(16384);
 scifi.mostCurrent._dramaimage6.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 752;BA.debugLine="DramaImage6.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(32768);
-scifi.mostCurrent._dramaimage6.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("gonebaby.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage6.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("narnia.jpg"))).getObject()));
  BA.debugLineNum = 754;BA.debugLine="Drama7.Text = \"Doctor Strange\"";
 Debug.ShouldStop(131072);
 scifi.mostCurrent._drama7.runMethod(true,"setText",BA.ObjectToCharSequence("Doctor Strange"));
@@ -2072,7 +2081,7 @@ Debug.ShouldStop(2097152);
 scifi.mostCurrent._dramaimage7.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 759;BA.debugLine="DramaImage7.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(4194304);
-scifi.mostCurrent._dramaimage7.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bluejasmine.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage7.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("doctorStrange.png"))).getObject()));
  BA.debugLineNum = 761;BA.debugLine="Drama8.Text = \"V for Vendetta\"";
 Debug.ShouldStop(16777216);
 scifi.mostCurrent._drama8.runMethod(true,"setText",BA.ObjectToCharSequence("V for Vendetta"));
@@ -2090,7 +2099,7 @@ Debug.ShouldStop(268435456);
 scifi.mostCurrent._dramaimage8.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 766;BA.debugLine="DramaImage8.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(536870912);
-scifi.mostCurrent._dramaimage8.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("her.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage8.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("vendetta.jpg"))).getObject()));
  BA.debugLineNum = 768;BA.debugLine="Drama9.Text = \"Aladdin\"";
 Debug.ShouldStop(-2147483648);
 scifi.mostCurrent._drama9.runMethod(true,"setText",BA.ObjectToCharSequence("Aladdin"));
@@ -2108,7 +2117,7 @@ Debug.ShouldStop(8);
 scifi.mostCurrent._dramaimage9.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 773;BA.debugLine="DramaImage9.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(16);
-scifi.mostCurrent._dramaimage9.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("carol.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage9.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aladdin.jpg"))).getObject()));
  BA.debugLineNum = 775;BA.debugLine="Drama10.Text = \"After Earth\"";
 Debug.ShouldStop(64);
 scifi.mostCurrent._drama10.runMethod(true,"setText",BA.ObjectToCharSequence("After Earth"));
@@ -2126,7 +2135,7 @@ Debug.ShouldStop(1024);
 scifi.mostCurrent._dramaimage10.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 780;BA.debugLine="DramaImage10.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(2048);
-scifi.mostCurrent._dramaimage10.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lostdaughter.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage10.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("afterEarch.jpg"))).getObject()));
  };
  BA.debugLineNum = 786;BA.debugLine="End Sub";
 Debug.ShouldStop(131072);
@@ -2172,7 +2181,7 @@ Debug.ShouldStop(2097152);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 215;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(4194304);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("kramer.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lordRings.jpg"))).getObject()));
  BA.debugLineNum = 217;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(16777216);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2212,7 +2221,7 @@ Debug.ShouldStop(64);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 232;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(128);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("manchester.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("charlieAndTheChocolate.jpg"))).getObject()));
  BA.debugLineNum = 234;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(512);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2252,7 +2261,7 @@ Debug.ShouldStop(8388608);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 249;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(16777216);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("master.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aliceAndWonderland.jpg"))).getObject()));
  BA.debugLineNum = 251;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(67108864);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2281,9 +2290,9 @@ scifi.mostCurrent._drama1.runMethod(true,"setText",BA.ObjectToCharSequence("Harr
  BA.debugLineNum = 262;BA.debugLine="Starter1.Text = \"Starring: Daniel Radcliffe, Rup";
 Debug.ShouldStop(32);
 scifi.mostCurrent._starter1.runMethod(true,"setText",BA.ObjectToCharSequence("Starring: Daniel Radcliffe, Rupert Grint, Emma Watson"));
- BA.debugLineNum = 263;BA.debugLine="Year1.Text = \"(2003)\"";
+ BA.debugLineNum = 263;BA.debugLine="Year1.Text = \"(2001)\"";
 Debug.ShouldStop(64);
-scifi.mostCurrent._year1.runMethod(true,"setText",BA.ObjectToCharSequence("(2003)"));
+scifi.mostCurrent._year1.runMethod(true,"setText",BA.ObjectToCharSequence("(2001)"));
  BA.debugLineNum = 264;BA.debugLine="OverView1.Text = \"Captain Jack Sparrow must resc";
 Debug.ShouldStop(128);
 scifi.mostCurrent._overview1.runMethod(true,"setText",BA.ObjectToCharSequence("Captain Jack Sparrow must rescue Elizabeth Swann, who has been kidnapped by cursed pirates led by Captain Barbossa. Alongside Will Turner, Jack battles ghostly pirates, seeking both freedom and revenge."));
@@ -2292,7 +2301,7 @@ Debug.ShouldStop(256);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 266;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(512);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("millondolar.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("harryPotter.jpg"))).getObject()));
  BA.debugLineNum = 269;BA.debugLine="PanelMovie3.Visible = False";
 Debug.ShouldStop(4096);
 scifi.mostCurrent._panelmovie3.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2329,7 +2338,7 @@ Debug.ShouldStop(33554432);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 283;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(67108864);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bridges.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("piratesCurse.jpg"))).getObject()));
  BA.debugLineNum = 286;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(536870912);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2369,7 +2378,7 @@ Debug.ShouldStop(2048);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 301;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(4096);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("gonebaby.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("narnia.jpg"))).getObject()));
  BA.debugLineNum = 303;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(16384);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2409,7 +2418,7 @@ Debug.ShouldStop(268435456);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 318;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(536870912);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bluejasmine.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("doctorStrange.png"))).getObject()));
  BA.debugLineNum = 320;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(-2147483648);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2449,7 +2458,7 @@ Debug.ShouldStop(8192);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 335;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(16384);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("her.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("vendetta.jpg"))).getObject()));
  BA.debugLineNum = 337;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(65536);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2489,7 +2498,7 @@ Debug.ShouldStop(1073741824);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 352;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(-2147483648);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("carol.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("afterEarch.jpg"))).getObject()));
  BA.debugLineNum = 354;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(2);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2569,7 +2578,7 @@ Debug.ShouldStop(-2147483648);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 385;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(1);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("kramer.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lordRings.jpg"))).getObject()));
  BA.debugLineNum = 387;BA.debugLine="Drama2.Text = \"The Curse of the Black Pearl\"";
 Debug.ShouldStop(4);
 scifi.mostCurrent._drama2.runMethod(true,"setText",BA.ObjectToCharSequence("The Curse of the Black Pearl"));
@@ -2587,7 +2596,7 @@ Debug.ShouldStop(64);
 scifi.mostCurrent._dramaimage2.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 392;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(128);
-scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bridges.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("piratesCurse.jpg"))).getObject()));
  BA.debugLineNum = 394;BA.debugLine="PanelMovie4.Visible = False";
 Debug.ShouldStop(512);
 scifi.mostCurrent._panelmovie4.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2621,7 +2630,7 @@ Debug.ShouldStop(1048576);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 406;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(2097152);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("master.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aliceAndWonderland.jpg"))).getObject()));
  BA.debugLineNum = 408;BA.debugLine="Drama2.Text = \"Charlie and the Chocolate Factory";
 Debug.ShouldStop(8388608);
 scifi.mostCurrent._drama2.runMethod(true,"setText",BA.ObjectToCharSequence("Charlie and the Chocolate Factory"));
@@ -2639,7 +2648,7 @@ Debug.ShouldStop(134217728);
 scifi.mostCurrent._dramaimage2.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 413;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(268435456);
-scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("manchester.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("charlieAndTheChocolate.jpg"))).getObject()));
  BA.debugLineNum = 415;BA.debugLine="Drama3.Text = \"The Curse of the Black Pearl\"";
 Debug.ShouldStop(1073741824);
 scifi.mostCurrent._drama3.runMethod(true,"setText",BA.ObjectToCharSequence("The Curse of the Black Pearl"));
@@ -2657,7 +2666,7 @@ Debug.ShouldStop(4);
 scifi.mostCurrent._dramaimage3.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 420;BA.debugLine="DramaImage3.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(8);
-scifi.mostCurrent._dramaimage3.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bridges.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage3.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("PiratesCurse.jpg"))).getObject()));
  BA.debugLineNum = 422;BA.debugLine="PanelMovie4.Visible = False";
 Debug.ShouldStop(32);
 scifi.mostCurrent._panelmovie4.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2691,7 +2700,7 @@ Debug.ShouldStop(65536);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 434;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(131072);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("manchester.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("charlieAndTheChocolate.jpg"))).getObject()));
  BA.debugLineNum = 436;BA.debugLine="Drama2.Text = \"Alice in Wonderland\"";
 Debug.ShouldStop(524288);
 scifi.mostCurrent._drama2.runMethod(true,"setText",BA.ObjectToCharSequence("Alice in Wonderland"));
@@ -2709,7 +2718,7 @@ Debug.ShouldStop(8388608);
 scifi.mostCurrent._dramaimage2.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 441;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(16777216);
-scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("master.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aliceAndWonderland.jpg"))).getObject()));
  BA.debugLineNum = 443;BA.debugLine="PanelMovie3.Visible = False";
 Debug.ShouldStop(67108864);
 scifi.mostCurrent._panelmovie3.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2746,7 +2755,7 @@ Debug.ShouldStop(64);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 456;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(128);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("carol.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aladdin.jpg"))).getObject()));
  BA.debugLineNum = 458;BA.debugLine="Drama1.Text = \"After Earth\"";
 Debug.ShouldStop(512);
 scifi.mostCurrent._drama1.runMethod(true,"setText",BA.ObjectToCharSequence("After Earth"));
@@ -2764,7 +2773,7 @@ Debug.ShouldStop(8192);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 463;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(16384);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lostdaughter.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("afterEarch.jpg"))).getObject()));
  BA.debugLineNum = 465;BA.debugLine="PanelMovie5.Visible = False";
 Debug.ShouldStop(65536);
 scifi.mostCurrent._panelmovie5.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2795,7 +2804,7 @@ Debug.ShouldStop(134217728);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 477;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(268435456);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("gonebaby.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("narnia.jpg"))).getObject()));
  BA.debugLineNum = 479;BA.debugLine="Drama2.Text = \"The Little Mermaid\"";
 Debug.ShouldStop(1073741824);
 scifi.mostCurrent._drama2.runMethod(true,"setText",BA.ObjectToCharSequence("The Little Mermaid"));
@@ -2813,7 +2822,7 @@ Debug.ShouldStop(4);
 scifi.mostCurrent._dramaimage2.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 484;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(8);
-scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("gonebaby.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("littleMermaid.jpg"))).getObject()));
  BA.debugLineNum = 486;BA.debugLine="PanelMovie3.Visible = False";
 Debug.ShouldStop(32);
 scifi.mostCurrent._panelmovie3.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2868,7 +2877,7 @@ Debug.ShouldStop(33554432);
 scifi.mostCurrent._dramaimage2.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 507;BA.debugLine="DramaImage2.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(67108864);
-scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("gonebaby.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage2.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("thorDark.jpg"))).getObject()));
  BA.debugLineNum = 509;BA.debugLine="PanelMovie3.Visible = False";
 Debug.ShouldStop(268435456);
 scifi.mostCurrent._panelmovie3.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2905,7 +2914,7 @@ Debug.ShouldStop(512);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 523;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(1024);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("kramer.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lordRings.jpg"))).getObject()));
  BA.debugLineNum = 525;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(4096);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2945,7 +2954,7 @@ Debug.ShouldStop(16777216);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 538;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(33554432);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("manchester.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("charlieAndTheChocolate.jpg"))).getObject()));
  BA.debugLineNum = 540;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(134217728);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -2985,7 +2994,7 @@ Debug.ShouldStop(128);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 553;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(256);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("master.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aliceAndWonderland.jpg"))).getObject()));
  BA.debugLineNum = 555;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(1024);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -3025,7 +3034,7 @@ Debug.ShouldStop(4194304);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 568;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(8388608);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("millondolar.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("harryPotter.jpg"))).getObject()));
  BA.debugLineNum = 570;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(33554432);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -3065,7 +3074,7 @@ Debug.ShouldStop(32);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 583;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(64);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bridges.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("PiratesCurse.jpg"))).getObject()));
  BA.debugLineNum = 585;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(256);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -3105,7 +3114,7 @@ Debug.ShouldStop(2097152);
 scifi.mostCurrent._dramaimage6.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 599;BA.debugLine="DramaImage6.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(4194304);
-scifi.mostCurrent._dramaimage6.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("gonebaby.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage6.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("narnia.jpg"))).getObject()));
  BA.debugLineNum = 601;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(16777216);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -3145,7 +3154,7 @@ Debug.ShouldStop(32);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 615;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(64);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("bluejasmine.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("doctorStrange.png"))).getObject()));
  BA.debugLineNum = 617;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(256);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -3185,7 +3194,7 @@ Debug.ShouldStop(2097152);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 631;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(4194304);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("her.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("vendetta.jpg"))).getObject()));
  BA.debugLineNum = 633;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(16777216);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -3225,7 +3234,7 @@ Debug.ShouldStop(64);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 648;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(128);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("carol.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("aladdin.jpg"))).getObject()));
  BA.debugLineNum = 650;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(512);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
@@ -3265,7 +3274,7 @@ Debug.ShouldStop(4194304);
 scifi.mostCurrent._dramaimage1.runMethod(true,"setGravity",scifi.mostCurrent.__c.getField(false,"Gravity").getField(true,"FILL"));
  BA.debugLineNum = 664;BA.debugLine="DramaImage1.Bitmap = LoadBitmap(File.DirAssets,";
 Debug.ShouldStop(8388608);
-scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("lostdaughter.jpg"))).getObject()));
+scifi.mostCurrent._dramaimage1.runMethod(false,"setBitmap",(scifi.mostCurrent.__c.runMethod(false,"LoadBitmap",(Object)(scifi.mostCurrent.__c.getField(false,"File").runMethod(true,"getDirAssets")),(Object)(RemoteObject.createImmutable("afterEarch.jpg"))).getObject()));
  BA.debugLineNum = 666;BA.debugLine="PanelMovie2.Visible = False";
 Debug.ShouldStop(33554432);
 scifi.mostCurrent._panelmovie2.runMethod(true,"setVisible",scifi.mostCurrent.__c.getField(true,"False"));
